@@ -1,0 +1,6 @@
+{
+  "name": "OptiMen Wellbeing",
+  "description": "Helping Men Live Stronger, Longer, Better. Evidence-based men's health, fitness, sleep, nutrition, and mindset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
