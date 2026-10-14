@@ -22,8 +22,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
-      - run: npm run build
+      - name: Install
+        run: |
+          npm install --legacy-peer-deps --no-audit --no-fund > install.log 2>&1 || {
+            grep -E "ERR|error" install.log | tail -15 | while IFS= read -r l; do echo "::error::$l"; done
+            exit 1
+          }
+      - name: Build
+        run: |
+          npm run build > build.log 2>&1 || {
+            tail -15 build.log | while IFS= read -r l; do echo "::error::$l"; done
+            exit 1
+          }
       - run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
