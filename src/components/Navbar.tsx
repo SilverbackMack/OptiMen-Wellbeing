@@ -103,7 +103,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
 
           {/* Mobile hamburger button */}
-          <div className="flex sm:hidden items-center">
+          <div className="flex lg:hidden items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 text-slate-700 hover:text-[#0F172A] focus:outline-none"

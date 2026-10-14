@@ -1,10 +1,15 @@
+import heroImg from '../assets/images/hero_optimen_lifestyle_1791886205607.jpg';
+import healthImg from '../assets/images/mens_health_vitality_1791886206705.jpg';
+import fitnessImg from '../assets/images/fitness_longevity_run_1791886207697.jpg';
+import sleepImg from '../assets/images/sleep_recovery_ambient_1791886207920.jpg';
+import nutritionImg from '../assets/images/nutrition_metabolic_prep_1791886207558.jpg';
 import { PillarInfo, Article, ProductReview, AdvisoryBoardMember, AssessmentQuestion } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_optimen_lifestyle_1791886205607.jpg';
-export const HEALTH_IMAGE = '/src/assets/images/mens_health_vitality_1791886206705.jpg';
-export const FITNESS_IMAGE = '/src/assets/images/fitness_longevity_run_1791886207697.jpg';
-export const SLEEP_IMAGE = '/src/assets/images/sleep_recovery_ambient_1791886207920.jpg';
-export const NUTRITION_IMAGE = '/src/assets/images/nutrition_metabolic_prep_1791886207558.jpg';
+export const HERO_IMAGE = heroImg;
+export const HEALTH_IMAGE = healthImg;
+export const FITNESS_IMAGE = fitnessImg;
+export const SLEEP_IMAGE = sleepImg;
+export const NUTRITION_IMAGE = nutritionImg;
 
 export const PILLARS: Record<string, PillarInfo> = {
   health: {
