@@ -147,7 +147,7 @@ def icon(size=112.0):
     x0 = (size - group_w) / 2
     place_run(heavy, "IN", S, x0, baseline, -0.04, CREAM, parts, boxes)
     dot_x = x0 + width + 3 + 6
-    dot_y = size - 32 - 6
+    dot_y = baseline - 6
     body = "".join(parts) + f'<circle fill="{AMBER}" cx="{dot_x:.3f}" cy="{dot_y:.3f}" r="6"/>'
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size:g} {size:g}" width="{size:g}" height="{size:g}">'
