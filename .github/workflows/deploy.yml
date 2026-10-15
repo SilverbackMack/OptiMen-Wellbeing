@@ -3,6 +3,9 @@ name: Publish website
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'brand/**'
+      - '.github/workflows/brand.yml'
   workflow_dispatch:
 
 permissions:
