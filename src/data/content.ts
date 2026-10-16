@@ -101,9 +101,9 @@ export const ARTICLES: Article[] = [
     "readTime": "7 min read",
     "publishedDate": "October 2026",
     "author": {
-      "name": "Nathan James",
-      "credentials": "Founder, OptiMen Wellbeing",
-      "role": "Editor"
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Prostate & Urological Health Synthesis",
+      "role": "Evidence Review Team"
     },
     "keyTakeaways": [
       "Prostate cancer affects one in eight UK men, rising to around one in four Black men; early cancer usually has no symptoms.",
