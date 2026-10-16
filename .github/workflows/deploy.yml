@@ -37,7 +37,6 @@ jobs:
             tail -15 build.log | while IFS= read -r l; do echo "::error::$l"; done
             exit 1
           }
-      - run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
