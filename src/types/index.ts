@@ -32,6 +32,7 @@ export interface Article {
   pillarLabel: string;
   readTime: string;
   publishedDate: string;
+  publishOn?: string; // YYYY-MM-DD; hidden until this date
   author: {
     name: string;
     credentials: string;

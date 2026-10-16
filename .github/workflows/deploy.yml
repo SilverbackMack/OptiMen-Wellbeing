@@ -7,6 +7,8 @@ on:
       - 'brand/**'
       - '.github/workflows/brand.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '15 0 * * *'  # daily rebuild so scheduled articles go live
 
 permissions:
   contents: read

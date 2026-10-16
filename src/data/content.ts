@@ -89,7 +89,91 @@ export const PILLARS: Record<string, PillarInfo> = {
   }
 };
 
-export const ARTICLES: Article[] = [
+export const ALL_ARTICLES: Article[] = [
+  {
+    "id": "how-to-check-your-testicles",
+    "publishOn": "2026-11-02",
+    "title": "How to Check Your Testicles: A 2-Minute Guide for Men",
+    "metaTitle": "How to Check Your Testicles for Lumps: A 2-Minute Guide | OptiMen Wellbeing",
+    "metaDescription": "A simple 2-minute guide to checking your testicles, what's normal, and when to see a GP. Learn the signs of testicular cancer this Movember.",
+    "summary": "It takes two minutes, once a month, in the shower. Learn exactly how to check your testicles, what's normal, and what to do if something feels different.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "4 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Men's Health & Cancer Awareness Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Check once a month, in or after a warm shower. It takes two minutes.",
+      "Smooth and firm is normal, and one testicle being slightly bigger or lower is normal too.",
+      "Any lump, swelling, heaviness or ache is worth a GP visit. Most changes aren't cancer.",
+      "Sudden, severe pain is an emergency: go to A&E or call 999."
+    ],
+    "protocolSteps": [
+      "Do your first check this week.",
+      "Set a monthly reminder on your phone.",
+      "Share this guide with a friend, brother or son.",
+      "Read our guide to prostate health in the Men's Health section."
+    ],
+    "references": [
+      "NHS: How to check your testicles, nhs.uk/conditions/how-to-check-your-testicles.",
+      "NHS: Testicular cancer symptoms, nhs.uk/conditions/testicular-cancer/symptoms.",
+      "Cancer Research UK: Testicular cancer statistics, cancerresearchuk.org."
+    ],
+    "sections": [
+      {
+        "heading": "Why Checking Matters",
+        "paragraphs": [
+          "It takes two minutes, once a month, in the shower. Checking your testicles is the simplest health habit there is, and one most men have never been shown how to do.",
+          "Around 2,300 men in the UK are diagnosed with testicular cancer each year, according to Cancer Research UK. Unlike most cancers, it mainly affects younger men, typically between 15 and 49.",
+          "The good news is that it's one of the most treatable cancers. More than 96% of men survive for 10 years or more, and finding it early makes treatment simpler. That's why a regular check matters: you're the person most likely to notice a change first."
+        ]
+      },
+      {
+        "heading": "How to Check: Step by Step",
+        "paragraphs": [
+          "The NHS recommends checking about once a month. The best time is during or just after a warm bath or shower, when the skin is relaxed. Set a monthly reminder on your phone so it becomes routine."
+        ],
+        "bullets": [
+          "Step 1: Hold your scrotum (the skin around your testicles) in the palm of your hand.",
+          "Step 2: Roll one testicle at a time gently between your thumb and fingers. Take your time and feel the whole surface.",
+          "Step 3: Find the epididymis, a soft tube at the back of each testicle. It's meant to be there, so don't mistake it for a lump.",
+          "Step 4: Repeat on the other side, and note anything that feels different from last month."
+        ]
+      },
+      {
+        "heading": "What's Normal, and What to Look Out For",
+        "paragraphs": [
+          "Healthy testicles feel smooth and firm, but not hard. It's completely normal for one to be slightly bigger, or to hang lower than the other. What matters most is what's normal for you, which is why checking regularly helps.",
+          "See your GP if you notice any of the changes below. Most lumps and changes are not cancer; they're often harmless cysts or swollen veins. But only a doctor can tell, so get any change checked."
+        ],
+        "bullets": [
+          "A lump or swelling in either testicle",
+          "A testicle getting bigger, or changing shape",
+          "A heavy, firm or hard feeling in your scrotum",
+          "An ache or pain in your scrotum or testicles",
+          "A lump, swelling or pain in the epididymis",
+          "Any other change that isn't normal for you"
+        ]
+      },
+      {
+        "heading": "What to Do If You Find Something",
+        "paragraphs": [
+          "Don't panic, and don't wait. Book a GP appointment and tell the receptionist you've found a change in your testicle. GPs see this every day, and a check usually takes a few minutes.",
+          "Go to A&E or call 999 if you get sudden, severe pain in a testicle. This can be a sign of testicular torsion, where the testicle twists and loses its blood supply. It needs treating within hours."
+        ]
+      },
+      {
+        "heading": "Make It a Movember Habit",
+        "paragraphs": [
+          "November is Movember, the month men grow moustaches to raise awareness of men's health. You don't need a moustache to take part. Do your first check this week, set a monthly reminder, and share this guide with a mate. It could be the most useful two minutes of his month."
+        ]
+      }
+    ]
+  },
   {
     "id": "prostate-health-what-every-man-should-know",
     "title": "Prostate Health: What Every Man Should Know",
@@ -711,6 +795,11 @@ export const ARTICLES: Article[] = [
     ]
   }
 ];
+
+// Articles with a future publishOn date stay hidden until that day (UK time).
+// The site rebuilds itself daily, so scheduled articles go live automatically.
+const todayUK = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London' }).format(new Date());
+export const ARTICLES: Article[] = ALL_ARTICLES.filter((a) => !a.publishOn || a.publishOn <= todayUK);
 
 export const PRODUCT_REVIEWS: ProductReview[] = [
   {
