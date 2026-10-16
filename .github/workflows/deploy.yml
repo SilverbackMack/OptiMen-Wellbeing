@@ -37,6 +37,11 @@ jobs:
             tail -15 build.log | while IFS= read -r l; do echo "::error::$l"; done
             exit 1
           }
+      - name: Check generated pages
+        run: |
+          tail -3 build.log
+          echo "Sitemap URLs: $(grep -c '<loc>' dist/sitemap.xml)"
+          grep -o '<h1>[^<]*</h1>' dist/articles/*/index.html dist/reviews/*/index.html | head -20
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
