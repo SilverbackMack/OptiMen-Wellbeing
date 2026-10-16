@@ -1204,7 +1204,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       { label: 'Water Resistance', value: 'IP68 (up to 10 meters / 33 feet)' },
       { label: 'Form Factor', value: 'Fabric strap, zero screen distraction' }
     ],
-    affiliateUrl: 'https://link.amazon/B05ZhiYZN'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=WHOOP+5.0&tag=insightdigita-21'
   },
   {
     id: 'oura-ring-5-review',
@@ -1234,7 +1234,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       { label: 'Battery Life', value: 'Up to 7–8 days per charge' },
       { label: 'Sensors', value: 'Next-gen infrared photoplethysmography + negative temperature coefficient sensors' }
     ],
-    affiliateUrl: 'https://link.amazon/B01apC033'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=Oura+Ring+5&tag=insightdigita-21'
   },
   {
     id: 'creatine-monohydrate-creapure',
