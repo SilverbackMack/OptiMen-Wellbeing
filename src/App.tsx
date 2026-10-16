@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { PageType, Article, ProductReview, PillarId } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -44,6 +44,7 @@ export default function App() {
   const [selectedArticle, setSelectedArticleState] = useState<Article | null>(initial.article);
   const [selectedReview, setSelectedReviewState] = useState<ProductReview | null>(initial.review);
   const [isAssessmentOpen, setIsAssessmentOpen] = useState<boolean>(false);
+  const firstView = useRef(true);
 
   // Keep the screen in step with the browser's back and forward buttons
   useEffect(() => {
@@ -72,6 +73,12 @@ export default function App() {
     } else {
       setMeta(PAGE_META[currentPage].title, PAGE_META[currentPage].description, PAGE_PATHS[currentPage]);
     }
+    // Visitor stats: GoatCounter counts the first page load itself; count later page changes here
+    const gc = (window as any).goatcounter;
+    if (gc && typeof gc.count === 'function' && !firstView.current) {
+      gc.count({ path: window.location.pathname, title: document.title });
+    }
+    firstView.current = false;
   }, [currentPage, selectedArticle, selectedReview]);
 
   const go = (path: string) => {
