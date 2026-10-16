@@ -149,10 +149,10 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
               <a
                 href={review.affiliateUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="px-4 py-2 text-xs font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
               >
-                <span>View on Amazon</span>
+                <span>View on {review.affiliateStore ?? 'Amazon'}</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             )}

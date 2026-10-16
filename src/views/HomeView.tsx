@@ -427,11 +427,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
                       <a
                         href={rev.affiliateUrl}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="sponsored noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                         className="px-2.5 py-1 text-[11px] font-semibold text-white bg-[#0F172A] hover:bg-[#166534] rounded-lg transition-colors inline-flex items-center gap-1 shadow-xs"
                       >
-                        <span>Amazon</span>
+                        <span>{rev.affiliateStore ?? 'Amazon'}</span>
                         <ExternalLink className="w-3 h-3 text-emerald-400" />
                       </a>
                     )}

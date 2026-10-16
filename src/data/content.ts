@@ -91,6 +91,264 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ARTICLES: Article[] = [
   {
+    "id": "prostate-health-what-every-man-should-know",
+    "title": "Prostate Health: What Every Man Should Know",
+    "metaTitle": "Prostate Health for Men: Symptoms, PSA Testing and Healthy Habits (UK)",
+    "metaDescription": "A plain-English guide to prostate health for UK men: what the prostate does, warning signs, risk factors, PSA testing and everyday habits that help.",
+    "summary": "One in eight UK men will get prostate cancer, and most men over 50 notice some change in their prostate. Learn the warning signs, your personal risk, how PSA testing works in the UK, and the daily habits that support a healthy prostate.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "7 min read",
+    "publishedDate": "October 2026",
+    "author": {
+      "name": "Nathan James",
+      "credentials": "Founder, OptiMen Wellbeing",
+      "role": "Editor"
+    },
+    "keyTakeaways": [
+      "Prostate cancer affects one in eight UK men, rising to around one in four Black men; early cancer usually has no symptoms.",
+      "Most urinary symptoms are caused by a non-cancerous enlarged prostate, but only a check-up can tell the difference.",
+      "There is no routine UK screening for most men, so you can ask your GP about a PSA test from 50, or 45 if you are at higher risk."
+    ],
+    "protocolSteps": [
+      "Check your risk with Prostate Cancer UK's free 30-second online risk checker.",
+      "Book a GP appointment if you notice any change in how you pee.",
+      "Over 50, or over 45 with higher risk? Ask your GP about a PSA test.",
+      "Talk to your father, brothers and uncles about family history of prostate or breast cancer.",
+      "Pick one habit from this guide and start it this week."
+    ],
+    "references": [
+      "Macmillan Cancer Support, prostate cancer diagnosis estimates, August 2026.",
+      "UK Government response to UK National Screening Committee prostate cancer screening recommendation, 2026.",
+      "Prostate Cancer UK: prostatecanceruk.org (risk checker and specialist nurse line 0800 074 8383).",
+      "NHS: Prostate problems, nhs.uk/conditions/prostate-problems."
+    ],
+    "featured": true,
+    "sections": [
+      {
+        "heading": "Why Prostate Health Matters",
+        "paragraphs": [
+          "More than 68,000 men are diagnosed with prostate cancer in the UK every year, around one every eight minutes, according to Macmillan Cancer Support. It is now the most commonly diagnosed cancer in the UK.",
+          "The good news: caught early, prostate cancer is very treatable, and the most common prostate problems are not cancer at all. Knowing what is normal for you is the first step.",
+          "This article is general information, not medical advice. If you have symptoms, speak to your GP."
+        ]
+      },
+      {
+        "heading": "What the Prostate Does",
+        "paragraphs": [
+          "The prostate is a small gland, roughly the size of a walnut, sitting just below the bladder. It wraps around the urethra, the tube that carries urine and semen out of the body. Its main job is to make some of the fluid in semen.",
+          "Because it surrounds the urethra, any change in the prostate's size can affect how you pee. That is why most prostate problems show up in the toilet first."
+        ]
+      },
+      {
+        "heading": "Three Common Prostate Problems",
+        "paragraphs": [
+          "Early prostate cancer usually causes no symptoms at all. Feeling well does not rule it out, which is why knowing your risk matters."
+        ],
+        "bullets": [
+          "Enlarged prostate (BPH): non-cancerous growth that can squeeze the urethra. Very common after 50 and not linked to cancer.",
+          "Prostatitis: inflammation or infection of the prostate, often painful. Can affect men of any age.",
+          "Prostate cancer: abnormal cells growing in the prostate, often slowly. Mostly affects men over 50, with higher risk for Black men and men with a family history."
+        ]
+      },
+      {
+        "heading": "Symptoms to Watch For",
+        "paragraphs": [
+          "See your GP if you notice any of the changes below. Get help the same day if you see blood in your urine or semen, have pain when peeing, a fever with pelvic pain, or cannot pee at all.",
+          "These symptoms are far more often caused by an enlarged prostate than cancer. Still, only a check-up can tell the difference."
+        ],
+        "bullets": [
+          "Needing to pee more often, especially at night",
+          "A sudden, urgent need to go",
+          "Difficulty starting, or a weak or stop-start stream",
+          "Straining, or feeling your bladder has not fully emptied",
+          "Dribbling after you finish"
+        ]
+      },
+      {
+        "heading": "Your Risk, the PSA Test and Screening in the UK",
+        "paragraphs": [
+          "There is no routine prostate screening programme for most UK men. In 2026 the government accepted expert advice against screening all men with the PSA blood test. It plans targeted screening for men at the highest genetic risk from 2027, and is widening a screening trial to Black men.",
+          "You can still ask your GP about a PSA test if you are over 50, or over 45 with a higher risk. Prostate Cancer UK's free online risk checker takes 30 seconds and is a good place to start."
+        ],
+        "bullets": [
+          "Age: most cases are in men over 50.",
+          "Ethnicity: Black men face about double the risk of other men.",
+          "Family history: a father or brother with prostate cancer, or a family link to breast cancer genes (BRCA)."
+        ]
+      },
+      {
+        "heading": "Habits That Support Prostate Health",
+        "paragraphs": [
+          "No habit guarantees a healthy prostate, but the same things that protect your heart also help here."
+        ],
+        "bullets": [
+          "Keep a healthy weight: excess weight is linked to more aggressive prostate cancer.",
+          "Move every day: aim for 150 minutes of moderate activity a week, plus strength training twice a week.",
+          "Eat more plants: tomatoes, broccoli, beans and oily fish are good regulars.",
+          "Cut back on processed and red meat: swap a few meals a week for fish, chicken or pulses.",
+          "Drink smart: spread fluids through the day and ease off caffeine and alcohol in the evening if you are up at night.",
+          "Do not smoke: smokers diagnosed with prostate cancer tend to have worse outcomes.",
+          "Keep up your vitamin D: the NHS advises a daily 10 microgram supplement in autumn and winter.",
+          "Train your pelvic floor: simple squeeze-and-hold exercises can help with dribbling and control."
+        ]
+      },
+      {
+        "heading": "Where Supplements Fit",
+        "paragraphs": [
+          "Supplements can top up your diet, but they cannot diagnose, treat or shrink a prostate problem. Medicines from your GP can, so always get symptoms checked before reaching for a supplement.",
+          "Tell your GP about any supplement you take, especially before a PSA test or if you are on other medication. We took a close look at one popular option in our ProstaVive review, also in the Men's Health section."
+        ],
+        "bullets": [
+          "A full ingredient list with amounts, not a vague proprietary blend",
+          "Ingredients with some evidence behind them; nettle root has the best record for urinary symptoms",
+          "A clear money-back guarantee",
+          "Honest claims; be wary of anything promising fast or dramatic results"
+        ]
+      },
+      {
+        "heading": "Where to Get Help",
+        "paragraphs": [
+          "You do not have to work this out alone. These services are free and confidential."
+        ],
+        "bullets": [
+          "NHS 111 for urgent advice, or 999 if you cannot pee at all and are in pain",
+          "Prostate Cancer UK specialist nurses: 0800 074 8383",
+          "Macmillan Cancer Support: 0808 808 00 00"
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
+      "label": "View ProstaVive on the official site",
+      "note": "Affiliate link: OptiMen Wellbeing may earn a commission if you buy, at no extra cost to you."
+    }
+  },
+  {
+    "id": "prostavive-review",
+    "title": "ProstaVive Review: An Honest Look at the Ingredients, Price and Evidence",
+    "metaTitle": "ProstaVive Review 2026: Ingredients, Price, Side Effects and Verdict",
+    "metaDescription": "An honest ProstaVive review for UK men: what is in it, what the evidence says, safety, pricing, the 180-day guarantee and who it suits.",
+    "summary": "ProstaVive is a once-a-day powder sold as a prostate supplement. We look at every ingredient, the claims, safety, price and guarantee, so you can decide if it is right for you.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "6 min read",
+    "publishedDate": "October 2026",
+    "author": {
+      "name": "Nathan James",
+      "credentials": "Founder, OptiMen Wellbeing",
+      "role": "Editor"
+    },
+    "keyTakeaways": [
+      "ProstaVive is really a men's vitality blend; only nettle root has a solid track record for prostate-related urinary symptoms.",
+      "There are no published trials on ProstaVive itself, and the sales page promises more than the evidence supports.",
+      "It suits a healthy man wanting general daily support, not anyone with untreated urinary symptoms."
+    ],
+    "protocolSteps": [
+      "See your GP first if you have any urinary symptoms.",
+      "Check the supplement-facts label on the official site for exact doses.",
+      "Ask your GP or pharmacist before use if you take regular medication.",
+      "Start with one tub before committing to a bundle.",
+      "Keep your order email so you can use the 180-day guarantee if needed."
+    ],
+    "references": [
+      "ProstaVive official website: ingredients, pricing and guarantee, checked 16 October 2026.",
+      "Food Standards Agency: call for evidence on ashwagandha food supplements.",
+      "GOV.UK: Summary of responses to call for evidence on ashwagandha, June 2026."
+    ],
+    "sections": [
+      {
+        "heading": "Affiliate Disclosure",
+        "paragraphs": [
+          "This review contains affiliate links. If you buy through them, OptiMen Wellbeing may earn a commission at no extra cost to you. It does not change our assessment. ProstaVive is a food supplement and is not intended to diagnose, treat, cure or prevent any disease."
+        ]
+      },
+      {
+        "heading": "Quick Verdict",
+        "paragraphs": [
+          "ProstaVive is a once-a-day powder that is really a men's vitality blend with a prostate label. Its strongest prostate-related ingredient is nettle root; most of the rest (tongkat ali, maca, fenugreek, ginseng) are aimed at libido, energy and testosterone rather than the prostate itself.",
+          "It may suit a healthy man who wants a general men's wellness drink and likes the 180-day refund window. It is not a substitute for getting urinary symptoms checked."
+        ]
+      },
+      {
+        "heading": "What ProstaVive Is and How You Take It",
+        "paragraphs": [
+          "ProstaVive is a powdered dietary supplement sold through ClickBank. You mix one scoop into water or another drink once a day, ideally with a meal. The brand says it supports blood flow and nitric oxide around the prostate, which it links to urine flow, sleep, energy and sex drive.",
+          "It is only sold on the official website, not on Amazon or in shops. Prices are in US dollars and it ships from the US, so UK buyers should expect longer delivery and possible import charges.",
+          "One warning: many ProstaVive reviews online list saw palmetto, pygeum and beta-sitosterol. The official site lists none of these. Go by the official label, not copycat articles."
+        ]
+      },
+      {
+        "heading": "Ingredients and What the Evidence Says",
+        "paragraphs": [
+          "Exact amounts sit in a supplement-facts image on the sales page, so check doses before buying. In short, this is a sensible men's vitality formula, but only nettle root has a real track record for prostate-related urinary symptoms."
+        ],
+        "bullets": [
+          "Nettle root: moderate evidence; some trials show modest relief of urinary symptoms.",
+          "Zinc: essential mineral found in high levels in prostate tissue; indirect support.",
+          "Vitamin D: helps if you are deficient, which is common in UK winters.",
+          "Boron: small, early studies only.",
+          "Tongkat ali, panax ginseng, fenugreek and maca: taken for libido, energy and testosterone; little direct prostate evidence.",
+          "Ashwagandha: taken for stress and sleep; little direct prostate evidence.",
+          "Artichoke extract and magnesium: general health support; indirect only."
+        ]
+      },
+      {
+        "heading": "Claims We Would Treat With Caution",
+        "paragraphs": [
+          "There are no published trials on ProstaVive itself, so claims about speed and strength cannot be checked."
+        ],
+        "bullets": [
+          "The 2023 Japanese study on prostate blood flow cited on the site was not a study of this product.",
+          "Boron is a common mineral in fruit, nuts and vegetables; the Tibetan lake story is marketing colour.",
+          "No supplement is proven to shrink the prostate. Prescription medicines can, so that is a conversation for your GP.",
+          "Claimed blood sugar, blood pressure and memory benefits go well beyond what the ingredients have shown."
+        ]
+      },
+      {
+        "heading": "Safety and Who Should Avoid It",
+        "paragraphs": [
+          "Most men tolerate these ingredients, but natural does not mean risk-free. Possible issues include stomach upset, headaches, trouble sleeping and hormone changes.",
+          "Ashwagandha deserves a special mention. The UK Food Standards Agency has no set safe level for it in supplements and has asked its toxicity committee to assess it, after rare reports of liver problems and restrictions in some European countries."
+        ],
+        "bullets": [
+          "Talk to your GP or pharmacist first if you take blood thinners, blood pressure, diabetes or thyroid medication, or antidepressants.",
+          "Avoid without medical advice if you have a liver, thyroid or hormone-sensitive condition.",
+          "Do not use as a replacement for treatment or monitoring of prostate cancer.",
+          "Tell your doctor about any supplements before a PSA test."
+        ]
+      },
+      {
+        "heading": "Price, Bonuses and Guarantee",
+        "paragraphs": [
+          "The six-tub bundle is the cheapest per month, but only worth it once you know you get on with the product. The 3 and 6 tub bundles include two e-books: a prostate smoothie guide and a sex-drive guide.",
+          "Every order carries a 180-day money-back guarantee, with payment and refunds handled by ClickBank. Prices checked 16 October 2026 and may change."
+        ],
+        "bullets": [
+          "1 tub (30 days): $79",
+          "3 tubs (90 days): $59 per tub, $177 total",
+          "6 tubs (180 days): $39 per tub, $234 total"
+        ]
+      },
+      {
+        "heading": "Final Verdict",
+        "paragraphs": [
+          "ProstaVive is a reasonable choice for a healthy man who wants a simple daily men's vitality drink and values a long refund window. Think of it as general support, not a prostate treatment.",
+          "If you are waking at night to pee, have a weak stream or notice any change, book a GP appointment first. Our Prostate Health guide explains what to look out for. If you have ruled out anything serious, start with one tub before committing to a bundle."
+        ],
+        "bullets": [
+          "Pros: full ingredient list, easy once-a-day powder, includes nettle root, long 180-day refund window.",
+          "Cons: no trials on the product, most ingredients target libido not the prostate, overstated sales claims, contains ashwagandha, US-only pricing and shipping."
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
+      "label": "Check today's ProstaVive price",
+      "note": "Affiliate link: OptiMen Wellbeing may earn a commission if you buy, at no extra cost to you."
+    }
+  },
+  {
     id: 'complete-guide-to-mens-wellbeing',
     title: "The Complete Guide to Men's Wellbeing: Build a Stronger, Healthier Life",
     metaTitle: "The Complete Guide to Men's Wellbeing: Build a Stronger, Healthier Life",
@@ -579,6 +837,50 @@ export const ARTICLES: Article[] = [
 ];
 
 export const PRODUCT_REVIEWS: ProductReview[] = [
+  {
+    "id": "prostavive-review",
+    "name": "ProstaVive Prostate Support Powder",
+    "brand": "ProstaVive",
+    "category": "Supplements",
+    "overallScore": 6.5,
+    "priceRange": "$39 to $79 per 30-day tub",
+    "verdict": "A once-a-day men's vitality powder with a prostate label. Nettle root is the only ingredient with a solid track record for urinary symptoms; most others target libido and energy. Reasonable for general support, not a prostate treatment. Read our full review in Men's Health.",
+    "whoItIsFor": "Healthy men who want a simple daily vitality drink and value a 180-day refund window. See your GP first if you have urinary symptoms.",
+    "pros": [
+      "Full ingredient list published",
+      "Easy once-a-day powder",
+      "Includes nettle root",
+      "180-day money-back guarantee via ClickBank"
+    ],
+    "cons": [
+      "No clinical trials on the product itself",
+      "Sales claims go beyond the evidence",
+      "Contains ashwagandha, under UK safety review",
+      "US pricing and shipping; official site only"
+    ],
+    "evidenceGrade": "B+",
+    "testedDuration": "N/A (desk review of ingredients, not hands-on tested)",
+    "specs": [
+      {
+        "label": "Format",
+        "value": "Powder, 1 scoop daily"
+      },
+      {
+        "label": "Key ingredients",
+        "value": "Nettle root, zinc, vitamin D, boron, tongkat ali, ginseng, maca"
+      },
+      {
+        "label": "Guarantee",
+        "value": "180 days"
+      },
+      {
+        "label": "Where to buy",
+        "value": "Official site only"
+      }
+    ],
+    "affiliateUrl": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
+    "affiliateStore": "Official site"
+  },
   {
     id: 'whoop-5-review',
     name: 'WHOOP 5.0 Biometric Band',

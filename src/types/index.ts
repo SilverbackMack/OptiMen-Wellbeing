@@ -41,6 +41,11 @@ export interface Article {
   protocolSteps: string[];
   references: string[];
   featured?: boolean;
+  affiliateCta?: {
+    url: string;
+    label: string;
+    note?: string;
+  };
   sections?: {
     heading: string;
     paragraphs: string[];
@@ -63,6 +68,7 @@ export interface ProductReview {
   testedDuration: string;
   specs: { label: string; value: string }[];
   affiliateUrl?: string;
+  affiliateStore?: string; // button label, defaults to Amazon
 }
 
 export interface AdvisoryBoardMember {

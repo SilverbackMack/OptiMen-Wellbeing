@@ -99,6 +99,23 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) 
             </div>
           )}
 
+          {article.affiliateCta && (
+            <div className="bg-emerald-50/60 p-5 rounded-xl border border-emerald-100 space-y-3 text-left">
+              <a
+                href={article.affiliateCta.url}
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className="px-4 py-2.5 text-sm font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
+              >
+                <span>{article.affiliateCta.label}</span>
+                <ExternalLink className="w-4 h-4" />
+              </a>
+              {article.affiliateCta.note && (
+                <p className="text-xs text-slate-600 leading-relaxed">{article.affiliateCta.note}</p>
+              )}
+            </div>
+          )}
+
           {/* Key Clinical Takeaways */}
           <div className="space-y-3">
             <h2 className="text-sm uppercase tracking-wider font-bold text-[#0F172A] flex items-center gap-2">
