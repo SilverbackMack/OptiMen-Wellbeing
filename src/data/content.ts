@@ -1262,7 +1262,8 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       { label: 'Form', value: 'Micronized mesh 200 unflavored powder' },
       { label: 'Third-Party Testing', value: 'Informed Sport & NSF Certified for Sport' },
       { label: 'Origin', value: 'Trostberg, Germany' }
-    ]
+    ],
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=Creapure+creatine+monohydrate+powder&tag=insightdigita-21'
   },
   {
     id: 'cold-plunge-tub-review',
@@ -1318,7 +1319,8 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       { label: 'Form', value: 'Re-esterified Triglyceride (rTG)' },
       { label: 'Testing', value: 'IFOS 5-Star Certified / Non-GMO' },
       { label: 'Fish Source', value: 'Wild Alaskan pollock & Peruvian anchovies' }
-    ]
+    ],
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=omega+3+high+EPA+DHA+triglyceride+fish+oil&tag=insightdigita-21'
   }
 ];
 
