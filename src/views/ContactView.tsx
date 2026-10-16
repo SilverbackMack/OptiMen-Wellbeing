@@ -26,9 +26,25 @@ export const ContactView: React.FC = () => {
     return Object.keys(errs).length === 0;
   };
 
+  const HELLO_EMAIL = 'hello@optimenwellbeing.com';
+  const PARTNERS_EMAIL = 'partners@optimenwellbeing.com';
+  const SUBJECT_LABELS: Record<string, string> = {
+    general: 'Protocol Clarification',
+    biomarkers: 'Blood Biomarker Screening Questions',
+    reviews: 'Product / Hardware Testing Feedback',
+    partnerships: 'Brand Partnerships & Affiliates',
+    corporate: 'Executive / Corporate Longevity Briefings',
+    press: 'Press & Media Advisory',
+  };
+  const recipientFor = (subject: string) =>
+    ['partnerships', 'corporate', 'press'].includes(subject) ? PARTNERS_EMAIL : HELLO_EMAIL;
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
+    const label = SUBJECT_LABELS[formData.subject] ?? 'Website enquiry';
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nAge range: ${formData.ageRange}\n\n${formData.message}`;
+    window.location.href = `mailto:${recipientFor(formData.subject)}?subject=${encodeURIComponent(`OptiMen enquiry: ${label}`)}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
   };
 
@@ -135,6 +151,7 @@ export const ContactView: React.FC = () => {
                         <option value="general">Protocol Clarification</option>
                         <option value="biomarkers">Blood Biomarker Screening Questions</option>
                         <option value="reviews">Product / Hardware Testing Feedback</option>
+                        <option value="partnerships">Brand Partnerships & Affiliates</option>
                         <option value="corporate">Executive / Corporate Longevity Briefings</option>
                         <option value="press">Press & Media Advisory</option>
                       </select>
@@ -176,10 +193,11 @@ export const ContactView: React.FC = () => {
                     <CheckCircle2 className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-[#0F172A]">
-                    Inquiry Received
+                    Almost Done
                   </h3>
                   <p className="text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
-                    Thank you, <strong className="text-slate-900">{formData.name}</strong>. An OptiMen team member will review your inquiry and respond to <strong className="text-slate-900">{formData.email}</strong> within 24 to 48 business hours.
+                    Thank you, <strong className="text-slate-900">{formData.name}</strong>. Your email app should have opened with your message ready to send. Just press send. If nothing opened, email us directly at{' '}
+                    <a href={`mailto:${recipientFor(formData.subject)}`} className="text-[#166534] font-semibold underline">{recipientFor(formData.subject)}</a>.
                   </p>
                   <button
                     onClick={() => {
@@ -217,12 +235,21 @@ export const ContactView: React.FC = () => {
                 </div>
                 <div className="space-y-3 text-xs">
                   <div>
-                    <span className="font-bold text-slate-700 block">Contact Email:</span>
+                    <span className="font-bold text-slate-700 block">Reader Questions &amp; General Enquiries:</span>
                     <a
-                      href="mailto:info@optimenwellbeing.com"
+                      href="mailto:hello@optimenwellbeing.com"
                       className="text-slate-600 hover:text-[#166534] font-mono transition-colors"
                     >
-                      info@optimenwellbeing.com
+                      hello@optimenwellbeing.com
+                    </a>
+                  </div>
+                  <div>
+                    <span className="font-bold text-slate-700 block">Brand Partnerships, Affiliates &amp; Press:</span>
+                    <a
+                      href="mailto:partners@optimenwellbeing.com"
+                      className="text-slate-600 hover:text-[#166534] font-mono transition-colors"
+                    >
+                      partners@optimenwellbeing.com
                     </a>
                   </div>
                 </div>
