@@ -166,6 +166,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenAssessment }) 
         <div className="pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-slate-500">
           <p className="max-w-2xl leading-relaxed">
             <strong className="text-slate-400 font-medium">Medical Disclaimer:</strong> The content provided on OptiMen Wellbeing is strictly for educational, informational, and lifestyle optimization purposes. It is not intended as medical advice, diagnosis, or personalized treatment. Consult a licensed physician prior to initiating any new exercise protocol, diet regimen, biomarker testing, or supplement schedule.
+            <br /><br />
+            <strong className="text-slate-400 font-medium">Affiliate Disclosure:</strong> Some links on OptiMen Wellbeing are affiliate links, which means we may earn a commission if you buy through them, at no extra cost to you. As an Amazon Associate I earn from qualifying purchases.
           </p>
           <div className="text-slate-400 whitespace-nowrap">
             &copy; {new Date().getFullYear()} OptiMen Wellbeing. All rights reserved.
