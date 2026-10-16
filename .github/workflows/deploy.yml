@@ -39,9 +39,8 @@ jobs:
           }
       - name: Check generated pages
         run: |
-          tail -3 build.log
-          echo "Sitemap URLs: $(grep -c '<loc>' dist/sitemap.xml)"
-          grep -o '<h1>[^<]*</h1>' dist/articles/*/index.html dist/reviews/*/index.html | head -20
+          echo "::notice::$(grep Prerendered build.log) | sitemap URLs: $(grep -c '<loc>' dist/sitemap.xml)"
+          for f in dist/articles/*/index.html dist/reviews/*/index.html; do echo "::notice::$f -> $(grep -o '<h1>[^<]*</h1>' $f | head -1) | $(grep -o '<h2>' $f | wc -l) headings"; done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
