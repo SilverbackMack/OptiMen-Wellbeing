@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Mail, CheckCircle2, ShieldCheck, Download, AlertCircle, RefreshCw } from 'lucide-react';
+import { Mail, CheckCircle2, ShieldCheck, AlertCircle, RefreshCw } from 'lucide-react';
+
+// MailerLite form: OW website signup (adds to the OW Newsletter group, double opt-in)
+const MAILERLITE_SUBSCRIBE_URL = 'https://assets.mailerlite.com/jsonp/2717913/forms/201492304082502919/subscribe';
 
 interface ValidationResult {
   isValid: boolean;
@@ -85,8 +88,8 @@ export function validateNewsletterEmail(emailInput: string): ValidationResult {
 
 export const NewsletterSection: React.FC = () => {
   const [email, setEmail] = useState('');
-  const [pillarPreference, setPillarPreference] = useState<'all' | 'health' | 'fitness' | 'sleep'>('all');
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
   const [isTouched, setIsTouched] = useState(false);
 
@@ -113,7 +116,7 @@ export const NewsletterSection: React.FC = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsTouched(true);
     const check = validateNewsletterEmail(email);
@@ -123,7 +126,22 @@ export const NewsletterSection: React.FC = () => {
     }
 
     setError('');
-    setSubmitted(true);
+    setSending(true);
+    try {
+      const body = new URLSearchParams({
+        'fields[email]': email.trim(),
+        'ml-submit': '1',
+        anticsrf: 'true',
+      });
+      // MailerLite doesn't allow reading the reply from another site, so a
+      // completed request is treated as success; MailerLite then emails a confirmation link.
+      await fetch(MAILERLITE_SUBSCRIBE_URL, { method: 'POST', mode: 'no-cors', body });
+      setSubmitted(true);
+    } catch {
+      setError("Sorry, we couldn't reach our mailing list just now. Please check your connection and try again.");
+    } finally {
+      setSending(false);
+    }
   };
 
   const handleReset = () => {
@@ -155,54 +173,6 @@ export const NewsletterSection: React.FC = () => {
         {!submitted ? (
           <form onSubmit={handleSubmit} noValidate className="mt-8 max-w-lg mx-auto space-y-4">
             
-            {/* Pillar focus preferences */}
-            <div className="flex items-center justify-center gap-2 p-1 bg-slate-800/80 rounded-xl max-w-md mx-auto text-xs">
-              <button
-                type="button"
-                onClick={() => setPillarPreference('all')}
-                className={`flex-1 py-1.5 px-2 rounded-lg font-medium transition-colors cursor-pointer ${
-                  pillarPreference === 'all'
-                    ? 'bg-slate-700 text-white shadow-xs'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                All 5 Pillars
-              </button>
-              <button
-                type="button"
-                onClick={() => setPillarPreference('health')}
-                className={`flex-1 py-1.5 px-2 rounded-lg font-medium transition-colors cursor-pointer ${
-                  pillarPreference === 'health'
-                    ? 'bg-slate-700 text-white shadow-xs'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                Biomarkers
-              </button>
-              <button
-                type="button"
-                onClick={() => setPillarPreference('fitness')}
-                className={`flex-1 py-1.5 px-2 rounded-lg font-medium transition-colors cursor-pointer ${
-                  pillarPreference === 'fitness'
-                    ? 'bg-slate-700 text-white shadow-xs'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                Fitness & Zone 2
-              </button>
-              <button
-                type="button"
-                onClick={() => setPillarPreference('sleep')}
-                className={`flex-1 py-1.5 px-2 rounded-lg font-medium transition-colors cursor-pointer ${
-                  pillarPreference === 'sleep'
-                    ? 'bg-slate-700 text-white shadow-xs'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                Sleep & Rest
-              </button>
-            </div>
-
             {/* Input Row */}
             <div className="space-y-2">
               <div className="flex flex-col sm:flex-row gap-2">
@@ -228,9 +198,10 @@ export const NewsletterSection: React.FC = () => {
                 </div>
                 <button
                   type="submit"
-                  className="px-6 py-3 bg-[#166534] hover:bg-emerald-700 text-white text-xs font-semibold uppercase tracking-wider rounded-xl transition-all cursor-pointer shadow-sm active:scale-95 whitespace-nowrap"
+                  disabled={sending}
+                  className="px-6 py-3 bg-[#166534] hover:bg-emerald-700 disabled:opacity-60 text-white text-xs font-semibold uppercase tracking-wider rounded-xl transition-all cursor-pointer shadow-sm active:scale-95 whitespace-nowrap"
                 >
-                  Get The Dispatch
+                  {sending ? 'Subscribing…' : 'Get The Dispatch'}
                 </button>
               </div>
 
@@ -252,43 +223,27 @@ export const NewsletterSection: React.FC = () => {
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
                 Zero Spam &middot; One-Click Unsubscribe
               </span>
-              <span>&middot;</span>
-              <span>Includes Free 14-Page Starter Protocol</span>
             </div>
+
+            <p className="text-[11px] text-slate-500 leading-relaxed max-w-md mx-auto">
+              By subscribing you agree to receive the OptiMen Wellbeing newsletter, which may include affiliate recommendations. We'll email you a link to confirm, and you can unsubscribe at any time.
+            </p>
 
           </form>
         ) : (
           <div className="mt-8 p-6 bg-slate-800/90 border border-emerald-500/40 rounded-2xl max-w-lg mx-auto text-left space-y-4 animate-in fade-in duration-200">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-emerald-950 border border-emerald-500/60 flex items-center justify-center text-emerald-400">
+              <div className="w-10 h-10 rounded-full bg-emerald-950 border border-emerald-500/60 flex items-center justify-center text-emerald-400 shrink-0">
                 <CheckCircle2 className="w-6 h-6" />
               </div>
               <div>
                 <h3 className="text-base font-bold text-white">
-                  Welcome to OptiMen Wellbeing
+                  Nearly there: check your inbox
                 </h3>
-                <p className="text-xs text-slate-300">
-                  Confirmation dispatched to <strong className="text-white">{email}</strong>.
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  We've sent a confirmation link to <strong className="text-white">{email}</strong>. Click it to complete your subscription. If you can't see it within a few minutes, check your spam or promotions folder.
                 </p>
               </div>
-            </div>
-
-            <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2">
-              <div className="flex items-center justify-between text-xs text-emerald-400 font-semibold uppercase tracking-wider">
-                <span>Starter Protocol Unlocked</span>
-                <span>PDF Guide</span>
-              </div>
-              <p className="text-xs text-slate-300 leading-relaxed">
-                "The Male Longevity Foundation: The 5 Non-Negotiable Biomarkers and 90-Day Zone 2 Aerobic Progression" is ready.
-              </p>
-              <button
-                type="button"
-                onClick={() => alert('Download initiated: The OptiMen Longevity Foundation Protocol PDF.')}
-                className="w-full mt-2 py-2 px-3 bg-emerald-800 hover:bg-emerald-700 text-white rounded-lg text-xs font-medium flex items-center justify-center gap-2 cursor-pointer transition-colors"
-              >
-                <Download className="w-4 h-4" />
-                Download Protocol Guide
-              </button>
             </div>
 
             <div className="pt-1 text-center">
