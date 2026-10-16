@@ -91,6 +91,106 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "erectile-dysfunction-causes",
+    "publishOn": "2026-11-09",
+    "title": "Erectile Dysfunction: Common Causes and When to See a GP",
+    "metaTitle": "Erectile Dysfunction Causes: What's Behind It and When to See a GP | OptiMen Wellbeing",
+    "metaDescription": "Erection problems are very common and usually treatable. Learn the main causes of erectile dysfunction, the link to heart health, and your treatment options in the UK.",
+    "summary": "Erection problems are very common, especially after 40, and usually treatable. Here's what causes them, why they can be an early warning about your heart, and how to get help without the embarrassment.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Sexual & Cardiovascular Health Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Occasional erection problems are normal and usually linked to stress, tiredness or alcohol.",
+      "Ongoing problems are worth a GP visit: they can be an early sign of heart or blood vessel problems.",
+      "Effective treatments exist, from lifestyle changes to tablets a pharmacist or GP can supply.",
+      "Never buy erection tablets from unregulated websites; many are fake or unsafe."
+    ],
+    "protocolSteps": [
+      "If problems keep happening, book a GP appointment or visit a sexual health clinic.",
+      "Ask your GP for a blood pressure, cholesterol and blood sugar check.",
+      "Cut alcohol to 14 units a week or less, and stop smoking if you smoke.",
+      "Move every day and aim for a healthy weight.",
+      "Only take medicines supplied by a UK pharmacy or prescribed by a doctor."
+    ],
+    "references": [
+      "nidirect (NHS information for Northern Ireland): Erectile dysfunction (impotence), nidirect.gov.uk.",
+      "NHS: Erectile dysfunction (impotence), nhs.uk/conditions/erection-problems-erectile-dysfunction.",
+      "MHRA: guidance on unlicensed herbal remedies and counterfeit medicines bought online."
+    ],
+    "sections": [
+      {
+        "heading": "You're Not Alone",
+        "paragraphs": [
+          "Erectile dysfunction (ED) means regularly struggling to get or keep an erection firm enough for sex. It's very common, and the chance of it rises with age, especially after 40.",
+          "Most men find it hard to talk about, so they put off getting help. That's a shame, because ED is usually treatable, and getting it checked can protect more than your sex life."
+        ]
+      },
+      {
+        "heading": "Occasional Problems Are Normal",
+        "paragraphs": [
+          "Almost every man has times when things don't work as expected. One-off problems are usually down to stress, tiredness, anxiety or too much to drink, and aren't a sign of anything wrong.",
+          "It's when problems keep happening that it's worth looking for a cause."
+        ]
+      },
+      {
+        "heading": "Physical Causes",
+        "paragraphs": [
+          "An erection depends on healthy blood flow, so anything that affects your blood vessels can affect erections. The most common physical causes include:"
+        ],
+        "bullets": [
+          "Narrowed blood vessels",
+          "High blood pressure",
+          "High cholesterol",
+          "Diabetes",
+          "Being overweight, smoking and drinking heavily",
+          "Low testosterone or other hormone problems",
+          "Side effects of some prescribed medicines"
+        ]
+      },
+      {
+        "heading": "Why It Can Be an Early Warning About Your Heart",
+        "paragraphs": [
+          "The blood vessels in the penis are smaller than those around the heart. That means narrowing can show up as erection problems before it causes heart symptoms.",
+          "This is one of the best reasons to see a GP. A simple blood pressure, cholesterol and blood sugar check can pick up problems early, when they're easiest to treat. Our guide to ApoB explains which cholesterol test is worth asking about."
+        ]
+      },
+      {
+        "heading": "Psychological Causes",
+        "paragraphs": [
+          "Your mind plays a big part too. Stress at work, money worries, anxiety, depression and relationship problems can all cause ED. So can worry about performance itself, which can turn one bad night into a cycle.",
+          "If problems happen with a partner but not on your own, or come and go with stress, a psychological cause is more likely. Counselling, CBT and sex therapy can all help."
+        ]
+      },
+      {
+        "heading": "Treatments That Work",
+        "paragraphs": [
+          "Lifestyle changes help many men: losing weight if you're overweight, stopping smoking, moving every day, cutting alcohol to 14 units a week or less, and finding ways to manage stress.",
+          "Tablets such as sildenafil (Viagra) and tadalafil (Cialis) work by improving blood flow, and help most men. In the UK, a pharmacist can supply sildenafil after a short private chat, without a prescription, or your GP can prescribe it. These tablets aren't safe for everyone, including men taking nitrate medicines for chest pain, which is why the pharmacist or GP will ask a few questions first.",
+          "If tablets don't help, a GP can refer you to a specialist for other options, such as injections, vacuum devices or pelvic floor physiotherapy."
+        ]
+      },
+      {
+        "heading": "A Warning About Buying Online",
+        "paragraphs": [
+          "Many websites selling erection tablets without proper checks sell fakes, with unknown ingredients and doses. The UK medicines regulator, the MHRA, also warns that some 'herbal' erection products have been found to contain hidden medicines. Only use medicines supplied by a registered UK pharmacy or prescribed by a doctor."
+        ]
+      },
+      {
+        "heading": "How to Bring It Up With Your GP",
+        "paragraphs": [
+          "GPs talk about erection problems every day, and it's far less awkward than you'd think. If it helps, write it down and show them, or simply say: 'I've been having problems with erections and I'd like to get checked.' You can also visit a sexual health clinic without a GP referral."
+        ]
+      }
+    ]
+  },
+  {
     "id": "enlarged-prostate-symptoms-treatment",
     "publishOn": "2026-11-05",
     "title": "Enlarged Prostate: Symptoms, Treatments and What Actually Helps",
