@@ -69,6 +69,12 @@ export interface ProductReview {
   specs: { label: string; value: string }[];
   affiliateUrl?: string;
   affiliateStore?: string; // button label, defaults to Amazon
+  affiliateNote?: string;
+  sections?: {
+    heading: string;
+    paragraphs: string[];
+    bullets?: string[];
+  }[];
 }
 
 export interface AdvisoryBoardMember {

@@ -137,6 +137,33 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
             </div>
           </div>
 
+          {review.sections && review.sections.length > 0 && (
+            <div className="space-y-6 pt-4 border-t border-slate-100">
+              {review.sections.map((section, sIdx) => (
+                <div key={sIdx} className="space-y-3">
+                  <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">{section.heading}</h3>
+                  {section.paragraphs.map((p, pIdx) => (
+                    <p key={pIdx} className="text-sm text-slate-700 leading-relaxed">{p}</p>
+                  ))}
+                  {section.bullets && section.bullets.length > 0 && (
+                    <ul className="space-y-2 pl-2 pt-1">
+                      {section.bullets.map((bullet, bIdx) => (
+                        <li key={bIdx} className="flex items-start gap-2.5 text-sm text-slate-700 leading-relaxed">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#166534] mt-2 shrink-0" />
+                          <span>{bullet}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {review.affiliateNote && (
+            <p className="text-xs text-slate-500 leading-relaxed">{review.affiliateNote}</p>
+          )}
+
         </div>
 
         {/* Footer */}

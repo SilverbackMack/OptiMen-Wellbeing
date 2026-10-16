@@ -197,7 +197,7 @@ export const ARTICLES: Article[] = [
         "heading": "Where Supplements Fit",
         "paragraphs": [
           "Supplements can top up your diet, but they cannot diagnose, treat or shrink a prostate problem. Medicines from your GP can, so always get symptoms checked before reaching for a supplement.",
-          "Tell your GP about any supplement you take, especially before a PSA test or if you are on other medication. We took a close look at one popular option in our ProstaVive review, also in the Men's Health section."
+          "Tell your GP about any supplement you take, especially before a PSA test or if you are on other medication. We took a close look at one popular option in our ProstaVive review, in the Reviews section."
         ],
         "bullets": [
           "A full ingredient list with amounts, not a vague proprietary blend",
@@ -221,130 +221,6 @@ export const ARTICLES: Article[] = [
     "affiliateCta": {
       "url": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
       "label": "View ProstaVive on the official site",
-      "note": "Affiliate link: OptiMen Wellbeing may earn a commission if you buy, at no extra cost to you."
-    }
-  },
-  {
-    "id": "prostavive-review",
-    "title": "ProstaVive Review: An Honest Look at the Ingredients, Price and Evidence",
-    "metaTitle": "ProstaVive Review 2026: Ingredients, Price, Side Effects and Verdict",
-    "metaDescription": "An honest ProstaVive review for UK men: what is in it, what the evidence says, safety, pricing, the 180-day guarantee and who it suits.",
-    "summary": "ProstaVive is a once-a-day powder sold as a prostate supplement. We look at every ingredient, the claims, safety, price and guarantee, so you can decide if it is right for you.",
-    "pillar": "health",
-    "pillarLabel": "Men's Health",
-    "readTime": "6 min read",
-    "publishedDate": "October 2026",
-    "author": {
-      "name": "Nathan James",
-      "credentials": "Founder, OptiMen Wellbeing",
-      "role": "Editor"
-    },
-    "keyTakeaways": [
-      "ProstaVive is really a men's vitality blend; only nettle root has a solid track record for prostate-related urinary symptoms.",
-      "There are no published trials on ProstaVive itself, and the sales page promises more than the evidence supports.",
-      "It suits a healthy man wanting general daily support, not anyone with untreated urinary symptoms."
-    ],
-    "protocolSteps": [
-      "See your GP first if you have any urinary symptoms.",
-      "Check the supplement-facts label on the official site for exact doses.",
-      "Ask your GP or pharmacist before use if you take regular medication.",
-      "Start with one tub before committing to a bundle.",
-      "Keep your order email so you can use the 180-day guarantee if needed."
-    ],
-    "references": [
-      "ProstaVive official website: ingredients, pricing and guarantee, checked 16 October 2026.",
-      "Food Standards Agency: call for evidence on ashwagandha food supplements.",
-      "GOV.UK: Summary of responses to call for evidence on ashwagandha, June 2026."
-    ],
-    "sections": [
-      {
-        "heading": "Affiliate Disclosure",
-        "paragraphs": [
-          "This review contains affiliate links. If you buy through them, OptiMen Wellbeing may earn a commission at no extra cost to you. It does not change our assessment. ProstaVive is a food supplement and is not intended to diagnose, treat, cure or prevent any disease."
-        ]
-      },
-      {
-        "heading": "Quick Verdict",
-        "paragraphs": [
-          "ProstaVive is a once-a-day powder that is really a men's vitality blend with a prostate label. Its strongest prostate-related ingredient is nettle root; most of the rest (tongkat ali, maca, fenugreek, ginseng) are aimed at libido, energy and testosterone rather than the prostate itself.",
-          "It may suit a healthy man who wants a general men's wellness drink and likes the 180-day refund window. It is not a substitute for getting urinary symptoms checked."
-        ]
-      },
-      {
-        "heading": "What ProstaVive Is and How You Take It",
-        "paragraphs": [
-          "ProstaVive is a powdered dietary supplement sold through ClickBank. You mix one scoop into water or another drink once a day, ideally with a meal. The brand says it supports blood flow and nitric oxide around the prostate, which it links to urine flow, sleep, energy and sex drive.",
-          "It is only sold on the official website, not on Amazon or in shops. Prices are in US dollars and it ships from the US, so UK buyers should expect longer delivery and possible import charges.",
-          "One warning: many ProstaVive reviews online list saw palmetto, pygeum and beta-sitosterol. The official site lists none of these. Go by the official label, not copycat articles."
-        ]
-      },
-      {
-        "heading": "Ingredients and What the Evidence Says",
-        "paragraphs": [
-          "Exact amounts sit in a supplement-facts image on the sales page, so check doses before buying. In short, this is a sensible men's vitality formula, but only nettle root has a real track record for prostate-related urinary symptoms."
-        ],
-        "bullets": [
-          "Nettle root: moderate evidence; some trials show modest relief of urinary symptoms.",
-          "Zinc: essential mineral found in high levels in prostate tissue; indirect support.",
-          "Vitamin D: helps if you are deficient, which is common in UK winters.",
-          "Boron: small, early studies only.",
-          "Tongkat ali, panax ginseng, fenugreek and maca: taken for libido, energy and testosterone; little direct prostate evidence.",
-          "Ashwagandha: taken for stress and sleep; little direct prostate evidence.",
-          "Artichoke extract and magnesium: general health support; indirect only."
-        ]
-      },
-      {
-        "heading": "Claims We Would Treat With Caution",
-        "paragraphs": [
-          "There are no published trials on ProstaVive itself, so claims about speed and strength cannot be checked."
-        ],
-        "bullets": [
-          "The 2023 Japanese study on prostate blood flow cited on the site was not a study of this product.",
-          "Boron is a common mineral in fruit, nuts and vegetables; the Tibetan lake story is marketing colour.",
-          "No supplement is proven to shrink the prostate. Prescription medicines can, so that is a conversation for your GP.",
-          "Claimed blood sugar, blood pressure and memory benefits go well beyond what the ingredients have shown."
-        ]
-      },
-      {
-        "heading": "Safety and Who Should Avoid It",
-        "paragraphs": [
-          "Most men tolerate these ingredients, but natural does not mean risk-free. Possible issues include stomach upset, headaches, trouble sleeping and hormone changes.",
-          "Ashwagandha deserves a special mention. The UK Food Standards Agency has no set safe level for it in supplements and has asked its toxicity committee to assess it, after rare reports of liver problems and restrictions in some European countries."
-        ],
-        "bullets": [
-          "Talk to your GP or pharmacist first if you take blood thinners, blood pressure, diabetes or thyroid medication, or antidepressants.",
-          "Avoid without medical advice if you have a liver, thyroid or hormone-sensitive condition.",
-          "Do not use as a replacement for treatment or monitoring of prostate cancer.",
-          "Tell your doctor about any supplements before a PSA test."
-        ]
-      },
-      {
-        "heading": "Price, Bonuses and Guarantee",
-        "paragraphs": [
-          "The six-tub bundle is the cheapest per month, but only worth it once you know you get on with the product. The 3 and 6 tub bundles include two e-books: a prostate smoothie guide and a sex-drive guide.",
-          "Every order carries a 180-day money-back guarantee, with payment and refunds handled by ClickBank. Prices checked 16 October 2026 and may change."
-        ],
-        "bullets": [
-          "1 tub (30 days): $79",
-          "3 tubs (90 days): $59 per tub, $177 total",
-          "6 tubs (180 days): $39 per tub, $234 total"
-        ]
-      },
-      {
-        "heading": "Final Verdict",
-        "paragraphs": [
-          "ProstaVive is a reasonable choice for a healthy man who wants a simple daily men's vitality drink and values a long refund window. Think of it as general support, not a prostate treatment.",
-          "If you are waking at night to pee, have a weak stream or notice any change, book a GP appointment first. Our Prostate Health guide explains what to look out for. If you have ruled out anything serious, start with one tub before committing to a bundle."
-        ],
-        "bullets": [
-          "Pros: full ingredient list, easy once-a-day powder, includes nettle root, long 180-day refund window.",
-          "Cons: no trials on the product, most ingredients target libido not the prostate, overstated sales claims, contains ashwagandha, US-only pricing and shipping."
-        ]
-      }
-    ],
-    "affiliateCta": {
-      "url": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
-      "label": "Check today's ProstaVive price",
       "note": "Affiliate link: OptiMen Wellbeing may earn a commission if you buy, at no extra cost to you."
     }
   },
@@ -844,7 +720,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     "category": "Supplements",
     "overallScore": 6.5,
     "priceRange": "$39 to $79 per 30-day tub",
-    "verdict": "A once-a-day men's vitality powder with a prostate label. Nettle root is the only ingredient with a solid track record for urinary symptoms; most others target libido and energy. Reasonable for general support, not a prostate treatment. Read our full review in Men's Health.",
+    "verdict": "A once-a-day men's vitality powder with a prostate label. Nettle root is the only ingredient with a solid track record for urinary symptoms; most others target libido and energy. Reasonable for general support, not a prostate treatment. Open this review for the full write-up.",
     "whoItIsFor": "Healthy men who want a simple daily vitality drink and value a 180-day refund window. See your GP first if you have urinary symptoms.",
     "pros": [
       "Full ingredient list published",
@@ -878,6 +754,93 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         "value": "Official site only"
       }
     ],
+    "sections": [
+      {
+        "heading": "Affiliate Disclosure",
+        "paragraphs": [
+          "This review contains affiliate links. If you buy through them, OptiMen Wellbeing may earn a commission at no extra cost to you. It does not change our assessment. ProstaVive is a food supplement and is not intended to diagnose, treat, cure or prevent any disease."
+        ]
+      },
+      {
+        "heading": "Quick Verdict",
+        "paragraphs": [
+          "ProstaVive is a once-a-day powder that is really a men's vitality blend with a prostate label. Its strongest prostate-related ingredient is nettle root; most of the rest (tongkat ali, maca, fenugreek, ginseng) are aimed at libido, energy and testosterone rather than the prostate itself.",
+          "It may suit a healthy man who wants a general men's wellness drink and likes the 180-day refund window. It is not a substitute for getting urinary symptoms checked."
+        ]
+      },
+      {
+        "heading": "What ProstaVive Is and How You Take It",
+        "paragraphs": [
+          "ProstaVive is a powdered dietary supplement sold through ClickBank. You mix one scoop into water or another drink once a day, ideally with a meal. The brand says it supports blood flow and nitric oxide around the prostate, which it links to urine flow, sleep, energy and sex drive.",
+          "It is only sold on the official website, not on Amazon or in shops. Prices are in US dollars and it ships from the US, so UK buyers should expect longer delivery and possible import charges.",
+          "One warning: many ProstaVive reviews online list saw palmetto, pygeum and beta-sitosterol. The official site lists none of these. Go by the official label, not copycat articles."
+        ]
+      },
+      {
+        "heading": "Ingredients and What the Evidence Says",
+        "paragraphs": [
+          "Exact amounts sit in a supplement-facts image on the sales page, so check doses before buying. In short, this is a sensible men's vitality formula, but only nettle root has a real track record for prostate-related urinary symptoms."
+        ],
+        "bullets": [
+          "Nettle root: moderate evidence; some trials show modest relief of urinary symptoms.",
+          "Zinc: essential mineral found in high levels in prostate tissue; indirect support.",
+          "Vitamin D: helps if you are deficient, which is common in UK winters.",
+          "Boron: small, early studies only.",
+          "Tongkat ali, panax ginseng, fenugreek and maca: taken for libido, energy and testosterone; little direct prostate evidence.",
+          "Ashwagandha: taken for stress and sleep; little direct prostate evidence.",
+          "Artichoke extract and magnesium: general health support; indirect only."
+        ]
+      },
+      {
+        "heading": "Claims We Would Treat With Caution",
+        "paragraphs": [
+          "There are no published trials on ProstaVive itself, so claims about speed and strength cannot be checked."
+        ],
+        "bullets": [
+          "The 2023 Japanese study on prostate blood flow cited on the site was not a study of this product.",
+          "Boron is a common mineral in fruit, nuts and vegetables; the Tibetan lake story is marketing colour.",
+          "No supplement is proven to shrink the prostate. Prescription medicines can, so that is a conversation for your GP.",
+          "Claimed blood sugar, blood pressure and memory benefits go well beyond what the ingredients have shown."
+        ]
+      },
+      {
+        "heading": "Safety and Who Should Avoid It",
+        "paragraphs": [
+          "Most men tolerate these ingredients, but natural does not mean risk-free. Possible issues include stomach upset, headaches, trouble sleeping and hormone changes.",
+          "Ashwagandha deserves a special mention. The UK Food Standards Agency has no set safe level for it in supplements and has asked its toxicity committee to assess it, after rare reports of liver problems and restrictions in some European countries."
+        ],
+        "bullets": [
+          "Talk to your GP or pharmacist first if you take blood thinners, blood pressure, diabetes or thyroid medication, or antidepressants.",
+          "Avoid without medical advice if you have a liver, thyroid or hormone-sensitive condition.",
+          "Do not use as a replacement for treatment or monitoring of prostate cancer.",
+          "Tell your doctor about any supplements before a PSA test."
+        ]
+      },
+      {
+        "heading": "Price, Bonuses and Guarantee",
+        "paragraphs": [
+          "The six-tub bundle is the cheapest per month, but only worth it once you know you get on with the product. The 3 and 6 tub bundles include two e-books: a prostate smoothie guide and a sex-drive guide.",
+          "Every order carries a 180-day money-back guarantee, with payment and refunds handled by ClickBank. Prices checked 16 October 2026 and may change."
+        ],
+        "bullets": [
+          "1 tub (30 days): $79",
+          "3 tubs (90 days): $59 per tub, $177 total",
+          "6 tubs (180 days): $39 per tub, $234 total"
+        ]
+      },
+      {
+        "heading": "Final Verdict",
+        "paragraphs": [
+          "ProstaVive is a reasonable choice for a healthy man who wants a simple daily men's vitality drink and values a long refund window. Think of it as general support, not a prostate treatment.",
+          "If you are waking at night to pee, have a weak stream or notice any change, book a GP appointment first. Our Prostate Health guide explains what to look out for. If you have ruled out anything serious, start with one tub before committing to a bundle."
+        ],
+        "bullets": [
+          "Pros: full ingredient list, easy once-a-day powder, includes nettle root, long 180-day refund window.",
+          "Cons: no trials on the product, most ingredients target libido not the prostate, overstated sales claims, contains ashwagandha, US-only pricing and shipping."
+        ]
+      }
+    ],
+    "affiliateNote": "Affiliate link: OptiMen Wellbeing may earn a commission if you buy, at no extra cost to you.",
     "affiliateUrl": "https://4e540anigfuefw2c38538-cm9h.hop.clickbank.net",
     "affiliateStore": "Official site"
   },
