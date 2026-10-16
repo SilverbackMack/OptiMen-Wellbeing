@@ -91,6 +91,106 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "enlarged-prostate-symptoms-treatment",
+    "publishOn": "2026-11-05",
+    "title": "Enlarged Prostate: Symptoms, Treatments and What Actually Helps",
+    "metaTitle": "Enlarged Prostate Symptoms and Treatment: What Actually Helps | OptiMen Wellbeing",
+    "metaDescription": "Waking at night to pee or a weak stream? Learn the symptoms of an enlarged prostate (BPH), the treatments that work, and simple changes that help.",
+    "summary": "Getting up at night to pee, a weak stream or feeling you haven't finished are classic signs of an enlarged prostate. Here's what causes it, the treatments that work, and the everyday changes that make a real difference.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Prostate & Urological Health Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "An enlarged prostate is very common after 50 and is not cancer.",
+      "Simple changes, like less evening caffeine and alcohol, often ease symptoms noticeably.",
+      "Effective medicines exist: some work within weeks, others shrink the prostate over months.",
+      "Herbal supplements such as saw palmetto are unlikely to improve symptoms, so see your GP first."
+    ],
+    "protocolSteps": [
+      "Note your symptoms for a week: how often you pee, and how many times you wake at night.",
+      "Cut caffeine and alcohol after mid-afternoon, and drink less in the two hours before bed.",
+      "Try double voiding: after peeing, wait a moment, then try again.",
+      "Book a GP appointment and take your symptom notes with you.",
+      "Tell your GP about any supplements you take, especially before a PSA test."
+    ],
+    "references": [
+      "NHS: Benign prostate enlargement, treatment, nhs.uk/conditions/prostate-enlargement/treatment.",
+      "Prostate Cancer UK: How is an enlarged prostate treated?, prostatecanceruk.org.",
+      "NHS: Prostate problems, nhs.uk/conditions/prostate-problems."
+    ],
+    "sections": [
+      {
+        "heading": "What Is an Enlarged Prostate?",
+        "paragraphs": [
+          "The prostate is a walnut-sized gland below the bladder that wraps around the urethra, the tube urine passes through. As men get older, the prostate often grows. Doctors call this benign prostate enlargement, or BPH.",
+          "It's very common in men over 50, and it is not cancer. Because the prostate surrounds the urethra, extra growth can squeeze it, which is why the symptoms are all about peeing."
+        ]
+      },
+      {
+        "heading": "Common Symptoms",
+        "paragraphs": [
+          "Symptoms usually come on slowly, so many men put up with them for years. You don't have to."
+        ],
+        "bullets": [
+          "Needing to pee more often, especially at night",
+          "A sudden, urgent need to go",
+          "Difficulty starting to pee, or a weak or stop-start stream",
+          "Straining when you pee",
+          "Feeling your bladder hasn't fully emptied",
+          "Dribbling after you've finished"
+        ]
+      },
+      {
+        "heading": "Is It Prostate Cancer?",
+        "paragraphs": [
+          "Usually not. An enlarged prostate is non-cancerous and far more common. But some symptoms overlap, and early prostate cancer often has no symptoms at all, so a GP check is the only way to know.",
+          "Your GP may examine your prostate, test a urine sample, and offer a PSA blood test. See a GP the same day if you notice blood in your urine, pain when peeing, or you suddenly can't pee at all."
+        ]
+      },
+      {
+        "heading": "Everyday Changes That Help",
+        "paragraphs": [
+          "For mild symptoms, the NHS recommends starting with simple changes. Many men find these make a noticeable difference within a few weeks."
+        ],
+        "bullets": [
+          "Cut down on caffeine and alcohol, especially in the afternoon and evening",
+          "Drink less in the two hours before bed or before going out, but don't cut back too much overall",
+          "Eat enough fibre to avoid constipation, which presses on the bladder",
+          "Keep to a healthy weight and stay active",
+          "Double void: after peeing, wait a moment, then try again",
+          "Don't strain; relax and give yourself time",
+          "Ask your pharmacist whether any medicines you take could be making symptoms worse"
+        ]
+      },
+      {
+        "heading": "Medical Treatments That Work",
+        "paragraphs": [
+          "If lifestyle changes aren't enough, your GP can prescribe medicine. Alpha-blockers such as tamsulosin relax the muscles around the prostate and bladder and usually help within weeks. 5-alpha-reductase inhibitors such as finasteride shrink the prostate slowly over several months and suit men with a larger prostate. The two are sometimes combined.",
+          "If medicines don't help or symptoms are severe, surgery is an option. The most common procedure is TURP, which removes part of the prostate through the urethra, and there are newer, less invasive options such as steam and laser treatments or small implants that hold the urethra open."
+        ]
+      },
+      {
+        "heading": "What About Supplements?",
+        "paragraphs": [
+          "Prostate supplements are big business, but the evidence is weak. Prostate Cancer UK says studies suggest herbal remedies such as saw palmetto are unlikely to improve symptoms. Some can also interact with medicines or affect PSA test results.",
+          "If you're considering one, speak to your GP first and tell them what you take. We've reviewed one popular option, ProstaVive, in our Reviews section, including where it falls short."
+        ]
+      },
+      {
+        "heading": "The Bottom Line",
+        "paragraphs": [
+          "Waking at night to pee isn't just part of getting older, and it's very treatable. Start with the simple changes above, keep a note of your symptoms, and book a GP appointment. Most men who get help sleep better within weeks."
+        ]
+      }
+    ]
+  },
+  {
     "id": "how-to-check-your-testicles",
     "publishOn": "2026-11-02",
     "title": "How to Check Your Testicles: A 2-Minute Guide for Men",
