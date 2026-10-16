@@ -99,7 +99,7 @@ export const ALL_ARTICLES: Article[] = [
     "summary": "Erection problems are very common, especially after 40, and usually treatable. Here's what causes them, why they can be an early warning about your heart, and how to get help without the embarrassment.",
     "pillar": "health",
     "pillarLabel": "Men's Health",
-    "readTime": "7 min read",
+    "readTime": "10 min read",
     "publishedDate": "November 2026",
     "author": {
       "name": "OptiMen Health Research Desk",
@@ -110,6 +110,7 @@ export const ALL_ARTICLES: Article[] = [
       "Occasional erection problems are normal and usually linked to stress, tiredness or alcohol.",
       "Ongoing problems are worth a GP visit: they can be an early sign of heart or blood vessel problems.",
       "Effective treatments exist, from lifestyle changes to tablets a pharmacist or GP can supply.",
+      "Regular cardio, around 160 minutes a week, has been shown to reduce erection problems.",
       "Never buy erection tablets from unregulated websites; many are fake or unsafe."
     ],
     "protocolSteps": [
@@ -117,6 +118,7 @@ export const ALL_ARTICLES: Article[] = [
       "Ask your GP for a blood pressure, cholesterol and blood sugar check.",
       "Cut alcohol to 14 units a week or less, and stop smoking if you smoke.",
       "Move every day and aim for a healthy weight.",
+      "Build up to 40 minutes of brisk cardio, four times a week.",
       "Only take medicines supplied by a UK pharmacy or prescribed by a doctor."
     ],
     "references": [
@@ -174,6 +176,48 @@ export const ALL_ARTICLES: Article[] = [
           "Lifestyle changes help many men: losing weight if you're overweight, stopping smoking, moving every day, cutting alcohol to 14 units a week or less, and finding ways to manage stress.",
           "Tablets such as sildenafil (Viagra) and tadalafil (Cialis) work by improving blood flow, and help most men. In the UK, a pharmacist can supply sildenafil after a short private chat, without a prescription, or your GP can prescribe it. These tablets aren't safe for everyone, including men taking nitrate medicines for chest pain, which is why the pharmacist or GP will ask a few questions first.",
           "If tablets don't help, a GP can refer you to a specialist for other options, such as injections, vacuum devices or pelvic floor physiotherapy."
+        ]
+      },
+      {
+        "heading": "ED Tablets Compared: Which Is Which?",
+        "paragraphs": [
+          "All four main ED tablets work the same way, by boosting blood flow to the penis when you're aroused. They don't cause an erection on their own. The big differences are how fast they work and how long they last, which matters for how spontaneous you want to be.",
+          "Common side effects for all of them include headache, flushing, a blocked nose and indigestion, usually mild and short-lived. None are safe with nitrate medicines for chest pain. If you take an alpha-blocker for an enlarged prostate, such as tamsulosin, your GP or pharmacist will advise on timing, as both can lower blood pressure."
+        ],
+        "bullets": [
+          "Sildenafil (Viagra): works in 30 to 60 minutes and lasts about 4 to 5 hours. A heavy meal can slow it down. The most widely used option, cheap as a generic, and available from UK pharmacies without a prescription.",
+          "Tadalafil (Cialis): works in 30 to 45 minutes and lasts up to 36 hours, earning it the nickname 'the weekend pill'. Food doesn't affect it much. Also comes as a low daily dose, so you don't have to plan ahead, and the daily dose can help urinary symptoms of an enlarged prostate too.",
+          "Vardenafil (Levitra): similar to sildenafil, working in 30 to 60 minutes and lasting about 4 to 5 hours. An alternative if sildenafil gives you side effects.",
+          "Avanafil (Spedra): the fastest, often working in 15 to 30 minutes, and lasting around 6 hours or more. Food has little effect. Usually more expensive."
+        ]
+      },
+      {
+        "heading": "Other Treatment Options and Their Benefits",
+        "paragraphs": [
+          "Tablets aren't the only route, and they don't suit everyone. Your GP can talk you through these:"
+        ],
+        "bullets": [
+          "Lifestyle changes: free, no side effects, and they improve your heart health at the same time. Often the best long-term fix when ED is linked to weight, smoking, alcohol or inactivity.",
+          "Talking therapy (counselling, CBT or sex therapy): tackles the cause when stress, anxiety or performance worry is behind it, so the benefit lasts.",
+          "Vacuum pumps: a drug-free device that draws blood into the penis. Works for many men who can't take tablets.",
+          "Injections or a cream (alprostadil): work directly on the penis and often help when tablets haven't.",
+          "Pelvic floor physiotherapy: strengthens the muscles that help maintain an erection, with no medication.",
+          "Penile implants: a surgical option for when nothing else has worked, with high satisfaction rates among men who have them."
+        ]
+      },
+      {
+        "heading": "How Regular Cardio Helps ED",
+        "paragraphs": [
+          "Because erections depend on healthy blood flow, cardio is one of the most effective natural treatments there is. Aerobic exercise keeps blood vessels flexible, helps the body make nitric oxide (the molecule that relaxes blood vessels in the penis), lowers blood pressure, helps with weight loss and eases stress.",
+          "A 2018 review in the journal Sexual Medicine looked at the research and found that about 40 minutes of moderate to vigorous aerobic exercise, four times a week, for six months reduced erection problems. That's 160 minutes a week. The benefit was clearest in men whose ED was linked to inactivity, being overweight, high blood pressure or heart disease.",
+          "You don't need to start at 160 minutes. Build up gradually, and check with your GP first if you have a heart condition."
+        ],
+        "bullets": [
+          "Brisk walking: fast enough that you can talk but not sing",
+          "Cycling: great cardio, but the NHS suggests keeping it under about three hours a week if you have ED, and using a well-fitted saddle",
+          "Swimming, rowing or jogging",
+          "Start with 20 minutes, three times a week, and add 5 to 10 minutes each week",
+          "Our Zone 2 training guide explains how to build steady, heart-healthy cardio"
         ]
       },
       {
