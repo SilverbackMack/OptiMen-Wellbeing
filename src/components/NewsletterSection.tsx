@@ -15,7 +15,7 @@ export function validateNewsletterEmail(emailInput: string): ValidationResult {
   if (!trimmed) {
     return {
       isValid: false,
-      message: 'Please enter your email address to receive the weekly dispatch.',
+      message: 'Please enter your email address to receive the OptiMen Dispatch.',
     };
   }
 
@@ -159,7 +159,7 @@ export const NewsletterSection: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         
         <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">
-          The Weekly OptiMen Dispatch
+          The OptiMen Dispatch
         </p>
         
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-balance">
@@ -167,7 +167,7 @@ export const NewsletterSection: React.FC = () => {
         </h2>
 
         <p className="mt-4 text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">
-          Every Sunday: 1 clinical study deconstructed, 1 actionable longevity protocol, and vetted gear recommendations. No marketing spam, no dogmatic trends.
+          Regular updates with research made simple, practical health habits, and honest product recommendations. No marketing spam, no dogmatic trends.
         </p>
 
         {!submitted ? (
@@ -186,7 +186,7 @@ export const NewsletterSection: React.FC = () => {
                     onChange={handleInputChange}
                     onBlur={handleBlur}
                     placeholder="Enter your email address..."
-                    aria-label="Email address for weekly dispatch"
+                    aria-label="Email address for the OptiMen Dispatch"
                     aria-invalid={!!error}
                     aria-describedby={error ? "newsletter-email-error" : undefined}
                     className={`w-full pl-11 pr-4 py-3 bg-slate-800/90 rounded-xl text-white placeholder-slate-400 text-sm focus:outline-none transition-all border ${
