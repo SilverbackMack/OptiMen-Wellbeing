@@ -221,149 +221,6 @@ export const ALL_ARTICLES: Article[] = [
     ]
   },
   {
-    "id": "low-testosterone-symptoms-after-40",
-    "publishOn": "2026-11-12",
-    "title": "Low Testosterone Symptoms After 40: Signs and Natural Ways to Support It",
-    "metaTitle": "Low Testosterone Symptoms After 40: Signs, Tests and Natural Support | OptiMen Wellbeing",
-    "metaDescription": "Tired, low sex drive, losing muscle? Learn the real low testosterone symptoms after 40, how NHS testing works, and what actually helps naturally.",
-    "summary": "Tiredness, a low sex drive and a softer middle are often blamed on 'low T', but the real cause is frequently sleep, stress or weight. Here's how to tell the difference, how testing works, and what genuinely helps.",
-    "pillar": "health",
-    "pillarLabel": "Men's Health",
-    "readTime": "9 min read",
-    "publishedDate": "November 2026",
-    "author": {
-      "name": "OptiMen Health Research Desk",
-      "credentials": "Hormone & Metabolic Health Synthesis",
-      "role": "Evidence Review Team"
-    },
-    "keyTakeaways": [
-      "Testosterone falls slowly with age, about 1% a year from around 30 to 40, which on its own rarely causes problems.",
-      "Common low testosterone symptoms, like tiredness, low mood and a low sex drive, often have other causes such as stress, poor sleep or drinking.",
-      "True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice.",
-      "Losing excess weight, sleeping well, staying active and drinking less are the best-evidenced natural ways to support healthy levels.",
-      "Most 'testosterone booster' supplements have little or no evidence behind them."
-    ],
-    "protocolSteps": [
-      "Write down your symptoms and how long you've had them, then book a GP appointment.",
-      "If your GP orders a testosterone test, ask for an early-morning appointment.",
-      "Aim for 7 to 9 hours of sleep and keep a regular bedtime.",
-      "Do strength training on at least 2 days a week and 150 minutes of moderate activity across the week.",
-      "If you carry extra weight around your middle, make steady weight loss your first goal.",
-      "Take 10 micrograms of vitamin D a day from October to early March, as the NHS advises for everyone."
-    ],
-    "references": [
-      "NHS: The 'male menopause', nhs.uk/conditions/male-menopause.",
-      "Hackett G, Kirby M, Edwards D, et al. British Society for Sexual Medicine task force policy statement on testosterone deficiency. International Journal of Clinical Practice, 2017;71(3-4):e12901.",
-      "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA, 2011;305(21):2173-2174.",
-      "Corona G, et al. Body weight loss reverts obesity-associated hypogonadotropic hypogonadism: a systematic review and meta-analysis. European Journal of Endocrinology, 2013;168(6):829-843.",
-      "Clemesha CG, Thaker H, Samplaski MK. 'Testosterone boosting' supplements composition and claims are not supported by the academic literature. World Journal of Men's Health, 2020;38(1):115-122.",
-      "Paez-Allendes L, et al. Vitamin D supplementation, total testosterone and androgen bioavailability markers in adult men: a systematic review and meta-analysis of randomized controlled trials. Nutrients, 2026;18(13):2090.",
-      "NHS: Vitamin D, nhs.uk/conditions/vitamins-and-minerals/vitamin-d.",
-      "NHS: Vitamins and minerals, others (zinc), nhs.uk/conditions/vitamins-and-minerals/others.",
-      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk/live-well/exercise."
-    ],
-    "affiliateCta": {
-      "url": "https://www.amazon.co.uk/s?k=vitamin+d3+10+micrograms&tag=insightdigita-21",
-      "label": "Compare vitamin D3 (10 microgram) supplements on Amazon UK",
-      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
-    },
-    "sections": [
-      {
-        "heading": "Low Testosterone Symptoms: The Short Answer",
-        "paragraphs": [
-          "Feeling flat, tired and less interested in sex in your 40s? It's easy to blame low testosterone. Sometimes that's right. More often, the cause is something else, such as stress, poor sleep, drinking or weight gain.",
-          "The NHS lists these as the symptoms some men develop in their late 40s and early 50s. They can be caused by low testosterone, but every one of them can also have other causes:"
-        ],
-        "bullets": [
-          "Low sex drive and erection problems",
-          "Low mood, mood swings or irritability",
-          "Tiredness, low energy and poor sleep",
-          "Losing muscle and finding exercise harder",
-          "More fat around the middle, or swelling of breast tissue",
-          "Poor concentration and short-term memory"
-        ]
-      },
-      {
-        "heading": "Is the 'Male Menopause' Real?",
-        "paragraphs": [
-          "Not in the way the name suggests. The NHS calls the term 'male menopause' unhelpful, because it implies testosterone drops suddenly in midlife, like oestrogen does in women. It doesn't.",
-          "Testosterone falls slowly, by about 1% a year from around the age of 30 to 40. On its own, that gradual fall is unlikely to cause problems.",
-          "A smaller group of men do develop a genuine deficiency later in life, called late-onset hypogonadism. This is when the testicles make too little testosterone. The NHS says it's more likely if you're obese or have type 2 diabetes, and that it isn't a normal part of ageing."
-        ]
-      },
-      {
-        "heading": "What Else Could Be Causing It?",
-        "paragraphs": [
-          "Before you assume it's your hormones, look honestly at the rest of your life. The NHS points to stress, depression, anxiety, work or relationship problems and money worries as common causes of the same symptoms. So are poor sleep, a poor diet, lack of exercise, heavy drinking and smoking.",
-          "Erection problems in particular can be a sign of blood vessel or heart problems, which is another reason to get checked rather than guess. Our guide to erectile dysfunction explains this link."
-        ]
-      },
-      {
-        "heading": "How Do You Get Your Testosterone Tested?",
-        "paragraphs": [
-          "Start with your GP. They'll ask about your symptoms, your work and your home life, to check for things like stress or low mood. If a hormone problem seems possible, they can arrange a blood test.",
-          "Testosterone is highest in the morning, so the test should be done early. The British Society for Sexual Medicine (BSSM) advises testing between 8am and 11am, and confirming a low result with a second test.",
-          "If tests suggest a deficiency, you may be referred to a hormone specialist, called an endocrinologist, to confirm it and find the cause."
-        ]
-      },
-      {
-        "heading": "What Is a Normal Testosterone Level for a Man Over 40?",
-        "paragraphs": [
-          "Labs report testosterone in nanomoles per litre (nmol/L), and normal ranges vary slightly between labs. As a rough guide, BSSM guidance says treatment isn't needed when total testosterone is above 12 nmol/L. Below 8 nmol/L, with symptoms, usually points to a deficiency. Between 8 and 12, doctors weigh up your symptoms and may consider a trial of treatment.",
-          "A number on its own doesn't tell the whole story. Diagnosis depends on symptoms and repeated results together, so talk your results through with your GP."
-        ]
-      },
-      {
-        "heading": "Natural Ways to Support Healthy Testosterone",
-        "paragraphs": [
-          "These steps won't turn a true deficiency into a normal level. But they tackle the most common reasons levels dip, and they help the same symptoms whatever the cause."
-        ],
-        "bullets": [
-          "Lose excess weight: a 2013 review of studies found that weight loss raised testosterone in men who were overweight. The rise was bigger after weight-loss surgery than after dieting. Fat around the middle is the one to target.",
-          "Protect your sleep: in a small 2011 study, young men who slept under 5 hours a night for a week had 10 to 15% lower testosterone. Aim for 7 to 9 hours and a regular bedtime.",
-          "Lift something heavy: the NHS recommends strength training on at least 2 days a week. It builds and keeps muscle, helps you lose fat and lifts your mood.",
-          "Keep moving: aim for at least 150 minutes of moderate activity, such as brisk walking or cycling, each week.",
-          "Drink less: keep to 14 units a week or less, spread over several days.",
-          "Manage stress: long-term stress drains energy, mood and sex drive. Our stress guide has practical ideas for busy men."
-        ]
-      },
-      {
-        "heading": "Do Testosterone Booster Supplements Work?",
-        "paragraphs": [
-          "Probably not. A 2020 study looked at 50 'testosterone booster' supplements sold online. Around 90% claimed to raise testosterone, but less than 25% had any published evidence to back up those claims. Some contained vitamins and minerals at doses above safe daily limits.",
-          "Save your money. If you're worried about your testosterone, a blood test will tell you far more than a supplement ever will."
-        ]
-      },
-      {
-        "heading": "What About Vitamin D and Zinc?",
-        "paragraphs": [
-          "Vitamin D is worth taking in winter, but not for your testosterone. A 2026 review of randomised trials found no clear effect of vitamin D supplements on testosterone in adult men. However, the NHS advises everyone in the UK to consider 10 micrograms of vitamin D a day from October to early March, when the sun is too weak for our skin to make enough. It supports healthy bones and muscles. Don't take more than 100 micrograms (4,000 IU) a day.",
-          "Zinc matters for general health, and men need about 9.5mg a day. Most men get enough from meat, shellfish, dairy and bread. Extra zinc is unlikely to help unless you're actually low. Don't take more than 25mg a day in supplements unless a doctor advises it, because high doses stop your body absorbing copper properly."
-        ]
-      },
-      {
-        "heading": "Testosterone Replacement: What You Should Know",
-        "paragraphs": [
-          "If a GP or specialist confirms a deficiency, testosterone replacement therapy (TRT) may be offered, usually as a gel or an injection. It's a prescription-only medicine, and you'll need regular check-ups while you take it.",
-          "Don't buy testosterone online or from a gym contact. Products from unregulated sources can be fake or contaminated, and testosterone should only ever be taken with proper medical checks."
-        ]
-      },
-      {
-        "heading": "When to See a GP",
-        "paragraphs": [
-          "See your GP if symptoms like low sex drive, erection problems, low mood or tiredness last more than a few weeks, or are affecting your work or relationships. Ask for a check of your blood pressure, blood sugar and cholesterol at the same time.",
-          "Get help sooner if you notice any of these:"
-        ],
-        "bullets": [
-          "A lump or swelling in a testicle: see a GP promptly",
-          "Sudden, severe pain in a testicle: go to A&E straight away",
-          "A lump in your breast tissue, or nipple discharge: see a GP",
-          "Low mood with thoughts of harming yourself: call NHS 111 or Samaritans free on 116 123, any time, or 999 in an emergency"
-        ]
-      }
-    ]
-  },
-  {
     "id": "erectile-dysfunction-causes",
     "publishOn": "2026-11-09",
     "title": "Erectile Dysfunction: Common Causes and When to See a GP",
@@ -687,6 +544,149 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Make It a Movember Habit",
         "paragraphs": [
           "November is Movember, the month men grow moustaches to raise awareness of men's health. You don't need a moustache to take part. Do your first check this week, set a monthly reminder, and share this guide with a mate. It could be the most useful two minutes of his month."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "low-testosterone-symptoms-after-40",
+    "publishOn": "2026-10-24",
+    "title": "Low Testosterone Symptoms After 40: Signs and Natural Ways to Support It",
+    "metaTitle": "Low Testosterone Symptoms After 40: Signs, Tests and Natural Support | OptiMen Wellbeing",
+    "metaDescription": "Tired, low sex drive, losing muscle? Learn the real low testosterone symptoms after 40, how NHS testing works, and what actually helps naturally.",
+    "summary": "Tiredness, a low sex drive and a softer middle are often blamed on 'low T', but the real cause is frequently sleep, stress or weight. Here's how to tell the difference, how testing works, and what genuinely helps.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "9 min read",
+    "publishedDate": "October 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Hormone & Metabolic Health Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Testosterone falls slowly with age, about 1% a year from around 30 to 40, which on its own rarely causes problems.",
+      "Common low testosterone symptoms, like tiredness, low mood and a low sex drive, often have other causes such as stress, poor sleep or drinking.",
+      "True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice.",
+      "Losing excess weight, sleeping well, staying active and drinking less are the best-evidenced natural ways to support healthy levels.",
+      "Most 'testosterone booster' supplements have little or no evidence behind them."
+    ],
+    "protocolSteps": [
+      "Write down your symptoms and how long you've had them, then book a GP appointment.",
+      "If your GP orders a testosterone test, ask for an early-morning appointment.",
+      "Aim for 7 to 9 hours of sleep and keep a regular bedtime.",
+      "Do strength training on at least 2 days a week and 150 minutes of moderate activity across the week.",
+      "If you carry extra weight around your middle, make steady weight loss your first goal.",
+      "Take 10 micrograms of vitamin D a day from October to early March, as the NHS advises for everyone."
+    ],
+    "references": [
+      "NHS: The 'male menopause', nhs.uk/conditions/male-menopause.",
+      "Hackett G, Kirby M, Edwards D, et al. British Society for Sexual Medicine task force policy statement on testosterone deficiency. International Journal of Clinical Practice, 2017;71(3-4):e12901.",
+      "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA, 2011;305(21):2173-2174.",
+      "Corona G, et al. Body weight loss reverts obesity-associated hypogonadotropic hypogonadism: a systematic review and meta-analysis. European Journal of Endocrinology, 2013;168(6):829-843.",
+      "Clemesha CG, Thaker H, Samplaski MK. 'Testosterone boosting' supplements composition and claims are not supported by the academic literature. World Journal of Men's Health, 2020;38(1):115-122.",
+      "Paez-Allendes L, et al. Vitamin D supplementation, total testosterone and androgen bioavailability markers in adult men: a systematic review and meta-analysis of randomized controlled trials. Nutrients, 2026;18(13):2090.",
+      "NHS: Vitamin D, nhs.uk/conditions/vitamins-and-minerals/vitamin-d.",
+      "NHS: Vitamins and minerals, others (zinc), nhs.uk/conditions/vitamins-and-minerals/others.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk/live-well/exercise."
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=vitamin+d3+10+micrograms&tag=insightdigita-21",
+      "label": "Compare vitamin D3 (10 microgram) supplements on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    },
+    "sections": [
+      {
+        "heading": "Low Testosterone Symptoms: The Short Answer",
+        "paragraphs": [
+          "Feeling flat, tired and less interested in sex in your 40s? It's easy to blame low testosterone. Sometimes that's right. More often, the cause is something else, such as stress, poor sleep, drinking or weight gain.",
+          "The NHS lists these as the symptoms some men develop in their late 40s and early 50s. They can be caused by low testosterone, but every one of them can also have other causes:"
+        ],
+        "bullets": [
+          "Low sex drive and erection problems",
+          "Low mood, mood swings or irritability",
+          "Tiredness, low energy and poor sleep",
+          "Losing muscle and finding exercise harder",
+          "More fat around the middle, or swelling of breast tissue",
+          "Poor concentration and short-term memory"
+        ]
+      },
+      {
+        "heading": "Is the 'Male Menopause' Real?",
+        "paragraphs": [
+          "Not in the way the name suggests. The NHS calls the term 'male menopause' unhelpful, because it implies testosterone drops suddenly in midlife, like oestrogen does in women. It doesn't.",
+          "Testosterone falls slowly, by about 1% a year from around the age of 30 to 40. On its own, that gradual fall is unlikely to cause problems.",
+          "A smaller group of men do develop a genuine deficiency later in life, called late-onset hypogonadism. This is when the testicles make too little testosterone. The NHS says it's more likely if you're obese or have type 2 diabetes, and that it isn't a normal part of ageing."
+        ]
+      },
+      {
+        "heading": "What Else Could Be Causing It?",
+        "paragraphs": [
+          "Before you assume it's your hormones, look honestly at the rest of your life. The NHS points to stress, depression, anxiety, work or relationship problems and money worries as common causes of the same symptoms. So are poor sleep, a poor diet, lack of exercise, heavy drinking and smoking.",
+          "Erection problems in particular can be a sign of blood vessel or heart problems, which is another reason to get checked rather than guess. Our guide to erectile dysfunction explains this link."
+        ]
+      },
+      {
+        "heading": "How Do You Get Your Testosterone Tested?",
+        "paragraphs": [
+          "Start with your GP. They'll ask about your symptoms, your work and your home life, to check for things like stress or low mood. If a hormone problem seems possible, they can arrange a blood test.",
+          "Testosterone is highest in the morning, so the test should be done early. The British Society for Sexual Medicine (BSSM) advises testing between 8am and 11am, and confirming a low result with a second test.",
+          "If tests suggest a deficiency, you may be referred to a hormone specialist, called an endocrinologist, to confirm it and find the cause."
+        ]
+      },
+      {
+        "heading": "What Is a Normal Testosterone Level for a Man Over 40?",
+        "paragraphs": [
+          "Labs report testosterone in nanomoles per litre (nmol/L), and normal ranges vary slightly between labs. As a rough guide, BSSM guidance says treatment isn't needed when total testosterone is above 12 nmol/L. Below 8 nmol/L, with symptoms, usually points to a deficiency. Between 8 and 12, doctors weigh up your symptoms and may consider a trial of treatment.",
+          "A number on its own doesn't tell the whole story. Diagnosis depends on symptoms and repeated results together, so talk your results through with your GP."
+        ]
+      },
+      {
+        "heading": "Natural Ways to Support Healthy Testosterone",
+        "paragraphs": [
+          "These steps won't turn a true deficiency into a normal level. But they tackle the most common reasons levels dip, and they help the same symptoms whatever the cause."
+        ],
+        "bullets": [
+          "Lose excess weight: a 2013 review of studies found that weight loss raised testosterone in men who were overweight. The rise was bigger after weight-loss surgery than after dieting. Fat around the middle is the one to target.",
+          "Protect your sleep: in a small 2011 study, young men who slept under 5 hours a night for a week had 10 to 15% lower testosterone. Aim for 7 to 9 hours and a regular bedtime.",
+          "Lift something heavy: the NHS recommends strength training on at least 2 days a week. It builds and keeps muscle, helps you lose fat and lifts your mood.",
+          "Keep moving: aim for at least 150 minutes of moderate activity, such as brisk walking or cycling, each week.",
+          "Drink less: keep to 14 units a week or less, spread over several days.",
+          "Manage stress: long-term stress drains energy, mood and sex drive. Our stress guide has practical ideas for busy men."
+        ]
+      },
+      {
+        "heading": "Do Testosterone Booster Supplements Work?",
+        "paragraphs": [
+          "Probably not. A 2020 study looked at 50 'testosterone booster' supplements sold online. Around 90% claimed to raise testosterone, but less than 25% had any published evidence to back up those claims. Some contained vitamins and minerals at doses above safe daily limits.",
+          "Save your money. If you're worried about your testosterone, a blood test will tell you far more than a supplement ever will."
+        ]
+      },
+      {
+        "heading": "What About Vitamin D and Zinc?",
+        "paragraphs": [
+          "Vitamin D is worth taking in winter, but not for your testosterone. A 2026 review of randomised trials found no clear effect of vitamin D supplements on testosterone in adult men. However, the NHS advises everyone in the UK to consider 10 micrograms of vitamin D a day from October to early March, when the sun is too weak for our skin to make enough. It supports healthy bones and muscles. Don't take more than 100 micrograms (4,000 IU) a day.",
+          "Zinc matters for general health, and men need about 9.5mg a day. Most men get enough from meat, shellfish, dairy and bread. Extra zinc is unlikely to help unless you're actually low. Don't take more than 25mg a day in supplements unless a doctor advises it, because high doses stop your body absorbing copper properly."
+        ]
+      },
+      {
+        "heading": "Testosterone Replacement: What You Should Know",
+        "paragraphs": [
+          "If a GP or specialist confirms a deficiency, testosterone replacement therapy (TRT) may be offered, usually as a gel or an injection. It's a prescription-only medicine, and you'll need regular check-ups while you take it.",
+          "Don't buy testosterone online or from a gym contact. Products from unregulated sources can be fake or contaminated, and testosterone should only ever be taken with proper medical checks."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "See your GP if symptoms like low sex drive, erection problems, low mood or tiredness last more than a few weeks, or are affecting your work or relationships. Ask for a check of your blood pressure, blood sugar and cholesterol at the same time.",
+          "Get help sooner if you notice any of these:"
+        ],
+        "bullets": [
+          "A lump or swelling in a testicle: see a GP promptly",
+          "Sudden, severe pain in a testicle: go to A&E straight away",
+          "A lump in your breast tissue, or nipple discharge: see a GP",
+          "Low mood with thoughts of harming yourself: call NHS 111 or Samaritans free on 116 123, any time, or 999 in an emergency"
         ]
       }
     ]
