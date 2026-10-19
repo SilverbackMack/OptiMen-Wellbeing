@@ -319,7 +319,7 @@ export const ALL_ARTICLES: Article[] = [
           "These steps won't turn a true deficiency into a normal level. But they tackle the most common reasons levels dip, and they help the same symptoms whatever the cause."
         ],
         "bullets": [
-          "Lose excess weight: a 2013 review of studies found that weight loss raised testosterone in men who were overweight, with bigger rises from bigger weight loss. Fat around the middle is the one to target.",
+          "Lose excess weight: a 2013 review of studies found that weight loss raised testosterone in men who were overweight. The rise was bigger after weight-loss surgery than after dieting. Fat around the middle is the one to target.",
           "Protect your sleep: in a small 2011 study, young men who slept under 5 hours a night for a week had 10 to 15% lower testosterone. Aim for 7 to 9 hours and a regular bedtime.",
           "Lift something heavy: the NHS recommends strength training on at least 2 days a week. It builds and keeps muscle, helps you lose fat and lifts your mood.",
           "Keep moving: aim for at least 150 minutes of moderate activity, such as brisk walking or cycling, each week.",
