@@ -91,6 +91,279 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "signs-of-burnout-in-men",
+    "publishOn": "2026-11-16",
+    "title": "Signs of Burnout in Men: How to Spot Stress and Burnout, and How to Cope",
+    "metaTitle": "Signs of Burnout in Men: How to Spot It and How to Cope | OptiMen Wellbeing",
+    "metaDescription": "Exhausted, irritable, drinking more, working later? Learn the signs of burnout in men, how it differs from stress, and practical ways to recover.",
+    "summary": "Burnout rarely announces itself. In men it often shows up as irritability, longer hours, a few more drinks and a feeling of having nothing left. Here's how to spot it, and what to do next.",
+    "pillar": "mindset",
+    "pillarLabel": "Mindset",
+    "readTime": "9 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Mental Health & Stress Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Stress feels like 'too much'. Burnout feels like having 'nothing left to give'.",
+      "In men, burnout often shows up as irritability, working longer hours, drinking more and pulling away from people.",
+      "Recovery means fixing the cause, not just resting, and it takes time.",
+      "You can refer yourself to NHS Talking Therapies without seeing a GP.",
+      "If you're struggling right now, call Samaritans free on 116 123, any time."
+    ],
+    "protocolSteps": [
+      "Write down what's been happening when you've felt worst, to find the main cause.",
+      "Pick one boundary this week, such as switching off work notifications after a set time.",
+      "Tell one person you trust how you're really doing.",
+      "Get outside for a 20-minute walk most days, and protect your sleep.",
+      "Cut back on alcohol, and don't use it to switch off.",
+      "If nothing is improving after a few weeks, see a GP or refer yourself to NHS Talking Therapies."
+    ],
+    "references": [
+      "NHS Every Mind Matters: Work-related stress (including burnout), nhs.uk/every-mind-matters/lifes-challenges/work-related-stress.",
+      "NHS: Get help with stress, nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/stress.",
+      "World Health Organization: Burn-out an 'occupational phenomenon': International Classification of Diseases (ICD-11), 2019.",
+      "Mind: Signs and symptoms of stress, mind.org.uk.",
+      "Office for National Statistics: Suicides in England and Wales, 2025 registrations.",
+      "NHS England: NHS 111 option 2 for urgent mental health support.",
+      "CALM (Campaign Against Living Miserably): helpline 0800 58 58 58, thecalmzone.net."
+    ],
+    "sections": [
+      {
+        "heading": "Signs of Burnout in Men: The Short Answer",
+        "paragraphs": [
+          "Burnout doesn't arrive in one go. It builds slowly, often in men who are good at their jobs, look after everyone else and don't like to complain. By the time you notice, you may feel like you're running on empty.",
+          "The common signs of burnout in men include:"
+        ],
+        "bullets": [
+          "Feeling tired and drained, even after a weekend off",
+          "Losing motivation for work and things you used to enjoy",
+          "Feeling detached, cynical or negative about your job",
+          "Getting snappy or short-tempered with people you care about",
+          "Working longer hours, at weekends or on holiday, but getting less done",
+          "Drinking, smoking or gambling more to switch off",
+          "Changes to your sleep or appetite",
+          "Pulling away from friends and family"
+        ]
+      },
+      {
+        "heading": "Stress or Burnout: What's the Difference?",
+        "paragraphs": [
+          "Some stress is normal, and in short bursts it can even help you perform. The NHS puts the difference simply: stress often feels like 'too much', while burnout can feel like you have 'nothing left to give'.",
+          "The World Health Organization describes burnout as the result of long-term workplace stress that hasn't been managed well. It has three parts: feeling exhausted, feeling distant or cynical about your job, and feeling less effective at work.",
+          "Burnout isn't a medical diagnosis on its own. But the NHS warns it can raise your risk of anxiety and depression, so it's worth taking seriously."
+        ]
+      },
+      {
+        "heading": "The Signs Men Often Miss",
+        "paragraphs": [
+          "Many men don't recognise stress as stress. They notice the knock-on effects instead. The NHS and the mental health charity Mind list physical and behavioural signs that are easy to put down to something else:"
+        ],
+        "bullets": [
+          "Headaches, muscle tension or stomach problems",
+          "Chest pain or a racing heart (always get chest pain checked)",
+          "Sexual problems, including a lower sex drive or erection problems",
+          "Trouble concentrating, making decisions or remembering things",
+          "Sleeping too much or too little, or eating more or less than usual",
+          "Grinding your teeth, overspending, or avoiding people and places"
+        ]
+      },
+      {
+        "heading": "Why Men Need to Take It Seriously",
+        "paragraphs": [
+          "Men are often slower to ask for help, and more likely to cope by working harder or drinking. That can let stress and burnout slide into something more serious.",
+          "In England and Wales, men are around three times more likely than women to die by suicide, and the rate is highest in men aged 50 to 54, according to the Office for National Statistics. Talking about how you feel early is one of the strongest things you can do."
+        ]
+      },
+      {
+        "heading": "How to Cope With Burnout",
+        "paragraphs": [
+          "Recovery means tackling the cause, not just the symptoms. A week off helps, but if you go straight back to the same pressures, the exhaustion returns. These steps, based on NHS advice, are a good place to start:"
+        ],
+        "bullets": [
+          "Find the cause: is it too much work, not enough time, constant change, or a difficult boss or colleague? Writing down what was happening when you felt worst can help you see a pattern.",
+          "Focus on what you can control: you may not be able to change your workload overnight, but you can change how you respond, ask your manager for support, or get advice on your rights.",
+          "Set boundaries: take proper breaks, finish on time when you can, say no when you're overloaded, and switch off work notifications outside working hours.",
+          "Talk to someone: a partner, a friend, a trusted colleague, or your HR or wellbeing team. Saying it out loud often makes it feel more manageable.",
+          "Calm your body: try belly breathing. Put one hand on your chest and one on your stomach, and breathe slowly in through your nose and out through your mouth.",
+          "Move every day: a walk, a run or a gym session burns off stress hormones and helps you sleep.",
+          "Watch the drink: alcohol, smoking, gambling and drugs can feel like relief, but they make stress and low mood worse."
+        ]
+      },
+      {
+        "heading": "How Long Does It Take to Recover From Burnout?",
+        "paragraphs": [
+          "There's no fixed timescale. The NHS says recovery takes time, and it depends on how long you've been running on empty and whether the cause changes.",
+          "Expect progress to be gradual. Small changes, like one proper lunch break a day or one evening a week with no work, add up. Cognitive behavioural therapy (CBT) can also help you change the thinking patterns that keep you stuck, such as blaming yourself or always expecting the worst."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "See a GP if you're struggling to cope, if the things you've tried aren't helping, or if burnout is affecting your daily life, your relationships or your mental health. They can rule out physical causes, talk through options and, if needed, sign you off work.",
+          "You don't have to see a GP first. If you're 18 or over, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling. Search 'NHS Talking Therapies' online to find your local service."
+        ]
+      },
+      {
+        "heading": "If You're Struggling Right Now",
+        "paragraphs": [
+          "If you're feeling overwhelmed, hopeless or having thoughts of ending your life, please reach out now. You don't need to be in crisis to call, and you won't be wasting anyone's time."
+        ],
+        "bullets": [
+          "Samaritans: call 116 123, free, 24 hours a day, 7 days a week",
+          "NHS 111: call 111 for urgent advice. In England, choose option 2 for urgent mental health support, any time of day",
+          "CALM (Campaign Against Living Miserably): call 0800 58 58 58, 5pm to midnight, every day",
+          "Call 999 or go to A&E if you or someone else is in immediate danger. Don't drive yourself; ask someone to take you or call an ambulance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "low-testosterone-symptoms-after-40",
+    "publishOn": "2026-11-12",
+    "title": "Low Testosterone Symptoms After 40: Signs and Natural Ways to Support It",
+    "metaTitle": "Low Testosterone Symptoms After 40: Signs, Tests and Natural Support | OptiMen Wellbeing",
+    "metaDescription": "Tired, low sex drive, losing muscle? Learn the real low testosterone symptoms after 40, how NHS testing works, and what actually helps naturally.",
+    "summary": "Tiredness, a low sex drive and a softer middle are often blamed on 'low T', but the real cause is frequently sleep, stress or weight. Here's how to tell the difference, how testing works, and what genuinely helps.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "9 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Hormone & Metabolic Health Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Testosterone falls slowly with age, about 1% a year from around 30 to 40, which on its own rarely causes problems.",
+      "Common low testosterone symptoms, like tiredness, low mood and a low sex drive, often have other causes such as stress, poor sleep or drinking.",
+      "True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice.",
+      "Losing excess weight, sleeping well, staying active and drinking less are the best-evidenced natural ways to support healthy levels.",
+      "Most 'testosterone booster' supplements have little or no evidence behind them."
+    ],
+    "protocolSteps": [
+      "Write down your symptoms and how long you've had them, then book a GP appointment.",
+      "If your GP orders a testosterone test, ask for an early-morning appointment.",
+      "Aim for 7 to 9 hours of sleep and keep a regular bedtime.",
+      "Do strength training on at least 2 days a week and 150 minutes of moderate activity across the week.",
+      "If you carry extra weight around your middle, make steady weight loss your first goal.",
+      "Take 10 micrograms of vitamin D a day from October to early March, as the NHS advises for everyone."
+    ],
+    "references": [
+      "NHS: The 'male menopause', nhs.uk/conditions/male-menopause.",
+      "Hackett G, Kirby M, Edwards D, et al. British Society for Sexual Medicine task force policy statement on testosterone deficiency. International Journal of Clinical Practice, 2017;71(3-4):e12901.",
+      "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA, 2011;305(21):2173-2174.",
+      "Corona G, et al. Body weight loss reverts obesity-associated hypogonadotropic hypogonadism: a systematic review and meta-analysis. European Journal of Endocrinology, 2013;168(6):829-843.",
+      "Clemesha CG, Thaker H, Samplaski MK. 'Testosterone boosting' supplements composition and claims are not supported by the academic literature. World Journal of Men's Health, 2020;38(1):115-122.",
+      "Paez-Allendes L, et al. Vitamin D supplementation, total testosterone and androgen bioavailability markers in adult men: a systematic review and meta-analysis of randomized controlled trials. Nutrients, 2026;18(13):2090.",
+      "NHS: Vitamin D, nhs.uk/conditions/vitamins-and-minerals/vitamin-d.",
+      "NHS: Vitamins and minerals, others (zinc), nhs.uk/conditions/vitamins-and-minerals/others.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk/live-well/exercise."
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=vitamin+d3+10+micrograms&tag=insightdigita-21",
+      "label": "Compare vitamin D3 (10 microgram) supplements on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    },
+    "sections": [
+      {
+        "heading": "Low Testosterone Symptoms: The Short Answer",
+        "paragraphs": [
+          "Feeling flat, tired and less interested in sex in your 40s? It's easy to blame low testosterone. Sometimes that's right. More often, the cause is something else, such as stress, poor sleep, drinking or weight gain.",
+          "The NHS lists these as the symptoms some men develop in their late 40s and early 50s. They can be caused by low testosterone, but every one of them can also have other causes:"
+        ],
+        "bullets": [
+          "Low sex drive and erection problems",
+          "Low mood, mood swings or irritability",
+          "Tiredness, low energy and poor sleep",
+          "Losing muscle and finding exercise harder",
+          "More fat around the middle, or swelling of breast tissue",
+          "Poor concentration and short-term memory"
+        ]
+      },
+      {
+        "heading": "Is the 'Male Menopause' Real?",
+        "paragraphs": [
+          "Not in the way the name suggests. The NHS calls the term 'male menopause' unhelpful, because it implies testosterone drops suddenly in midlife, like oestrogen does in women. It doesn't.",
+          "Testosterone falls slowly, by about 1% a year from around the age of 30 to 40. On its own, that gradual fall is unlikely to cause problems.",
+          "A smaller group of men do develop a genuine deficiency later in life, called late-onset hypogonadism. This is when the testicles make too little testosterone. The NHS says it's more likely if you're obese or have type 2 diabetes, and that it isn't a normal part of ageing."
+        ]
+      },
+      {
+        "heading": "What Else Could Be Causing It?",
+        "paragraphs": [
+          "Before you assume it's your hormones, look honestly at the rest of your life. The NHS points to stress, depression, anxiety, work or relationship problems and money worries as common causes of the same symptoms. So are poor sleep, a poor diet, lack of exercise, heavy drinking and smoking.",
+          "Erection problems in particular can be a sign of blood vessel or heart problems, which is another reason to get checked rather than guess. Our guide to erectile dysfunction explains this link."
+        ]
+      },
+      {
+        "heading": "How Do You Get Your Testosterone Tested?",
+        "paragraphs": [
+          "Start with your GP. They'll ask about your symptoms, your work and your home life, to check for things like stress or low mood. If a hormone problem seems possible, they can arrange a blood test.",
+          "Testosterone is highest in the morning, so the test should be done early. The British Society for Sexual Medicine (BSSM) advises testing between 8am and 11am, and confirming a low result with a second test.",
+          "If tests suggest a deficiency, you may be referred to a hormone specialist, called an endocrinologist, to confirm it and find the cause."
+        ]
+      },
+      {
+        "heading": "What Is a Normal Testosterone Level for a Man Over 40?",
+        "paragraphs": [
+          "Labs report testosterone in nanomoles per litre (nmol/L), and normal ranges vary slightly between labs. As a rough guide, BSSM guidance says treatment isn't needed when total testosterone is above 12 nmol/L. Below 8 nmol/L, with symptoms, usually points to a deficiency. Between 8 and 12, doctors weigh up your symptoms and may consider a trial of treatment.",
+          "A number on its own doesn't tell the whole story. Diagnosis depends on symptoms and repeated results together, so talk your results through with your GP."
+        ]
+      },
+      {
+        "heading": "Natural Ways to Support Healthy Testosterone",
+        "paragraphs": [
+          "These steps won't turn a true deficiency into a normal level. But they tackle the most common reasons levels dip, and they help the same symptoms whatever the cause."
+        ],
+        "bullets": [
+          "Lose excess weight: a 2013 review of studies found that weight loss raised testosterone in men who were overweight, with bigger rises from bigger weight loss. Fat around the middle is the one to target.",
+          "Protect your sleep: in a small 2011 study, young men who slept under 5 hours a night for a week had 10 to 15% lower testosterone. Aim for 7 to 9 hours and a regular bedtime.",
+          "Lift something heavy: the NHS recommends strength training on at least 2 days a week. It builds and keeps muscle, helps you lose fat and lifts your mood.",
+          "Keep moving: aim for at least 150 minutes of moderate activity, such as brisk walking or cycling, each week.",
+          "Drink less: keep to 14 units a week or less, spread over several days.",
+          "Manage stress: long-term stress drains energy, mood and sex drive. Our stress guide has practical ideas for busy men."
+        ]
+      },
+      {
+        "heading": "Do Testosterone Booster Supplements Work?",
+        "paragraphs": [
+          "Probably not. A 2020 study looked at 50 'testosterone booster' supplements sold online. Around 90% claimed to raise testosterone, but less than 25% had any published evidence to back up those claims. Some contained vitamins and minerals at doses above safe daily limits.",
+          "Save your money. If you're worried about your testosterone, a blood test will tell you far more than a supplement ever will."
+        ]
+      },
+      {
+        "heading": "What About Vitamin D and Zinc?",
+        "paragraphs": [
+          "Vitamin D is worth taking in winter, but not for your testosterone. A 2026 review of randomised trials found no clear effect of vitamin D supplements on testosterone in adult men. However, the NHS advises everyone in the UK to consider 10 micrograms of vitamin D a day from October to early March, when the sun is too weak for our skin to make enough. It supports healthy bones and muscles. Don't take more than 100 micrograms (4,000 IU) a day.",
+          "Zinc matters for general health, and men need about 9.5mg a day. Most men get enough from meat, shellfish, dairy and bread. Extra zinc is unlikely to help unless you're actually low. Don't take more than 25mg a day in supplements unless a doctor advises it, because high doses stop your body absorbing copper properly."
+        ]
+      },
+      {
+        "heading": "Testosterone Replacement: What You Should Know",
+        "paragraphs": [
+          "If a GP or specialist confirms a deficiency, testosterone replacement therapy (TRT) may be offered, usually as a gel or an injection. It's a prescription-only medicine, and you'll need regular check-ups while you take it.",
+          "Don't buy testosterone online or from a gym contact. Products from unregulated sources can be fake or contaminated, and testosterone should only ever be taken with proper medical checks."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "See your GP if symptoms like low sex drive, erection problems, low mood or tiredness last more than a few weeks, or are affecting your work or relationships. Ask for a check of your blood pressure, blood sugar and cholesterol at the same time.",
+          "Get help sooner if you notice any of these:"
+        ],
+        "bullets": [
+          "A lump or swelling in a testicle: see a GP promptly",
+          "Sudden, severe pain in a testicle: go to A&E straight away",
+          "A lump in your breast tissue, or nipple discharge: see a GP",
+          "Low mood with thoughts of harming yourself: call NHS 111 or Samaritans free on 116 123, any time, or 999 in an emergency"
+        ]
+      }
+    ]
+  },
+  {
     "id": "erectile-dysfunction-causes",
     "publishOn": "2026-11-09",
     "title": "Erectile Dysfunction: Common Causes and When to See a GP",
