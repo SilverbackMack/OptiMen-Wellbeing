@@ -91,6 +91,286 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "why-do-i-wake-up-at-3am",
+    "publishOn": "2026-11-19",
+    "title": "Why Do I Wake Up at 3am? Common Causes and How to Fix It",
+    "metaTitle": "Why Do I Wake Up at 3am? Causes and How to Fix It | OptiMen Wellbeing",
+    "metaDescription": "Waking at 3am and can't get back to sleep? The common causes in men, from alcohol and stress to needing a wee, and simple NHS-backed ways to fix it.",
+    "summary": "Waking in the early hours is common, especially in men juggling work, stress and a few drinks. Here's why it happens around 3am, what it can be a sign of, and what actually helps you sleep through.",
+    "pillar": "sleep",
+    "pillarLabel": "Sleep",
+    "readTime": "8 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Sleep & Recovery Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Brief waking between sleep cycles is normal. By 3am your sleep is lighter, so small things wake you fully.",
+      "Alcohol, caffeine, stress, needing a wee and a warm or noisy bedroom are the most common causes.",
+      "Waking very early and not getting back to sleep can be a sign of depression. Loud snoring with pauses in breathing can be sleep apnoea.",
+      "If you're awake for about 20 minutes, get up and do something calm until you feel sleepy.",
+      "See a GP if it's gone on for months, is affecting your days, or simple changes haven't helped."
+    ],
+    "protocolSteps": [
+      "Get up at the same time every day for two weeks, including weekends.",
+      "Stop caffeine 6 hours before bed, and keep alcohol to a minimum, especially late in the evening.",
+      "Have your last big drink of the day earlier in the evening if you're getting up to wee.",
+      "Make your bedroom dark, quiet and cool, and turn the clock away from you.",
+      "Write a short to-do list before bed to get tomorrow out of your head.",
+      "Keep a simple sleep diary for two weeks, and take it to a GP if nothing improves."
+    ],
+    "references": [
+      "NHS: Insomnia, nhs.uk/conditions/insomnia (reviewed March 2024).",
+      "NHS Every Mind Matters: Fall asleep faster and sleep better, nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better.",
+      "NHS: Sleep apnoea, nhs.uk/conditions/sleep-apnoea.",
+      "NHS: Symptoms of depression in adults, nhs.uk/mental-health/conditions/depression-in-adults/symptoms.",
+      "Guy's and St Thomas' NHS Foundation Trust: Nocturia (getting up at night to pee), guysandstthomas.nhs.uk.",
+      "Oxford Health NHS Foundation Trust: What happens when we sleep?, oxfordhealth.nhs.uk.",
+      "Drinkaware: Alcohol and sleep, drinkaware.co.uk.",
+      "Sleep Foundation: Stages of sleep, sleepfoundation.org/stages-of-sleep.",
+      "O'Byrne NA, Yuen F, Butt WZ, Liu PY. Sleep and circadian regulation of cortisol: a short review. Current Opinion in Endocrine and Metabolic Research, 2021."
+    ],
+    "sections": [
+      {
+        "heading": "Why Do I Wake Up at 3am? The Short Answer",
+        "paragraphs": [
+          "If you keep asking 'why do I wake up at 3am?', you're not alone. Waking in the early hours is one of the most common sleep complaints, and it's usually down to how sleep works plus something nudging you awake.",
+          "Sleep runs in cycles of about 90 minutes. At the end of each one you come close to waking. An NHS sleep guide says it's perfectly normal to wake several times a night, and most of the time you won't even notice.",
+          "The difference at 3am is that most of your deep sleep is done. Deep sleep happens mostly in the first half of the night, so the second half is lighter. Levels of the stress hormone cortisol also start rising in the second half of the night, getting your body ready for the morning. So if something disturbs you, such as a full bladder, a noise or a worry, you're more likely to wake fully and lie there watching the clock."
+        ]
+      },
+      {
+        "heading": "The Most Common Causes in Men",
+        "paragraphs": [
+          "The NHS lists these as common causes of poor sleep and waking in the night:"
+        ],
+        "bullets": [
+          "Alcohol: it can help you nod off, but Drinkaware says even a couple of drinks affect the quality of your sleep. You get less REM (dreaming) sleep, and you're more likely to need the toilet.",
+          "Caffeine and nicotine: tea, coffee, cola, energy drinks and cigarettes keep your brain alert for hours.",
+          "Stress, anxiety and worry: money, work or family pressures often surface when the house goes quiet.",
+          "Needing a wee: more common as you get older, and sometimes linked to the prostate.",
+          "Your bedroom: too hot, too cold, too light or too noisy, or an uncomfortable bed.",
+          "A late, heavy meal, or exercising hard close to bedtime.",
+          "Shift work, jet lag, long-term pain and some medicines.",
+          "Other conditions, including sleep apnoea, restless legs, an overactive thyroid and depression."
+        ]
+      },
+      {
+        "heading": "Is Waking at 3am a Sign of Anxiety or Depression?",
+        "paragraphs": [
+          "It can be, but not always. A racing mind at 3am is very common during stressful periods, and it usually settles when the stress does.",
+          "The NHS lists 'waking up very early in the morning' as one of the physical symptoms of depression. Other signs include low mood, losing interest in things you used to enjoy, low energy, a low sex drive and feeling hopeless.",
+          "The NHS advises seeing a GP if you've had symptoms of depression for most of the day, every day, for more than 2 weeks. If you're struggling right now, you can call Samaritans free on 116 123, any time of day or night."
+        ]
+      },
+      {
+        "heading": "Waking Up at Night to Pee",
+        "paragraphs": [
+          "Getting up to wee at night is called nocturia. Guy's and St Thomas' NHS Foundation Trust says it often increases with age, and older people may get up twice a night. As you get older your body makes less of a hormone that slows urine production overnight.",
+          "In men, an enlarged prostate can press on the tube that carries urine, so the bladder doesn't empty fully. Drinking a lot late in the evening, caffeine, alcohol, diabetes and some heart problems can also play a part. Our guide to enlarged prostate symptoms explains more.",
+          "Try having your last big drink earlier in the evening, while still drinking enough across the day. Cut back on caffeine and alcohol. Don't stop any regular medicines without speaking to your GP first."
+        ]
+      },
+      {
+        "heading": "Could It Be Sleep Apnoea?",
+        "paragraphs": [
+          "Sleep apnoea is when your breathing stops and starts while you sleep. It's more likely if you're overweight, have a large neck, drink alcohol, smoke or sleep on your back.",
+          "Signs include loud snoring, gasping or choking noises, waking often, headaches on waking and feeling very tired during the day. Because it happens while you're asleep, a partner often notices first.",
+          "The NHS says sleep apnoea can be serious if it's not diagnosed and treated, so see a GP if you think you have it. You may need to tell the DVLA, and you must not drive if you're excessively sleepy until it's under control."
+        ]
+      },
+      {
+        "heading": "How to Stop Waking Up at 3am",
+        "paragraphs": [
+          "These steps, based on NHS advice, tackle the most common causes. Give them two to three weeks; sleep habits take time to reset."
+        ],
+        "bullets": [
+          "Get up at the same time every day, even after a bad night. Don't sleep in or nap during the day.",
+          "Only go to bed when you feel sleepy, and give yourself an hour to wind down first.",
+          "Avoid caffeine, alcohol and smoking in the 6 hours before bed.",
+          "Don't eat a big meal late at night, and avoid hard exercise in the 4 hours before bed. Do exercise regularly earlier in the day.",
+          "Keep your bedroom dark, quiet and cool. Blackout curtains, an eye mask or earplugs can help.",
+          "Put screens away for an hour before bed, and keep your phone face down and out of reach.",
+          "If you tend to worry in bed, write a list of what you need to do tomorrow before you turn the light out."
+        ]
+      },
+      {
+        "heading": "What to Do If You Wake at 3am and Can't Get Back to Sleep",
+        "paragraphs": [
+          "The worst thing you can do is lie there checking the time and calculating how many hours you have left. The NHS says try not to force it.",
+          "If you're still awake after about 20 minutes, get up and sit somewhere comfortable. Do something calm, such as reading, gentle stretching or listening to quiet music, with the lights low. Go back to bed when you feel sleepy. Over time, this teaches your brain that bed is for sleeping, not for lying awake.",
+          "Slow breathing can help too. Breathe in gently through your nose, then breathe out slowly through your mouth, a little longer than the in-breath."
+        ]
+      },
+      {
+        "heading": "Do Sleeping Tablets Help?",
+        "paragraphs": [
+          "Pharmacy sleep aids, including herbal remedies and antihistamine tablets, can't cure insomnia. The NHS says they may help for 1 to 2 weeks but shouldn't be used for longer, and they can leave you drowsy the next day, which matters if you drive. Check with a pharmacist or GP before taking them.",
+          "GPs now rarely prescribe sleeping pills because of side effects and the risk of dependence. The main treatment for long-term insomnia is cognitive behavioural therapy (CBT), which helps change the thoughts and habits that keep you awake. Your GP can tell you what's available locally, including online programmes."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "Insomnia that lasts 3 months or longer is called long-term insomnia. See a GP if:"
+        ],
+        "bullets": [
+          "Changing your sleep habits hasn't helped after a few weeks",
+          "You've had trouble sleeping for months",
+          "Poor sleep is making it hard to cope with work, driving or family life",
+          "Someone has noticed you stop breathing, gasp or choke in your sleep",
+          "You're getting up to wee more often, or you have pain or burning when you wee, cloudy urine or trouble emptying your bladder",
+          "You've felt low or hopeless most days for more than 2 weeks"
+        ]
+      },
+      {
+        "heading": "Get Help Urgently If",
+        "paragraphs": [
+          "If you're feeling overwhelmed or having thoughts of harming yourself, please don't wait for a GP appointment."
+        ],
+        "bullets": [
+          "Samaritans: call 116 123, free, 24 hours a day, 7 days a week",
+          "NHS 111: call 111 for urgent advice. In England, choose option 2 for urgent mental health support",
+          "Call 999 or go to A&E if you or someone else is in immediate danger"
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=blackout+sleep+mask&tag=insightdigita-21",
+      "label": "Compare blackout sleep masks on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
+  },
+  {
+    "id": "is-creatine-safe-men-over-40",
+    "publishOn": "2026-11-23",
+    "title": "Is Creatine Safe? Benefits and Side Effects for Men Over 40",
+    "metaTitle": "Is Creatine Safe? Benefits for Men Over 40 | OptiMen Wellbeing",
+    "metaDescription": "Is creatine safe? What the research says about kidneys, hair loss and side effects, the real benefits for men over 40, and how much to take.",
+    "summary": "Creatine is one of the most researched supplements there is, but myths about kidneys and hair loss put many men off. Here's what the evidence actually says, who benefits most, and how to take it.",
+    "pillar": "fitness",
+    "pillarLabel": "Fitness",
+    "readTime": "8 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Sports Nutrition & Supplement Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "For healthy adults at normal doses, research consistently finds creatine monohydrate is safe.",
+      "Studies in healthy people show no harm to the kidneys, but creatine can raise a blood test called creatinine, so tell your GP you take it.",
+      "A 2025 trial found no effect on hair or DHT after 12 weeks.",
+      "In older adults, creatine plus strength training builds more muscle and strength than training alone. Without training, expect little.",
+      "If you have kidney disease, a long-term condition or take regular medicines, check with a GP or pharmacist first."
+    ],
+    "protocolSteps": [
+      "Check with your GP or pharmacist first if you have kidney problems, a long-term condition or take regular medicines.",
+      "Choose plain creatine monohydrate from a brand that uses third-party testing, such as Informed Sport.",
+      "Take 3 to 5 g a day, every day, with water or food. Loading isn't necessary.",
+      "Pair it with strength training at least twice a week, as the NHS recommends.",
+      "Tell your GP you take creatine before any kidney blood test.",
+      "Stop and get advice if you feel unwell, and judge it after 8 to 12 weeks of consistent training."
+    ],
+    "references": [
+      "Longobardi I, Yazigi Solis M, Roschel H, Gualano B. A short review of the most common safety concerns regarding creatine ingestion. Frontiers in Nutrition, 2025;12.",
+      "Longobardi I, Gualano B, Seguro AC, Roschel H. Is it time for a requiem for creatine supplementation-induced kidney failure? A narrative review. Nutrients, 2023;15(6):1466.",
+      "Chilibeck PD, Kaviani M, Candow DG, Zello GA. Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. Open Access Journal of Sports Medicine, 2017;8:213-226.",
+      "Lak M, Forbes SC, Ashtary-Larky D, et al. Does creatine cause hair loss? A 12-week randomized controlled trial. Journal of the International Society of Sports Nutrition, 2025.",
+      "van der Merwe J, Brooks NE, Myburgh KH. Three weeks of creatine monohydrate supplementation affects dihydrotestosterone to testosterone ratio in college-aged rugby players. Clinical Journal of Sport Medicine, 2009.",
+      "Commission Implementing Regulation (EU) 2017/672 (as retained in UK law), authorised health claim for creatine and muscle strength in adults over 55, legislation.gov.uk.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk."
+    ],
+    "sections": [
+      {
+        "heading": "Is Creatine Safe? The Short Answer",
+        "paragraphs": [
+          "Is creatine safe? For healthy adults taking normal doses, the research says yes. Creatine monohydrate has been studied for over 30 years, and a 2025 review of the most common safety worries found no harm to kidney function in healthy people.",
+          "That doesn't mean it suits everyone. If you have kidney disease, a long-term health condition or take regular medicines, speak to a GP or pharmacist before you start. And like any supplement, it only helps if you use it alongside the basics: training, food and sleep."
+        ]
+      },
+      {
+        "heading": "What Is Creatine?",
+        "paragraphs": [
+          "Creatine is a natural substance your body makes, and you also get it from meat and fish. It's stored mainly in your muscles, where it helps supply quick energy for short, hard efforts like lifting a weight or sprinting for a bus.",
+          "A supplement tops up those stores, so you can squeeze out a rep or two more in the gym. Over weeks of training, that extra work adds up to more strength and muscle.",
+          "Creatine is not a steroid and it isn't a hormone. It's sold legally as a food supplement in the UK."
+        ]
+      },
+      {
+        "heading": "Creatine Benefits for Men Over 40",
+        "paragraphs": [
+          "From middle age, men slowly lose muscle and strength, which affects everything from carrying shopping to staying steady on your feet. Strength training is the main way to fight back, and creatine can make it work a bit better.",
+          "A 2017 analysis of 22 trials, with 721 people whose average age was between 57 and 70, compared strength training plus creatine with strength training alone. The creatine groups gained about 1.4 kg more lean mass on average, and got stronger in both the upper and lower body.",
+          "UK law allows one official health claim here: daily creatine can enhance the effect of strength training on muscle strength in adults over 55. The benefit was shown with 3 g a day, alongside training at least three times a week.",
+          "The key word is training. Creatine on its own, without exercise, isn't going to build muscle. You may also read about benefits for the brain and memory; that research is early and not yet strong enough to rely on."
+        ]
+      },
+      {
+        "heading": "Does Creatine Damage Your Kidneys?",
+        "paragraphs": [
+          "This is the biggest worry, and the evidence is reassuring for healthy people. A 2023 review of randomised controlled trials concluded that creatine does not harm the kidneys in healthy people, and a 2025 review agreed.",
+          "The confusion comes from a blood test. Your kidneys clear a waste product called creatinine, and doctors use its level to estimate kidney function. Creatine can raise creatinine a little without any kidney damage, which can make a routine blood test look worse than it is. Tell your GP you take creatine before a kidney test so the result is read correctly.",
+          "If you already have kidney disease, the researchers advise avoiding creatine, as there's too little evidence that it's safe for you."
+        ]
+      },
+      {
+        "heading": "Does Creatine Cause Hair Loss?",
+        "paragraphs": [
+          "The hair loss fear goes back to one small 2009 study in rugby players. After three weeks of creatine, their levels of DHT, a hormone linked to male pattern baldness, went up. But the study never measured hair, and nobody reported losing any.",
+          "In 2025, researchers tested it properly. 45 men who lifted weights took either 5 g of creatine or a dummy powder every day for 12 weeks; 38 finished the study. There was no difference in DHT or in any measure of hair growth or follicle health.",
+          "That trial was short and in younger men, so it can't rule out every possibility. But there is no good evidence that creatine makes you lose your hair."
+        ]
+      },
+      {
+        "heading": "Other Side Effects of Creatine",
+        "paragraphs": [
+          "Most people get no side effects at all. The ones that do turn up are usually minor:"
+        ],
+        "bullets": [
+          "Weight gain: a 'loading' dose of 20 g a day for 5 days can add 1 to 3 kg, mostly water stored in your muscles. It isn't fat.",
+          "Stomach upset: usually mild, and mainly with large single doses of more than 10 g. Sticking to 5 g or less at a time helps.",
+          "Cramps and dehydration: a 2025 review found no evidence that creatine causes them.",
+          "Contamination: the main risk comes from poor-quality products, not creatine itself. Buy from brands that use independent testing."
+        ]
+      },
+      {
+        "heading": "How Much Creatine Should You Take?",
+        "paragraphs": [
+          "Most men do well on 3 to 5 g a day, taken every day. The UK health claim for over-55s is based on 3 g a day. Timing doesn't matter much; taking it at the same time each day makes it easier to remember.",
+          "You don't need a loading phase. It's the main cause of the water weight and stomach upsets, and a steady daily dose is simpler.",
+          "Choose plain creatine monohydrate. It's the form used in almost all the research, and pricier versions haven't been shown to work better. Look for third-party testing, such as the Informed Sport mark."
+        ]
+      },
+      {
+        "heading": "Who Should Check With a GP First",
+        "paragraphs": [
+          "Creatine is low risk for most healthy men, but speak to a GP or pharmacist before you start if any of these apply:"
+        ],
+        "bullets": [
+          "Anyone with kidney disease or a history of kidney problems",
+          "Anyone with a long-term condition, such as diabetes or high blood pressure, or who takes regular medicines",
+          "Anyone due a blood test that checks kidney function",
+          "Anyone who isn't currently active: start with the training, and get any heart or joint worries checked first"
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "Stop taking creatine and speak to a pharmacist or GP if you feel unwell after starting it, or if a blood test shows a change in your kidney results.",
+          "Call 999 if you get chest pain, severe breathlessness or feel faint during exercise. These need checking straight away, whatever supplements you take."
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=creatine+monohydrate+informed+sport&tag=insightdigita-21",
+      "label": "Compare third-party tested creatine monohydrate on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
+  },
+  {
     "id": "signs-of-burnout-in-men",
     "publishOn": "2026-11-16",
     "title": "Signs of Burnout in Men: How to Spot Stress and Burnout, and How to Cope",
