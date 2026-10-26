@@ -130,13 +130,13 @@ export const ALL_ARTICLES: Article[] = [
       "Oxford Health NHS Foundation Trust: What happens when we sleep?, oxfordhealth.nhs.uk.",
       "Drinkaware: Alcohol and sleep, drinkaware.co.uk.",
       "Sleep Foundation: Stages of sleep, sleepfoundation.org/stages-of-sleep.",
-      "O'Byrne NA, Yuen F, Butt WZ, Liu PY. Sleep and circadian regulation of cortisol: a short review. Current Opinion in Endocrine and Metabolic Research, 2021."
+      "O'Byrne et al. Sleep and circadian regulation of cortisol: a short review. Current Opinion in Endocrine and Metabolic Research, 2021."
     ],
     "sections": [
       {
         "heading": "Why Do I Wake Up at 3am? The Short Answer",
         "paragraphs": [
-          "If you keep asking 'why do I wake up at 3am?', you're not alone. Waking in the early hours is one of the most common sleep complaints, and it's usually down to how sleep works plus something nudging you awake.",
+          "If you keep asking 'why do I wake up at 3am?', you're not alone. Waking in the early hours is very common, and it's usually down to how sleep works plus something nudging you awake.",
           "Sleep runs in cycles of about 90 minutes. At the end of each one you come close to waking. An NHS sleep guide says it's perfectly normal to wake several times a night, and most of the time you won't even notice.",
           "The difference at 3am is that most of your deep sleep is done. Deep sleep happens mostly in the first half of the night, so the second half is lighter. Levels of the stress hormone cortisol also start rising in the second half of the night, getting your body ready for the morning. So if something disturbs you, such as a full bladder, a noise or a worry, you're more likely to wake fully and lie there watching the clock."
         ]
