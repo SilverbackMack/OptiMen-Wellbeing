@@ -327,7 +327,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Other Side Effects of Creatine",
         "paragraphs": [
-          "Most people get no side effects at all. The ones that do turn up are usually minor:"
+          "Side effects are uncommon, and usually minor:"
         ],
         "bullets": [
           "Weight gain: a 'loading' dose of 20 g a day for 5 days can add 1 to 3 kg, mostly water stored in your muscles. It isn't fat.",
