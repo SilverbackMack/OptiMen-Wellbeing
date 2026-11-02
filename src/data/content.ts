@@ -179,7 +179,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Magnesium and Zinc: Only If Your Diet Falls Short",
         "paragraphs": [
-          "Zinc and magnesium often turn up in products sold for energy, sleep or 'testosterone support'. Most men get enough from a normal diet, and there's no benefit in taking more than you need.",
+          "Zinc and magnesium often turn up in products sold for energy, sleep or 'testosterone support'. The NHS says most people can get the nutrients they need from a varied diet, and there's no benefit in taking more than you need.",
           "The NHS figures are worth knowing before you buy:"
         ],
         "bullets": [
