@@ -91,6 +91,143 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "best-supplements-for-men-over-40",
+    "publishOn": "2026-11-26",
+    "title": "Best Supplements for Men Over 40: What's Worth Taking and What Isn't",
+    "metaTitle": "Best Supplements for Men Over 40: What's Worth It | OptiMen Wellbeing",
+    "metaDescription": "The best supplements for men over 40, based on UK evidence: what's worth taking, what's a waste of money, and when to check with a GP or pharmacist first.",
+    "summary": "Supplement shelves promise energy, muscle and a younger you. The truth is simpler: most men over 40 need far fewer pills than the adverts suggest. Here's what the evidence supports, what it doesn't, and how to buy safely.",
+    "pillar": "nutrition",
+    "pillarLabel": "Nutrition",
+    "readTime": "8 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Nutrition & Supplement Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "The NHS says most people can get the nutrients they need from a varied, balanced diet.",
+      "Vitamin D (10 micrograms a day from October to early March) is the one supplement most UK men should consider.",
+      "Creatine has good evidence for strength, but only alongside regular strength training.",
+      "Fish oil supplements show little or no effect on heart health in large reviews. Oily fish is the better bet.",
+      "Saw palmetto doesn't improve prostate symptoms in trials, and the UK food watchdog is reviewing the safety of ashwagandha."
+    ],
+    "protocolSteps": [
+      "Take 10 micrograms (400 IU) of vitamin D a day from October to early March, or all year if you rarely get outside or have dark skin.",
+      "Aim for at least 2 portions of fish a week, 1 of them oily, before reaching for fish oil capsules.",
+      "If you eat little or no animal food, make sure you get vitamin B12 from fortified foods or a supplement.",
+      "If you do strength training, consider 3 to 5 g of creatine monohydrate a day.",
+      "Check every label against NHS upper limits, and ask a pharmacist before taking anything new if you're on regular medicines.",
+      "See a GP about ongoing tiredness, low mood or low sex drive rather than trying to fix it with supplements."
+    ],
+    "references": [
+      "NHS: Do I need vitamin supplements? nhs.uk.",
+      "NHS: Vitamin D, nhs.uk.",
+      "NHS: Vitamins and minerals: B vitamins and folic acid, nhs.uk.",
+      "NHS: Vitamins and minerals: Others (zinc, magnesium), nhs.uk.",
+      "NHS: Fat: the facts, nhs.uk.",
+      "NHS: Herbal medicines, nhs.uk.",
+      "NHS: The 'male menopause', nhs.uk.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk.",
+      "Abdelhamid AS, Brown TJ, Brainard JS, et al. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease. Cochrane Database of Systematic Reviews, 2020.",
+      "Chilibeck PD, Kaviani M, Candow DG, Zello GA. Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. Open Access Journal of Sports Medicine, 2017;8:213-226.",
+      "Commission Implementing Regulation (EU) 2017/672 (as retained in UK law), authorised health claim for creatine and muscle strength in adults over 55, legislation.gov.uk.",
+      "Franco JV, Trivisonno L, Sgarbossa NJ, et al. Serenoa repens for the treatment of lower urinary tract symptoms due to benign prostatic enlargement. Cochrane Database of Systematic Reviews, 2023;(6):CD001423.",
+      "Food Standards Agency: Call for evidence on ashwagandha, food.gov.uk; and Summary of responses to call for evidence on ashwagandha, gov.uk, June 2026."
+    ],
+    "sections": [
+      {
+        "heading": "Best Supplements for Men Over 40: The Short Answer",
+        "paragraphs": [
+          "What are the best supplements for men over 40? For most men, the honest answer is: fewer than you think. The NHS says most people should get all the nutrients they need from a varied and balanced diet, although some people need extra.",
+          "There is one supplement almost every man in the UK should consider, and that's vitamin D in autumn and winter. A few others make sense for particular situations, such as creatine if you lift weights or vitamin B12 if you eat little or no animal food. Several of the most heavily advertised supplements have weak or no evidence behind them.",
+          "Supplements can't make up for poor sleep, no exercise or a diet built on takeaways. Get those right first, then use supplements to fill specific gaps."
+        ]
+      },
+      {
+        "heading": "Vitamin D: The One Most UK Men Should Take",
+        "paragraphs": [
+          "Your skin makes vitamin D from sunlight, but in the UK, between October and early March, we don't make enough. Vitamin D helps keep your bones, teeth and muscles healthy.",
+          "The NHS advises everyone to consider a daily supplement of 10 micrograms (400 IU) during autumn and winter. You should take it all year round if you rarely go outdoors, usually cover most of your skin when you're outside, or have dark skin, for example if you have an African, African-Caribbean or South Asian background.",
+          "More isn't better. Don't take more than 100 micrograms (4,000 IU) a day. Taking too much for a long time can cause calcium to build up in the body, which can weaken bones and damage the kidneys and heart. If a doctor has prescribed a different dose, follow their advice."
+        ]
+      },
+      {
+        "heading": "Creatine: Worth It If You Do Strength Training",
+        "paragraphs": [
+          "From middle age, men slowly lose muscle and strength. Strength training is the main way to fight that, and the NHS recommends strengthening activities on at least 2 days a week.",
+          "Creatine can make that training work a little better. A 2017 analysis of 22 trials in older adults found that people who took creatine while strength training gained about 1.4 kg more lean mass than those who trained without it, and got stronger too. UK law allows a health claim that daily creatine can enhance the effect of strength training on muscle strength in adults over 55, based on 3 g a day.",
+          "The catch is the training. Creatine alone won't build muscle. If you have kidney disease or take regular medicines, check with a GP or pharmacist first. Our guide 'Is Creatine Safe?' covers the kidney and hair loss myths in detail."
+        ]
+      },
+      {
+        "heading": "Omega-3 and Fish Oil: Food First",
+        "paragraphs": [
+          "Omega-3 fats are found in oily fish such as salmon, mackerel, sardines, herring, trout and kippers. The NHS recommends at least 2 portions of fish a week, with 1 of them oily.",
+          "Fish oil capsules are a different story. A large Cochrane review in 2020 looked at 79 trials with more than 112,000 people. It found that taking extra omega-3 fats had little or no effect on deaths, heart attacks or other heart and circulation problems.",
+          "So if heart health is your goal, eat the fish rather than relying on capsules. If you don't eat fish and choose to take a supplement, don't expect it to protect your heart, and check with a pharmacist if you take regular medicines."
+        ]
+      },
+      {
+        "heading": "Vitamin B12: Important If You Eat Little or No Animal Food",
+        "paragraphs": [
+          "Adults need about 1.5 micrograms of vitamin B12 a day. It comes from meat, fish, milk, cheese, eggs and some fortified breakfast cereals.",
+          "Because B12 isn't found naturally in fruit, vegetables or grains, the NHS warns that vegans may not get enough. If you've cut right back on animal foods, use fortified foods or a supplement. Taking 2 mg or less a day from supplements is unlikely to cause harm."
+        ]
+      },
+      {
+        "heading": "Magnesium and Zinc: Only If Your Diet Falls Short",
+        "paragraphs": [
+          "Zinc and magnesium often turn up in products sold for energy, sleep or 'testosterone support'. Most men get enough from a normal diet, and there's no benefit in taking more than you need.",
+          "The NHS figures are worth knowing before you buy:"
+        ],
+        "bullets": [
+          "Zinc: men need about 9.5 mg a day. Don't take more than 25 mg a day from supplements unless a doctor advises it.",
+          "Magnesium: men need about 300 mg a day. Up to 400 mg a day from supplements is unlikely to cause harm, but more can cause diarrhoea.",
+          "Check the total across every product you take. Stacking a multivitamin, a zinc tablet and a 'men's formula' can push you over the limits without realising."
+        ]
+      },
+      {
+        "heading": "Supplements That Aren't Worth Your Money",
+        "paragraphs": [
+          "Some of the most popular supplements for men over 40 have little evidence behind them, or raise safety questions:"
+        ],
+        "bullets": [
+          "Saw palmetto for the prostate: a 2023 Cochrane review of 27 trials with 4,656 men found it didn't improve urinary symptoms or quality of life, even after more than a year. If you're getting up at night to wee, see our guide to enlarged prostate symptoms and speak to a GP.",
+          "Ashwagandha: the Food Standards Agency says there are potential health risks, with reports linking it to thyroid and possible liver problems, and no safe level set in the UK. An independent safety review is under way. Until it reports, we'd avoid it.",
+          "'Testosterone boosters': low testosterone can only be confirmed with a blood test. Tiredness, low mood and low sex drive have many causes, including poor sleep, stress and heavy drinking, so get checked rather than guessing.",
+          "Multivitamins: the NHS says most people can get what they need from a varied, balanced diet, so if you eat well you probably don't need one. They're no substitute for good food."
+        ]
+      },
+      {
+        "heading": "How to Buy Supplements Safely",
+        "paragraphs": [
+          "Natural doesn't always mean safe. Some herbal products don't mix with common medicines such as statins or warfarin, and can stop them working properly or cause harm."
+        ],
+        "bullets": [
+          "Ask a pharmacist before taking any new supplement if you take regular medicines.",
+          "For herbal products, look for the THR (traditional herbal registration) mark, which shows the product meets UK safety standards.",
+          "For sports supplements like creatine, choose brands that use independent testing, such as the Informed Sport mark.",
+          "Be wary of products bought from unknown websites, and of any label that promises to cure or treat a condition.",
+          "Tell your GP what supplements you take, especially before blood tests or surgery."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "Supplements shouldn't be used to self-treat symptoms that need checking. See a GP if you have ongoing tiredness, low mood, a loss of sex drive, erection problems, muscle loss or poor concentration. These can be signs of low testosterone, but more often they're linked to sleep, stress, alcohol or another health condition, and a GP can arrange the right tests.",
+          "Stop taking a supplement and speak to a pharmacist, or call NHS 111, if you feel unwell after starting it. Call 999 if you have chest pain, severe breathlessness or feel faint."
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=vitamin+d3+10+micrograms&tag=insightdigita-21",
+      "label": "Compare 10 microgram vitamin D supplements on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
+  },
+  {
     "id": "why-do-i-wake-up-at-3am",
     "publishOn": "2026-11-19",
     "title": "Why Do I Wake Up at 3am? Common Causes and How to Fix It",
@@ -1479,33 +1616,120 @@ export const ALL_ARTICLES: Article[] = [
     featured: true
   },
   {
-    id: 'deep-sleep-testosterone-link',
-    title: 'How Slow-Wave Deep Sleep Powers Peak Testosterone Synthesis',
-    summary: 'Up to 80% of daily testosterone is secreted during nocturnal deep sleep cycles. Here is how fragmented sleep quietly sabotages energy, libido, and focus.',
-    pillar: 'sleep',
-    pillarLabel: 'Sleep',
-    readTime: '5 min read',
-    publishedDate: 'September 2026',
-    author: {
-      name: 'OptiMen Sleep & Recovery Desk',
-      credentials: 'Circadian Biology Review',
-      role: 'Evidence Review Team'
+    "id": "deep-sleep-testosterone-link",
+    "title": "Does Sleep Affect Testosterone? What the Research Says",
+    "metaTitle": "Does Sleep Affect Testosterone? What the Research Says | OptiMen Wellbeing",
+    "metaDescription": "Does sleep affect testosterone? What studies show about short sleep, sleep apnoea and men's hormones, and NHS-backed ways to sleep better tonight.",
+    "summary": "Short sleep can lower testosterone, and untreated sleep apnoea is linked to lower levels too. Here's what the research actually shows, how much sleep men need, and simple ways to get more of it.",
+    "pillar": "sleep",
+    "pillarLabel": "Sleep",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Sleep & Recovery Synthesis",
+      "role": "Evidence Review Team"
     },
-    keyTakeaways: [
-      'Restricting sleep to 5 hours nightly drops male testosterone levels by 10–15% in just one week.',
-      'REM sleep consolidation supports emotional regulation and executive decision making.',
-      'Evening alcohol intake eliminates rapid-eye-movement cycles and fragments the second half of the night.'
+    "keyTakeaways": [
+      "Yes, sleep affects testosterone: in lab studies, cutting sleep has consistently lowered men's testosterone.",
+      "In one study, a week of sleeping under 5 hours a night lowered testosterone by 10 to 15% in healthy young men.",
+      "Adults need 7 to 9 hours of sleep a night on average, according to the NHS.",
+      "Sleep apnoea, which is more common in middle-aged and overweight men, is linked to lower testosterone.",
+      "Tiredness, low sex drive and poor concentration have many causes. A GP can check your sleep and your hormones."
     ],
-    protocolSteps: [
-      'Anchor wake-up time within a 30-minute window 7 days a week to stabilize your suprachiasmatic nucleus.',
-      'Cut caffeine intake at least 9–10 hours before planned sleep.',
-      'Lower room temperature to 66°F (19°C); core body cooling is a mandatory biological cue for deep sleep entry.'
+    "protocolSteps": [
+      "Aim for 7 to 9 hours of sleep a night, going to bed and getting up at the same time every day.",
+      "Avoid alcohol, tea, coffee and cigarettes for at least 6 hours before bed.",
+      "Wind down for an hour before bed, away from screens, in a dark, quiet bedroom.",
+      "Exercise during the day, but not within 4 hours of bedtime.",
+      "If you snore loudly, stop breathing in your sleep or feel exhausted every day, see a GP about sleep apnoea.",
+      "See a GP if poor sleep has lasted months, or if you have low sex drive, erection problems or low mood."
     ],
-    references: [
-      'Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA. 2011;305(21):2173–2174.',
-      'Walker MP. Why We Sleep: Unlocking the Power of Sleep and Dreams. Scribner, 2017.'
+    "references": [
+      "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA. 2011;305(21):2173-2174.",
+      "Liu PY, Reddy RT. Sleep, testosterone and cortisol balance, and ageing men. Reviews in Endocrine and Metabolic Disorders. 2022;23(6):1323-1339.",
+      "NHS: Insomnia, nhs.uk.",
+      "NHS: Sleep apnoea, nhs.uk.",
+      "NHS: The 'male menopause', nhs.uk.",
+      "South Tees Hospitals NHS Foundation Trust: Obstructive sleep apnoea, southtees.nhs.uk."
     ],
-    featured: true
+    "featured": true,
+    "sections": [
+      {
+        "heading": "Does Sleep Affect Testosterone? The Short Answer",
+        "paragraphs": [
+          "Does sleep affect testosterone? Yes. When researchers cut men's sleep in the lab, their testosterone falls. A 2022 review of the research found that every lab study of sleep restriction it looked at showed a drop in testosterone.",
+          "That doesn't mean one bad night will wreck your hormones. The concern is weeks and months of short or broken sleep, often alongside stress, alcohol and weight gain. The good news is that sleep is one of the easiest things to improve, and it helps far more than your hormones."
+        ]
+      },
+      {
+        "heading": "What Happens to Testosterone When You Sleep Less",
+        "paragraphs": [
+          "The best-known study comes from the University of Chicago in 2011. Ten healthy men, average age 24, spent 3 nights sleeping up to 10 hours, then 8 nights sleeping under 5 hours, all in a sleep lab. After a week of short sleep, their daytime testosterone was 10 to 15% lower. Levels were lowest in the afternoon and evening.",
+          "To put that in context, testosterone usually falls by about 1 to 2% a year as men age. The researchers said the drop from short sleep was similar to ageing 10 to 15 years.",
+          "Later research found the same pattern in older men. In a study comparing men in their 20s with men in their 60s, one night without sleep lowered testosterone over the following 24 hours in both groups. Interestingly, only the older men also saw a change in the pattern of how testosterone was released, which hints that age may change how the body responds to lost sleep.",
+          "These studies were small and done in labs, so they can't tell us exactly what happens to every man at home. But the direction is consistent: less sleep, less testosterone."
+        ]
+      },
+      {
+        "heading": "Why Sleep Matters for Your Hormones",
+        "paragraphs": [
+          "Your body releases many hormones on a daily rhythm that's tied to sleep. Deep sleep, also called slow-wave sleep, is the most hormonally active stage, and most of it happens in the first half of the night.",
+          "Scientists still don't fully understand what drives testosterone's daily pattern, or exactly which part of sleep matters most. You may see claims online that a precise percentage of your testosterone is made during deep sleep. We couldn't find good evidence for a specific figure, so we'd treat those with caution."
+        ]
+      },
+      {
+        "heading": "How Much Sleep Do Men Need?",
+        "paragraphs": [
+          "The NHS says adults need 7 to 9 hours of sleep a night on average. Needs vary, but if you feel tired during the day most days, you're probably not getting enough.",
+          "Testosterone naturally falls by about 1% a year from around age 30 to 40, which the NHS says is unlikely to cause problems on its own. It also lists lack of sleep, along with poor diet, lack of exercise, heavy drinking and smoking, as lifestyle factors that can cause symptoms men often blame on 'low T'."
+        ]
+      },
+      {
+        "heading": "Sleep Apnoea: The Hidden Link",
+        "paragraphs": [
+          "Obstructive sleep apnoea is when your airway narrows or closes as you sleep, so your breathing stops and starts. It's more common in middle age, affects men more than women, and is most often linked to being overweight.",
+          "Sleep apnoea is linked to lower testosterone. A review of 18 studies with more than 1,800 men found the link held even after allowing for age and weight, although lower levels were mainly seen in severe sleep apnoea. Whether treating it with a CPAP machine raises testosterone is still unclear.",
+          "What is clear is that sleep apnoea can be serious if it isn't diagnosed and treated. Signs include:"
+        ],
+        "bullets": [
+          "Loud snoring, with pauses in your breathing that a partner may notice",
+          "Gasping, snorting or choking noises in your sleep",
+          "Waking up a lot, or needing to wee often in the night",
+          "Feeling very tired during the day, poor concentration and mood swings",
+          "Headaches when you wake up, and sexual difficulties"
+        ]
+      },
+      {
+        "heading": "How to Sleep Better: NHS-Backed Steps",
+        "paragraphs": [
+          "You don't need gadgets or supplements to sleep better. These steps, based on NHS advice, are where to start:"
+        ],
+        "bullets": [
+          "Go to bed and get up at the same time every day, including weekends",
+          "Wind down for at least an hour before bed, for example reading or having a bath",
+          "Keep your bedroom dark and quiet. Thick curtains, an eye mask or earplugs can help",
+          "Exercise during the day, but not within 4 hours of bedtime",
+          "Avoid alcohol, tea, coffee and smoking for at least 6 hours before bed",
+          "Avoid big meals late at night and daytime naps",
+          "Put your phone and the TV away before bed",
+          "If you've had a bad night, stick to your usual routine the next day rather than sleeping in"
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "See a GP if changing your sleep habits hasn't helped, if you've had trouble sleeping for months, or if poor sleep is making it hard to cope with daily life. The NHS offers treatments such as cognitive behavioural therapy (CBT) for insomnia, including online programmes.",
+          "Book an appointment if you have signs of sleep apnoea, especially if a partner has noticed you stop breathing in your sleep. Take them with you if you can. If you're diagnosed and your sleepiness is excessive, you may need to tell the DVLA, and you mustn't drive until it's under control.",
+          "Also see a GP if you have a low sex drive, erection problems, low mood or constant tiredness. A blood test can check your testosterone, and your GP will look at other causes too. Never drive or use machinery if you feel very sleepy."
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=blackout+sleep+mask&tag=insightdigita-21",
+      "label": "Compare blackout sleep masks on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
   },
   {
     id: 'protein-distribution-muscle-longevity',
