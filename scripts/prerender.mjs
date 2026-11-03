@@ -27,10 +27,10 @@ try {
   const wrap = 'style="max-width:760px;margin:0 auto;padding:48px 16px;font-family:sans-serif;line-height:1.6;color:#0F172A"';
   const nav = `<nav><a href="/">Home</a> · <a href="/health">Men's Health</a> · <a href="/fitness">Fitness</a> · <a href="/nutrition">Nutrition</a> · <a href="/sleep">Sleep</a> · <a href="/mindset">Mindset</a> · <a href="/reviews">Reviews</a> · <a href="/about">About</a> · <a href="/contact">Contact</a></nav>`;
   const list = (items = []) => (items.length ? `<ul>${items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>` : '');
-  const sections = (secs = []) =>
-    secs.map((s) => `<h2>${esc(s.heading)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}${list(s.bullets)}`).join('');
   const sponsoredLink = (url, label) =>
     `<p><a href="${esc(url)}" rel="sponsored noopener noreferrer" target="_blank">${esc(label)}</a> (affiliate link)</p>`;
+  const sections = (secs = []) =>
+    secs.map((s) => `<h2>${esc(s.heading)}</h2>${s.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}${list(s.bullets)}${s.cta ? sponsoredLink(s.cta.url, s.cta.label) : ''}`).join('');
 
   const pages = [];
   const add = (urlPath, title, description, body, jsonLd) => pages.push({ urlPath, title, description, body, jsonLd });

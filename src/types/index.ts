@@ -51,6 +51,7 @@ export interface Article {
     heading: string;
     paragraphs: string[];
     bullets?: string[];
+    cta?: { url: string; label: string }; // optional affiliate button under this section
   }[];
 }
 
