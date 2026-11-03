@@ -58,10 +58,10 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPop);
   }, []);
 
-  // Scroll to top on page change
+  // Scroll to top on page change, and when a review page opens or closes
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [currentPage]);
+  }, [currentPage, selectedReview]);
 
   // Page title and description for whatever is on screen
   useEffect(() => {
@@ -114,7 +114,15 @@ export default function App() {
 
       {/* Main View Router */}
       <main className="flex-1">
-        {currentPage === 'home' && (
+        {selectedReview && (
+          <ReviewModal
+            asPage
+            review={selectedReview}
+            onClose={() => setSelectedReview(null)}
+          />
+        )}
+
+        {!selectedReview && currentPage === 'home' && (
           <HomeView
             onNavigate={handleNavigate}
             onOpenAssessment={() => setIsAssessmentOpen(true)}
@@ -123,14 +131,14 @@ export default function App() {
           />
         )}
 
-        {currentPage === 'about' && (
+        {!selectedReview && currentPage === 'about' && (
           <AboutView
             onNavigate={handleNavigate}
             onOpenAssessment={() => setIsAssessmentOpen(true)}
           />
         )}
 
-        {(currentPage === 'health' ||
+        {!selectedReview && (currentPage === 'health' ||
           currentPage === 'fitness' ||
           currentPage === 'nutrition' ||
           currentPage === 'sleep' ||
@@ -144,14 +152,14 @@ export default function App() {
           />
         )}
 
-        {currentPage === 'reviews' && (
+        {!selectedReview && currentPage === 'reviews' && (
           <ReviewsView
             onSelectReview={(review) => setSelectedReview(review)}
             onNavigate={handleNavigate}
           />
         )}
 
-        {currentPage === 'contact' && (
+        {!selectedReview && currentPage === 'contact' && (
           <ContactView />
         )}
       </main>
@@ -166,11 +174,6 @@ export default function App() {
       <ArticleModal
         article={selectedArticle}
         onClose={() => setSelectedArticle(null)}
-      />
-
-      <ReviewModal
-        review={selectedReview}
-        onClose={() => setSelectedReview(null)}
       />
 
       <AssessmentQuizModal

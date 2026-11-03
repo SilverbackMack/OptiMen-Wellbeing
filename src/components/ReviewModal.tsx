@@ -5,31 +5,51 @@ import { X, Check, AlertCircle, Award, CheckCircle2, ShieldCheck, ExternalLink }
 interface ReviewModalProps {
   review: ProductReview | null;
   onClose: () => void;
+  asPage?: boolean; // render as a full page instead of a pop-up window
 }
 
-export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => {
+export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPage = false }) => {
   if (!review) return null;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150">
-      <div 
-        className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 relative text-left"
+    <div
+      className={
+        asPage
+          ? 'bg-slate-50 py-8 sm:py-12 px-4 sm:px-6'
+          : 'fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150'
+      }
+    >
+      <div
+        className={
+          asPage
+            ? 'bg-white rounded-2xl max-w-3xl mx-auto w-full shadow-sm border border-slate-200 relative text-left'
+            : 'bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 relative text-left'
+        }
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header bar */}
-        <div className="sticky top-0 bg-white/95 backdrop-blur-md px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10">
+        <div className={`${asPage ? 'rounded-t-2xl' : 'sticky top-0'} bg-white/95 backdrop-blur-md px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10`}>
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
             <span>Independent Lab & Field Assessment</span>
             <span aria-hidden="true">&middot;</span>
             <span className="text-[#166534] font-bold">Grade {review.evidenceGrade}</span>
           </div>
-          <button
-            onClick={onClose}
-            className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors cursor-pointer"
-            aria-label="Close review modal"
-          >
-            <X className="w-5 h-5" />
-          </button>
+          {asPage ? (
+            <button
+              onClick={onClose}
+              className="text-xs font-semibold text-[#166534] hover:text-emerald-800 transition-colors cursor-pointer"
+            >
+              &larr; Back
+            </button>
+          ) : (
+            <button
+              onClick={onClose}
+              className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors cursor-pointer"
+              aria-label="Close review modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          )}
         </div>
 
         {/* Content */}
@@ -200,7 +220,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
               onClick={onClose}
               className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-slate-700 bg-white hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors cursor-pointer"
             >
-              Done
+              {asPage ? 'Back' : 'Done'}
             </button>
           </div>
         </div>
