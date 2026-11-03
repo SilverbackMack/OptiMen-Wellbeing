@@ -92,7 +92,7 @@ export const PILLARS: Record<string, PillarInfo> = {
 export const ALL_ARTICLES: Article[] = [
   {
     "id": "sauna-benefits-for-men",
-    "publishOn": "2026-11-12",
+    "publishOn": "2026-11-03",
     "title": "Sauna Benefits for Men: What Regular Sauna Use Really Does",
     "metaTitle": "Sauna Benefits for Men: What the Research Says | OptiMen Wellbeing",
     "metaDescription": "Sauna benefits for men explained: what research shows for heart health, blood pressure and the brain, the myths, safety tips and who should check first.",
@@ -102,9 +102,9 @@ export const ALL_ARTICLES: Article[] = [
     "readTime": "8 min read",
     "publishedDate": "November 2026",
     "author": {
-      "name": "OptiMen Health Research Desk",
+      "name": "Evidence Review Team",
       "credentials": "Heat Therapy & Cardiovascular Synthesis",
-      "role": "Evidence Review Team"
+      "role": "OptiMen Wellbeing"
     },
     "keyTakeaways": [
       "In a 20-year Finnish study of 2,315 middle-aged men, those who used a sauna 4 to 7 times a week had a much lower risk of sudden cardiac death than those who went once a week.",
@@ -234,7 +234,7 @@ export const ALL_ARTICLES: Article[] = [
   },
   {
     "id": "best-home-sauna-options-uk",
-    "publishOn": "2026-11-12",
+    "publishOn": "2026-11-03",
     "title": "Best Home Sauna Options: Tents, Blankets, Cabins and Barrel Saunas Compared",
     "metaTitle": "Best Home Sauna Options in the UK Compared | OptiMen Wellbeing",
     "metaDescription": "Thinking about a home sauna? We compare steam tents, infrared tents, sauna blankets, indoor cabins and outdoor barrel saunas, with pros, cons and safety tips.",
@@ -244,9 +244,9 @@ export const ALL_ARTICLES: Article[] = [
     "readTime": "8 min read",
     "publishedDate": "November 2026",
     "author": {
-      "name": "OptiMen Health Research Desk",
+      "name": "Evidence Review Team",
       "credentials": "Heat Therapy & Cardiovascular Synthesis",
-      "role": "Evidence Review Team"
+      "role": "OptiMen Wellbeing"
     },
     "keyTakeaways": [
       "The best home sauna depends on your space, your budget and how close you want to get to a traditional sauna.",
