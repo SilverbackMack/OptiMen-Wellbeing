@@ -60,7 +60,7 @@ export interface ProductReview {
   name: string;
   brand: string;
   category: 'Wearables' | 'Sleep Tech' | 'Supplements' | 'Recovery' | 'Diagnostics';
-  overallScore: number; // out of 10
+  overallScore?: number; // out of 10; omitted for multi-product comparisons
   priceRange: string;
   verdict: string;
   whoItIsFor: string;
@@ -76,6 +76,7 @@ export interface ProductReview {
     heading: string;
     paragraphs: string[];
     bullets?: string[];
+    cta?: { url: string; label: string }; // optional affiliate button under this section
   }[];
 }
 

@@ -229,7 +229,7 @@ export const PillarView: React.FC<PillarViewProps> = ({
                     <div className="flex items-center justify-between text-xs">
                       <span className="font-bold text-slate-500 uppercase">{rev.brand}</span>
                       <span className="font-bold text-[#166534] bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-                        Score: {rev.overallScore}/10
+                        {rev.overallScore != null ? `Score: ${rev.overallScore}/10` : 'Comparison'}
                       </span>
                     </div>
 

@@ -415,12 +415,16 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 </div>
 
                 <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-1.5">
-                    <span className="text-xl font-black text-[#0F172A] tabular-nums">
-                      {rev.overallScore}
-                    </span>
-                    <span className="text-[10px] text-slate-400 font-bold uppercase">/ 10</span>
-                  </div>
+                  {rev.overallScore != null ? (
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-xl font-black text-[#0F172A] tabular-nums">
+                        {rev.overallScore}
+                      </span>
+                      <span className="text-[10px] text-slate-400 font-bold uppercase">/ 10</span>
+                    </div>
+                  ) : (
+                    <span className="text-[10px] text-slate-500 font-bold uppercase">Comparison</span>
+                  )}
 
                   <div className="flex items-center gap-2">
                     {rev.affiliateUrl && (

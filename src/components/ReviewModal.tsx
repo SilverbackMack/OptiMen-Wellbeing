@@ -49,6 +49,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
               </div>
             </div>
 
+            {review.overallScore != null && (
             <div className="text-right shrink-0">
               <div className="inline-flex flex-col items-center justify-center bg-slate-50 border border-slate-200 px-4 py-2 rounded-xl">
                 <span className="text-2xl font-black text-[#0F172A] tabular-nums">
@@ -59,6 +60,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
                 </span>
               </div>
             </div>
+            )}
           </div>
 
           {/* Verdict Box */}
@@ -154,6 +156,17 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose }) => 
                         </li>
                       ))}
                     </ul>
+                  )}
+                  {section.cta && (
+                    <a
+                      href={section.cta.url}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="px-4 py-2.5 text-sm font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
+                    >
+                      <span>{section.cta.label}</span>
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
                   )}
                 </div>
               ))}

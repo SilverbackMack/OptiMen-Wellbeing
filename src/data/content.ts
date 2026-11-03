@@ -102,9 +102,9 @@ export const ALL_ARTICLES: Article[] = [
     "readTime": "8 min read",
     "publishedDate": "November 2026",
     "author": {
-      "name": "Evidence Review Team",
+      "name": "OptiMen Health Research Desk",
       "credentials": "Heat Therapy & Cardiovascular Synthesis",
-      "role": "OptiMen Wellbeing"
+      "role": "Evidence Review Team"
     },
     "keyTakeaways": [
       "In a 20-year Finnish study of 2,315 middle-aged men, those who used a sauna 4 to 7 times a week had a much lower risk of sudden cardiac death than those who went once a week.",
@@ -181,7 +181,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "A traditional Finnish sauna heats the air to around 80 to 100°C with low humidity, and sessions usually last 5 to 20 minutes. An infrared sauna warms your body more directly; most infrared studies used about 60°C for 15 to 30 minutes.",
           "Nearly all the long-term evidence for heart health, blood pressure and dementia comes from traditional saunas. Infrared saunas have been studied mostly in small trials, including in people with heart failure, where results were encouraging. A 2018 review of 40 studies concluded that sauna use looks promising, but found that most studies were small and it couldn't tell whether infrared and traditional saunas have different effects.",
-          "If you're weighing up a home sauna, our guide to home sauna options compares tents, blankets, cabins and barrel saunas."
+          "If you're weighing up a home sauna, our home sauna review in the Reviews section compares tents, blankets, cabins and barrel saunas."
         ]
       },
       {
@@ -229,168 +229,6 @@ export const ALL_ARTICLES: Article[] = [
     "affiliateCta": {
       "url": "https://www.amazon.co.uk/s?k=home+sauna&tag=insightdigita-21",
       "label": "Compare home saunas on Amazon UK",
-      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
-    }
-  },
-  {
-    "id": "best-home-sauna-options-uk",
-    "publishOn": "2026-11-03",
-    "title": "Best Home Sauna Options: Tents, Blankets, Cabins and Barrel Saunas Compared",
-    "metaTitle": "Best Home Sauna Options in the UK Compared | OptiMen Wellbeing",
-    "metaDescription": "Thinking about a home sauna? We compare steam tents, infrared tents, sauna blankets, indoor cabins and outdoor barrel saunas, with pros, cons and safety tips.",
-    "summary": "From fold-away steam tents to outdoor barrel saunas, there's a home sauna for most spaces and budgets. Here's how each type works, who it suits, and what to check before you buy.",
-    "pillar": "health",
-    "pillarLabel": "Men's Health",
-    "readTime": "8 min read",
-    "publishedDate": "November 2026",
-    "author": {
-      "name": "Evidence Review Team",
-      "credentials": "Heat Therapy & Cardiovascular Synthesis",
-      "role": "OptiMen Wellbeing"
-    },
-    "keyTakeaways": [
-      "The best home sauna depends on your space, your budget and how close you want to get to a traditional sauna.",
-      "Most of the health research used traditional Finnish saunas. Outdoor barrel and cabin saunas come closest to that.",
-      "Steam tents and infrared tents are the cheapest way to try sauna at home, but are less like the real thing.",
-      "Infrared sauna blankets take up the least space but are the furthest from a traditional sauna, and you can't easily cool off.",
-      "Buy from reputable sellers, check for UKCA or CE marking, and use a qualified electrician for anything that needs wiring in."
-    ],
-    "protocolSteps": [
-      "Measure your space and check your electrics before you choose a type.",
-      "Decide what matters most: price, portability, or getting as close as possible to a traditional sauna.",
-      "Check for UKCA or CE marking, clear instructions and a UK plug, and read the safety warnings before first use.",
-      "Use a qualified electrician for any sauna that needs a dedicated circuit or hardwiring.",
-      "Start with short sessions of 5 to 10 minutes, never use a sauna after alcohol, and keep water nearby.",
-      "Check with your GP first if you have a heart condition, high blood pressure or take regular medicines."
-    ],
-    "references": [
-      "Laukkanen JA, Laukkanen T, Kunutsor SK. Cardiovascular and other health benefits of sauna bathing: a review of the evidence. Mayo Clinic Proceedings. 2018;93(8):1111-1121.",
-      "Hussain J, Cohen M. Clinical effects of regular dry sauna bathing: a systematic review. Evidence-Based Complementary and Alternative Medicine. 2018:1857413.",
-      "Laukkanen T, Khan H, Zaccardi F, Laukkanen JA. Association between sauna bathing and fatal cardiovascular and all-cause mortality events. JAMA Internal Medicine. 2015;175(4):542-548.",
-      "Electrical Safety First: Steam sauna (model TW-SG18) safety notice, January 2023, electricalsafetyfirst.org.uk.",
-      "Harvard Health Publishing: Sauna health benefits: are saunas healthy or harmful? health.harvard.edu.",
-      "NHS: Heat exhaustion and heatstroke, nhs.uk."
-    ],
-    "sections": [
-      {
-        "heading": "Which Home Sauna Is Best? The Short Answer",
-        "paragraphs": [
-          "The best home sauna is the one that fits your space, your budget and how you'll actually use it. If you want something as close as possible to the saunas used in the health research, an outdoor barrel or cabin sauna is the gold standard. If you're short on space or money, a fold-away tent is a cheap way to find out whether a sauna habit suits you.",
-          "Below we compare the five main types of home sauna, with the pros and cons of each. This guide contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you. It doesn't change what we recommend."
-        ]
-      },
-      {
-        "heading": "Before You Buy: What Matters Most",
-        "paragraphs": [
-          "Most of the long-term evidence for sauna benefits, including heart health and blood pressure, comes from traditional Finnish saunas. These heat the air to around 80 to 100°C with low humidity. Infrared saunas run cooler, with most studies using about 60°C, and have less research behind them. Our article on sauna benefits for men explains the evidence in more detail.",
-          "Whatever you choose, think about:"
-        ],
-        "bullets": [
-          "Space: a blanket or tent folds away, while a cabin or barrel sauna is a permanent fixture",
-          "Electrics: small units plug into a normal socket, but larger saunas may need their own circuit fitted by a qualified electrician",
-          "Safety: buy from a reputable seller and look for UKCA or CE marking, a UK plug and clear instructions. At least one portable steam sauna sold in the UK has been recalled over an electric shock risk",
-          "Heat type: steam, infrared or traditional dry heat all feel different. Dry heat is closest to the research"
-        ]
-      },
-      {
-        "heading": "1. Portable Steam Sauna Tents",
-        "paragraphs": [
-          "A steam sauna tent is a folding fabric box you sit inside, usually on a chair, often with your head poking out of the top. A separate steam generator sits outside and pumps hot steam in through a hose. It plugs into a normal socket and packs away into a bag.",
-          "Pros: the cheapest way to try sauna at home, quick to set up and easy to store. Cons: it's humid steam rather than the dry heat of a Finnish sauna, it usually doesn't get as hot as a proper sauna, and build quality varies a lot. The steam hose and the water in the generator get very hot, so keep the generator where it can't be knocked over.",
-          "Best for: trying out a sauna habit on a small budget."
-        ],
-        "cta": {
-          "url": "https://www.amazon.co.uk/s?k=portable+steam+sauna+tent&tag=insightdigita-21",
-          "label": "Compare portable steam sauna tents on Amazon UK"
-        }
-      },
-      {
-        "heading": "2. Infrared Sauna Tents and Pods",
-        "paragraphs": [
-          "These look similar to steam tents, but use infrared heating panels sewn into the walls instead of steam. Most are 'head out' designs with a folding chair, and many come with a foot pad and a remote control.",
-          "Pros: dry heat, no water to refill, portable, and often more comfortable than steam. Cons: the evidence for infrared saunas is weaker than for traditional saunas, heat can feel uneven, and cheaper models can feel flimsy.",
-          "Best for: men who want dry heat at home without giving up floor space for good."
-        ],
-        "cta": {
-          "url": "https://www.amazon.co.uk/s?k=portable+infrared+sauna+tent&tag=insightdigita-21",
-          "label": "Compare infrared sauna tents on Amazon UK"
-        }
-      },
-      {
-        "heading": "3. Infrared Sauna Blankets (Sleeping Bag Style)",
-        "paragraphs": [
-          "A sauna blanket is a zip-up, sleeping bag style wrap with heating elements inside. You lie in it on a bed, sofa or floor, usually with your head out, and it rolls up small enough to fit in a cupboard.",
-          "Pros: takes up the least space of any option and is easy to use. Cons: it's the furthest from a real sauna and has the least research behind it. You can't easily cool down or get out quickly, and you're lying in your own sweat, so most people wear loose cotton clothing or use a towel liner.",
-          "Safety matters most with blankets. Never fall asleep in one, never use one after alcohol, keep sessions short and keep your phone within reach.",
-          "Best for: small flats, or anyone who wants a low-effort way to relax with heat, as long as they don't expect the benefits seen in the Finnish research."
-        ],
-        "cta": {
-          "url": "https://www.amazon.co.uk/s?k=infrared+sauna+blanket&tag=insightdigita-21",
-          "label": "Compare infrared sauna blankets on Amazon UK"
-        }
-      },
-      {
-        "heading": "4. Indoor Infrared Sauna Cabins",
-        "paragraphs": [
-          "An indoor cabin is a small wooden room, usually for 1 or 2 people, with infrared panels built into the walls. You sit inside with the door closed, like a traditional sauna. Some plug into a standard socket, while larger models need wiring in.",
-          "Pros: the most comfortable and 'proper' feeling infrared option, sturdy, and you can sit back with your whole body in the heat. Cons: needs permanent floor space, takes time to assemble, costs much more than a tent, and you'll need to check the electrical requirements before you buy.",
-          "Best for: men with a spare room, garage corner or large bathroom who'll use a sauna several times a week."
-        ],
-        "cta": {
-          "url": "https://www.amazon.co.uk/s?k=indoor+infrared+sauna+cabin&tag=insightdigita-21",
-          "label": "Compare indoor infrared sauna cabins on Amazon UK"
-        }
-      },
-      {
-        "heading": "5. Outdoor Barrel and Traditional Saunas",
-        "paragraphs": [
-          "A barrel sauna is a round wooden sauna that sits in the garden, heated by an electric or wood-burning stove with sauna stones. Outdoor cabin saunas work the same way in a square shape. These can reach traditional sauna temperatures, and you can throw water on the stones for bursts of steam.",
-          "Pros: the closest thing to the Finnish saunas used in the research, room for friends or family, and a genuine retreat. Cons: the biggest cost and commitment by far. You'll need a level, solid base, time or help to assemble it, and usually a qualified electrician to connect an electric heater. Wood-burning stoves need safe siting and a proper flue. Check whether the heater, stones and controls are included in the price.",
-          "Best for: men with garden space who are serious about a long-term sauna habit."
-        ],
-        "cta": {
-          "url": "https://www.amazon.co.uk/s?k=outdoor+barrel+sauna&tag=insightdigita-21",
-          "label": "Compare outdoor barrel saunas on Amazon UK"
-        }
-      },
-      {
-        "heading": "Home Sauna Options at a Glance",
-        "paragraphs": [
-          "Here's how the five types compare, from cheapest and smallest to the biggest investment:"
-        ],
-        "bullets": [
-          "Steam tent: humid heat, folds away, lowest cost, least like a traditional sauna apart from blankets",
-          "Infrared tent: dry infrared heat, folds away, low cost, limited research",
-          "Infrared blanket: infrared heat lying down, smallest storage, low to mid cost, least research and hardest to cool off",
-          "Indoor infrared cabin: infrared heat in a wooden room, needs permanent space, mid to high cost",
-          "Outdoor barrel or cabin: traditional dry heat with steam, needs garden space and electrics, highest cost, closest to the research"
-        ]
-      },
-      {
-        "heading": "Home Sauna Safety Checklist",
-        "paragraphs": [
-          "A sauna at home means no staff keeping an eye on you, so build in your own safety habits:"
-        ],
-        "bullets": [
-          "Read the instructions and safety warnings before first use",
-          "Keep sessions to 15 to 20 minutes at most, starting with 5 to 10",
-          "Never use a sauna after drinking alcohol, and don't use one when you're ill",
-          "Drink water afterwards and cool down gradually",
-          "Tell someone at home when you're using it, and keep your phone nearby",
-          "Stop using any electrical sauna that sparks, smells of burning or has damaged cables, and check for product recalls"
-        ]
-      },
-      {
-        "heading": "When to See a GP",
-        "paragraphs": [
-          "Check with your GP before buying a sauna if you have a heart condition, high blood pressure that isn't controlled, low blood pressure that makes you dizzy, or take regular medicines. If you're trying for a baby, bear in mind that regular saunas can temporarily lower sperm count.",
-          "Get out and cool down if you feel dizzy, sick or have a headache. Call 999 if someone is still unwell after 30 minutes of cooling down, is confused, has hot skin that's stopped sweating, has a fit or loses consciousness. These can be signs of heatstroke. Call 999 straight away for chest pain."
-        ]
-      }
-    ],
-    "affiliateCta": {
-      "url": "https://www.amazon.co.uk/s?k=home+sauna&tag=insightdigita-21",
-      "label": "Browse all home saunas on Amazon UK",
       "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
     }
   },
@@ -2127,6 +1965,184 @@ const todayUK = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London' }).
 export const ARTICLES: Article[] = ALL_ARTICLES.filter((a) => !a.publishOn || a.publishOn <= todayUK);
 
 export const PRODUCT_REVIEWS: ProductReview[] = [
+  {
+    "id": "home-sauna-options-review",
+    "name": "Home Sauna Options: Tents, Blankets, Cabins and Barrels",
+    "brand": "Various",
+    "category": "Recovery",
+    "priceRange": "Varies widely by type",
+    "verdict": "Outdoor barrel and cabin saunas come closest to the Finnish saunas used in the health research, but cost the most. Steam and infrared tents are a cheap way to try sauna at home, and blankets save the most space but are the furthest from a real sauna. Open this review to compare all five types.",
+    "whoItIsFor": "Men thinking about a home sauna who want to know which type suits their space and budget. Check with your GP first if you have a heart condition or high blood pressure.",
+    "pros": [
+      "An option for almost every space and budget",
+      "Use it whenever you like, with no gym or spa membership",
+      "Outdoor barrel and cabin saunas match the traditional saunas used in the research",
+      "Tents and blankets fold away when you're not using them"
+    ],
+    "cons": [
+      "The cheapest types are the least like the saunas studied",
+      "Cabins and barrel saunas need space, assembly and often an electrician",
+      "Build quality varies a lot, so check for UKCA or CE marking",
+      "Infrared and blanket saunas have much less research behind them"
+    ],
+    "evidenceGrade": "B+",
+    "testedDuration": "N/A (desk review of research and sauna types, not hands-on tested)",
+    "specs": [
+      {
+        "label": "Types compared",
+        "value": "5: steam tent, infrared tent, infrared blanket, indoor infrared cabin, outdoor barrel or cabin"
+      },
+      {
+        "label": "Heat types",
+        "value": "Steam, infrared, traditional dry heat with steam"
+      },
+      {
+        "label": "Traditional sauna temperature",
+        "value": "Around 80 to 100°C"
+      },
+      {
+        "label": "Typical infrared study temperature",
+        "value": "About 60°C"
+      },
+      {
+        "label": "Safe session length",
+        "value": "15 to 20 minutes at most"
+      }
+    ],
+    "affiliateUrl": "https://www.amazon.co.uk/s?k=home+sauna&tag=insightdigita-21",
+    "affiliateNote": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.",
+    "sections": [
+      {
+        "heading": "Which Home Sauna Is Best? The Short Answer",
+        "paragraphs": [
+          "The best home sauna is the one that fits your space, your budget and how you'll actually use it. If you want something as close as possible to the saunas used in the health research, an outdoor barrel or cabin sauna is the gold standard. If you're short on space or money, a fold-away tent is a cheap way to find out whether a sauna habit suits you.",
+          "Below we compare the five main types of home sauna, with the pros and cons of each. This review contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you. It doesn't change what we recommend."
+        ]
+      },
+      {
+        "heading": "Before You Buy: What Matters Most",
+        "paragraphs": [
+          "Most of the long-term evidence for sauna benefits, including heart health and blood pressure, comes from traditional Finnish saunas. These heat the air to around 80 to 100°C with low humidity. Infrared saunas run cooler, with most studies using about 60°C, and have less research behind them. Our article on sauna benefits for men explains the evidence in more detail.",
+          "Whatever you choose, think about:"
+        ],
+        "bullets": [
+          "Space: a blanket or tent folds away, while a cabin or barrel sauna is a permanent fixture",
+          "Electrics: small units plug into a normal socket, but larger saunas may need their own circuit fitted by a qualified electrician",
+          "Safety: buy from a reputable seller and look for UKCA or CE marking, a UK plug and clear instructions. At least one portable steam sauna sold in the UK has been recalled over an electric shock risk",
+          "Heat type: steam, infrared or traditional dry heat all feel different. Dry heat is closest to the research"
+        ]
+      },
+      {
+        "heading": "1. Portable Steam Sauna Tents",
+        "paragraphs": [
+          "A steam sauna tent is a folding fabric box you sit inside, usually on a chair, often with your head poking out of the top. A separate steam generator sits outside and pumps hot steam in through a hose. It plugs into a normal socket and packs away into a bag.",
+          "Pros: the cheapest way to try sauna at home, quick to set up and easy to store. Cons: it's humid steam rather than the dry heat of a Finnish sauna, it usually doesn't get as hot as a proper sauna, and build quality varies a lot. The steam hose and the water in the generator get very hot, so keep the generator where it can't be knocked over.",
+          "Best for: trying out a sauna habit on a small budget."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=portable+steam+sauna+tent&tag=insightdigita-21",
+          "label": "Compare portable steam sauna tents on Amazon UK"
+        }
+      },
+      {
+        "heading": "2. Infrared Sauna Tents and Pods",
+        "paragraphs": [
+          "These look similar to steam tents, but use infrared heating panels sewn into the walls instead of steam. Most are 'head out' designs with a folding chair, and many come with a foot pad and a remote control.",
+          "Pros: dry heat, no water to refill, portable, and often more comfortable than steam. Cons: the evidence for infrared saunas is weaker than for traditional saunas, heat can feel uneven, and cheaper models can feel flimsy.",
+          "Best for: men who want dry heat at home without giving up floor space for good."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=portable+infrared+sauna+tent&tag=insightdigita-21",
+          "label": "Compare infrared sauna tents on Amazon UK"
+        }
+      },
+      {
+        "heading": "3. Infrared Sauna Blankets (Sleeping Bag Style)",
+        "paragraphs": [
+          "A sauna blanket is a zip-up, sleeping bag style wrap with heating elements inside. You lie in it on a bed, sofa or floor, usually with your head out, and it rolls up small enough to fit in a cupboard.",
+          "Pros: takes up the least space of any option and is easy to use. Cons: it's the furthest from a real sauna and has the least research behind it. You can't easily cool down or get out quickly, and you're lying in your own sweat, so most people wear loose cotton clothing or use a towel liner.",
+          "Safety matters most with blankets. Never fall asleep in one, never use one after alcohol, keep sessions short and keep your phone within reach.",
+          "Best for: small flats, or anyone who wants a low-effort way to relax with heat, as long as they don't expect the benefits seen in the Finnish research."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=infrared+sauna+blanket&tag=insightdigita-21",
+          "label": "Compare infrared sauna blankets on Amazon UK"
+        }
+      },
+      {
+        "heading": "4. Indoor Infrared Sauna Cabins",
+        "paragraphs": [
+          "An indoor cabin is a small wooden room, usually for 1 or 2 people, with infrared panels built into the walls. You sit inside with the door closed, like a traditional sauna. Some plug into a standard socket, while larger models need wiring in.",
+          "Pros: the most comfortable and 'proper' feeling infrared option, sturdy, and you can sit back with your whole body in the heat. Cons: needs permanent floor space, takes time to assemble, costs much more than a tent, and you'll need to check the electrical requirements before you buy.",
+          "Best for: men with a spare room, garage corner or large bathroom who'll use a sauna several times a week."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=indoor+infrared+sauna+cabin&tag=insightdigita-21",
+          "label": "Compare indoor infrared sauna cabins on Amazon UK"
+        }
+      },
+      {
+        "heading": "5. Outdoor Barrel and Traditional Saunas",
+        "paragraphs": [
+          "A barrel sauna is a round wooden sauna that sits in the garden, heated by an electric or wood-burning stove with sauna stones. Outdoor cabin saunas work the same way in a square shape. These can reach traditional sauna temperatures, and you can throw water on the stones for bursts of steam.",
+          "Pros: the closest thing to the Finnish saunas used in the research, room for friends or family, and a genuine retreat. Cons: the biggest cost and commitment by far. You'll need a level, solid base, time or help to assemble it, and usually a qualified electrician to connect an electric heater. Wood-burning stoves need safe siting and a proper flue. Check whether the heater, stones and controls are included in the price.",
+          "Best for: men with garden space who are serious about a long-term sauna habit."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=outdoor+barrel+sauna&tag=insightdigita-21",
+          "label": "Compare outdoor barrel saunas on Amazon UK"
+        }
+      },
+      {
+        "heading": "Home Sauna Options at a Glance",
+        "paragraphs": [
+          "Here's how the five types compare, from cheapest and smallest to the biggest investment:"
+        ],
+        "bullets": [
+          "Steam tent: humid heat, folds away, lowest cost, least like a traditional sauna apart from blankets",
+          "Infrared tent: dry infrared heat, folds away, low cost, limited research",
+          "Infrared blanket: infrared heat lying down, smallest storage, low to mid cost, least research and hardest to cool off",
+          "Indoor infrared cabin: infrared heat in a wooden room, needs permanent space, mid to high cost",
+          "Outdoor barrel or cabin: traditional dry heat with steam, needs garden space and electrics, highest cost, closest to the research"
+        ]
+      },
+      {
+        "heading": "Home Sauna Safety Checklist",
+        "paragraphs": [
+          "A sauna at home means no staff keeping an eye on you, so build in your own safety habits:"
+        ],
+        "bullets": [
+          "Read the instructions and safety warnings before first use",
+          "Keep sessions to 15 to 20 minutes at most, starting with 5 to 10",
+          "Never use a sauna after drinking alcohol, and don't use one when you're ill",
+          "Drink water afterwards and cool down gradually",
+          "Tell someone at home when you're using it, and keep your phone nearby",
+          "Stop using any electrical sauna that sparks, smells of burning or has damaged cables, and check for product recalls"
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "Check with your GP before buying a sauna if you have a heart condition, high blood pressure that isn't controlled, low blood pressure that makes you dizzy, or take regular medicines. If you're trying for a baby, bear in mind that regular saunas can temporarily lower sperm count.",
+          "Get out and cool down if you feel dizzy, sick or have a headache. Call 999 if someone is still unwell after 30 minutes of cooling down, is confused, has hot skin that's stopped sweating, has a fit or loses consciousness. These can be signs of heatstroke. Call 999 straight away for chest pain."
+        ]
+      },
+      {
+        "heading": "Sources",
+        "paragraphs": [
+          "This is a desk review of the published research and the main types of home sauna. We haven't tested individual products hands-on."
+        ],
+        "bullets": [
+          "Laukkanen JA, Laukkanen T, Kunutsor SK. Cardiovascular and other health benefits of sauna bathing: a review of the evidence. Mayo Clinic Proceedings. 2018;93(8):1111-1121.",
+          "Hussain J, Cohen M. Clinical effects of regular dry sauna bathing: a systematic review. Evidence-Based Complementary and Alternative Medicine. 2018:1857413.",
+          "Laukkanen T, Khan H, Zaccardi F, Laukkanen JA. Association between sauna bathing and fatal cardiovascular and all-cause mortality events. JAMA Internal Medicine. 2015;175(4):542-548.",
+          "Electrical Safety First: Steam sauna (model TW-SG18) safety notice, January 2023, electricalsafetyfirst.org.uk.",
+          "Harvard Health Publishing: Sauna health benefits: are saunas healthy or harmful? health.harvard.edu.",
+          "NHS: Heat exhaustion and heatstroke, nhs.uk."
+        ]
+      }
+    ]
+  },
   {
     "id": "prostavive-review",
     "name": "ProstaVive Prostate Support Powder",

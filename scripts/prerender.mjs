@@ -74,7 +74,7 @@ try {
   for (const r of PRODUCT_REVIEWS) {
     const title = `${r.name} Review | ${SITE_NAME}`;
     let body = `<article><p><a href="/reviews">Reviews</a> · ${esc(r.category)}</p><h1>${esc(r.name)} Review</h1>`;
-    body += `<p>Score: ${esc(r.overallScore)} out of 10 · Price: ${esc(r.priceRange)}</p><p>${esc(r.verdict)}</p>`;
+    body += `<p>${r.overallScore != null ? `Score: ${esc(r.overallScore)} out of 10 · ` : ''}Price: ${esc(r.priceRange)}</p><p>${esc(r.verdict)}</p>`;
     body += `<h2>Who it's for</h2><p>${esc(r.whoItIsFor)}</p><h2>Pros</h2>${list(r.pros)}<h2>Cons</h2>${list(r.cons)}`;
     body += `<h2>Specifications</h2>${list(r.specs.map((s) => `${s.label}: ${s.value}`))}`;
     body += sections(r.sections);
