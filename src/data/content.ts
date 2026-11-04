@@ -91,6 +91,429 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "christmas-gifts-for-men-health-fitness",
+    "publishOn": "2026-11-13",
+    "title": "24 Christmas Gifts for Men Who Care About Their Health (2026)",
+    "metaTitle": "24 Christmas Gifts for Men: Health & Fitness Gift Guide 2026 | OptiMen Wellbeing",
+    "metaDescription": "Christmas gifts for him, dad, your partner and more: 24 practical health and fitness gifts he'll actually use, from under £15 to big-ticket treats.",
+    "summary": "Struggling to buy for the men in your life? Here are 24 practical health and fitness gifts, one for every kind of man, from a £10 stocking filler to a smart ring. Every one is something he'll actually use.",
+    "pillar": "fitness",
+    "pillarLabel": "Fitness",
+    "readTime": "9 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Gift Guide & Product Research",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "The best health gifts are ones he'll use every week, not gadgets that end up in a drawer.",
+      "Under £15: Atomic Habits, a grip strengthener or resistance bands.",
+      "£25–60: a sunrise alarm, foam roller, kettlebell, pull-up bar or blood pressure monitor.",
+      "Big-ticket: a smart ring, running watch, massage gun or adjustable dumbbells, ideally bought on a genuine Black Friday discount.",
+      "Left it late? An Audible gift membership arrives instantly."
+    ],
+    "protocolSteps": [
+      "Pick the man first, then the gift: what does he already do, or say he wants to start?",
+      "Check sizes and fit before buying: door frames for pull-up bars, ring sizes for Oura, wrist sizes for watches.",
+      "Compare prices on the day, and check price history before trusting a Black Friday 'deal'.",
+      "Order physical gifts by mid-December to be safe with Christmas delivery.",
+      "Keep the gift receipt in case it isn't quite right."
+    ],
+    "references": [
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk/live-well/exercise.",
+      "NHS England: NHS community pharmacy blood pressure check service for people aged 40 and over, england.nhs.uk.",
+      "British and Irish Hypertension Society: Validated blood pressure monitors, bihsoc.org."
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=gifts+for+men+fitness&tag=insightdigita-21",
+      "label": "Browse more health gifts for men on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    },
+    "sections": [
+      {
+        "heading": "How We Chose These Gifts",
+        "paragraphs": [
+          "Every gift here is something we'd be happy to give: practical, useful, and in keeping with what we write about at OptiMen Wellbeing, from sleep and fitness to everyday health. No gimmicks, and nothing that promises miracle results.",
+          "They're listed in the same order as our 24 Days of OW Gifts series on Instagram, so the day number matches each post. Prices are rough guides and change often, especially around Black Friday, so check the price on the day."
+        ]
+      },
+      {
+        "heading": "Day 1 · For him: Theragun Mini",
+        "paragraphs": [
+          "Around £150–180. A palm-sized massage gun that fits in a gym bag, so it actually gets used after training rather than living in a drawer. Three speeds, quiet enough to use in front of the TV."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Theragun+Mini+3rd+generation&tag=insightdigita-21",
+          "label": "View Theragun Mini on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 2 · For your husband or partner: Oura Ring 4",
+        "paragraphs": [
+          "Around £250–350. A smart ring that tracks sleep, heart rate and recovery without a screen buzzing on his wrist. With the Oura Ring 5 now out, the Ring 4 is often discounted. Note that some features need a monthly subscription."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Oura+Ring+4&tag=insightdigita-21",
+          "label": "View Oura Ring 4 on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 3 · For your uncle: Ninja air fryer",
+        "paragraphs": [
+          "Around £80–120. For the man whose oven is mainly storage. Quick, easy home cooking makes it more likely he'll eat at home rather than reach for a takeaway."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Ninja+air+fryer&tag=insightdigita-21",
+          "label": "View Ninja air fryer on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 4 · For your boyfriend: Garmin Forerunner 165 (or the newer 170)",
+        "paragraphs": [
+          "Around £200–280. A running and fitness watch with GPS and long battery life. The 165 is often cheaper now that the 170 has launched, and is plenty for most runners."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Garmin+Forerunner+165&tag=insightdigita-21",
+          "label": "View Garmin Forerunner 165 on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 5 · For your dad: Lumie Sunrise Alarm",
+        "paragraphs": [
+          "Around £40–60. A bedside light that slowly brightens before his alarm, so dark winter mornings start a little more gently. It also dims slowly at night as a wind-down cue."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Lumie+Sunrise+Alarm&tag=insightdigita-21",
+          "label": "View Lumie Sunrise Alarm on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 6 · For your grandad: Omron M3 Comfort blood pressure monitor",
+        "paragraphs": [
+          "Around £50–70. High blood pressure often has no symptoms, which is why the NHS offers free blood pressure checks at pharmacies for adults aged 40 and over. A home monitor makes regular checks easy between visits, and he can take his readings to his GP or pharmacist. Choose a model listed as validated by the British and Irish Hypertension Society."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Omron+M3+Comfort&tag=insightdigita-21",
+          "label": "View Omron M3 Comfort blood pressure monitor on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 7 · For your son: Shokz OpenRun headphones",
+        "paragraphs": [
+          "Around £90–130. Open-ear headphones that sit in front of the ear rather than in it, so he can still hear traffic and people around him on runs and rides."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Shokz+OpenRun&tag=insightdigita-21",
+          "label": "View Shokz OpenRun headphones on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 8 · For the man who has everything: Withings Body Smart scale",
+        "paragraphs": [
+          "Around £90–120. A smart scale that syncs to his phone, so he can see the trend over weeks rather than worrying about one morning's number."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Withings+Body+Smart&tag=insightdigita-21",
+          "label": "View Withings Body Smart scale on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 9 · For the home-gym builder: Adjustable dumbbells (e.g. Bowflex SelectTech 552)",
+        "paragraphs": [
+          "Around £250–400. A full rack of dumbbells that fits in one corner. Turn the dial to change the weight. Ideal if he trains at home or in the garage."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Bowflex+SelectTech+552&tag=insightdigita-21",
+          "label": "View Adjustable dumbbells on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 10 · For the stressed-out boss: Kindle Paperwhite",
+        "paragraphs": [
+          "Around £150–170. A reading habit for bedtime that isn't his phone and his inbox. The screen is easy on the eyes and the battery lasts weeks."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Kindle+Paperwhite&tag=insightdigita-21",
+          "label": "View Kindle Paperwhite on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 11 · For the work-from-home man: Under-desk walking pad",
+        "paragraphs": [
+          "Around £150–300. A slim, slow treadmill that slides under a standing desk, so he can walk through calls instead of sitting all day. Check the maximum user weight and noise level before buying."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=under+desk+walking+pad&tag=insightdigita-21",
+          "label": "View Under-desk walking pad on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 12 · For your brother: Doorway pull-up bar",
+        "paragraphs": [
+          "Around £25–40. Pull-ups, hanging and bodyweight training at home with no gym membership. Check it fits his door frame before buying."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=doorway+pull+up+bar&tag=insightdigita-21",
+          "label": "View Doorway pull-up bar on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 13 · For the gym lover: Ninja Blast portable blender",
+        "paragraphs": [
+          "Around £40–55. A rechargeable blender for protein shakes and smoothies on the go, rinsed out in seconds."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Ninja+Blast+portable+blender&tag=insightdigita-21",
+          "label": "View Ninja Blast portable blender on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 14 · For your father-in-law: Outlive by Peter Attia",
+        "paragraphs": [
+          "Around £10–20. The best-selling book on staying fit and healthy for longer, covering exercise, sleep, nutrition and health checks. A good read for any man over 50."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Outlive+Peter+Attia&tag=insightdigita-21",
+          "label": "View Outlive by Peter Attia on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 15 · For your best mate: Owala FreeSip water bottle",
+        "paragraphs": [
+          "Around £25–35. The insulated bottle everyone seems to own this year. It sips or swigs, keeps drinks cold, and might get him drinking more water."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Owala+FreeSip&tag=insightdigita-21",
+          "label": "View Owala FreeSip water bottle on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 16 · For the runner: TriggerPoint GRID foam roller",
+        "paragraphs": [
+          "Around £30–40. The classic foam roller for warming up and loosening off after long runs. Firm, durable and easy to travel with."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=TriggerPoint+GRID+foam+roller&tag=insightdigita-21",
+          "label": "View TriggerPoint GRID foam roller on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 17 · For the new dad: Manta sleep mask",
+        "paragraphs": [
+          "Around £25–40. A blackout sleep mask with adjustable eye cups, for catching up on sleep in the daytime or when the baby finally settles."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Manta+sleep+mask&tag=insightdigita-21",
+          "label": "View Manta sleep mask on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 18 · For a colleague: Kettlebell (12–16 kg)",
+        "paragraphs": [
+          "Around £25–45. One piece of kit for a full-body workout at home: swings, squats, presses and carries. 12 kg suits most beginners, 16 kg if he already trains."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=kettlebell+16kg&tag=insightdigita-21",
+          "label": "View Kettlebell on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 19 · For the beginner: Resistance bands set with door anchor",
+        "paragraphs": [
+          "Around £15–30. A cheap, compact first home-workout kit for the man starting in January. Bands come in different strengths, so he can progress."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=resistance+bands+set+door+anchor&tag=insightdigita-21",
+          "label": "View Resistance bands set with door anchor on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 20 · For the weekend walker: Stanley Classic flask",
+        "paragraphs": [
+          "Around £30–45. A hot drink on a cold walk is a good reason to get outside. Tough, leak-proof and keeps tea hot for hours."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Stanley+classic+flask&tag=insightdigita-21",
+          "label": "View Stanley Classic flask on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 21 · For the meal-prepper: Glass meal-prep containers",
+        "paragraphs": [
+          "Around £20–30. For Sunday batch cooking and healthy lunches all week, instead of a meal deal five days running. Glass is microwave-safe and doesn't stain."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=glass+meal+prep+containers&tag=insightdigita-21",
+          "label": "View Glass meal-prep containers on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 22 · Secret Santa (under £15): Atomic Habits by James Clear",
+        "paragraphs": [
+          "Around £8–12. The best-selling book on building small habits that stick. A Secret Santa gift that isn't socks, and fits a New Year mindset."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Atomic+Habits&tag=insightdigita-21",
+          "label": "View Atomic Habits by James Clear on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 23 · Stocking filler: Hand grip strengthener",
+        "paragraphs": [
+          "Around £8–15. A pocket-sized grip trainer for climbers, lifters and anyone who fidgets. He'll be squeezing it all Christmas."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=hand+grip+strengthener&tag=insightdigita-21",
+          "label": "View Hand grip strengthener on Amazon UK"
+        }
+      },
+      {
+        "heading": "Day 24 · The last-minute one: Audible gift membership",
+        "paragraphs": [
+          "Around From £8. Digital, so it arrives in time even on Christmas Eve. Pair it with an audiobook like Outlive or Atomic Habits."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Audible+gift+membership&tag=insightdigita-21",
+          "label": "View Audible gift membership on Amazon UK"
+        }
+      },
+      {
+        "heading": "A Note on Affiliate Links",
+        "paragraphs": [
+          "Some links in this guide are Amazon affiliate links. If you buy through them, OptiMen Wellbeing earns a small commission at no extra cost to you. It never changes what we recommend, and it helps keep our guides free."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "black-friday-health-fitness-deals",
+    "publishOn": "2026-11-20",
+    "title": "Black Friday 2026: The Health and Fitness Deals Worth Buying (and What to Skip)",
+    "metaTitle": "Black Friday Health & Fitness Deals 2026: What's Worth Buying | OptiMen Wellbeing",
+    "metaDescription": "Most Black Friday 'deals' aren't the lowest price of the year. Here's how to spot a genuine discount, which health and fitness buys are worth it, and what to skip.",
+    "summary": "Black Friday is great for big-ticket health kit, if the discount is real. Here's how to check, which wearables, recovery tools and home-gym gear are worth buying, and which 'deals' to ignore.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "6 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Consumer & Product Research",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "In a Which? study of 208 products discounted on Black Friday 2022, 98% were the same price or cheaper at some point in the six months either side.",
+      "Use a price tracker to see an item's price history before you buy.",
+      "Black Friday works best for things you already planned to buy: wearables, recovery tools, home-gym kit.",
+      "Previous-generation models often see the biggest genuine drops when a new version launches.",
+      "Skip 'testosterone boosters', fat-loss gadgets and anything promising fast results."
+    ],
+    "protocolSteps": [
+      "Write a shortlist before Black Friday, so you're not buying on impulse.",
+      "Check each item's price history on a tracker such as CamelCamelCamel or PriceSpy.",
+      "Compare the exact model number, since some 'deals' are on older or cut-down versions.",
+      "Read the returns policy, and check how long you have to return Christmas gifts.",
+      "If the price isn't the lowest it's been in months, wait for January sales."
+    ],
+    "references": [
+      "Which?: Only 2% of discounted products are cheapest on Black Friday, which.co.uk, November 2023.",
+      "British and Irish Hypertension Society: Validated blood pressure monitors, bihsoc.org.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk/live-well/exercise."
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/blackfriday?tag=insightdigita-21",
+      "label": "See Amazon UK's Black Friday deals",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    },
+    "sections": [
+      {
+        "heading": "Is Black Friday Actually Cheaper?",
+        "paragraphs": [
+          "Often, not as much as it looks. Which? tracked the prices of 208 products on offer on Black Friday 2022 for six months before and after the day. Only 5 were at their cheapest on Black Friday itself, and 98% were the same price or cheaper at another time.",
+          "That doesn't mean there are no good deals. It means the 'was' price on a Black Friday banner tells you very little. The price history tells you everything."
+        ]
+      },
+      {
+        "heading": "How to Spot a Genuine Deal",
+        "paragraphs": [
+          "A few minutes of checking can save you from a fake discount."
+        ],
+        "bullets": [
+          "Look up the price history on a tracker such as CamelCamelCamel (for Amazon) or PriceSpy. A real deal is close to the lowest price in the last six months.",
+          "Ignore the crossed-out price. Compare against what it actually sold for over the past few months.",
+          "Check the exact model. A 'bargain' smartwatch may be an older or cut-down version.",
+          "Watch for previous-generation models. When a new version launches, the old one often drops genuinely, for example the Oura Ring 4 after the Ring 5, or the Garmin Forerunner 165 after the 170.",
+          "Buy from the brand or a trusted seller. On marketplaces, check who's actually selling and shipping it."
+        ]
+      },
+      {
+        "heading": "Worth Buying: Wearables",
+        "paragraphs": [
+          "Smart rings, running watches and fitness trackers are often discounted around Black Friday, and they're a big purchase, so even a modest real discount is worth having. Decide what you actually want to track first, such as sleep, runs or daily steps, and check for subscription costs before you buy."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=fitness+tracker+watch&tag=insightdigita-21",
+          "label": "Compare fitness trackers and watches on Amazon UK"
+        }
+      },
+      {
+        "heading": "Worth Buying: Recovery Tools",
+        "paragraphs": [
+          "Massage guns, foam rollers and sunrise alarm clocks are regularly discounted. Go for an established brand with a proper warranty. Cheap, unbranded massage guns can be loud and short-lived."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=massage+gun&tag=insightdigita-21",
+          "label": "Compare massage guns on Amazon UK"
+        }
+      },
+      {
+        "heading": "Worth Buying: Home-Gym Kit",
+        "paragraphs": [
+          "Adjustable dumbbells, kettlebells, pull-up bars and resistance bands are useful buys if you'll train at home. The NHS recommends strength exercises on at least 2 days a week, and bodyweight and home kit count. Bulky items often have the biggest cash discounts, but check delivery charges and returns, which can be awkward for heavy kit."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=adjustable+dumbbells&tag=insightdigita-21",
+          "label": "Compare home-gym kit on Amazon UK"
+        }
+      },
+      {
+        "heading": "Worth Buying: A Home Blood Pressure Monitor",
+        "paragraphs": [
+          "One of the most useful health gadgets you can own, and often discounted. Choose a model listed as validated by the British and Irish Hypertension Society, with an upper-arm cuff that fits. Share your readings with your GP or pharmacist rather than worrying over a single number."
+        ],
+        "cta": {
+          "url": "https://www.amazon.co.uk/s?k=Omron+upper+arm+blood+pressure+monitor&tag=insightdigita-21",
+          "label": "Compare blood pressure monitors on Amazon UK"
+        }
+      },
+      {
+        "heading": "Usually Worth Skipping",
+        "paragraphs": [
+          "Some Black Friday 'deals' are on products that aren't worth buying at any price."
+        ],
+        "bullets": [
+          "'Testosterone booster' supplements: most have little or no evidence behind them. See our guide to low testosterone for what genuinely helps.",
+          "Huge supplement bundles: a discount on things you don't need isn't a saving. Most men need far fewer supplements than adverts suggest.",
+          "Fat-loss gadgets and anything promising fast results: belts, wraps and 'toning' devices don't replace exercise and diet.",
+          "Smart gadgets you won't use: if you didn't want it last month, the discount is the thing you're buying."
+        ]
+      },
+      {
+        "heading": "Buying Black Friday Gifts?",
+        "paragraphs": [
+          "Black Friday is a good time to buy big Christmas gifts if the price is genuinely low, and many retailers extend their returns window over Christmas (check before you buy). Our 24 Christmas Gifts for Men guide lists practical health and fitness gifts from under £15 upwards."
+        ]
+      },
+      {
+        "heading": "A Note on Affiliate Links",
+        "paragraphs": [
+          "Some links on this page are Amazon affiliate links. If you buy through them, OptiMen Wellbeing earns a small commission at no extra cost to you. It never changes what we recommend."
+        ]
+      }
+    ]
+  },
+  {
     "id": "sauna-benefits-for-men",
     "publishOn": "2026-11-03",
     "title": "Sauna Benefits for Men: What Regular Sauna Use Really Does",
