@@ -92,7 +92,7 @@ export const PILLARS: Record<string, PillarInfo> = {
 export const ALL_ARTICLES: Article[] = [
   {
     "id": "health-checks-for-men",
-    "publishOn": "2026-11-09",
+    "publishOn": "2026-11-06",
     "title": "Health Checks for Men: The 7 Checks Men Skip (and How to Get Each One)",
     "metaTitle": "Health Checks for Men: The 7 Checks Men Skip | OptiMen Wellbeing",
     "metaDescription": "Seven health checks men put off, from testicles and prostate to blood pressure and sleep. What each involves, when to do it and how to get it in the UK.",
