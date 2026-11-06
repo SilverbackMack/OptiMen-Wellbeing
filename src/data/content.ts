@@ -91,6 +91,144 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    "id": "health-checks-for-men",
+    "publishOn": "2026-11-09",
+    "title": "Health Checks for Men: The 7 Checks Men Skip (and How to Get Each One)",
+    "metaTitle": "Health Checks for Men: The 7 Checks Men Skip | OptiMen Wellbeing",
+    "metaDescription": "Seven health checks men put off, from testicles and prostate to blood pressure and sleep. What each involves, when to do it and how to get it in the UK.",
+    "summary": "Most of these checks take minutes, and several are free. Yet men put off every one of them. This Movember, here are the seven health checks men skip most, what each involves, and how to get it done.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "8 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Men's Health Screening Synthesis",
+      "role": "Evidence Review Team"
+    },
+    "keyTakeaways": [
+      "Check your testicles once a month. It takes 2 minutes, and any change is worth a GP visit.",
+      "About 1 in 8 UK men will get prostate cancer, rising to about 1 in 4 Black men. From 50, or 45 if you're at higher risk, you can ask your GP about a PSA test.",
+      "Ongoing erection problems can be an early sign of heart or blood vessel problems.",
+      "High blood pressure usually has no symptoms. If you're 40 or over in England, many pharmacies check it for free.",
+      "Months of poor sleep, burnout and 'low T' symptoms all deserve a proper conversation with a GP or talking therapist."
+    ],
+    "protocolSteps": [
+      "Pick the one check you've been putting off and book it this week.",
+      "Set a monthly phone reminder to check your testicles in or after a warm shower.",
+      "If you're 40 or over, get your blood pressure checked at a pharmacy or GP surgery if it hasn't been done in the last 5 years.",
+      "If you're over 50, or over 45 and at higher risk, ask your GP about prostate cancer and the PSA test.",
+      "See a GP about ongoing erection problems, months of poor sleep or tiredness that won't lift.",
+      "If you're running on empty, talk to someone. You can refer yourself to NHS Talking Therapies, or call Samaritans free on 116 123."
+    ],
+    "references": [
+      "Cancer Research UK: Testicular cancer statistics, cancerresearchuk.org.",
+      "NHS: How to check your testicles, nhs.uk.",
+      "Prostate Cancer UK: Are you at risk?, prostatecanceruk.org.",
+      "NHS: Erectile dysfunction (impotence), nhs.uk.",
+      "NHS: NHS Talking Therapies, nhs.uk.",
+      "NHS: High blood pressure, nhs.uk.",
+      "NHS: Find a pharmacy that offers free blood pressure checks, nhs.uk.",
+      "NHS: NHS Health Check, nhs.uk.",
+      "NHS: Insomnia, nhs.uk.",
+      "NHS: Sleep apnoea, nhs.uk.",
+      "NHS: The 'male menopause', nhs.uk.",
+      "Samaritans: samaritans.org (116 123, free, 24/7)."
+    ],
+    "sections": [
+      {
+        "heading": "Health Checks for Men: Why We Skip Them",
+        "paragraphs": [
+          "Which health checks should men actually do? Most of the important ones take a few minutes, several are free, and some you can do yourself in the shower. Yet men are often the last to book any of them.",
+          "Sometimes it's embarrassment. Sometimes it's 'I feel fine'. Often it's just never getting round to it. This Movember, we've picked the seven checks men put off most. For each one, here's what it involves, when to do it and how to get it in the UK, with a link to our full guide.",
+          "You don't need to do all seven this week. Pick the one you've been avoiding and start there."
+        ]
+      },
+      {
+        "heading": "1. Testicles: The 2-Minute Monthly Check",
+        "paragraphs": [
+          "Around 2,300 men in the UK are diagnosed with testicular cancer each year, according to Cancer Research UK. Unlike most cancers, it mainly affects younger men, typically between 15 and 49, and it's one of the most treatable.",
+          "Check once a month, in or after a warm shower, when the skin is relaxed. Roll each testicle gently between your thumb and fingers. Smooth and firm is normal, and it's normal for one to be slightly bigger or hang lower than the other.",
+          "See a GP if you notice a lump, swelling, a change in shape or firmness, or an ache. Most changes aren't cancer, but only a doctor can tell. Our step-by-step guide, 'How to Check Your Testicles', walks you through it."
+        ]
+      },
+      {
+        "heading": "2. Prostate: Know Your Risk",
+        "paragraphs": [
+          "About 1 in 8 men in the UK will be diagnosed with prostate cancer in their lifetime. For Black men it's about 1 in 4, and if your father or brother has had it, you're two and a half times more likely to get it.",
+          "Early prostate cancer usually has no symptoms, and there's no routine screening for most men in the UK. That's why a conversation with your GP matters. If you're over 50, you can ask about a PSA blood test. If you're over 45 and at higher risk, because you're Black or have a family history, it's worth talking to your GP too.",
+          "Most urinary symptoms, like getting up at night to wee, are caused by a non-cancerous enlarged prostate. Only a check-up can tell the difference. Read more in 'Prostate Health: What Every Man Should Know'."
+        ]
+      },
+      {
+        "heading": "3. Erections: Your Body's Early Warning Light",
+        "paragraphs": [
+          "Occasional erection problems are normal, and usually down to stress, tiredness or alcohol. Ongoing problems are different, and worth a GP visit.",
+          "The blood vessels in the penis are smaller than those around the heart. That means narrowing of the arteries can show up as erection problems before it causes heart symptoms. A simple blood pressure, cholesterol and blood sugar check can pick up problems early, when they are easiest to treat.",
+          "GPs talk about this every day, so there's no need to feel awkward booking in. Our guide 'Erectile Dysfunction: Common Causes and When to See a GP' explains the causes and what to expect."
+        ]
+      },
+      {
+        "heading": "4. Burnout: Stressed, or Running on Empty?",
+        "paragraphs": [
+          "Stress feels like 'too much'. Burnout feels like having 'nothing left to give'. In men it often shows up as irritability, working longer hours, drinking more and pulling away from people.",
+          "Rest alone rarely fixes burnout; recovery means dealing with the cause. Talking helps. If you're 18 or over in England, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling, without seeing a GP first.",
+          "If you're struggling right now, call Samaritans free on 116 123, any time, or call NHS 111. Our guide 'Signs of Burnout in Men' has more on spotting it and what to do next."
+        ]
+      },
+      {
+        "heading": "5. Blood Pressure: The Free Check at Your Pharmacy",
+        "paragraphs": [
+          "High blood pressure usually has no symptoms, so many people don't know they have it. Left untreated, it raises your risk of heart attacks, strokes, kidney disease and vascular dementia. The only way to know is to get it checked.",
+          "If you're 40 or over, live in England, haven't been diagnosed with high blood pressure and haven't had it checked in the last 5 years, many pharmacies will check it for free. You don't need to see a GP first, and it takes a few minutes. A reading of 140/90 or higher, taken by a professional, counts as high.",
+          "If you're aged 40 to 74 in England and don't have certain long-term conditions, you should also be invited for a free NHS Health Check every 5 years. It looks at your blood pressure, cholesterol and risk of heart disease, stroke and diabetes. If you haven't been invited, contact your GP practice. In Scotland, Wales and Northern Ireland, ask your pharmacy or GP surgery about a check."
+        ]
+      },
+      {
+        "heading": "6. Sleep: Why You Keep Waking at 3am",
+        "paragraphs": [
+          "Brief waking between sleep cycles is normal. By the early hours your sleep is lighter, so small things can wake you fully: alcohol, caffeine, stress, needing a wee, or a warm or noisy bedroom.",
+          "If you're awake for about 20 minutes, get up and do something calm until you feel sleepy. See a GP if poor sleep has gone on for months or is affecting your days. Also book in if you snore loudly and someone has noticed pauses in your breathing, as this can be a sign of sleep apnoea. Read 'Why Do I Wake Up at 3am?' for the full guide."
+        ]
+      },
+      {
+        "heading": "7. Testosterone: It's Probably Not 'Low T'",
+        "paragraphs": [
+          "Feeling tired, flat and low on drive? It's tempting to blame testosterone. But testosterone falls slowly, by about 1% a year from around age 30 to 40, and the NHS says that on its own this is unlikely to cause problems.",
+          "Symptoms like tiredness, low mood and a low sex drive more often come down to lack of sleep, stress, poor diet, lack of exercise, heavy drinking or smoking. Skip the 'testosterone boosters' and start with those.",
+          "If symptoms last more than a few weeks, see your GP. True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice. Our guide 'Low Testosterone Symptoms After 40' explains more."
+        ]
+      },
+      {
+        "heading": "Your Movember Checklist",
+        "paragraphs": [
+          "Save this list and work through it one check at a time:"
+        ],
+        "bullets": [
+          "Testicles: once a month, in or after a warm shower. Any change, see your GP",
+          "Prostate: over 50, or over 45 at higher risk? Ask your GP about a PSA test",
+          "Erections: ongoing problems? See your GP, as it can be an early heart warning",
+          "Burnout: 'nothing left to give'? Talk to someone, or refer yourself to NHS Talking Therapies",
+          "Blood pressure: 40 or over and not checked in 5 years? Free at many pharmacies in England",
+          "Sleep: broken sleep for months, or loud snoring with pauses? See your GP",
+          "Testosterone: tired and flat? Check sleep, stress and drinking first, then ask about a morning blood test"
+        ]
+      },
+      {
+        "heading": "When to Get Urgent Help",
+        "paragraphs": [
+          "Most of these checks can wait for a routine appointment. Some symptoms can't:"
+        ],
+        "bullets": [
+          "Sudden, severe pain in a testicle: go to A&E or call 999. It can be a sign of testicular torsion, which needs treating within hours",
+          "Sudden chest pain or pressure, especially spreading to your arm, neck, jaw or back, or with sweating, sickness or breathlessness: call 999",
+          "Frequent headaches, blurred vision or chest pain that comes and goes: call NHS 111",
+          "Feeling overwhelmed or having thoughts of harming yourself: call Samaritans free on 116 123, any time, or NHS 111. Call 999 if you're in immediate danger"
+        ]
+      }
+    ]
+  },
+  {
     "id": "sauna-benefits-for-men",
     "publishOn": "2026-11-03",
     "title": "Sauna Benefits for Men: What Regular Sauna Use Really Does",
