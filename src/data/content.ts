@@ -1838,33 +1838,128 @@ export const ALL_ARTICLES: Article[] = [
     featured: true
   },
   {
-    id: 'apob-vs-ldl-heart-health',
-    title: 'Why ApoB Matters More Than Traditional LDL for Men Over 35',
-    summary: 'Cardiovascular disease remains the primary threat to male longevity. Discover why counting total LDL particles via Apolipoprotein B provides superior predictive precision.',
-    pillar: 'health',
-    pillarLabel: "Men's Health",
-    readTime: '6 min read',
-    publishedDate: 'October 2026',
-    author: {
-      name: 'OptiMen Health Research Desk',
-      credentials: 'Cardiovascular & Biomarker Synthesis',
-      role: 'Evidence Review Team'
+    "id": "apob-vs-ldl-heart-health",
+    "title": "What Is ApoB? The Cholesterol Test Men Over 35 Should Know About",
+    "metaTitle": "What Is ApoB? The Cholesterol Test Explained | OptiMen Wellbeing",
+    "metaDescription": "What is ApoB, and is it better than a standard cholesterol test? What it measures, who might benefit, how to get tested in the UK and how to lower it.",
+    "summary": "ApoB counts the particles that carry cholesterol into your artery walls. For most men a standard cholesterol test does the job, but for some ApoB adds useful detail. Here's what it is, who might benefit and how to lower it.",
+    "pillar": "health",
+    "pillarLabel": "Men's Health",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Cardiovascular & Biomarker Synthesis",
+      "role": "Evidence Review Team"
     },
-    keyTakeaways: [
-      'ApoB measures the exact particle number of all atherogenic lipoproteins (LDL, VLDL, IDL).',
-      'Standard lipid panels only measure cholesterol mass, masking discordant risk in metabolic conditions.',
-      'Targeting an ApoB below 60–70 mg/dL provides substantial reduction in lifetime cardiovascular event risk.'
+    "keyTakeaways": [
+      "ApoB is a protein on LDL ('bad cholesterol') and related particles, so measuring it shows how many of these particles are in your blood.",
+      "For most people, ApoB and a standard cholesterol test tell a similar story.",
+      "In about 18% of people in one large UK study, the two disagreed. When they do, ApoB seems to be the better guide to heart risk.",
+      "The NHS doesn't test ApoB routinely. Non-HDL cholesterol, ideally below 4 mmol/L, is the standard measure.",
+      "The same things lower both: less saturated fat, more fibre, regular exercise, not smoking, and medicine if your doctor recommends it."
     ],
-    protocolSteps: [
-      'Request an Apolipoprotein B (ApoB) and Lipoprotein(a) test at your next routine panel.',
-      'Evaluate with a calcium score (CAC) if you are between 38 and 55 with borderline family history.',
-      'Prioritize dietary soluble fiber (psyllium, legumes) and replace saturated fats with monounsaturates.'
+    "protocolSteps": [
+      "If you're 40 to 74 in England, take up your free NHS Health Check, which includes a cholesterol test.",
+      "Ask for your full results, including HDL and non-HDL cholesterol, not just your total cholesterol.",
+      "If heart disease runs in your family, or your results are borderline or unusual, ask your GP whether ApoB or Lp(a) testing would help.",
+      "Swap saturated fats for unsaturated ones, eat more oats, beans and lentils, and aim for two portions of oily fish a week.",
+      "Aim for 150 minutes of exercise a week, stop smoking and keep alcohol to 14 units a week or less."
     ],
-    references: [
-      'Sniderman AD, et al. Apolipoprotein B Particles and Cardiovascular Risk. JAMA Cardiol. 2021;6(7):789–797.',
-      'Ference BA, et al. Low-density lipoproteins cause atherosclerotic cardiovascular disease. Eur Heart J. 2017;38(32):2459–2472.'
+    "references": [
+      "NHS: High cholesterol and Cholesterol levels, nhs.uk.",
+      "NHS: Heart attack, nhs.uk.",
+      "NICE: Cardiovascular disease: risk assessment and reduction, including lipid modification (NG238), 2023.",
+      "South Tees Hospitals NHS Foundation Trust Pathology: Apolipoprotein B, southtees.nhs.uk.",
+      "Welsh P, Sattar N. To apoB or not to apoB: new arguments, but basis for widespread implementation remains elusive. Clin Chem. 2023;69(1):3-5.",
+      "Du Y, et al. Impact of LDL-C and apolipoprotein B level discordance and associated lipoprotein particle alterations on cardiovascular outcomes in a large primary prevention population. Eur J Prev Cardiol. 2025.",
+      "Ference BA, et al. Low-density lipoproteins cause atherosclerotic cardiovascular disease. Eur Heart J. 2017;38(32):2459-2472.",
+      "British Heart Foundation: High lipoprotein (a), bhf.org.uk.",
+      "Mach F, et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111-188.",
+      "Wirral University Teaching Hospital NHS Foundation Trust: Lipid lowering diet leaflet, 2025.",
+      "Mersey Care NHS Foundation Trust: Lowering your cholesterol."
     ],
-    featured: true
+    "featured": true,
+    "sections": [
+      {
+        "heading": "What Is ApoB?",
+        "paragraphs": [
+          "What is ApoB? It's short for apolipoprotein B, a protein that sits on the outside of LDL ('bad cholesterol') particles and a few related particles made by your liver. Because it's the main protein on these particles, measuring it tells you roughly how many of them are in your blood.",
+          "Why does that matter? Cholesterol can't travel through your blood on its own. It's carried in particles called lipoproteins. LDL particles are the ones that can get into the walls of your arteries and build up into fatty deposits, which narrow the arteries and can lead to heart attacks and strokes. A large review of the evidence concluded that LDL is a cause of this kind of heart disease, not just a marker of it.",
+          "Think of it like traffic. A standard cholesterol test measures how much cargo is on the road. ApoB counts the lorries. Usually the two go up and down together. Sometimes they don't, and that's where ApoB can help."
+        ]
+      },
+      {
+        "heading": "ApoB vs LDL: What's the Difference?",
+        "paragraphs": [
+          "Your usual NHS cholesterol test measures your total cholesterol and HDL ('good cholesterol'), and often works out your non-HDL cholesterol (total minus HDL). LDL cholesterol is usually calculated rather than measured directly.",
+          "For most people, ApoB doesn't add much. In UK Biobank, a study of hundreds of thousands of British adults, ApoB lined up very closely with LDL and non-HDL cholesterol. Researchers estimated that about 92% of the variation in ApoB was already captured by those standard measures.",
+          "But in about 18% of people, the results disagreed. Some men have lots of small LDL particles, each carrying less cholesterol. Their cholesterol result can look fine while their particle count is high. A 2025 study of more than 375,000 UK Biobank participants found that people whose ApoB was higher than their LDL result suggested had about 11% more risk of a major heart or circulation event. People whose ApoB was lower than expected had about 13% less risk. Much of the extra risk was linked to raised triglycerides, another type of blood fat."
+        ]
+      },
+      {
+        "heading": "Is ApoB a Better Test Than Standard Cholesterol?",
+        "paragraphs": [
+          "It depends who you ask, and for whom. Many experts argue ApoB is a more complete measure of risk. Others point out that adding ApoB to standard risk calculators barely improved their accuracy in UK Biobank. A 2023 commentary by Glasgow researchers concluded that the case for testing everyone hasn't been made yet.",
+          "In the UK, NICE guidance for doctors uses non-HDL cholesterol, alongside the QRISK3 calculator, to judge heart risk and decide on treatment. It doesn't recommend ApoB testing. Non-HDL cholesterol already includes the cholesterol in all the particles that carry ApoB, which is one reason it works well for most people.",
+          "Where ApoB may be most useful is for people whose results don't fit the usual pattern, such as men with high triglycerides, or those with a strong family history of heart disease but 'normal' cholesterol."
+        ]
+      },
+      {
+        "heading": "Can You Get an ApoB Test on the NHS?",
+        "paragraphs": [
+          "NHS laboratories can measure ApoB, but it isn't part of routine testing. Hospital labs list it as a test doctors may request to assess heart risk in people with a strong family history of heart disease, or to follow up abnormal LDL results. Ask your GP whether it makes sense for you.",
+          "For most men, the first step is a standard cholesterol test. If you're aged 40 to 74 in England and don't have certain long-term conditions, you should be invited for a free NHS Health Check every 5 years. It looks at your cholesterol, blood pressure and risk of heart disease, stroke and diabetes. If you haven't been invited, contact your GP practice. In Scotland, Wales and Northern Ireland, ask your GP surgery or pharmacy.",
+          "When you get your results, ask for the full breakdown. The NHS gives these healthy levels for adults, although a good target for you depends on your age, health and overall risk:"
+        ],
+        "bullets": [
+          "Total cholesterol: below 5 mmol/L",
+          "HDL ('good') cholesterol: above 1.0 mmol/L for men",
+          "Non-HDL ('bad') cholesterol: below 4 mmol/L"
+        ]
+      },
+      {
+        "heading": "What About Lp(a)?",
+        "paragraphs": [
+          "Lipoprotein(a), or Lp(a), is another particle worth knowing about. The British Heart Foundation explains that it's similar to LDL but has an extra protein that makes it stickier, raising the risk of blood clots, heart attack and stroke.",
+          "Your Lp(a) level is set by the genes you inherit. Diet and exercise don't change it, and you only need it checked once. It isn't checked routinely in the UK, but your doctor may arrange it if you have a family history of high Lp(a), heart disease at a young age (usually under 60) in your family, or an inherited cholesterol condition. European guidelines suggest measuring it at least once in adulthood."
+        ]
+      },
+      {
+        "heading": "How to Lower ApoB and Cholesterol",
+        "paragraphs": [
+          "The good news is that whatever test you use, the same steps bring it down. Based on NHS advice:"
+        ],
+        "bullets": [
+          "Cut down on saturated fat, found in butter, cheese, cream, fatty red and processed meat, and processed snacks. Use olive oil based spreads and oils instead",
+          "Eat more soluble fibre, from porridge oats, barley, beans, lentils, chickpeas, fruit and vegetables",
+          "Eat at least two portions of oily fish a week, such as mackerel, sardines or herring",
+          "Limit added sugar and alcohol, which can raise triglycerides. Keep to 14 units a week or less, with several alcohol-free days",
+          "Aim for at least 150 minutes of exercise a week, such as brisk walking, cycling or swimming",
+          "Stop smoking. The NHS Stop Smoking Service can help"
+        ]
+      },
+      {
+        "heading": "Do I Need Medicine?",
+        "paragraphs": [
+          "Some people need medicine as well as lifestyle changes, especially if their overall risk is high or cholesterol runs very high in the family. Statins are the most common option. Whether you need one depends on your whole risk picture, not one number, so it's a decision to make with your GP."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "High cholesterol usually has no symptoms. The only way to know is a blood test. The NHS says you're more likely to have high cholesterol if you're a man, over 50, of South Asian or sub-Saharan African origin, or if it runs in your family.",
+          "See a GP for a check if you're over 40 and haven't had your cholesterol tested in the last 5 years, if a close relative had a heart attack or stroke at a young age, or if you've been told you have high cholesterol but haven't followed it up.",
+          "Call 999 straight away if you have signs of a heart attack, such as:"
+        ],
+        "bullets": [
+          "Chest pain that feels tight, crushing or like squeezing",
+          "Chest pain that spreads to your arms, neck or jaw",
+          "Feeling short of breath, sweaty or sick",
+          "Severe difficulty breathing"
+        ]
+      }
+    ]
   },
   {
     id: 'zone-2-aerobic-engine-guide',
@@ -2040,31 +2135,140 @@ export const ALL_ARTICLES: Article[] = [
     ]
   },
   {
-    id: 'allostatic-load-cortisol-management',
-    title: 'Managing the Allostatic Load: A Protocol for Driven Professionals',
-    summary: 'When chronic career stress and familial responsibilities compound, cortisol dysregulation compromises immunity and drive. How to recalibrate autonomic tone.',
-    pillar: 'mindset',
-    pillarLabel: 'Mindset',
-    readTime: '6 min read',
-    publishedDate: 'August 2026',
-    author: {
-      name: 'OptiMen Mindset Desk',
-      credentials: 'Stress Physiology Review',
-      role: 'Evidence Review Team'
+    "id": "allostatic-load-cortisol-management",
+    "title": "How to Manage Stress When You're Busy: A Practical Guide for Men",
+    "metaTitle": "How to Manage Stress When You're Busy | OptiMen Wellbeing",
+    "metaDescription": "How to manage stress when work, family and money pile up: the signs men miss, simple NHS-backed ways to cope, and when to get help.",
+    "summary": "Stress is your body's reaction to pressure. A little can help, but constant stress wears you down. Here's how to spot it, practical ways to manage it when you have no spare time, and when to get help.",
+    "pillar": "mindset",
+    "pillarLabel": "Mindset",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Stress & Mental Wellbeing Synthesis",
+      "role": "Evidence Review Team"
     },
-    keyTakeaways: [
-      'Allostatic load is the cumulative physiological toll of chronic adaptation to stressors.',
-      'The physiological sigh (two rapid inhalations followed by extended exhale) rapidly resets vagal nerve tone.',
-      'Scheduled micro-recovery periods throughout the workday prevent late-afternoon cognitive collapse.'
+    "keyTakeaways": [
+      "Stress is your body's reaction to feeling under pressure. A little can motivate you, but constant stress becomes a problem.",
+      "Common signs include headaches, muscle tension, poor sleep, snapping at people and drinking more.",
+      "When you're busy, small steps work best: split big jobs up, move every day, talk to someone and pause to breathe.",
+      "Alcohol, smoking and caffeine can feel like they help, but they tend to make stress worse.",
+      "In England you can refer yourself to NHS Talking Therapies without seeing a GP. Samaritans are free on 116 123, day or night."
     ],
-    protocolSteps: [
-      'Perform 3 cycles of physiological sighs whenever you transition between intense meetings or tasks.',
-      'Implement a 10-minute Non-Sleep Deep Rest (NSDR) session between 1:00 PM and 3:00 PM.',
-      'Establish a "transition ritual" when arriving home to disconnect cognitive work loops from family engagement.'
+    "protocolSteps": [
+      "Write down what's stressing you, then split the list into what you can change and what you can't.",
+      "Rank your tasks, do the one that matters most first, and set small goals you can actually finish.",
+      "Get active most days, even if it's just a brisk walk at lunchtime.",
+      "When you feel wound up, stop for a few minutes of slow breathing.",
+      "Tell one person this week how you're really doing.",
+      "If stress is affecting your daily life, see a GP, call NHS 111 or refer yourself to NHS Talking Therapies."
     ],
-    references: [
-      'McEwen BS. Protective and damaging effects of stress mediators. N Engl J Med. 1998;338(3):171–179.',
-      'Balban MY, et al. Brief structured respiration practices enhance mood and reduce physiological arousal. Cell Rep Med. 2023;4(1):100895.'
+    "references": [
+      "NHS: Get help with stress, nhs.uk.",
+      "NHS: 10 stress busters, nhs.uk.",
+      "NHS Every Mind Matters: Stress, nhs.uk.",
+      "Mind: How to manage stress and build resilience, mind.org.uk.",
+      "McEwen BS. Protective and damaging effects of stress mediators. N Engl J Med. 1998;338(3):171-179.",
+      "Balban MY, et al. Brief structured respiration practices enhance mood and reduce physiological arousal. Cell Rep Med. 2023;4(1):100895.",
+      "NHS: Heart attack, nhs.uk."
+    ],
+    "sections": [
+      {
+        "heading": "How to Manage Stress When You're Busy",
+        "paragraphs": [
+          "Wondering how to manage stress when you barely have time to eat lunch? You're not alone. Work, money, family and health all pile on at once, and most men deal with it by keeping their head down and pushing through.",
+          "That works for a while. But stress that never switches off starts to show up in your sleep, your temper, your body and your relationships. The good news is that you don't need an hour a day of meditation to get on top of it. Small, regular changes make a real difference.",
+          "This guide covers what stress is, the signs men often miss, quick ways to calm down, simple habits that fit a busy week, and when it's time to get help."
+        ]
+      },
+      {
+        "heading": "What Is Stress, and What Does It Do to Your Body?",
+        "paragraphs": [
+          "The NHS describes stress as a reaction to mental or emotional pressure. It's often linked to feeling that you're losing control. Sometimes there's an obvious cause, and sometimes there isn't.",
+          "When you're stressed, your body releases hormones such as adrenaline and cortisol. In small amounts this can help: it sharpens you up for a deadline or a big match. The problem is when it never stops. Constant stress can cause physical symptoms, and long-term or severe stress can lead to physical, mental and emotional exhaustion, often called burnout.",
+          "Scientists have a name for the wear and tear that builds up when your stress response is switched on too often for too long: allostatic load. You don't need to remember the term. The point is simple. Your body is built for short bursts of stress followed by recovery, not months of pressure with no break.",
+          "Common triggers include pressure at work, losing a job, relationship problems, caring for someone, money worries, illness and bereavement. Even good events, like buying a house or having a baby, can be stressful."
+        ]
+      },
+      {
+        "heading": "Signs of Stress Men Often Miss",
+        "paragraphs": [
+          "The NHS points out that it isn't always easy to recognise stress as the reason you're feeling or acting differently. Many men notice it in their body or behaviour before they'd ever call it stress. Signs include:"
+        ],
+        "bullets": [
+          "Headaches, dizziness, muscle tension or pain",
+          "Stomach problems",
+          "Chest pain or a faster heartbeat",
+          "Sexual problems",
+          "Trouble concentrating, struggling to make decisions, or forgetfulness",
+          "Feeling overwhelmed or worrying constantly",
+          "Being irritable and snapping at people",
+          "Sleeping or eating too much or too little",
+          "Avoiding certain people or places",
+          "Drinking or smoking more than usual"
+        ]
+      },
+      {
+        "heading": "Quick Ways to Calm Down When You're Stressed",
+        "paragraphs": [
+          "The NHS recommends breathing exercises for stress. As its Every Mind Matters service puts it, pausing for a few minutes to breathe can help you feel calmer. You can do it at your desk, in the car before you go in, or in the toilet if that's the only quiet place.",
+          "One technique has had some attention recently. In a 2023 study from Stanford University, 108 adults did 5 minutes of a breathing exercise or mindfulness meditation every day for a month. All the groups felt less anxious. The group doing 'cyclic sighing' had a bigger boost in mood than the meditation group, and their breathing rate at rest slowed more. The study was small and short, so treat it as promising rather than proven. But the technique is free, quick and safe to try:"
+        ],
+        "bullets": [
+          "Sit or lie down and set a timer for 5 minutes",
+          "Breathe in slowly through your nose",
+          "Take a second, shorter breath in to fill your lungs fully",
+          "Breathe out slowly and completely through your mouth",
+          "Repeat until the timer goes, then breathe normally"
+        ]
+      },
+      {
+        "heading": "Simple Ways to Manage Stress That Fit a Busy Week",
+        "paragraphs": [
+          "These steps are based on NHS and Mind advice. None of them needs much time, and you don't have to do them all. Pick two or three to start with."
+        ],
+        "bullets": [
+          "Take control of what you can. The NHS says feeling a loss of control is one of the main causes of stress. Doing something about the problem, even a small step, helps",
+          "Work smarter, not harder. Rank your tasks, focus on the ones that make a real difference and accept you can't do everything",
+          "Split big jobs into smaller steps, and give yourself credit when you finish each one",
+          "Do your hardest tasks when you have the most energy, and take breaks",
+          "Be active. Exercise won't make your problems go away, but it can take the edge off and help you think more clearly",
+          "Make some 'me time'. The NHS suggests setting aside a couple of evenings a week for things you enjoy, like seeing friends, relaxing or exercise",
+          "Connect with people. Colleagues, friends and family can ease the load and help you see problems differently",
+          "Accept what you can't change, and put your energy into what you can",
+          "Each day, write down 3 things that went well or that you're grateful for, however small",
+          "Look after the basics: sleep, regular meals and time outdoors all help"
+        ]
+      },
+      {
+        "heading": "Habits That Make Stress Worse",
+        "paragraphs": [
+          "When you're under pressure, it's tempting to reach for a drink, a cigarette or another coffee. The NHS warns that these might give short-term relief, but they don't solve the problem. In its words, they'll just create new ones.",
+          "The same goes for gambling and drugs. They can make your mental health worse over time. If you notice you're relying on any of these to get through the week, that's a sign to talk to someone."
+        ]
+      },
+      {
+        "heading": "Stress at Work: Where to Get Support",
+        "paragraphs": [
+          "Work is one of the most common causes of stress. Mind suggests being clear about what you can and can't take on, and asking for help. Support may be available from your manager, HR, a trade union or an employee assistance programme, which often offers free, confidential counselling.",
+          "Mind also makes an important point: some causes of stress are outside your control, and that's not your fault. You don't have to fix everything on your own, and it's OK to step back from a situation that's making you unhappy."
+        ]
+      },
+      {
+        "heading": "When to Get Help for Stress",
+        "paragraphs": [
+          "See a GP if you're struggling to cope, if self-help isn't working, or if any symptoms worry you. In England, if you're 18 or over, you can also refer yourself directly to NHS Talking Therapies for free, without seeing a GP first.",
+          "If you need help urgently but it isn't an emergency, call NHS 111 or use NHS 111 online. If you want to talk to someone right now, Samaritans are free to call on 116 123, 24 hours a day, every day of the year.",
+          "Stress can cause chest pain and a racing heart, but never assume chest pain is just stress. Call 999 or go to A&E straight away if:"
+        ],
+        "bullets": [
+          "You have chest pain that feels tight or like squeezing, or that spreads to your arms, neck or jaw",
+          "You have severe difficulty breathing",
+          "You or someone else needs help right now, or has seriously harmed themselves",
+          "You feel unable to keep yourself safe"
+        ]
+      }
     ]
   },
   {
