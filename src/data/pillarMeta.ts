@@ -4,7 +4,8 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { PillarId } from '../types';
-import { HERO_IMAGE, PILLARS } from './content';
+import { PILLARS } from './content';
+import { MINDSET_IMAGE } from './photos';
 
 // Short, visual summaries of each section, used by the page designs.
 // The longer descriptions stay in content.ts for search engines.
@@ -76,7 +77,7 @@ export const PILLAR_META: Record<PillarId, PillarMeta> = {
     short: 'Mindset',
     line: 'Stay steady under pressure.',
     icon: Brain,
-    image: HERO_IMAGE,
+    image: MINDSET_IMAGE,
     track: [
       { label: 'Stress', icon: Gauge },
       { label: 'Mood', icon: Smile },

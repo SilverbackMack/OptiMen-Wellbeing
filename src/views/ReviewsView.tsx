@@ -6,6 +6,7 @@ import { PRODUCT_REVIEWS } from '../data/content';
 import { TrustIndicators } from '../components/TrustIndicators';
 import { NewsletterSection } from '../components/NewsletterSection';
 import { ReviewCard } from '../components/Cards';
+import { photoFor } from '../data/photos';
 import { Eyebrow, FlowDiagram, PageHero, Reveal } from '../components/Motion';
 
 interface ReviewsViewProps {
@@ -24,7 +25,12 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview }) => {
   return (
     <div className="text-left">
       {/* 1. BANNER */}
-      <PageHero eyebrow="Reviews" title="Honest reviews." line="Desk reviews, not hands-on tests. We say so every time.">
+      <PageHero
+        eyebrow="Reviews"
+        title="Honest reviews."
+        line="Desk reviews, not hands-on tests. We say so every time."
+        image={photoFor('whoop-5-review', 'Wearables')}
+      >
         <div className="flex flex-wrap gap-2 pt-2">
           {[
             { icon: ShieldCheck, text: 'Affiliate links disclosed' },

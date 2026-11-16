@@ -96,7 +96,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenAssessment }) 
             Amazon Associate I earn from qualifying purchases. We do not accept payment to change a review.
           </p>
         </div>
-        <p className="pt-6 text-xs text-slate-500">&copy; {new Date().getFullYear()} OptiMen Wellbeing. All rights reserved.</p>
+        <p className="pt-6 text-xs text-slate-500">&copy; {new Date().getFullYear()} OptiMen Wellbeing. All rights reserved. Some photos from{' '}
+          <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-slate-300">Unsplash</a>.
+        </p>
       </div>
     </footer>
   );

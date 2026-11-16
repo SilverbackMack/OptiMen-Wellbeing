@@ -6,9 +6,9 @@ import {
 } from 'lucide-react';
 import { Article, ProductReview } from '../types';
 import { EASE } from './Motion';
+import { photoFor } from '../data/photos';
 
-// Cards for lists of guides and reviews. Each card gets a small graphic
-// "cover" so lists are visual without needing a photo for every page.
+// Cards for lists of guides and reviews, each with a photo cover.
 
 const TOPIC_ICONS: [RegExp, LucideIcon][] = [
   [/prostate|psa|testicle/i, ScanSearch],
@@ -36,41 +36,34 @@ const REVIEW_ICONS: Record<ProductReview['category'], LucideIcon> = {
   Diagnostics: Stethoscope,
 };
 
-const Cover: React.FC<{ icon: LucideIcon; label: string; variant: number; badge?: string }> = ({
+const Cover: React.FC<{ icon: LucideIcon; label: string; image: string; badge?: string }> = ({
   icon: Icon,
   label,
-  variant,
+  image,
   badge,
-}) => {
-  // A few glow positions so neighbouring cards don't look identical
-  const glows = ['85% 10%', '15% 90%', '50% 0%', '90% 90%'];
-  return (
-    <div
-      className="relative h-32 overflow-hidden bg-[#0F172A]"
-      style={{
-        backgroundImage: `radial-gradient(70% 90% at ${glows[variant % glows.length]}, rgba(22,101,52,0.75), transparent)`,
-      }}
-    >
-      <div className="glow-grid absolute inset-0 opacity-50" aria-hidden="true" />
-      <Icon
-        aria-hidden="true"
-        strokeWidth={1.25}
-        className="absolute -right-3 -bottom-5 w-32 h-32 text-emerald-400/15 transition-transform duration-500 group-hover:scale-110 group-hover:-rotate-6"
-      />
-      <div className="absolute left-5 bottom-4 flex items-center gap-2.5">
-        <span className="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-sm border border-white/15 flex items-center justify-center text-emerald-300">
-          <Icon className="w-5 h-5" />
-        </span>
-        <span className="text-[11px] uppercase tracking-[0.18em] font-bold text-emerald-300">{label}</span>
-      </div>
-      {badge && (
-        <span className="absolute right-4 top-4 text-[10px] uppercase tracking-wider font-bold text-white/90 bg-white/10 border border-white/15 rounded-full px-2.5 py-1">
-          {badge}
-        </span>
-      )}
+}) => (
+  <div className="relative h-44 overflow-hidden bg-[#0F172A]">
+    <img
+      src={image}
+      alt=""
+      loading="lazy"
+      referrerPolicy="no-referrer"
+      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/90 via-[#0F172A]/25 to-transparent" />
+    <div className="absolute left-4 bottom-3.5 flex items-center gap-2.5">
+      <span className="w-9 h-9 rounded-xl bg-white/15 backdrop-blur-md border border-white/20 flex items-center justify-center text-emerald-300">
+        <Icon className="w-4.5 h-4.5" />
+      </span>
+      <span className="text-[11px] uppercase tracking-[0.18em] font-bold text-white">{label}</span>
     </div>
-  );
-};
+    {badge && (
+      <span className="absolute right-3 top-3 text-[10px] uppercase tracking-wider font-bold text-white bg-[#0F172A]/70 backdrop-blur-md border border-white/15 rounded-full px-2.5 py-1">
+        {badge}
+      </span>
+    )}
+  </div>
+);
 
 const cardMotion = (index: number) => ({
   initial: { opacity: 0, y: 24 },
@@ -90,7 +83,7 @@ interface ArticleCardProps {
 
 export const ArticleCard: React.FC<ArticleCardProps> = ({ article, index, onSelect }) => (
   <motion.article {...cardMotion(index)} onClick={() => onSelect(article)} className={CARD}>
-    <Cover icon={topicIcon(article.title)} label={article.pillarLabel} variant={index} />
+    <Cover icon={topicIcon(article.title)} label={article.pillarLabel} image={photoFor(article.id, article.pillar)} />
     <div className="p-5 flex-1 flex flex-col justify-between gap-4">
       <div className="space-y-2">
         <h3 className="text-base font-bold text-[#0F172A] group-hover:text-[#166534] transition-colors leading-snug">
@@ -123,7 +116,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect 
     <Cover
       icon={REVIEW_ICONS[review.category]}
       label={review.category}
-      variant={index + 1}
+      image={photoFor(review.id, review.category)}
       badge={review.overallScore != null ? `${review.overallScore} / 10` : 'Desk review'}
     />
     <div className="p-5 flex-1 flex flex-col justify-between gap-4">
