@@ -7,6 +7,7 @@ import {
 import { Article, ProductReview } from '../types';
 import { EASE } from './Motion';
 import { photoFor } from '../data/photos';
+import { reviewPrice } from './RegionalNote';
 
 // Cards for lists of guides and reviews, each with a photo cover.
 
@@ -124,7 +125,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect 
         <h3 className="text-lg font-bold text-[#0F172A] group-hover:text-[#166534] transition-colors leading-snug">
           {review.name}
         </h3>
-        <p className="text-xs font-semibold text-slate-500">{review.priceRange}</p>
+        <p className="text-xs font-semibold text-slate-500">{reviewPrice(review)}</p>
         <p className="text-sm text-slate-500 line-clamp-2 leading-relaxed">{review.verdict}</p>
       </div>
       <div className="flex items-center justify-between gap-2">

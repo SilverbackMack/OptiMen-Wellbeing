@@ -5,8 +5,29 @@ import { EASE } from './Motion';
 
 // MailerLite form: OW website signup (adds to the OW Newsletter group, double opt-in)
 // The free download offered with the newsletter (file lives in public/downloads)
-export const CHECKLIST_URL = '/downloads/mens-health-mot-checklist.pdf';
-export const CHECKLIST_NAME = "The Men's Health MOT Checklist";
+export const CHECKLIST_NAME = "The Men's Health Checklist";
+// Two editions, because what's offered and covered differs between the US and UK
+export const CHECKLIST_EDITIONS = [
+  { label: 'US edition', url: '/downloads/mens-health-checklist-us.pdf' },
+  { label: 'UK edition', url: '/downloads/mens-health-mot-checklist.pdf' },
+];
+
+const EditionButtons: React.FC<{ compact?: boolean }> = ({ compact }) => (
+  <div className={`grid grid-cols-2 gap-2 ${compact ? 'max-w-sm' : 'w-full'}`}>
+    {CHECKLIST_EDITIONS.map((e) => (
+      <a
+        key={e.url}
+        href={e.url}
+        target="_blank"
+        rel="noopener"
+        className={`${compact ? 'px-4 py-2.5 rounded-lg' : 'px-5 py-3 rounded-xl'} bg-[#166534] hover:bg-emerald-700 text-white text-sm font-semibold transition-colors inline-flex items-center justify-center gap-2`}
+      >
+        <Download className="w-4 h-4" />
+        <span>{e.label}</span>
+      </a>
+    ))}
+  </div>
+);
 
 const MAILERLITE_SUBSCRIBE_URL = 'https://assets.mailerlite.com/jsonp/2717913/forms/201492304082502919/subscribe';
 
@@ -157,7 +178,7 @@ const CONSENT_TEXT =
   "By subscribing you agree to receive the OptiMen Wellbeing newsletter, which may include affiliate recommendations. We'll email you a link to confirm, and you can unsubscribe at any time.";
 
 // The picture of the checklist beside the signup form. Rows tick themselves off.
-const CHECKLIST_PREVIEW = ['Blood pressure', 'NHS Health Check', 'Cholesterol', 'Prostate (PSA)', 'Bowel screening'];
+const CHECKLIST_PREVIEW = ['Blood pressure', 'Cholesterol', 'Blood sugar', 'Prostate (PSA)', 'Cancer screening'];
 
 const ChecklistPreview: React.FC = () => (
   <motion.div
@@ -172,7 +193,7 @@ const ChecklistPreview: React.FC = () => (
     <div className="relative rounded-2xl bg-white text-[#0F172A] overflow-hidden shadow-2xl shadow-black/40">
       <div className="bg-[#0F172A] px-5 py-4 border-b-4 border-emerald-400">
         <p className="text-[9px] uppercase tracking-[0.2em] font-bold text-emerald-400">OptiMen Wellbeing</p>
-        <p className="text-base font-extrabold text-white leading-tight mt-1">The Men's Health MOT Checklist</p>
+        <p className="text-base font-extrabold text-white leading-tight mt-1">The Men's Health Checklist</p>
       </div>
       <ul className="px-5 py-4 space-y-3">
         {CHECKLIST_PREVIEW.map((row, i) => (
@@ -192,7 +213,7 @@ const ChecklistPreview: React.FC = () => (
         ))}
       </ul>
       <div className="px-5 pb-4 flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400">
-        <span>2 pages &middot; PDF</span>
+        <span>US &middot; UK &middot; PDF</span>
         <span className="text-[#166534] bg-emerald-50 border border-emerald-200 rounded px-1.5 py-0.5">Free</span>
       </div>
     </div>
@@ -218,11 +239,11 @@ export const NewsletterSection: React.FC = () => {
           <p className="text-[11px] uppercase tracking-[0.2em] text-emerald-400 font-bold mb-3">Free download</p>
 
           <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-balance leading-[1.05]">
-            Get the Free Men's Health MOT Checklist
+            Get the Free Men's Health Checklist
           </h2>
 
           <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-md mx-auto lg:mx-0">
-            Every check worth having, and what's free on the NHS. Two pages.
+            Every check worth having, and what's covered. US and UK editions.
           </p>
 
           {!submitted ? (
@@ -293,15 +314,8 @@ export const NewsletterSection: React.FC = () => {
                 </div>
               </div>
 
-              <a
-                href={CHECKLIST_URL}
-                target="_blank"
-                rel="noopener"
-                className="w-full px-5 py-3 bg-[#166534] hover:bg-emerald-700 text-white text-sm font-semibold rounded-xl transition-colors inline-flex items-center justify-center gap-2"
-              >
-                <Download className="w-4 h-4" />
-                <span>Download {CHECKLIST_NAME} (PDF)</span>
-              </a>
+              <p className="text-xs font-semibold text-slate-300">Download your edition (PDF):</p>
+              <EditionButtons />
 
               <div className="pt-1 text-center">
                 <button
@@ -337,7 +351,7 @@ export const ChecklistSignup: React.FC = () => {
           <p className="text-[11px] uppercase tracking-widest text-emerald-400 font-bold">Free download</p>
           <h2 className="text-lg font-extrabold tracking-tight leading-snug">{CHECKLIST_NAME}</h2>
           <p className="text-xs text-slate-300 leading-relaxed mt-1">
-            Two pages: the health checks worth having at every age, what's free on the NHS and how to ask for each. Join our newsletter and download it straight away.
+            Two pages: the health checks worth having at every age, what's usually covered and how to ask for each. US and UK editions. Join our newsletter and download it straight away.
           </p>
         </div>
       </div>
@@ -381,15 +395,7 @@ export const ChecklistSignup: React.FC = () => {
               Your checklist is ready. We've also sent a confirmation link to <strong className="text-white">{email}</strong>. Click it to start getting the newsletter.
             </span>
           </p>
-          <a
-            href={CHECKLIST_URL}
-            target="_blank"
-            rel="noopener"
-            className="px-5 py-2.5 bg-[#166534] hover:bg-emerald-700 text-white text-sm font-semibold rounded-lg transition-colors inline-flex items-center gap-2"
-          >
-            <Download className="w-4 h-4" />
-            <span>Download the checklist (PDF)</span>
-          </a>
+          <EditionButtons compact />
         </div>
       )}
     </aside>

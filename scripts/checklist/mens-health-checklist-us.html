@@ -1,0 +1,152 @@
+<!doctype html>
+<!-- Source for public/downloads/mens-health-checklist-us.pdf (US edition).
+     To rebuild the PDF after editing: node scripts/checklist/build.cjs (needs Playwright), or open this file in Chrome and Print > Save as PDF -->
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>The Men's Health Checklist (US edition) | OptiMen Wellbeing</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "DM Sans", "Helvetica Neue", Arial, sans-serif; color: #0F172A; font-size: 9.6pt; line-height: 1.4; }
+  .page { width: 215.9mm; height: 279.4mm; padding: 0 0 12mm; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  header { background: #0F172A; color: #fff; padding: 11mm 15mm 9mm; }
+  header .brand { color: #34D399; font-size: 8pt; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+  header h1 { margin: 2mm 0 1.5mm; font-size: 22pt; line-height: 1.1; letter-spacing: -.01em; }
+  header p { margin: 0; color: #CBD5E1; font-size: 10pt; max-width: 150mm; }
+  main { padding: 6mm 15mm 0; }
+  h2 { font-size: 11.5pt; margin: 4.2mm 0 1.6mm; color: #166534; display: flex; align-items: baseline; gap: 3mm; }
+  h2 .age { background: #166534; color: #fff; border-radius: 3px; padding: .6mm 2.4mm; font-size: 8.5pt; letter-spacing: .04em; white-space: nowrap; }
+  h2:first-child { margin-top: 0; }
+  ul.checks { list-style: none; margin: 0; padding: 0; }
+  ul.checks li { display: grid; grid-template-columns: 5mm 1fr; gap: 2.5mm; padding: 1.5mm 0; border-bottom: .3mm solid #E2E8F0; break-inside: avoid; }
+  ul.checks li:last-child { border-bottom: 0; }
+  .box { width: 4mm; height: 4mm; border: .45mm solid #166534; border-radius: .8mm; margin-top: .5mm; }
+  .what { font-weight: 700; }
+  .how { color: #334155; }
+  .tag { display: inline-block; font-size: 7.4pt; font-weight: 700; color: #166534; background: #ECFDF5; border: .25mm solid #A7F3D0; border-radius: 2px; padding: 0 1.4mm; margin-left: 1.5mm; vertical-align: 1px; white-space: nowrap; }
+  .note { background: #F8FAFC; border: .3mm solid #E2E8F0; border-radius: 2mm; padding: 2.5mm 4mm; margin-top: 3mm; color: #334155; font-size: 8.2pt; }
+  .urgent { background: #FEF2F2; border: .3mm solid #FECACA; border-radius: 2mm; padding: 3mm 4mm; margin-top: 3.5mm; }
+  .urgent h3 { margin: 0 0 1.5mm; font-size: 10.5pt; color: #991B1B; }
+  .urgent ul { margin: 0; padding-left: 4.5mm; }
+  .urgent li { margin: .8mm 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 6mm; margin-top: 2mm; }
+  .field { border-bottom: .3mm solid #94A3B8; padding: 3mm 0 .8mm; font-size: 8.6pt; color: #475569; }
+  footer { position: absolute; left: 15mm; right: 15mm; bottom: 7mm; font-size: 7.2pt; color: #64748B; border-top: .3mm solid #E2E8F0; padding-top: 2mm; display: flex; justify-content: space-between; gap: 6mm; }
+  footer .small { max-width: 140mm; }
+  footer div:last-child { white-space: nowrap; }
+  /* US Letter is shorter than A4, so this edition is set a little tighter */
+  body { font-size: 8.9pt; line-height: 1.32; }
+  header { padding: 9mm 14mm 7mm; }
+  header h1 { font-size: 20pt; }
+  main { padding: 4.5mm 14mm 0; }
+  h2 { margin: 3mm 0 1.2mm; font-size: 11pt; }
+  ul.checks li { padding: 1.1mm 0; }
+  .field { padding: 2.4mm 0 .6mm; }
+  .urgent { margin-top: 2.5mm; padding: 2.5mm 4mm; }
+  .note { margin-top: 2mm; padding: 2mm 4mm; font-size: 7.8pt; }
+  footer { bottom: 5mm; left: 14mm; right: 14mm; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <header>
+    <div class="brand">OptiMen Wellbeing &middot; US edition</div>
+    <h1>The Men's Health Checklist</h1>
+    <p>The checks worth having at every age, what's usually covered, and how to get each one. Tick them off as you go.</p>
+  </header>
+  <main>
+    <h2><span class="age">ANY AGE</span> Start here</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Book a yearly preventive visit.</span><span class="tag">USUALLY NO COPAY</span> <span class="how">Most private plans and Medicare cover recommended screenings at no cost when you see an in-network doctor. Check your plan.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Know your blood pressure.</span> <span class="how">High blood pressure usually has no symptoms. US guidelines count 130/80 or more as high. Many pharmacies have a free machine.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Know what's normal for your testicles.</span> <span class="how">Doctors don't screen for testicular cancer, but see one about any lump, swelling, change in shape or ache.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Ask about your family history.</span> <span class="how">Find out whether close relatives have had heart disease, stroke, diabetes, or prostate, breast, ovarian or colon cancer, and at what age.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Be honest about how you're coping.</span> <span class="how">If you've had "nothing left to give" for weeks, talk to your doctor. Your job may offer free counseling through an Employee Assistance Program.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Get tested once for hepatitis C and HIV.</span><span class="tag">ADULTS</span> <span class="how">Recommended at least once for most adults, usually with a simple blood test.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 35</span> Heart and metabolism</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Cholesterol test.</span> <span class="how">Every 4 to 6 years for most adults, more often if you have risk factors. Ask your doctor for your 10-year heart risk.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Blood sugar test, if you're overweight.</span><span class="tag">AGES 35 TO 70</span> <span class="how">Checks for prediabetes and type 2 diabetes, which often have no symptoms.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Sleep check-in.</span> <span class="how">See a doctor if poor sleep has lasted for months, or if you snore loudly and someone has noticed pauses in your breathing.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 40 TO 55</span> Prostate</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">From 40 to 45, if you're at higher risk: talk to your doctor about a PSA test.</span> <span class="how">Higher risk means you're Black, or your father or brother had prostate cancer before 65.</span></div></li>
+      <li><span class="box"></span><div><span class="what">From 50 to 55: decide with your doctor whether to test.</span> <span class="how">The American Cancer Society suggests talking about it from 50. The US Preventive Services Task Force says it's a personal choice from 55 to 69.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Getting up at night to pee, or a weak flow?</span> <span class="how">It's usually a non-cancerous enlarged prostate, but only a check-up can tell.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 45</span> Screening</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Colorectal cancer screening.</span><span class="tag">AGES 45 TO 75</span> <span class="how">A home stool test every 1 to 3 years, or a colonoscopy every 10 years. Ask which suits you.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Lung cancer scan, if you've smoked heavily.</span><span class="tag">AGES 50 TO 80</span> <span class="how">A yearly low-dose CT scan if you have a 20 pack-year history and smoke now or quit in the last 15 years.</span></div></li>
+      <li><span class="box"></span><div><span class="what">AAA scan, if you've ever smoked.</span><span class="tag">AGES 65 TO 75</span> <span class="how">A one-time ultrasound of the main artery in your belly.</span></div></li>
+    </ul>
+  </main>
+  <footer>
+    <div class="small">Based on US Preventive Services Task Force, CDC, American Heart Association and American Cancer Society guidance. Coverage depends on your plan.</div>
+    <div>optimenwellbeing.com &middot; Page 1 of 2</div>
+  </footer>
+</section>
+
+<section class="page">
+  <header>
+    <div class="brand">OptiMen Wellbeing &middot; US edition</div>
+    <h1>Your numbers and next steps</h1>
+    <p>Write your results down. Numbers you can see are easier to act on, and easier to compare next time.</p>
+  </header>
+  <main>
+    <h2>My numbers</h2>
+    <div class="grid">
+      <div class="field">Blood pressure</div><div class="field">Date checked</div>
+      <div class="field">Total cholesterol (mg/dL)</div><div class="field">LDL or non-HDL cholesterol (mg/dL)</div>
+      <div class="field">10-year heart risk (%)</div><div class="field">Blood sugar (A1c %), if tested</div>
+      <div class="field">Weight</div><div class="field">Waist</div>
+      <div class="field">PSA, if tested</div><div class="field">Next check due</div>
+    </div>
+
+    <h2>Before any appointment</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Write down your main concern in one sentence.</span> <span class="how">Say it first. Appointments are short.</span></div></li>
+      <li><span class="box"></span><div><span class="what">List your medicines and supplements.</span> <span class="how">Include creatine, which changes a kidney blood test, and finasteride, which lowers PSA.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Before a PSA blood test:</span> <span class="how">no ejaculation or vigorous exercise, including cycling, for 48 hours.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Ask three questions:</span> <span class="how">What are my numbers? What do they mean for me? What happens next, and when?</span></div></li>
+    </ul>
+
+    <h2>Five habits that move the numbers</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Move most days.</span> <span class="how">Aim for 150 minutes a week of activity that raises your breathing, plus strength work on 2 days.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Keep a regular bedtime.</span> <span class="how">Most adults need at least 7 hours.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Drink less.</span> <span class="how">If you drink, 2 drinks or fewer a day, and less is better.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Don't smoke.</span> <span class="how">Free help to quit: call 1-800-QUIT-NOW (1-800-784-8669).</span></div></li>
+      <li><span class="box"></span><div><span class="what">Eat fish twice a week,</span> <span class="how">and fill half your plate with vegetables and fruit.</span></div></li>
+    </ul>
+
+    <div class="urgent">
+      <h3>Don't wait for a check-up</h3>
+      <ul>
+        <li><strong>Call 911</strong> for sudden chest pain or pressure that doesn't go away, or signs of a stroke: a drooping face, arm weakness or slurred speech.</li>
+        <li><strong>Go to the ER or call 911</strong> for sudden, severe pain in a testicle.</li>
+        <li><strong>See a doctor promptly</strong> about blood in your pee, poop or semen, a lump anywhere, or weight loss you can't explain.</li>
+        <li><strong>Struggling right now?</strong> Call or text 988, the Suicide &amp; Crisis Lifeline, any time.</li>
+      </ul>
+    </div>
+
+    <div class="note">
+      This checklist is general health information for men in the US, based on US Preventive Services Task Force, CDC, American Heart Association and American Cancer Society guidance as of November 2026. It is not medical advice and doesn't replace a conversation with your doctor. Guidance changes, so check with your doctor for the latest.
+    </div>
+  </main>
+  <footer>
+    <div class="small">&copy; OptiMen Wellbeing. Read the full guides at optimenwellbeing.com.</div>
+    <div>optimenwellbeing.com &middot; Page 2 of 2</div>
+  </footer>
+</section>
+
+</body>
+</html>

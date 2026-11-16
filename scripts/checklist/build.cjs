@@ -1,15 +1,21 @@
-// Rebuilds public/downloads/mens-health-mot-checklist.pdf from the HTML next to this file.
+// Rebuilds the checklist PDFs in public/downloads from the HTML next to this file.
 // Needs Playwright (npm i -D playwright). Run: node scripts/checklist/build.cjs
 const path = require('node:path');
 const { chromium } = require('playwright');
 
+const EDITIONS = [
+  { html: 'mens-health-mot-checklist.html', pdf: 'mens-health-mot-checklist.pdf', format: 'A4' }, // UK
+  { html: 'mens-health-checklist-us.html', pdf: 'mens-health-checklist-us.pdf', format: 'Letter' }, // US
+];
+
 (async () => {
-  const src = path.join(__dirname, 'mens-health-mot-checklist.html');
-  const out = path.join(__dirname, '..', '..', 'public', 'downloads', 'mens-health-mot-checklist.pdf');
   const browser = await chromium.launch();
   const page = await browser.newPage();
-  await page.goto('file://' + src);
-  await page.pdf({ path: out, format: 'A4', printBackground: true });
+  for (const e of EDITIONS) {
+    const out = path.join(__dirname, '..', '..', 'public', 'downloads', e.pdf);
+    await page.goto('file://' + path.join(__dirname, e.html));
+    await page.pdf({ path: out, format: e.format, printBackground: true, preferCSSPageSize: true });
+    console.log('Wrote ' + out);
+  }
   await browser.close();
-  console.log('Wrote ' + out);
 })();

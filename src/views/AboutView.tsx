@@ -15,8 +15,8 @@ interface AboutViewProps {
   onOpenAssessment: () => void;
 }
 
-const WE_ARE = ['Writers and researchers', 'UK guidance first', 'Sources on every guide', 'Free to read'];
-const WE_ARE_NOT = ['Doctors', 'Medically reviewed', 'Hands-on product testers', 'A replacement for your GP'];
+const WE_ARE = ['Writers and researchers', 'US and UK guidance', 'Sources on every guide', 'Free to read'];
+const WE_ARE_NOT = ['Doctors', 'Medically reviewed', 'Hands-on product testers', 'A replacement for your doctor'];
 
 const FOCUS: { icon: typeof HeartPulse; title: string; line: string; page: PageType }[] = [
   { icon: HeartPulse, title: 'Heart and health checks', line: 'Screening and early warning signs', page: 'health' },
@@ -28,7 +28,7 @@ const FOCUS: { icon: typeof HeartPulse; title: string; line: string; page: PageT
 const PRINCIPLES = [
   { icon: BadgePoundSterling, title: "Verdicts aren't for sale", line: 'Brands cannot pay to change a review.' },
   { icon: Users, title: 'Human studies first', line: 'Not animal studies or marketing claims.' },
-  { icon: ShieldAlert, title: 'Risks flagged', line: 'We say when to see your GP.' },
+  { icon: ShieldAlert, title: 'Risks flagged', line: 'We say when to see a doctor.' },
 ];
 
 export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessment }) => {
@@ -38,7 +38,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
       <PageHero
         eyebrow="About us"
         title={<>Men's health, minus the hype.</>}
-        line="Plain-English guides for UK men aged 25 to 55."
+        line="Plain-English guides for men aged 25 to 55, in the US and UK."
         image={HEALTH_IMAGE}
       />
 
@@ -151,7 +151,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
           <FlowDiagram
             steps={[
               { icon: BookOpen, title: 'Read the research' },
-              { icon: Landmark, title: 'Check UK guidance' },
+              { icon: Landmark, title: 'Check US and UK guidance' },
               { icon: FileText, title: 'Write it plainly' },
               { icon: ListChecks, title: 'List every source' },
             ]}

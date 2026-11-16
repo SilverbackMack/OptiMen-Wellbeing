@@ -3,6 +3,7 @@ import { Article } from '../types';
 import { X, Clock, Calendar, CheckCircle2, Bookmark, ShieldCheck, ExternalLink } from 'lucide-react';
 import { createLinker } from '../links';
 import { photoFor } from '../data/photos';
+import { RegionalNote } from './RegionalNote';
 import { LinkedText, OpenContent } from './LinkedText';
 import { ReadNext } from './ReadNext';
 import { ChecklistSignup } from './NewsletterSection';
@@ -98,6 +99,9 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
               <div className="text-xs text-[#166534] mt-0.5">{article.author.role}</div>
             </div>
           </div>
+
+          {/* US and UK differences */}
+          <RegionalNote id={article.id} />
 
           {/* Full Article Content Sections */}
           {article.sections && article.sections.length > 0 && (

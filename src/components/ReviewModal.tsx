@@ -3,6 +3,7 @@ import { ProductReview } from '../types';
 import { X, Check, AlertCircle, ShieldCheck, ExternalLink } from 'lucide-react';
 import { createLinker } from '../links';
 import { photoFor } from '../data/photos';
+import { reviewPrice } from './RegionalNote';
 import { LinkedText, OpenContent } from './LinkedText';
 import { ReadNext } from './ReadNext';
 import { ChecklistSignup } from './NewsletterSection';
@@ -85,7 +86,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
                 {review.name}
               </h2>
               <div className="text-xs text-slate-500 mt-1">
-                {review.testedDuration} &middot; Price: {review.priceRange}
+                {review.testedDuration} &middot; Price: {reviewPrice(review)}
               </div>
             </div>
 

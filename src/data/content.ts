@@ -403,7 +403,7 @@ export const ALL_ARTICLES: Article[] = [
         heading: 'WHOOP or Oura? The Short Answer',
         paragraphs: [
           "Pick the Oura Ring 5 if you mainly care about sleep and want something you'll forget you're wearing. Pick WHOOP 5.0 if you train hard several times a week and want daily guidance on how much to push. If you're not sure you'd act on the data, save your money.",
-          "This is a desk comparison. We haven't tested either device ourselves. It's based on each maker's specifications and on independent hands-on testing by Expert Reviews. Prices were reported in autumn 2026 and may have changed. This article contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a desk comparison. We haven't tested either device ourselves. It's based on each maker's specifications and on independent hands-on testing by Expert Reviews. Prices were reported in autumn 2026 and may have changed. This article contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -461,9 +461,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        heading: 'When to See a GP',
+        heading: 'When to See a Doctor',
         paragraphs: [
-          "Neither device diagnoses anything. See a GP if poor sleep has lasted for months, if you snore loudly and someone has noticed pauses in your breathing, or if you're tired all the time whatever your scores say. Get palpitations, chest pain or breathlessness checked, and call 999 for chest pain that doesn't settle."
+          "Neither device diagnoses anything. See a doctor if poor sleep has lasted for months, if you snore loudly and someone has noticed pauses in your breathing, or if you're tired all the time whatever your scores say. Get palpitations, chest pain or breathlessness checked, and call 999 for chest pain that doesn't settle."
         ]
       },
       {
@@ -500,18 +500,18 @@ export const ALL_ARTICLES: Article[] = [
       "role": "Evidence Review Team"
     },
     "keyTakeaways": [
-      "Check your testicles once a month. It takes 2 minutes, and any change is worth a GP visit.",
-      "About 1 in 8 UK men will get prostate cancer, rising to about 1 in 4 Black men. From 50, or 45 if you're at higher risk, you can ask your GP about a PSA test.",
+      "Check your testicles once a month. It takes 2 minutes, and any change is worth a doctor visit.",
+      "About 1 in 8 UK men will get prostate cancer, rising to about 1 in 4 Black men. From 50, or 45 if you're at higher risk, you can ask your doctor about a PSA test.",
       "Ongoing erection problems can be an early sign of heart or blood vessel problems.",
       "High blood pressure usually has no symptoms. If you're 40 or over in England, many pharmacies check it for free.",
-      "Months of poor sleep, burnout and 'low T' symptoms all deserve a proper conversation with a GP or talking therapist."
+      "Months of poor sleep, burnout and 'low T' symptoms all deserve a proper conversation with a doctor or talking therapist."
     ],
     "protocolSteps": [
       "Pick the one check you've been putting off and book it this week.",
       "Set a monthly phone reminder to check your testicles in or after a warm shower.",
-      "If you're 40 or over, get your blood pressure checked at a pharmacy or GP surgery if it hasn't been done in the last 5 years.",
-      "If you're over 50, or over 45 and at higher risk, ask your GP about prostate cancer and the PSA test.",
-      "See a GP about ongoing erection problems, months of poor sleep or tiredness that won't lift.",
+      "If you're 40 or over, get your blood pressure checked at a pharmacy or your doctor's office if it hasn't been done in the last 5 years.",
+      "If you're over 50, or over 45 and at higher risk, ask your doctor about prostate cancer and the PSA test.",
+      "See a doctor about ongoing erection problems, months of poor sleep or tiredness that won't lift.",
       "If you're running on empty, talk to someone. You can refer yourself to NHS Talking Therapies, or call Samaritans free on 116 123."
     ],
     "references": [
@@ -542,30 +542,30 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Around 2,300 men in the UK are diagnosed with testicular cancer each year, according to Cancer Research UK. Unlike most cancers, it mainly affects younger men, typically between 15 and 49, and it's one of the most treatable.",
           "Check once a month, in or after a warm shower, when the skin is relaxed. Roll each testicle gently between your thumb and fingers. Smooth and firm is normal, and it's normal for one to be slightly bigger or hang lower than the other.",
-          "See a GP if you notice a lump, swelling, a change in shape or firmness, or an ache. Most changes aren't cancer, but only a doctor can tell. Our step-by-step guide, 'How to Check Your Testicles', walks you through it."
+          "See a doctor if you notice a lump, swelling, a change in shape or firmness, or an ache. Most changes aren't cancer, but only a doctor can tell. Our step-by-step guide, 'How to Check Your Testicles', walks you through it."
         ]
       },
       {
         "heading": "2. Prostate: Know Your Risk",
         "paragraphs": [
           "About 1 in 8 men in the UK will be diagnosed with prostate cancer in their lifetime. For Black men it's about 1 in 4, and if your father or brother has had it, you're two and a half times more likely to get it.",
-          "Early prostate cancer usually has no symptoms, and there's no routine screening for most men in the UK. That's why a conversation with your GP matters. If you're over 50, you can ask about a PSA blood test. If you're over 45 and at higher risk, because you're Black or have a family history, it's worth talking to your GP too.",
+          "Early prostate cancer usually has no symptoms, and there's no routine screening for most men in the UK. That's why a conversation with your doctor matters. If you're over 50, you can ask about a PSA blood test. If you're over 45 and at higher risk, because you're Black or have a family history, it's worth talking to your doctor too.",
           "Most urinary symptoms, like getting up at night to wee, are caused by a non-cancerous enlarged prostate. Only a check-up can tell the difference. Read more in 'Prostate Health: What Every Man Should Know'."
         ]
       },
       {
         "heading": "3. Erections: Your Body's Early Warning Light",
         "paragraphs": [
-          "Occasional erection problems are normal, and usually down to stress, tiredness or alcohol. Ongoing problems are different, and worth a GP visit.",
+          "Occasional erection problems are normal, and usually down to stress, tiredness or alcohol. Ongoing problems are different, and worth a doctor visit.",
           "The blood vessels in the penis are smaller than those around the heart. That means narrowing of the arteries can show up as erection problems before it causes heart symptoms. A simple blood pressure, cholesterol and blood sugar check can pick up problems early, when they are easiest to treat.",
-          "GPs talk about this every day, so there's no need to feel awkward booking in. Our guide 'Erectile Dysfunction: Common Causes and When to See a GP' explains the causes and what to expect."
+          "Doctors talk about this every day, so there's no need to feel awkward booking in. Our guide 'Erectile Dysfunction: Common Causes and When to See a Doctor' explains the causes and what to expect."
         ]
       },
       {
         "heading": "4. Burnout: Stressed, or Running on Empty?",
         "paragraphs": [
           "Stress feels like 'too much'. Burnout feels like having 'nothing left to give'. In men it often shows up as irritability, working longer hours, drinking more and pulling away from people.",
-          "Rest alone rarely fixes burnout; recovery means dealing with the cause. Talking helps. If you're 18 or over in England, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling, without seeing a GP first.",
+          "Rest alone rarely fixes burnout; recovery means dealing with the cause. Talking helps. If you're 18 or over in England, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling, without seeing a doctor first.",
           "If you're struggling right now, call Samaritans free on 116 123, any time, or call NHS 111. Our guide 'Signs of Burnout in Men' has more on spotting it and what to do next."
         ]
       },
@@ -573,7 +573,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "5. Blood Pressure: The Free Check at Your Pharmacy",
         "paragraphs": [
           "High blood pressure usually has no symptoms, so many people don't know they have it. Left untreated, it raises your risk of heart attacks, strokes, kidney disease and vascular dementia. The only way to know is to get it checked.",
-          "If you're 40 or over, live in England, haven't been diagnosed with high blood pressure and haven't had it checked in the last 5 years, many pharmacies will check it for free. You don't need to see a GP first, and it takes a few minutes. A reading of 140/90 or higher, taken by a professional, counts as high.",
+          "If you're 40 or over, live in England, haven't been diagnosed with high blood pressure and haven't had it checked in the last 5 years, many pharmacies will check it for free. You don't need to see a doctor first, and it takes a few minutes. A reading of 140/90 or higher, taken by a professional, counts as high.",
           "If you're aged 40 to 74 in England and don't have certain long-term conditions, you should also be invited for a free NHS Health Check every 5 years. It looks at your blood pressure, cholesterol and risk of heart disease, stroke and diabetes. If you haven't been invited, contact your GP practice. In Scotland, Wales and Northern Ireland, ask your pharmacy or GP surgery about a check."
         ]
       },
@@ -581,7 +581,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "6. Sleep: Why You Keep Waking at 3am",
         "paragraphs": [
           "Brief waking between sleep cycles is normal. By the early hours your sleep is lighter, so small things can wake you fully: alcohol, caffeine, stress, needing a wee, or a warm or noisy bedroom.",
-          "If you're awake for about 20 minutes, get up and do something calm until you feel sleepy. See a GP if poor sleep has gone on for months or is affecting your days. Also book in if you snore loudly and someone has noticed pauses in your breathing, as this can be a sign of sleep apnoea. Read 'Why Do I Wake Up at 3am?' for the full guide."
+          "If you're awake for about 20 minutes, get up and do something calm until you feel sleepy. See a doctor if poor sleep has gone on for months or is affecting your days. Also book in if you snore loudly and someone has noticed pauses in your breathing, as this can be a sign of sleep apnoea. Read 'Why Do I Wake Up at 3am?' for the full guide."
         ]
       },
       {
@@ -589,7 +589,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Feeling tired, flat and low on drive? It's tempting to blame testosterone. But testosterone falls slowly, by about 1% a year from around age 30 to 40, and the NHS says that on its own this is unlikely to cause problems.",
           "Symptoms like tiredness, low mood and a low sex drive more often come down to lack of sleep, stress, poor diet, lack of exercise, heavy drinking or smoking. Skip the 'testosterone boosters' and start with those.",
-          "If symptoms last more than a few weeks, see your GP. True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice. Our guide 'Low Testosterone Symptoms After 40' explains more."
+          "If symptoms last more than a few weeks, see your doctor. True testosterone deficiency is diagnosed with symptoms plus morning blood tests, usually done twice. Our guide 'Low Testosterone Symptoms After 40' explains more."
         ]
       },
       {
@@ -598,12 +598,12 @@ export const ALL_ARTICLES: Article[] = [
           "Save this list and work through it one check at a time:"
         ],
         "bullets": [
-          "Testicles: once a month, in or after a warm shower. Any change, see your GP",
-          "Prostate: over 50, or over 45 at higher risk? Ask your GP about a PSA test",
-          "Erections: ongoing problems? See your GP, as it can be an early heart warning",
+          "Testicles: once a month, in or after a warm shower. Any change, see your doctor",
+          "Prostate: over 50, or over 45 at higher risk? Ask your doctor about a PSA test",
+          "Erections: ongoing problems? See your doctor, as it can be an early heart warning",
           "Burnout: 'nothing left to give'? Talk to someone, or refer yourself to NHS Talking Therapies",
           "Blood pressure: 40 or over and not checked in 5 years? Free at many pharmacies in England",
-          "Sleep: broken sleep for months, or loud snoring with pauses? See your GP",
+          "Sleep: broken sleep for months, or loud snoring with pauses? See your doctor",
           "Testosterone: tired and flat? Check sleep, stress and drinking first, then ask about a morning blood test"
         ]
       },
@@ -642,10 +642,10 @@ export const ALL_ARTICLES: Article[] = [
       "Regular sauna use is also linked to lower blood pressure and a lower risk of dementia, but these studies show links, not proof.",
       "Saunas don't 'detox' you. Your liver and kidneys do that job.",
       "Regular saunas can temporarily lower sperm count, so consider pausing if you're trying for a baby.",
-      "Keep sessions to 15 to 20 minutes, avoid alcohol, and check with a GP first if you have a heart condition."
+      "Keep sessions to 15 to 20 minutes, avoid alcohol, and check with a doctor first if you have a heart condition."
     ],
     "protocolSteps": [
-      "If you have a heart condition, high blood pressure or take regular medicines, check with your GP before starting.",
+      "If you have a heart condition, high blood pressure or take regular medicines, check with your doctor before starting.",
       "Start with short sessions of 5 to 10 minutes and build up to no more than 15 to 20 minutes.",
       "Aim for 2 to 3 sessions a week to begin with. In the research, the biggest benefits were seen at 4 to 7 a week.",
       "Never drink alcohol before or during a sauna, and drink water afterwards.",
@@ -683,14 +683,14 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Heat makes your blood vessels widen, and researchers think regular saunas may help keep arteries more flexible. A 2018 review of the evidence pointed to better blood vessel function and less arterial stiffness as likely reasons for the heart benefits.",
           "In one study of 100 adults with at least one heart risk factor, a single 30-minute sauna lowered blood pressure from 137/82 to 130/75 mmHg. In a separate group of 1,621 Finnish men followed for almost 25 years, those who used a sauna 4 to 7 times a week had a 47% lower risk of developing high blood pressure.",
-          "If you already have high blood pressure, a sauna isn't a treatment. Keep taking any prescribed medicines and talk to your GP before you start."
+          "If you already have high blood pressure, a sauna isn't a treatment. Keep taking any prescribed medicines and talk to your doctor before you start."
         ]
       },
       {
         "heading": "Brain, Mood and Stress",
         "paragraphs": [
           "The same Finnish study found that men who used a sauna 4 to 7 times a week had a 66% lower risk of dementia and a 65% lower risk of Alzheimer's disease than men who went once a week. The researchers say it's unclear whether the sauna itself protects the brain, or whether it's simply a relaxing habit shared by men at lower risk.",
-          "Many men find a sauna a good way to switch off. That matters: time away from screens and work is valuable in itself. But no study has yet tested traditional saunas as a treatment for depression, so if your mood has been low for weeks, speak to a GP."
+          "Many men find a sauna a good way to switch off. That matters: time away from screens and work is valuable in itself. But no study has yet tested traditional saunas as a treatment for depression, so if your mood has been low for weeks, speak to a doctor."
         ]
       },
       {
@@ -737,9 +737,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "Who Should Check With a GP First",
+        "heading": "Who Should Check With a doctor First",
         "paragraphs": [
-          "Saunas appear safe for many people with stable heart disease, but some conditions make them risky. Speak to your GP before using a sauna if you have:"
+          "Saunas appear safe for many people with stable heart disease, but some conditions make them risky. Speak to your doctor before using a sauna if you have:"
         ],
         "bullets": [
           "Chest pain that comes on at rest or is getting worse (unstable angina), or a recent heart attack",
@@ -768,7 +768,7 @@ export const ALL_ARTICLES: Article[] = [
     "publishOn": "2026-11-26",
     "title": "Best Supplements for Men Over 40: What's Worth Taking and What Isn't",
     "metaTitle": "Best Supplements for Men Over 40: What's Worth It | OptiMen Wellbeing",
-    "metaDescription": "The best supplements for men over 40, based on UK evidence: what's worth taking, what's a waste of money, and when to check with a GP or pharmacist first.",
+    "metaDescription": "The best supplements for men over 40, based on UK evidence: what's worth taking, what's a waste of money, and when to check with a doctor or pharmacist first.",
     "summary": "Supplement shelves promise energy, muscle and a younger you. The truth is simpler: most men over 40 need far fewer pills than the adverts suggest. Here's what the evidence supports, what it doesn't, and how to buy safely.",
     "pillar": "nutrition",
     "pillarLabel": "Nutrition",
@@ -792,7 +792,7 @@ export const ALL_ARTICLES: Article[] = [
       "If you eat little or no animal food, make sure you get vitamin B12 from fortified foods or a supplement.",
       "If you do strength training, consider 3 to 5 g of creatine monohydrate a day.",
       "Check every label against NHS upper limits, and ask a pharmacist before taking anything new if you're on regular medicines.",
-      "See a GP about ongoing tiredness, low mood or low sex drive rather than trying to fix it with supplements."
+      "See a doctor about ongoing tiredness, low mood or low sex drive rather than trying to fix it with supplements."
     ],
     "references": [
       "NHS: Do I need vitamin supplements? nhs.uk.",
@@ -831,7 +831,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "From middle age, men slowly lose muscle and strength. Strength training is the main way to fight that, and the NHS recommends strengthening activities on at least 2 days a week.",
           "Creatine can make that training work a little better. A 2017 analysis of 22 trials in older adults found that people who took creatine while strength training gained about 1.4 kg more lean mass than those who trained without it, and got stronger too. UK law allows a health claim that daily creatine can enhance the effect of strength training on muscle strength in adults over 55, based on 3 g a day.",
-          "The catch is the training. Creatine alone won't build muscle. If you have kidney disease or take regular medicines, check with a GP or pharmacist first. Our guide 'Is Creatine Safe?' covers the kidney and hair loss myths in detail."
+          "The catch is the training. Creatine alone won't build muscle. If you have kidney disease or take regular medicines, check with a doctor or pharmacist first. Our guide 'Is Creatine Safe?' covers the kidney and hair loss myths in detail."
         ]
       },
       {
@@ -867,7 +867,7 @@ export const ALL_ARTICLES: Article[] = [
           "Some of the most popular supplements for men over 40 have little evidence behind them, or raise safety questions:"
         ],
         "bullets": [
-          "Saw palmetto for the prostate: a 2023 Cochrane review of 27 trials with 4,656 men found it didn't improve urinary symptoms or quality of life, even after more than a year. If you're getting up at night to wee, see our guide to enlarged prostate symptoms and speak to a GP.",
+          "Saw palmetto for the prostate: a 2023 Cochrane review of 27 trials with 4,656 men found it didn't improve urinary symptoms or quality of life, even after more than a year. If you're getting up at night to wee, see our guide to enlarged prostate symptoms and speak to a doctor.",
           "Ashwagandha: the Food Standards Agency says there are potential health risks, with reports linking it to thyroid and possible liver problems, and no safe level set in the UK. An independent safety review is under way. Until it reports, we'd avoid it.",
           "'Testosterone boosters': low testosterone can only be confirmed with a blood test. Tiredness, low mood and low sex drive have many causes, including poor sleep, stress and heavy drinking, so get checked rather than guessing.",
           "Multivitamins: the NHS says most people can get what they need from a varied, balanced diet, so if you eat well you probably don't need one. They're no substitute for good food."
@@ -883,13 +883,13 @@ export const ALL_ARTICLES: Article[] = [
           "For herbal products, look for the THR (traditional herbal registration) mark, which shows the product meets UK safety standards.",
           "For sports supplements like creatine, choose brands that use independent testing, such as the Informed Sport mark.",
           "Be wary of products bought from unknown websites, and of any label that promises to cure or treat a condition.",
-          "Tell your GP what supplements you take, especially before blood tests or surgery."
+          "Tell your doctor what supplements you take, especially before blood tests or surgery."
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "Supplements shouldn't be used to self-treat symptoms that need checking. See a GP if you have ongoing tiredness, low mood, a loss of sex drive, erection problems, muscle loss or poor concentration. These can be signs of low testosterone, but more often they're linked to sleep, stress, alcohol or another health condition, and a GP can arrange the right tests.",
+          "Supplements shouldn't be used to self-treat symptoms that need checking. See a doctor if you have ongoing tiredness, low mood, a loss of sex drive, erection problems, muscle loss or poor concentration. These can be signs of low testosterone, but more often they're linked to sleep, stress, alcohol or another health condition, and a doctor can arrange the right tests.",
           "Stop taking a supplement and speak to a pharmacist, or call NHS 111, if you feel unwell after starting it. Call 999 if you have chest pain, severe breathlessness or feel faint."
         ]
       }
@@ -921,7 +921,7 @@ export const ALL_ARTICLES: Article[] = [
       "Alcohol, caffeine, stress, needing a wee and a warm or noisy bedroom are the most common causes.",
       "Waking very early and not getting back to sleep can be a sign of depression. Loud snoring with pauses in breathing can be sleep apnoea.",
       "If you're awake for about 20 minutes, get up and do something calm until you feel sleepy.",
-      "See a GP if it's gone on for months, is affecting your days, or simple changes haven't helped."
+      "See a doctor if it's gone on for months, is affecting your days, or simple changes haven't helped."
     ],
     "protocolSteps": [
       "Get up at the same time every day for two weeks, including weekends.",
@@ -929,7 +929,7 @@ export const ALL_ARTICLES: Article[] = [
       "Have your last big drink of the day earlier in the evening if you're getting up to wee.",
       "Make your bedroom dark, quiet and cool, and turn the clock away from you.",
       "Write a short to-do list before bed to get tomorrow out of your head.",
-      "Keep a simple sleep diary for two weeks, and take it to a GP if nothing improves."
+      "Keep a simple sleep diary for two weeks, and take it to a doctor if nothing improves."
     ],
     "references": [
       "NHS: Insomnia, nhs.uk/conditions/insomnia (reviewed March 2024).",
@@ -972,7 +972,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "It can be, but not always. A racing mind at 3am is very common during stressful periods, and it usually settles when the stress does.",
           "The NHS lists 'waking up very early in the morning' as one of the physical symptoms of depression. Other signs include low mood, losing interest in things you used to enjoy, low energy, a low sex drive and feeling hopeless.",
-          "The NHS advises seeing a GP if you've had symptoms of depression for most of the day, every day, for more than 2 weeks. If you're struggling right now, you can call Samaritans free on 116 123, any time of day or night."
+          "The NHS advises seeing a doctor if you've had symptoms of depression for most of the day, every day, for more than 2 weeks. If you're struggling right now, you can call Samaritans free on 116 123, any time of day or night."
         ]
       },
       {
@@ -980,7 +980,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Getting up to wee at night is called nocturia. Guy's and St Thomas' NHS Foundation Trust says it often increases with age, and older people may get up twice a night. As you get older your body makes less of a hormone that slows urine production overnight.",
           "In men, an enlarged prostate can press on the tube that carries urine, so the bladder doesn't empty fully. Drinking a lot late in the evening, caffeine, alcohol, diabetes and some heart problems can also play a part. Our guide to enlarged prostate symptoms explains more.",
-          "Try having your last big drink earlier in the evening, while still drinking enough across the day. Cut back on caffeine and alcohol. Don't stop any regular medicines without speaking to your GP first."
+          "Try having your last big drink earlier in the evening, while still drinking enough across the day. Cut back on caffeine and alcohol. Don't stop any regular medicines without speaking to your doctor first."
         ]
       },
       {
@@ -988,7 +988,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Sleep apnoea is when your breathing stops and starts while you sleep. It's more likely if you're overweight, have a large neck, drink alcohol, smoke or sleep on your back.",
           "Signs include loud snoring, gasping or choking noises, waking often, headaches on waking and feeling very tired during the day. Because it happens while you're asleep, a partner often notices first.",
-          "The NHS says sleep apnoea can be serious if it's not diagnosed and treated, so see a GP if you think you have it. You may need to tell the DVLA, and you must not drive if you're excessively sleepy until it's under control."
+          "The NHS says sleep apnoea can be serious if it's not diagnosed and treated, so see a doctor if you think you have it. You may need to tell the DVLA, and you must not drive if you're excessively sleepy until it's under control."
         ]
       },
       {
@@ -1017,14 +1017,14 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Do Sleeping Tablets Help?",
         "paragraphs": [
-          "Pharmacy sleep aids, including herbal remedies and antihistamine tablets, can't cure insomnia. The NHS says they may help for 1 to 2 weeks but shouldn't be used for longer, and they can leave you drowsy the next day, which matters if you drive. Check with a pharmacist or GP before taking them.",
-          "GPs now rarely prescribe sleeping pills because of side effects and the risk of dependence. The main treatment for long-term insomnia is cognitive behavioural therapy (CBT), which helps change the thoughts and habits that keep you awake. Your GP can tell you what's available locally, including online programmes."
+          "Pharmacy sleep aids, including herbal remedies and antihistamine tablets, can't cure insomnia. The NHS says they may help for 1 to 2 weeks but shouldn't be used for longer, and they can leave you drowsy the next day, which matters if you drive. Check with a pharmacist or doctor before taking them.",
+          "Doctors now rarely prescribe sleeping pills because of side effects and the risk of dependence. The main treatment for long-term insomnia is cognitive behavioural therapy (CBT), which helps change the thoughts and habits that keep you awake. Your doctor can tell you what's available locally, including online programmes."
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "Insomnia that lasts 3 months or longer is called long-term insomnia. See a GP if:"
+          "Insomnia that lasts 3 months or longer is called long-term insomnia. See a doctor if:"
         ],
         "bullets": [
           "Changing your sleep habits hasn't helped after a few weeks",
@@ -1038,7 +1038,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Get Help Urgently If",
         "paragraphs": [
-          "If you're feeling overwhelmed or having thoughts of harming yourself, please don't wait for a GP appointment."
+          "If you're feeling overwhelmed or having thoughts of harming yourself, please don't wait for a doctor appointment."
         ],
         "bullets": [
           "Samaritans: call 116 123, free, 24 hours a day, 7 days a week",
@@ -1071,17 +1071,17 @@ export const ALL_ARTICLES: Article[] = [
     },
     "keyTakeaways": [
       "For healthy adults at normal doses, research consistently finds creatine monohydrate is safe.",
-      "Studies in healthy people show no harm to the kidneys, but creatine can raise a blood test called creatinine, so tell your GP you take it.",
+      "Studies in healthy people show no harm to the kidneys, but creatine can raise a blood test called creatinine, so tell your doctor you take it.",
       "A 2025 trial found no effect on hair or DHT after 12 weeks.",
       "In older adults, creatine plus strength training builds more muscle and strength than training alone. Without training, expect little.",
-      "If you have kidney disease, a long-term condition or take regular medicines, check with a GP or pharmacist first."
+      "If you have kidney disease, a long-term condition or take regular medicines, check with a doctor or pharmacist first."
     ],
     "protocolSteps": [
-      "Check with your GP or pharmacist first if you have kidney problems, a long-term condition or take regular medicines.",
+      "Check with your doctor or pharmacist first if you have kidney problems, a long-term condition or take regular medicines.",
       "Choose plain creatine monohydrate from a brand that uses third-party testing, such as Informed Sport.",
       "Take 3 to 5 g a day, every day, with water or food. Loading isn't necessary.",
       "Pair it with strength training at least twice a week, as the NHS recommends.",
-      "Tell your GP you take creatine before any kidney blood test.",
+      "Tell your doctor you take creatine before any kidney blood test.",
       "Stop and get advice if you feel unwell, and judge it after 8 to 12 weeks of consistent training."
     ],
     "references": [
@@ -1098,7 +1098,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Is Creatine Safe? The Short Answer",
         "paragraphs": [
           "Is creatine safe? For healthy adults taking normal doses, the research says yes. Creatine monohydrate has been studied for over 30 years, and a 2025 review of the most common safety worries found no harm to kidney function in healthy people.",
-          "That doesn't mean it suits everyone. If you have kidney disease, a long-term health condition or take regular medicines, speak to a GP or pharmacist before you start. And like any supplement, it only helps if you use it alongside the basics: training, food and sleep."
+          "That doesn't mean it suits everyone. If you have kidney disease, a long-term health condition or take regular medicines, speak to a doctor or pharmacist before you start. And like any supplement, it only helps if you use it alongside the basics: training, food and sleep."
         ]
       },
       {
@@ -1122,7 +1122,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Does Creatine Damage Your Kidneys?",
         "paragraphs": [
           "This is the biggest worry, and the evidence is reassuring for healthy people. A 2023 review of randomised controlled trials concluded that creatine does not harm the kidneys in healthy people, and a 2025 review agreed.",
-          "The confusion comes from a blood test. Your kidneys clear a waste product called creatinine, and doctors use its level to estimate kidney function. Creatine can raise creatinine a little without any kidney damage, which can make a routine blood test look worse than it is. Tell your GP you take creatine before a kidney test so the result is read correctly.",
+          "The confusion comes from a blood test. Your kidneys clear a waste product called creatinine, and doctors use its level to estimate kidney function. Creatine can raise creatinine a little without any kidney damage, which can make a routine blood test look worse than it is. Tell your doctor you take creatine before a kidney test so the result is read correctly.",
           "If you already have kidney disease, the researchers advise avoiding creatine, as there's too little evidence that it's safe for you."
         ]
       },
@@ -1155,9 +1155,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "Who Should Check With a GP First",
+        "heading": "Who Should Check With a doctor First",
         "paragraphs": [
-          "Creatine is low risk for most healthy men, but speak to a GP or pharmacist before you start if any of these apply:"
+          "Creatine is low risk for most healthy men, but speak to a doctor or pharmacist before you start if any of these apply:"
         ],
         "bullets": [
           "Anyone with kidney disease or a history of kidney problems",
@@ -1167,9 +1167,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "Stop taking creatine and speak to a pharmacist or GP if you feel unwell after starting it, or if a blood test shows a change in your kidney results.",
+          "Stop taking creatine and speak to a pharmacist or doctor if you feel unwell after starting it, or if a blood test shows a change in your kidney results.",
           "Call 999 if you get chest pain, severe breathlessness or feel faint during exercise. These need checking straight away, whatever supplements you take."
         ]
       }
@@ -1200,7 +1200,7 @@ export const ALL_ARTICLES: Article[] = [
       "Stress feels like 'too much'. Burnout feels like having 'nothing left to give'.",
       "In men, burnout often shows up as irritability, working longer hours, drinking more and pulling away from people.",
       "Recovery means fixing the cause, not just resting, and it takes time.",
-      "You can refer yourself to NHS Talking Therapies without seeing a GP.",
+      "You can refer yourself to NHS Talking Therapies without seeing a doctor.",
       "If you're struggling right now, call Samaritans free on 116 123, any time."
     ],
     "protocolSteps": [
@@ -1209,7 +1209,7 @@ export const ALL_ARTICLES: Article[] = [
       "Tell one person you trust how you're really doing.",
       "Get outside for a 20-minute walk most days, and protect your sleep.",
       "Cut back on alcohol, and don't use it to switch off.",
-      "If nothing is improving after a few weeks, see a GP or refer yourself to NHS Talking Therapies."
+      "If nothing is improving after a few weeks, see a doctor or refer yourself to NHS Talking Therapies."
     ],
     "references": [
       "NHS Every Mind Matters: Work-related stress (including burnout), nhs.uk/every-mind-matters/lifes-challenges/work-related-stress.",
@@ -1290,10 +1290,10 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "See a GP if you're struggling to cope, if the things you've tried aren't helping, or if burnout is affecting your daily life, your relationships or your mental health. They can rule out physical causes, talk through options and, if needed, sign you off work.",
-          "You don't have to see a GP first. If you're 18 or over, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling. Search 'NHS Talking Therapies' online to find your local service."
+          "See a doctor if you're struggling to cope, if the things you've tried aren't helping, or if burnout is affecting your daily life, your relationships or your mental health. They can rule out physical causes, talk through options and, if needed, sign you off work.",
+          "You don't have to see a doctor first. If you're 18 or over, you can refer yourself to NHS Talking Therapies for free help such as CBT and counselling. Search 'NHS Talking Therapies' online to find your local service."
         ]
       },
       {
@@ -1313,8 +1313,8 @@ export const ALL_ARTICLES: Article[] = [
   {
     "id": "erectile-dysfunction-causes",
     "publishOn": "2026-11-09",
-    "title": "Erectile Dysfunction: Common Causes and When to See a GP",
-    "metaTitle": "Erectile Dysfunction Causes: What's Behind It and When to See a GP | OptiMen Wellbeing",
+    "title": "Erectile Dysfunction: Common Causes and When to See a Doctor",
+    "metaTitle": "Erectile Dysfunction Causes: What's Behind It and When to See a Doctor | OptiMen Wellbeing",
     "metaDescription": "Erection problems are very common and usually treatable. Learn the main causes of erectile dysfunction, the link to heart health, and your treatment options in the UK.",
     "summary": "Erection problems are very common, especially after 40, and usually treatable. Here's what causes them, why they can be an early warning about your heart, and how to get help without the embarrassment.",
     "pillar": "health",
@@ -1328,14 +1328,14 @@ export const ALL_ARTICLES: Article[] = [
     },
     "keyTakeaways": [
       "Occasional erection problems are normal and usually linked to stress, tiredness or alcohol.",
-      "Ongoing problems are worth a GP visit: they can be an early sign of heart or blood vessel problems.",
-      "Effective treatments exist, from lifestyle changes to tablets a pharmacist or GP can supply.",
+      "Ongoing problems are worth a doctor visit: they can be an early sign of heart or blood vessel problems.",
+      "Effective treatments exist, from lifestyle changes to tablets a pharmacist or doctor can supply.",
       "Regular cardio, around 160 minutes a week, has been shown to reduce erection problems.",
       "Never buy erection tablets from unregulated websites; many are fake or unsafe."
     ],
     "protocolSteps": [
-      "If problems keep happening, book a GP appointment or visit a sexual health clinic.",
-      "Ask your GP for a blood pressure, cholesterol and blood sugar check.",
+      "If problems keep happening, book a doctor appointment or visit a sexual health clinic.",
+      "Ask your doctor for a blood pressure, cholesterol and blood sugar check.",
       "Cut alcohol to 14 units a week or less, and stop smoking if you smoke.",
       "Move every day and aim for a healthy weight.",
       "Build up to 40 minutes of brisk cardio, four times a week.",
@@ -1380,7 +1380,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Why It Can Be an Early Warning About Your Heart",
         "paragraphs": [
           "The blood vessels in the penis are smaller than those around the heart. That means narrowing can show up as erection problems before it causes heart symptoms.",
-          "This is one of the best reasons to see a GP. A simple blood pressure, cholesterol and blood sugar check can pick up problems early, when they're easiest to treat. Our guide to ApoB explains which cholesterol test is worth asking about."
+          "This is one of the best reasons to see a doctor. A simple blood pressure, cholesterol and blood sugar check can pick up problems early, when they're easiest to treat. Our guide to ApoB explains which cholesterol test is worth asking about."
         ]
       },
       {
@@ -1394,15 +1394,15 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Treatments That Work",
         "paragraphs": [
           "Lifestyle changes help many men: losing weight if you're overweight, stopping smoking, moving every day, cutting alcohol to 14 units a week or less, and finding ways to manage stress.",
-          "Tablets such as sildenafil (Viagra) and tadalafil (Cialis) work by improving blood flow, and help most men. In the UK, a pharmacist can supply sildenafil after a short private chat, without a prescription, or your GP can prescribe it. These tablets aren't safe for everyone, including men taking nitrate medicines for chest pain, which is why the pharmacist or GP will ask a few questions first.",
-          "If tablets don't help, a GP can refer you to a specialist for other options, such as injections, vacuum devices or pelvic floor physiotherapy."
+          "Tablets such as sildenafil (Viagra) and tadalafil (Cialis) work by improving blood flow, and help most men. In the UK, a pharmacist can supply sildenafil after a short private chat, without a prescription, or your doctor can prescribe it. These tablets aren't safe for everyone, including men taking nitrate medicines for chest pain, which is why the pharmacist or doctor will ask a few questions first.",
+          "If tablets don't help, a doctor can refer you to a specialist for other options, such as injections, vacuum devices or pelvic floor physiotherapy."
         ]
       },
       {
         "heading": "ED Tablets Compared: Which Is Which?",
         "paragraphs": [
           "All four main ED tablets work the same way, by boosting blood flow to the penis when you're aroused. They don't cause an erection on their own. The big differences are how fast they work and how long they last, which matters for how spontaneous you want to be.",
-          "Common side effects for all of them include headache, flushing, a blocked nose and indigestion, usually mild and short-lived. None are safe with nitrate medicines for chest pain. If you take an alpha-blocker for an enlarged prostate, such as tamsulosin, your GP or pharmacist will advise on timing, as both can lower blood pressure."
+          "Common side effects for all of them include headache, flushing, a blocked nose and indigestion, usually mild and short-lived. None are safe with nitrate medicines for chest pain. If you take an alpha-blocker for an enlarged prostate, such as tamsulosin, your doctor or pharmacist will advise on timing, as both can lower blood pressure."
         ],
         "bullets": [
           "Sildenafil (Viagra): works in 30 to 60 minutes and lasts about 4 to 5 hours. A heavy meal can slow it down. The most widely used option, cheap as a generic, and available from UK pharmacies without a prescription.",
@@ -1414,7 +1414,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Other Treatment Options and Their Benefits",
         "paragraphs": [
-          "Tablets aren't the only route, and they don't suit everyone. Your GP can talk you through these:"
+          "Tablets aren't the only route, and they don't suit everyone. Your doctor can talk you through these:"
         ],
         "bullets": [
           "Lifestyle changes: free, no side effects, and they improve your heart health at the same time. Often the best long-term fix when ED is linked to weight, smoking, alcohol or inactivity.",
@@ -1430,7 +1430,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "Because erections depend on healthy blood flow, cardio is one of the most effective natural treatments there is. Aerobic exercise keeps blood vessels flexible, helps the body make nitric oxide (the molecule that relaxes blood vessels in the penis), lowers blood pressure, helps with weight loss and eases stress.",
           "A 2018 review in the journal Sexual Medicine looked at the research and found that about 40 minutes of moderate to vigorous aerobic exercise, four times a week, for six months reduced erection problems. That's 160 minutes a week. The benefit was clearest in men whose ED was linked to inactivity, being overweight, high blood pressure or heart disease.",
-          "You don't need to start at 160 minutes. Build up gradually, and check with your GP first if you have a heart condition."
+          "You don't need to start at 160 minutes. Build up gradually, and check with your doctor first if you have a heart condition."
         ],
         "bullets": [
           "Brisk walking: fast enough that you can talk but not sing",
@@ -1447,9 +1447,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "How to Bring It Up With Your GP",
+        "heading": "How to Bring It Up With Your doctor",
         "paragraphs": [
-          "GPs talk about erection problems every day, and it's far less awkward than you'd think. If it helps, write it down and show them, or simply say: 'I've been having problems with erections and I'd like to get checked.' You can also visit a sexual health clinic without a GP referral."
+          "Doctors talk about erection problems every day, and it's far less awkward than you'd think. If it helps, write it down and show them, or simply say: 'I've been having problems with erections and I'd like to get checked.' You can also visit a sexual health clinic without a doctor referral."
         ]
       }
     ]
@@ -1474,14 +1474,14 @@ export const ALL_ARTICLES: Article[] = [
       "An enlarged prostate is very common after 50 and is not cancer.",
       "Simple changes, like less evening caffeine and alcohol, often ease symptoms noticeably.",
       "Effective medicines exist: some work within weeks, others shrink the prostate over months.",
-      "Herbal supplements such as saw palmetto are unlikely to improve symptoms, so see your GP first."
+      "Herbal supplements such as saw palmetto are unlikely to improve symptoms, so see your doctor first."
     ],
     "protocolSteps": [
       "Note your symptoms for a week: how often you pee, and how many times you wake at night.",
       "Cut caffeine and alcohol after mid-afternoon, and drink less in the two hours before bed.",
       "Try double voiding: after peeing, wait a moment, then try again.",
-      "Book a GP appointment and take your symptom notes with you.",
-      "Tell your GP about any supplements you take, especially before a PSA test."
+      "Book a doctor appointment and take your symptom notes with you.",
+      "Tell your doctor about any supplements you take, especially before a PSA test."
     ],
     "references": [
       "NHS: Benign prostate enlargement, treatment, nhs.uk/conditions/prostate-enlargement/treatment.",
@@ -1513,8 +1513,8 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Is It Prostate Cancer?",
         "paragraphs": [
-          "Usually not. An enlarged prostate is non-cancerous and far more common. But some symptoms overlap, and early prostate cancer often has no symptoms at all, so a GP check is the only way to know.",
-          "Your GP may examine your prostate, test a urine sample, and offer a PSA blood test. See a GP the same day if you notice blood in your urine, pain when peeing, or you suddenly can't pee at all."
+          "Usually not. An enlarged prostate is non-cancerous and far more common. But some symptoms overlap, and early prostate cancer often has no symptoms at all, so a doctor check is the only way to know.",
+          "Your doctor may examine your prostate, test a urine sample, and offer a PSA blood test. See a doctor the same day if you notice blood in your urine, pain when peeing, or you suddenly can't pee at all."
         ]
       },
       {
@@ -1535,7 +1535,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Medical Treatments That Work",
         "paragraphs": [
-          "If lifestyle changes aren't enough, your GP can prescribe medicine. Alpha-blockers such as tamsulosin relax the muscles around the prostate and bladder and usually help within weeks. 5-alpha-reductase inhibitors such as finasteride shrink the prostate slowly over several months and suit men with a larger prostate. The two are sometimes combined.",
+          "If lifestyle changes aren't enough, your doctor can prescribe medicine. Alpha-blockers such as tamsulosin relax the muscles around the prostate and bladder and usually help within weeks. 5-alpha-reductase inhibitors such as finasteride shrink the prostate slowly over several months and suit men with a larger prostate. The two are sometimes combined.",
           "If medicines don't help or symptoms are severe, surgery is an option. The most common procedure is TURP, which removes part of the prostate through the urethra, and there are newer, less invasive options such as steam and laser treatments or small implants that hold the urethra open."
         ]
       },
@@ -1543,13 +1543,13 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "What About Supplements?",
         "paragraphs": [
           "Prostate supplements are big business, but the evidence is weak. Prostate Cancer UK says studies suggest herbal remedies such as saw palmetto are unlikely to improve symptoms. Some can also interact with medicines or affect PSA test results.",
-          "If you're considering one, speak to your GP first and tell them what you take. We've reviewed one popular option, ProstaVive, in our Reviews section, including where it falls short."
+          "If you're considering one, speak to your doctor first and tell them what you take. We've reviewed one popular option, ProstaVive, in our Reviews section, including where it falls short."
         ]
       },
       {
         "heading": "The Bottom Line",
         "paragraphs": [
-          "Waking at night to pee isn't just part of getting older, and it's very treatable. Start with the simple changes above, keep a note of your symptoms, and book a GP appointment. Most men who get help sleep better within weeks."
+          "Waking at night to pee isn't just part of getting older, and it's very treatable. Start with the simple changes above, keep a note of your symptoms, and book a doctor appointment. Most men who get help sleep better within weeks."
         ]
       }
     ]
@@ -1559,7 +1559,7 @@ export const ALL_ARTICLES: Article[] = [
     "publishOn": "2026-11-02",
     "title": "How to Check Your Testicles: A 2-Minute Guide for Men",
     "metaTitle": "How to Check Your Testicles for Lumps: A 2-Minute Guide | OptiMen Wellbeing",
-    "metaDescription": "A simple 2-minute guide to checking your testicles, what's normal, and when to see a GP. Learn the signs of testicular cancer this Movember.",
+    "metaDescription": "A simple 2-minute guide to checking your testicles, what's normal, and when to see a doctor. Learn the signs of testicular cancer this Movember.",
     "summary": "It takes two minutes, once a month, in the shower. Learn exactly how to check your testicles, what's normal, and what to do if something feels different.",
     "pillar": "health",
     "pillarLabel": "Men's Health",
@@ -1573,7 +1573,7 @@ export const ALL_ARTICLES: Article[] = [
     "keyTakeaways": [
       "Check once a month, in or after a warm shower. It takes two minutes.",
       "Smooth and firm is normal, and one testicle being slightly bigger or lower is normal too.",
-      "Any lump, swelling, heaviness or ache is worth a GP visit. Most changes aren't cancer.",
+      "Any lump, swelling, heaviness or ache is worth a doctor visit. Most changes aren't cancer.",
       "Sudden, severe pain is an emergency: go to A&E or call 999."
     ],
     "protocolSteps": [
@@ -1612,7 +1612,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "What's Normal, and What to Look Out For",
         "paragraphs": [
           "Healthy testicles feel smooth and firm, but not hard. It's completely normal for one to be slightly bigger, or to hang lower than the other. What matters most is what's normal for you, which is why checking regularly helps.",
-          "See your GP if you notice any of the changes below. Most lumps and changes are not cancer; they're often harmless cysts or swollen veins. But only a doctor can tell, so get any change checked."
+          "See your doctor if you notice any of the changes below. Most lumps and changes are not cancer; they're often harmless cysts or swollen veins. But only a doctor can tell, so get any change checked."
         ],
         "bullets": [
           "A lump or swelling in either testicle",
@@ -1626,7 +1626,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "What to Do If You Find Something",
         "paragraphs": [
-          "Don't panic, and don't wait. Book a GP appointment and tell the receptionist you've found a change in your testicle. GPs see this every day, and a check usually takes a few minutes.",
+          "Don't panic, and don't wait. Book a doctor appointment and tell the receptionist you've found a change in your testicle. Doctors see this every day, and a check usually takes a few minutes.",
           "Go to A&E or call 999 if you get sudden, severe pain in a testicle. This can be a sign of testicular torsion, where the testicle twists and loses its blood supply. It needs treating within hours."
         ]
       },
@@ -1662,8 +1662,8 @@ export const ALL_ARTICLES: Article[] = [
       "Most 'testosterone booster' supplements have little or no evidence behind them."
     ],
     "protocolSteps": [
-      "Write down your symptoms and how long you've had them, then book a GP appointment.",
-      "If your GP orders a testosterone test, ask for an early-morning appointment.",
+      "Write down your symptoms and how long you've had them, then book a doctor appointment.",
+      "If your doctor orders a testosterone test, ask for an early-morning appointment.",
       "Aim for 7 to 9 hours of sleep and keep a regular bedtime.",
       "Do strength training on at least 2 days a week and 150 minutes of moderate activity across the week.",
       "If you carry extra weight around your middle, make steady weight loss your first goal.",
@@ -1719,7 +1719,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "How Do You Get Your Testosterone Tested?",
         "paragraphs": [
-          "Start with your GP. They'll ask about your symptoms, your work and your home life, to check for things like stress or low mood. If a hormone problem seems possible, they can arrange a blood test.",
+          "Start with your doctor. They'll ask about your symptoms, your work and your home life, to check for things like stress or low mood. If a hormone problem seems possible, they can arrange a blood test.",
           "Testosterone is highest in the morning, so the test should be done early. The British Society for Sexual Medicine (BSSM) advises testing between 8am and 11am, and confirming a low result with a second test.",
           "If tests suggest a deficiency, you may be referred to a hormone specialist, called an endocrinologist, to confirm it and find the cause."
         ]
@@ -1728,7 +1728,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "What Is a Normal Testosterone Level for a Man Over 40?",
         "paragraphs": [
           "Labs report testosterone in nanomoles per litre (nmol/L), and normal ranges vary slightly between labs. As a rough guide, BSSM guidance says treatment isn't needed when total testosterone is above 12 nmol/L. Below 8 nmol/L, with symptoms, usually points to a deficiency. Between 8 and 12, doctors weigh up your symptoms and may consider a trial of treatment.",
-          "A number on its own doesn't tell the whole story. Diagnosis depends on symptoms and repeated results together, so talk your results through with your GP."
+          "A number on its own doesn't tell the whole story. Diagnosis depends on symptoms and repeated results together, so talk your results through with your doctor."
         ]
       },
       {
@@ -1762,20 +1762,20 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Testosterone Replacement: What You Should Know",
         "paragraphs": [
-          "If a GP or specialist confirms a deficiency, testosterone replacement therapy (TRT) may be offered, usually as a gel or an injection. It's a prescription-only medicine, and you'll need regular check-ups while you take it.",
+          "If a doctor or specialist confirms a deficiency, testosterone replacement therapy (TRT) may be offered, usually as a gel or an injection. It's a prescription-only medicine, and you'll need regular check-ups while you take it.",
           "Don't buy testosterone online or from a gym contact. Products from unregulated sources can be fake or contaminated, and testosterone should only ever be taken with proper medical checks."
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "See your GP if symptoms like low sex drive, erection problems, low mood or tiredness last more than a few weeks, or are affecting your work or relationships. Ask for a check of your blood pressure, blood sugar and cholesterol at the same time.",
+          "See your doctor if symptoms like low sex drive, erection problems, low mood or tiredness last more than a few weeks, or are affecting your work or relationships. Ask for a check of your blood pressure, blood sugar and cholesterol at the same time.",
           "Get help sooner if you notice any of these:"
         ],
         "bullets": [
-          "A lump or swelling in a testicle: see a GP promptly",
+          "A lump or swelling in a testicle: see a doctor promptly",
           "Sudden, severe pain in a testicle: go to A&E straight away",
-          "A lump in your breast tissue, or nipple discharge: see a GP",
+          "A lump in your breast tissue, or nipple discharge: see a doctor",
           "Low mood with thoughts of harming yourself: call NHS 111 or Samaritans free on 116 123, any time, or 999 in an emergency"
         ]
       }
@@ -1799,12 +1799,12 @@ export const ALL_ARTICLES: Article[] = [
     "keyTakeaways": [
       "Prostate cancer affects one in eight UK men, rising to around one in four Black men; early cancer usually has no symptoms.",
       "Most urinary symptoms are caused by a non-cancerous enlarged prostate, but only a check-up can tell the difference.",
-      "There is no routine UK screening for most men, so you can ask your GP about a PSA test from 50, or 45 if you are at higher risk."
+      "There is no routine UK screening for most men, so you can ask your doctor about a PSA test from 50, or 45 if you are at higher risk."
     ],
     "protocolSteps": [
       "Check your risk with Prostate Cancer UK's free 30-second online risk checker.",
-      "Book a GP appointment if you notice any change in how you pee.",
-      "Over 50, or over 45 with higher risk? Ask your GP about a PSA test.",
+      "Book a doctor appointment if you notice any change in how you pee.",
+      "Over 50, or over 45 with higher risk? Ask your doctor about a PSA test.",
       "Talk to your father, brothers and uncles about family history of prostate or breast cancer.",
       "Pick one habit from this guide and start it this week."
     ],
@@ -1821,7 +1821,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "More than 68,000 men are diagnosed with prostate cancer in the UK every year, around one every eight minutes, according to Macmillan Cancer Support. It is now the most commonly diagnosed cancer in the UK.",
           "The good news: caught early, prostate cancer is very treatable, and the most common prostate problems are not cancer at all. Knowing what is normal for you is the first step.",
-          "This article is general information, not medical advice. If you have symptoms, speak to your GP."
+          "This article is general information, not medical advice. If you have symptoms, speak to your doctor."
         ]
       },
       {
@@ -1845,7 +1845,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Symptoms to Watch For",
         "paragraphs": [
-          "See your GP if you notice any of the changes below. Get help the same day if you see blood in your urine or semen, have pain when peeing, a fever with pelvic pain, or cannot pee at all.",
+          "See your doctor if you notice any of the changes below. Get help the same day if you see blood in your urine or semen, have pain when peeing, a fever with pelvic pain, or cannot pee at all.",
           "These symptoms are far more often caused by an enlarged prostate than cancer. Still, only a check-up can tell the difference."
         ],
         "bullets": [
@@ -1860,7 +1860,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "Your Risk, the PSA Test and Screening in the UK",
         "paragraphs": [
           "There is no routine prostate screening programme for most UK men. In 2026 the government accepted expert advice against screening all men with the PSA blood test. It plans targeted screening for men at the highest genetic risk from 2027, and is widening a screening trial to Black men.",
-          "You can still ask your GP about a PSA test if you are over 50, or over 45 with a higher risk. Prostate Cancer UK's free online risk checker takes 30 seconds and is a good place to start."
+          "You can still ask your doctor about a PSA test if you are over 50, or over 45 with a higher risk. Prostate Cancer UK's free online risk checker takes 30 seconds and is a good place to start."
         ],
         "bullets": [
           "Age: most cases are in men over 50.",
@@ -1887,8 +1887,8 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Where Supplements Fit",
         "paragraphs": [
-          "Supplements can top up your diet, but they cannot diagnose, treat or shrink a prostate problem. Medicines from your GP can, so always get symptoms checked before reaching for a supplement.",
-          "Tell your GP about any supplement you take, especially before a PSA test or if you are on other medication. We took a close look at one popular option in our ProstaVive review, in the Reviews section."
+          "Supplements can top up your diet, but they cannot diagnose, treat or shrink a prostate problem. Medicines from your doctor can, so always get symptoms checked before reaching for a supplement.",
+          "Tell your doctor about any supplement you take, especially before a PSA test or if you are on other medication. We took a close look at one popular option in our ProstaVive review, in the Reviews section."
         ],
         "bullets": [
           "A full ingredient list with amounts, not a vague proprietary blend",
@@ -2255,7 +2255,7 @@ export const ALL_ARTICLES: Article[] = [
     "protocolSteps": [
       "If you're 40 to 74 in England, take up your free NHS Health Check, which includes a cholesterol test.",
       "Ask for your full results, including HDL and non-HDL cholesterol, not just your total cholesterol.",
-      "If heart disease runs in your family, or your results are borderline or unusual, ask your GP whether ApoB or Lp(a) testing would help.",
+      "If heart disease runs in your family, or your results are borderline or unusual, ask your doctor whether ApoB or Lp(a) testing would help.",
       "Swap saturated fats for unsaturated ones, eat more oats, beans and lentils, and aim for two portions of oily fish a week.",
       "Aim for 150 minutes of exercise a week, stop smoking and keep alcohol to 14 units a week or less."
     ],
@@ -2301,7 +2301,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Can You Get an ApoB Test on the NHS?",
         "paragraphs": [
-          "NHS laboratories can measure ApoB, but it isn't part of routine testing. Hospital labs list it as a test doctors may request to assess heart risk in people with a strong family history of heart disease, or to follow up abnormal LDL results. Ask your GP whether it makes sense for you.",
+          "NHS laboratories can measure ApoB, but it isn't part of routine testing. Hospital labs list it as a test doctors may request to assess heart risk in people with a strong family history of heart disease, or to follow up abnormal LDL results. Ask your doctor whether it makes sense for you.",
           "For most men, the first step is a standard cholesterol test. If you're aged 40 to 74 in England and don't have certain long-term conditions, you should be invited for a free NHS Health Check every 5 years. It looks at your cholesterol, blood pressure and risk of heart disease, stroke and diabetes. If you haven't been invited, contact your GP practice. In Scotland, Wales and Northern Ireland, ask your GP surgery or pharmacy.",
           "When you get your results, ask for the full breakdown. The NHS gives these healthy levels for adults, although a good target for you depends on your age, health and overall risk:"
         ],
@@ -2335,14 +2335,14 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "Do I Need Medicine?",
         "paragraphs": [
-          "Some people need medicine as well as lifestyle changes, especially if their overall risk is high or cholesterol runs very high in the family. Statins are the most common option. Whether you need one depends on your whole risk picture, not one number, so it's a decision to make with your GP."
+          "Some people need medicine as well as lifestyle changes, especially if their overall risk is high or cholesterol runs very high in the family. Statins are the most common option. Whether you need one depends on your whole risk picture, not one number, so it's a decision to make with your doctor."
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
           "High cholesterol usually has no symptoms. The only way to know is a blood test. The NHS says you're more likely to have high cholesterol if you're a man, over 50, of South Asian or sub-Saharan African origin, or if it runs in your family.",
-          "See a GP for a check if you're over 40 and haven't had your cholesterol tested in the last 5 years, if a close relative had a heart attack or stroke at a young age, or if you've been told you have high cholesterol but haven't followed it up.",
+          "See a doctor for a check if you're over 40 and haven't had your cholesterol tested in the last 5 years, if a close relative had a heart attack or stroke at a young age, or if you've been told you have high cholesterol but haven't followed it up.",
           "Call 999 straight away if you have signs of a heart attack, such as:"
         ],
         "bullets": [
@@ -2374,7 +2374,7 @@ export const ALL_ARTICLES: Article[] = [
       "The simplest way to find it is the talk test: you can talk, but you couldn't sing.",
       "It counts towards the NHS target of at least 150 minutes of moderate activity a week.",
       "A 2025 review found no evidence that zone 2 beats harder exercise for fitness. It works best as a base, with some harder sessions on top.",
-      "If you have a heart condition, or get chest pain or dizziness when you exercise, speak to a GP before you start."
+      "If you have a heart condition, or get chest pain or dizziness when you exercise, speak to a doctor before you start."
     ],
     "protocolSteps": [
       "Pick an activity you can keep going for 30 minutes or more, such as brisk walking, cycling, rowing or swimming.",
@@ -2456,9 +2456,9 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "Exercise is safe for most men, and the risks of staying inactive are far greater. But speak to a GP before starting if you have a heart condition, or haven't exercised for a long time and have other long-term health problems.",
+          "Exercise is safe for most men, and the risks of staying inactive are far greater. But speak to a doctor before starting if you have a heart condition, or haven't exercised for a long time and have other long-term health problems.",
           "The BHF advises seeing a doctor if you're worried about how fast or slow your heart beats, or if you get dizziness, palpitations or chest pain when you exercise.",
           "Stop exercising and call 999 straight away if you have signs of a heart attack, such as:"
         ],
@@ -2496,15 +2496,15 @@ export const ALL_ARTICLES: Article[] = [
       "In one study, a week of sleeping under 5 hours a night lowered testosterone by 10 to 15% in healthy young men.",
       "Adults need 7 to 9 hours of sleep a night on average, according to the NHS.",
       "Sleep apnoea, which is more common in middle-aged and overweight men, is linked to lower testosterone.",
-      "Tiredness, low sex drive and poor concentration have many causes. A GP can check your sleep and your hormones."
+      "Tiredness, low sex drive and poor concentration have many causes. A doctor can check your sleep and your hormones."
     ],
     "protocolSteps": [
       "Aim for 7 to 9 hours of sleep a night, going to bed and getting up at the same time every day.",
       "Avoid alcohol, tea, coffee and cigarettes for at least 6 hours before bed.",
       "Wind down for an hour before bed, away from screens, in a dark, quiet bedroom.",
       "Exercise during the day, but not within 4 hours of bedtime.",
-      "If you snore loudly, stop breathing in your sleep or feel exhausted every day, see a GP about sleep apnoea.",
-      "See a GP if poor sleep has lasted months, or if you have low sex drive, erection problems or low mood."
+      "If you snore loudly, stop breathing in your sleep or feel exhausted every day, see a doctor about sleep apnoea.",
+      "See a doctor if poor sleep has lasted months, or if you have low sex drive, erection problems or low mood."
     ],
     "references": [
       "Leproult R, Van Cauter E. Effect of 1 week of sleep restriction on testosterone levels in young healthy men. JAMA. 2011;305(21):2173-2174.",
@@ -2578,11 +2578,11 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "See a GP if changing your sleep habits hasn't helped, if you've had trouble sleeping for months, or if poor sleep is making it hard to cope with daily life. The NHS offers treatments such as cognitive behavioural therapy (CBT) for insomnia, including online programmes.",
+          "See a doctor if changing your sleep habits hasn't helped, if you've had trouble sleeping for months, or if poor sleep is making it hard to cope with daily life. The NHS offers treatments such as cognitive behavioural therapy (CBT) for insomnia, including online programmes.",
           "Book an appointment if you have signs of sleep apnoea, especially if a partner has noticed you stop breathing in your sleep. Take them with you if you can. If you're diagnosed and your sleepiness is excessive, you may need to tell the DVLA, and you mustn't drive until it's under control.",
-          "Also see a GP if you have a low sex drive, erection problems, low mood or constant tiredness. A blood test can check your testosterone, and your GP will look at other causes too. Never drive or use machinery if you feel very sleepy."
+          "Also see a doctor if you have a low sex drive, erection problems, low mood or constant tiredness. A blood test can check your testosterone, and your doctor will look at other causes too. Never drive or use machinery if you feel very sleepy."
         ]
       }
     ],
@@ -2619,7 +2619,7 @@ export const ALL_ARTICLES: Article[] = [
       "Have a portion of protein at every meal, such as eggs, Greek yoghurt, fish, chicken, beans or lentils.",
       "Eat at least 2 portions of fish a week, 1 of them oily, and keep red and processed meat down.",
       "Do strength exercises on at least 2 days a week. Protein works best alongside training.",
-      "See a GP if you're losing weight or muscle without trying, or if you have kidney problems and want to change your diet."
+      "See a doctor if you're losing weight or muscle without trying, or if you have kidney problems and want to change your diet."
     ],
     "references": [
       "British Heart Foundation: Protein: how much do you need?, bhf.org.uk.",
@@ -2706,10 +2706,10 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "See a GP if you keep losing weight without changing your diet or exercise routine. The NHS says it's important to get this checked, and to go as soon as possible if you also have other symptoms.",
-          "Also speak to a GP if you notice your muscles getting noticeably weaker or smaller without a clear reason, if you have kidney disease and want to change your diet, or if you have a long-term condition that affects your appetite. A GP can refer you to a dietitian for advice tailored to you."
+          "See a doctor if you keep losing weight without changing your diet or exercise routine. The NHS says it's important to get this checked, and to go as soon as possible if you also have other symptoms.",
+          "Also speak to a doctor if you notice your muscles getting noticeably weaker or smaller without a clear reason, if you have kidney disease and want to change your diet, or if you have a long-term condition that affects your appetite. A doctor can refer you to a dietitian for advice tailored to you."
         ]
       }
     ],
@@ -2739,7 +2739,7 @@ export const ALL_ARTICLES: Article[] = [
       "Common signs include headaches, muscle tension, poor sleep, snapping at people and drinking more.",
       "When you're busy, small steps work best: split big jobs up, move every day, talk to someone and pause to breathe.",
       "Alcohol, smoking and caffeine can feel like they help, but they tend to make stress worse.",
-      "In England you can refer yourself to NHS Talking Therapies without seeing a GP. Samaritans are free on 116 123, day or night."
+      "In England you can refer yourself to NHS Talking Therapies without seeing a doctor. Samaritans are free on 116 123, day or night."
     ],
     "protocolSteps": [
       "Write down what's stressing you, then split the list into what you can change and what you can't.",
@@ -2747,7 +2747,7 @@ export const ALL_ARTICLES: Article[] = [
       "Get active most days, even if it's just a brisk walk at lunchtime.",
       "When you feel wound up, stop for a few minutes of slow breathing.",
       "Tell one person this week how you're really doing.",
-      "If stress is affecting your daily life, see a GP, call NHS 111 or refer yourself to NHS Talking Therapies."
+      "If stress is affecting your daily life, see a doctor, call NHS 111 or refer yourself to NHS Talking Therapies."
     ],
     "references": [
       "NHS: Get help with stress, nhs.uk.",
@@ -2843,7 +2843,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "When to Get Help for Stress",
         "paragraphs": [
-          "See a GP if you're struggling to cope, if self-help isn't working, or if any symptoms worry you. In England, if you're 18 or over, you can also refer yourself directly to NHS Talking Therapies for free, without seeing a GP first.",
+          "See a doctor if you're struggling to cope, if self-help isn't working, or if any symptoms worry you. In England, if you're 18 or over, you can also refer yourself directly to NHS Talking Therapies for free, without seeing a doctor first.",
           "If you need help urgently but it isn't an emergency, call NHS 111 or use NHS 111 online. If you want to talk to someone right now, Samaritans are free to call on 116 123, 24 hours a day, every day of the year.",
           "Stress can cause chest pain and a racing heart, but never assume chest pain is just stress. Call 999 or go to A&E straight away if:"
         ],
@@ -2899,7 +2899,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     "category": "Recovery",
     "priceRange": "Varies widely by type",
     "verdict": "Outdoor barrel and cabin saunas come closest to the Finnish saunas used in the health research, but cost the most. Steam and infrared tents are a cheap way to try sauna at home, and blankets save the most space but are the furthest from a real sauna. Open this review to compare all five types.",
-    "whoItIsFor": "Men thinking about a home sauna who want to know which type suits their space and budget. Check with your GP first if you have a heart condition or high blood pressure.",
+    "whoItIsFor": "Men thinking about a home sauna who want to know which type suits their space and budget. Check with your doctor first if you have a heart condition or high blood pressure.",
     "pros": [
       "An option for almost every space and budget",
       "Use it whenever you like, with no gym or spa membership",
@@ -2943,7 +2943,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         "heading": "Which Home Sauna Is Best? The Short Answer",
         "paragraphs": [
           "The best home sauna is the one that fits your space, your budget and how you'll actually use it. If you want something as close as possible to the saunas used in the health research, an outdoor barrel or cabin sauna is the gold standard. If you're short on space or money, a fold-away tent is a cheap way to find out whether a sauna habit suits you.",
-          "Below we compare the five main types of home sauna, with the pros and cons of each. This review contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you. It doesn't change what we recommend."
+          "Below we compare the five main types of home sauna, with the pros and cons of each. This review contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you. It doesn't change what we recommend."
         ]
       },
       {
@@ -3048,9 +3048,9 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        "heading": "When to See a GP",
+        "heading": "When to See a Doctor",
         "paragraphs": [
-          "Check with your GP before buying a sauna if you have a heart condition, high blood pressure that isn't controlled, low blood pressure that makes you dizzy, or take regular medicines. If you're trying for a baby, bear in mind that regular saunas can temporarily lower sperm count.",
+          "Check with your doctor before buying a sauna if you have a heart condition, high blood pressure that isn't controlled, low blood pressure that makes you dizzy, or take regular medicines. If you're trying for a baby, bear in mind that regular saunas can temporarily lower sperm count.",
           "Get out and cool down if you feel dizzy, sick or have a headache. Call 999 if someone is still unwell after 30 minutes of cooling down, is confused, has hot skin that's stopped sweating, has a fit or loses consciousness. These can be signs of heatstroke. Call 999 straight away for chest pain."
         ]
       },
@@ -3078,7 +3078,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     "overallScore": 6.5,
     "priceRange": "$39 to $79 per 30-day tub",
     "verdict": "A once-a-day men's vitality powder with a prostate label. Nettle root is the only ingredient with a solid track record for urinary symptoms; most others target libido and energy. Reasonable for general support, not a prostate treatment. Open this review for the full write-up.",
-    "whoItIsFor": "Healthy men who want a simple daily vitality drink and value a 180-day refund window. See your GP first if you have urinary symptoms.",
+    "whoItIsFor": "Healthy men who want a simple daily vitality drink and value a 180-day refund window. See your doctor first if you have urinary symptoms.",
     "pros": [
       "Full ingredient list published",
       "Easy once-a-day powder",
@@ -3156,7 +3156,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         "bullets": [
           "The 2023 Japanese study on prostate blood flow cited on the site was not a study of this product.",
           "Boron is a common mineral in fruit, nuts and vegetables; the Tibetan lake story is marketing colour.",
-          "No supplement is proven to shrink the prostate. Prescription medicines can, so that is a conversation for your GP.",
+          "No supplement is proven to shrink the prostate. Prescription medicines can, so that is a conversation for your doctor.",
           "Claimed blood sugar, blood pressure and memory benefits go well beyond what the ingredients have shown."
         ]
       },
@@ -3167,7 +3167,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
           "Ashwagandha deserves a special mention. The UK Food Standards Agency has no set safe level for it in supplements and has asked its toxicity committee to assess it, after rare reports of liver problems and restrictions in some European countries."
         ],
         "bullets": [
-          "Talk to your GP or pharmacist first if you take blood thinners, blood pressure, diabetes or thyroid medication, or antidepressants.",
+          "Talk to your doctor or pharmacist first if you take blood thinners, blood pressure, diabetes or thyroid medication, or antidepressants.",
           "Avoid without medical advice if you have a liver, thyroid or hormone-sensitive condition.",
           "Do not use as a replacement for treatment or monitoring of prostate cancer.",
           "Tell your doctor about any supplements before a PSA test."
@@ -3189,7 +3189,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         "heading": "Final Verdict",
         "paragraphs": [
           "ProstaVive is a reasonable choice for a healthy man who wants a simple daily men's vitality drink and values a long refund window. Think of it as general support, not a prostate treatment.",
-          "If you are waking at night to pee, have a weak stream or notice any change, book a GP appointment first. Our Prostate Health guide explains what to look out for. If you have ruled out anything serious, start with one tub before committing to a bundle."
+          "If you are waking at night to pee, have a weak stream or notice any change, book a doctor appointment first. Our Prostate Health guide explains what to look out for. If you have ruled out anything serious, start with one tub before committing to a bundle."
         ],
         "bullets": [
           "Pros: full ingredient list, easy once-a-day powder, includes nettle root, long 180-day refund window.",
@@ -3238,7 +3238,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'Is WHOOP 5.0 Worth It? The Short Answer',
         paragraphs: [
           "WHOOP 5.0 is worth it for a narrow group of men: those who train regularly, will actually act on sleep and recovery scores, and don't mind paying every year. For everyone else, a cheaper tracker with no subscription does most of the same job.",
-          "This is a desk review. We haven't tested the WHOOP 5.0 ourselves. It's based on WHOOP's published specifications and independent hands-on testing by Expert Reviews in October 2026. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a desk review. We haven't tested the WHOOP 5.0 ourselves. It's based on WHOOP's published specifications and independent hands-on testing by Expert Reviews in October 2026. This page contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -3275,9 +3275,9 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        heading: 'When to See a GP',
+        heading: 'When to See a Doctor',
         paragraphs: [
-          "A wearable is not a medical device for diagnosis, and a good score doesn't rule out a problem. See a GP if you have ongoing tiredness, loud snoring with pauses in breathing, palpitations or breathlessness, whatever your tracker says. Call 999 for chest pain."
+          "A wearable is not a medical device for diagnosis, and a good score doesn't rule out a problem. See a doctor if you have ongoing tiredness, loud snoring with pauses in breathing, palpitations or breathlessness, whatever your tracker says. Call 999 for chest pain."
         ]
       },
       {
@@ -3328,7 +3328,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'Is the Oura Ring 5 Worth It? The Short Answer',
         paragraphs: [
           "The Oura Ring 5 is a good choice if sleep is what you want to track and you'd rather not wear a band or watch overnight. It's expensive to buy, and you need the membership to get real value from it.",
-          "This is a desk review. We haven't tested the Oura Ring 5 ourselves. It's based on Oura's published specifications and independent hands-on testing by Expert Reviews in September 2026. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a desk review. We haven't tested the Oura Ring 5 ourselves. It's based on Oura's published specifications and independent hands-on testing by Expert Reviews in September 2026. This page contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -3373,9 +3373,9 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        heading: 'When to See a GP',
+        heading: 'When to See a Doctor',
         paragraphs: [
-          "See a GP if poor sleep has lasted for months, or if you snore loudly and someone has noticed pauses in your breathing. A ring is not a test for sleep apnoea or any other condition."
+          "See a doctor if poor sleep has lasted for months, or if you snore loudly and someone has noticed pauses in your breathing. A ring is not a test for sleep apnoea or any other condition."
         ]
       },
       {
@@ -3397,7 +3397,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     category: 'Supplements',
     priceRange: 'Varies. Compare the price per 100g',
     verdict: "Creatine monohydrate is one of the best-studied sports supplements, with good evidence that it helps strength and muscle when combined with resistance training. Buy plain monohydrate powder with third-party batch testing. Skip gummies, blends and 'advanced' forms that cost more without working better.",
-    whoItIsFor: "Healthy men who lift weights or do other hard training and want a small, well-evidenced edge. Speak to your GP first if you have kidney disease, take regular medicines or have been told your kidney function is reduced.",
+    whoItIsFor: "Healthy men who lift weights or do other hard training and want a small, well-evidenced edge. Speak to your doctor first if you have kidney disease, take regular medicines or have been told your kidney function is reduced.",
     pros: [
       'Decades of research behind it',
       'Helps strength and muscle alongside resistance training',
@@ -3426,7 +3426,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'Which Creatine Should You Buy? The Short Answer',
         paragraphs: [
           "Buy plain creatine monohydrate powder, unflavoured, from a brand that has its batches independently tested. That's the form used in almost all the research, and it's usually the cheapest.",
-          "This is a buying guide based on published research. We haven't lab-tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a buying guide based on published research. We haven't lab-tested individual products. This page contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -3473,10 +3473,10 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        heading: 'Safety and When to See a GP',
+        heading: 'Safety and When to See a Doctor',
         paragraphs: [
-          "Studies in healthy adults have found creatine safe at recommended doses. It does raise creatinine, a marker doctors use to estimate kidney function, so a blood test can look worse than it is. Tell your GP or nurse you take it before any blood test.",
-          "Check with your GP before starting if you have kidney disease, high blood pressure, diabetes or take regular medicines. Stop and get advice if you notice swelling, a big change in how much you pee, or ongoing stomach problems."
+          "Studies in healthy adults have found creatine safe at recommended doses. It does raise creatinine, a marker doctors use to estimate kidney function, so a blood test can look worse than it is. Tell your doctor or nurse you take it before any blood test.",
+          "Check with your doctor before starting if you have kidney disease, high blood pressure, diabetes or take regular medicines. Stop and get advice if you notice swelling, a big change in how much you pee, or ongoing stomach problems."
         ]
       },
       {
@@ -3495,7 +3495,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     brand: 'Buying guide',
     category: 'Recovery',
     priceRange: 'From under £100 to several thousand pounds',
-    verdict: "Cold water can ease muscle soreness and many men find it lifts their mood, but the health claims run well ahead of the evidence. A cold shower or a basic tub gives you the same cold water as a chiller unit costing thousands. Start cheap, and talk to your GP first if you have a heart condition.",
+    verdict: "Cold water can ease muscle soreness and many men find it lifts their mood, but the health claims run well ahead of the evidence. A cold shower or a basic tub gives you the same cold water as a chiller unit costing thousands. Start cheap, and talk to your doctor first if you have a heart condition.",
     whoItIsFor: "Men who already enjoy cold showers or sea swimming and want something more regular at home. Not for anyone with a heart condition, uncontrolled high blood pressure or Raynaud's without medical advice.",
     pros: [
       'Can reduce muscle soreness after hard exercise',
@@ -3524,7 +3524,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'Are Cold Plunge Tubs Worth It? The Short Answer',
         paragraphs: [
           "For most men, an expensive cold plunge tub isn't worth it. The benefits that have decent evidence, mainly less muscle soreness, come from the cold water, not the tub. Try cold showers for a month first. If you love it, a basic portable tub does the job.",
-          "This is a desk review of the research and the main types of tub. We haven't tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a desk review of the research and the main types of tub. We haven't tested individual products. This page contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -3574,9 +3574,9 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        heading: 'When to See a GP',
+        heading: 'When to See a Doctor',
         paragraphs: [
-          "Speak to your GP before trying cold water immersion if you have a heart condition, high blood pressure, asthma, Raynaud's, or take regular medicines. Call 999 if someone has chest pain, can't catch their breath or becomes confused or very drowsy after cold exposure.",
+          "Speak to your doctor before trying cold water immersion if you have a heart condition, high blood pressure, asthma, Raynaud's, or take regular medicines. Call 999 if someone has chest pain, can't catch their breath or becomes confused or very drowsy after cold exposure.",
           "If it's heat you're after instead, our article on sauna benefits for men covers what the research supports."
         ]
       },
@@ -3599,7 +3599,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     category: 'Supplements',
     priceRange: 'Varies. Compare the EPA and DHA per capsule',
     verdict: "If you eat oily fish once a week, you probably don't need a fish oil supplement, and UK guidance doesn't recommend them for preventing heart disease. If you never eat fish, a modest daily supplement is a reasonable way to get some omega-3. Judge products by the EPA and DHA on the back label, not the headline number on the front.",
-    whoItIsFor: "Men who rarely or never eat oily fish. Speak to your GP or pharmacist first if you take blood thinners, have a heart rhythm problem or are thinking about high doses.",
+    whoItIsFor: "Men who rarely or never eat oily fish. Speak to your doctor or pharmacist first if you take blood thinners, have a heart rhythm problem or are thinking about high doses.",
     pros: [
       'A simple way to get EPA and DHA if you eat no fish',
       'Widely available and usually inexpensive',
@@ -3627,7 +3627,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'Do You Need an Omega-3 Supplement? The Short Answer',
         paragraphs: [
           "Probably not, if you eat oily fish such as salmon, mackerel or sardines about once a week. If you never eat fish, a modest daily supplement is a sensible back-up, but it isn't a substitute for a healthy diet or prescribed heart medicines.",
-          "This is a buying guide based on published research and UK guidance. We haven't lab-tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+          "This is a buying guide based on published research and UK guidance. We haven't lab-tested individual products. This page contains affiliate links to Amazon. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
         ]
       },
       {
@@ -3664,10 +3664,10 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         ]
       },
       {
-        heading: 'Safety and When to See a GP',
+        heading: 'Safety and When to See a Doctor',
         paragraphs: [
           "Modest doses are safe for most people. Fishy burps and mild stomach upset are the usual complaints. At higher doses the picture changes: European regulators have warned that omega-3 medicines can raise the risk of atrial fibrillation, an irregular heartbeat, and that the risk is highest at 4g a day.",
-          "Speak to your GP or pharmacist before taking omega-3 if you take warfarin or other blood thinners, have a heart rhythm problem, or have a fish or shellfish allergy. See a GP if you notice palpitations, a racing or irregular pulse, or unusual bruising or bleeding. If you're worried about cholesterol, our guide to ApoB explains the tests worth asking about."
+          "Speak to your doctor or pharmacist before taking omega-3 if you take warfarin or other blood thinners, have a heart rhythm problem, or have a fish or shellfish allergy. See a doctor if you notice palpitations, a racing or irregular pulse, or unusual bruising or bleeding. If you're worried about cholesterol, our guide to ApoB explains the tests worth asking about."
         ]
       },
       {
@@ -3718,7 +3718,7 @@ export const ADVISORY_BOARD: AdvisoryBoardMember[] = [
 
 export const TRUST_STATS = [
   { value: String(ARTICLES.length), label: 'Guides Published', sub: 'Each with its sources listed' },
-  { value: 'UK', label: 'Guidance First', sub: 'NHS and NICE advice where it exists' },
+  { value: 'US + UK', label: 'Local Advice', sub: 'Official US and UK guidance side by side' },
   { value: '5 Pillars', label: 'Health Topics Covered', sub: 'Health, fitness, nutrition, sleep, mindset' },
   { value: 'Free', label: 'To Read, No Paywall', sub: 'Funded by clearly labelled affiliate links' }
 ];
