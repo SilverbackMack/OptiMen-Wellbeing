@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import { MotionConfig, motion } from 'motion/react';
 import { PageType, Article, ProductReview, PillarId } from './types';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -119,6 +120,7 @@ export default function App() {
   };
 
   return (
+    <MotionConfig reducedMotion="user">
     <div className="min-h-screen flex flex-col bg-white text-[#0F172A] selection:bg-emerald-100 selection:text-[#166534]">
       
       {/* Strict 1-row, 3-zone Navbar */}
@@ -130,6 +132,13 @@ export default function App() {
 
       {/* Main View Router */}
       <main className="flex-1">
+        {/* Each page fades in when you move to it */}
+        <motion.div
+          key={selectedReview ? `review-${selectedReview.id}` : currentPage}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.35 }}
+        >
         {selectedReview && (
           <ReviewModal
             asPage
@@ -179,6 +188,7 @@ export default function App() {
         {!selectedReview && currentPage === 'contact' && (
           <ContactView />
         )}
+        </motion.div>
       </main>
 
       {/* Quiet Footer */}
@@ -204,5 +214,6 @@ export default function App() {
       />
 
     </div>
+    </MotionConfig>
   );
 }

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Mail, CheckCircle2, ShieldCheck, AlertCircle, RefreshCw, Download, ClipboardCheck } from 'lucide-react';
+import { motion } from 'motion/react';
+import { Mail, CheckCircle2, ShieldCheck, AlertCircle, RefreshCw, Download, ClipboardCheck, Check } from 'lucide-react';
+import { EASE } from './Motion';
 
 // MailerLite form: OW website signup (adds to the OW Newsletter group, double opt-in)
 // The free download offered with the newsletter (file lives in public/downloads)
@@ -154,127 +156,168 @@ function useNewsletterSignup() {
 const CONSENT_TEXT =
   "By subscribing you agree to receive the OptiMen Wellbeing newsletter, which may include affiliate recommendations. We'll email you a link to confirm, and you can unsubscribe at any time.";
 
+// The picture of the checklist beside the signup form. Rows tick themselves off.
+const CHECKLIST_PREVIEW = ['Blood pressure', 'NHS Health Check', 'Cholesterol', 'Prostate (PSA)', 'Bowel screening'];
+
+const ChecklistPreview: React.FC = () => (
+  <motion.div
+    aria-hidden="true"
+    className="relative w-64 sm:w-72 mx-auto"
+    initial={{ opacity: 0, y: 40, rotate: 0 }}
+    whileInView={{ opacity: 1, y: 0, rotate: 4 }}
+    viewport={{ once: true, margin: '0px 0px -80px 0px' }}
+    transition={{ duration: 0.8, ease: EASE }}
+  >
+    <div className="absolute inset-0 translate-x-4 translate-y-4 -rotate-6 rounded-2xl bg-slate-700/60 border border-slate-600" />
+    <div className="relative rounded-2xl bg-white text-[#0F172A] overflow-hidden shadow-2xl shadow-black/40">
+      <div className="bg-[#0F172A] px-5 py-4 border-b-4 border-emerald-400">
+        <p className="text-[9px] uppercase tracking-[0.2em] font-bold text-emerald-400">OptiMen Wellbeing</p>
+        <p className="text-base font-extrabold text-white leading-tight mt-1">The Men's Health MOT Checklist</p>
+      </div>
+      <ul className="px-5 py-4 space-y-3">
+        {CHECKLIST_PREVIEW.map((row, i) => (
+          <li key={row} className="flex items-center gap-3 text-sm font-semibold">
+            <span className="w-5 h-5 rounded-md border-2 border-[#166534] flex items-center justify-center shrink-0">
+              <motion.span
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.6 + i * 0.25, type: 'spring', stiffness: 400, damping: 15 }}
+              >
+                <Check className="w-3.5 h-3.5 text-[#166534]" strokeWidth={4} />
+              </motion.span>
+            </span>
+            {row}
+          </li>
+        ))}
+      </ul>
+      <div className="px-5 pb-4 flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400">
+        <span>2 pages &middot; PDF</span>
+        <span className="text-[#166534] bg-emerald-50 border border-emerald-200 rounded px-1.5 py-0.5">Free</span>
+      </div>
+    </div>
+  </motion.div>
+);
+
 export const NewsletterSection: React.FC = () => {
   const { email, submitted, sending, error, handleInputChange, handleBlur, handleSubmit, handleReset } = useNewsletterSignup();
 
   return (
-    <section className="bg-[#0F172A] text-white py-16 sm:py-20 border-t border-slate-800 relative overflow-hidden">
-      {/* Subtle background ambient element */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-950/40 rounded-full blur-3xl pointer-events-none" />
+    <section id="checklist" className="bg-[#0F172A] text-white py-20 sm:py-24 relative overflow-hidden">
+      <div className="absolute -top-24 -right-24 w-[32rem] h-[32rem] bg-[#166534]/40 rounded-full blur-3xl pointer-events-none" />
+      <div className="glow-grid absolute inset-0 opacity-30" aria-hidden="true" />
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        
-        <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">
-          Free download &middot; The OptiMen Dispatch
-        </p>
-        
-        <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-balance">
-          Get the Free Men's Health MOT Checklist
-        </h2>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+        <motion.div
+          className="text-center lg:text-left"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '0px 0px -60px 0px' }}
+          transition={{ duration: 0.6, ease: EASE }}
+        >
+          <p className="text-[11px] uppercase tracking-[0.2em] text-emerald-400 font-bold mb-3">Free download</p>
 
-        <p className="mt-4 text-base text-slate-300 max-w-xl mx-auto leading-relaxed font-normal">
-          A two-page checklist of the health checks worth having at every age, what's free on the NHS, and how to ask for each one. Join our newsletter and download it straight away.
-        </p>
+          <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-balance leading-[1.05]">
+            Get the Free Men's Health MOT Checklist
+          </h2>
 
-        {!submitted ? (
-          <form onSubmit={handleSubmit} noValidate className="mt-8 max-w-lg mx-auto space-y-4">
-            
-            {/* Input Row */}
-            <div className="space-y-2">
-              <div className="flex flex-col sm:flex-row gap-2">
-                <div className="relative flex-1">
-                  <Mail className={`w-5 h-5 absolute left-3.5 top-1/2 -translate-y-1/2 transition-colors ${
-                    error ? 'text-rose-400' : 'text-slate-400'
-                  }`} />
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={handleInputChange}
-                    onBlur={handleBlur}
-                    placeholder="Enter your email address..."
-                    aria-label="Email address for the free checklist and newsletter"
-                    aria-invalid={!!error}
-                    aria-describedby={error ? "newsletter-email-error" : undefined}
-                    className={`w-full pl-11 pr-4 py-3 bg-slate-800/90 rounded-xl text-white placeholder-slate-400 text-sm focus:outline-none transition-all border ${
-                      error
-                        ? 'border-rose-500 focus:border-rose-400 ring-2 ring-rose-500/20'
-                        : 'border-slate-700 focus:border-emerald-500'
-                    }`}
-                  />
+          <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-md mx-auto lg:mx-0">
+            Every check worth having, and what's free on the NHS. Two pages.
+          </p>
+
+          {!submitted ? (
+            <form onSubmit={handleSubmit} noValidate className="mt-8 max-w-lg mx-auto lg:mx-0 space-y-4">
+              <div className="space-y-2">
+                <div className="flex flex-col sm:flex-row gap-2">
+                  <div className="relative flex-1">
+                    <Mail
+                      className={`w-5 h-5 absolute left-4 top-1/2 -translate-y-1/2 transition-colors ${
+                        error ? 'text-rose-400' : 'text-slate-400'
+                      }`}
+                    />
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={handleInputChange}
+                      onBlur={handleBlur}
+                      placeholder="Your email address"
+                      aria-label="Email address for the free checklist and newsletter"
+                      aria-invalid={!!error}
+                      aria-describedby={error ? 'newsletter-email-error' : undefined}
+                      className={`w-full pl-12 pr-4 py-3.5 bg-slate-800/90 rounded-full text-white placeholder-slate-400 text-sm focus:outline-none transition-all border ${
+                        error
+                          ? 'border-rose-500 focus:border-rose-400 ring-2 ring-rose-500/20'
+                          : 'border-slate-700 focus:border-emerald-400'
+                      }`}
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={sending}
+                    className="px-6 py-3.5 bg-emerald-400 hover:bg-emerald-300 disabled:opacity-60 text-[#0F172A] text-sm font-bold rounded-full transition-all cursor-pointer active:scale-95 whitespace-nowrap shadow-[0_0_30px_rgba(52,211,153,0.3)]"
+                  >
+                    {sending ? 'Sending…' : 'Get the checklist'}
+                  </button>
                 </div>
+
+                {error && (
+                  <div
+                    id="newsletter-email-error"
+                    role="alert"
+                    className="p-3 bg-rose-950/70 border border-rose-500/50 rounded-xl text-left flex items-start gap-2.5 text-xs text-rose-200"
+                  >
+                    <AlertCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+                    <span className="leading-relaxed font-medium">{error}</span>
+                  </div>
+                )}
+              </div>
+
+              <p className="flex items-center justify-center lg:justify-start gap-1.5 text-xs text-slate-400">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                No spam. Unsubscribe in one click.
+              </p>
+
+              <p className="text-[11px] text-slate-500 leading-relaxed max-w-md mx-auto lg:mx-0">{CONSENT_TEXT}</p>
+            </form>
+          ) : (
+            <div className="mt-8 p-6 bg-slate-800/90 border border-emerald-500/40 rounded-2xl max-w-lg mx-auto lg:mx-0 text-left space-y-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-emerald-950 border border-emerald-500/60 flex items-center justify-center text-emerald-400 shrink-0">
+                  <CheckCircle2 className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-white">Your checklist is ready</h3>
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    We've also sent a confirmation link to <strong className="text-white">{email}</strong>. Click it to start getting the newsletter. If you can't see it within a few minutes, check your spam or promotions folder.
+                  </p>
+                </div>
+              </div>
+
+              <a
+                href={CHECKLIST_URL}
+                target="_blank"
+                rel="noopener"
+                className="w-full px-5 py-3 bg-[#166534] hover:bg-emerald-700 text-white text-sm font-semibold rounded-xl transition-colors inline-flex items-center justify-center gap-2"
+              >
+                <Download className="w-4 h-4" />
+                <span>Download {CHECKLIST_NAME} (PDF)</span>
+              </a>
+
+              <div className="pt-1 text-center">
                 <button
-                  type="submit"
-                  disabled={sending}
-                  className="px-6 py-3 bg-[#166534] hover:bg-emerald-700 disabled:opacity-60 text-white text-xs font-semibold uppercase tracking-wider rounded-xl transition-all cursor-pointer shadow-sm active:scale-95 whitespace-nowrap"
+                  type="button"
+                  onClick={handleReset}
+                  className="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1.5 cursor-pointer font-medium transition-colors"
                 >
-                  {sending ? 'Sending…' : 'Get the Checklist'}
+                  <RefreshCw className="w-3 h-3" />
+                  <span>Sign up with another email address</span>
                 </button>
               </div>
-
-              {/* Error feedback banner */}
-              {error && (
-                <div
-                  id="newsletter-email-error"
-                  role="alert"
-                  className="p-3 bg-rose-950/70 border border-rose-500/50 rounded-xl text-left flex items-start gap-2.5 text-xs text-rose-200 animate-in fade-in slide-in-from-top-1 duration-150"
-                >
-                  <AlertCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
-                  <span className="leading-relaxed font-medium">{error}</span>
-                </div>
-              )}
             </div>
+          )}
+        </motion.div>
 
-            <div className="pt-2 flex items-center justify-center gap-6 text-xs text-slate-400">
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-                Zero Spam &middot; One-Click Unsubscribe
-              </span>
-            </div>
-
-            <p className="text-[11px] text-slate-500 leading-relaxed max-w-md mx-auto">
-              {CONSENT_TEXT}
-            </p>
-
-          </form>
-        ) : (
-          <div className="mt-8 p-6 bg-slate-800/90 border border-emerald-500/40 rounded-2xl max-w-lg mx-auto text-left space-y-4 animate-in fade-in duration-200">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-emerald-950 border border-emerald-500/60 flex items-center justify-center text-emerald-400 shrink-0">
-                <CheckCircle2 className="w-6 h-6" />
-              </div>
-              <div>
-                <h3 className="text-base font-bold text-white">
-                  Your checklist is ready
-                </h3>
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  We've also sent a confirmation link to <strong className="text-white">{email}</strong>. Click it to start getting the newsletter. If you can't see it within a few minutes, check your spam or promotions folder.
-                </p>
-              </div>
-            </div>
-
-            <a
-              href={CHECKLIST_URL}
-              target="_blank"
-              rel="noopener"
-              className="w-full px-5 py-3 bg-[#166534] hover:bg-emerald-700 text-white text-sm font-semibold rounded-xl transition-colors inline-flex items-center justify-center gap-2"
-            >
-              <Download className="w-4 h-4" />
-              <span>Download {CHECKLIST_NAME} (PDF)</span>
-            </a>
-
-            <div className="pt-1 text-center">
-              <button
-                type="button"
-                onClick={handleReset}
-                className="text-xs text-slate-400 hover:text-white inline-flex items-center gap-1.5 cursor-pointer font-medium transition-colors"
-              >
-                <RefreshCw className="w-3 h-3" />
-                <span>Sign up with another email address</span>
-              </button>
-            </div>
-          </div>
-        )}
-
+        <ChecklistPreview />
       </div>
     </section>
   );
