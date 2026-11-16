@@ -2276,15 +2276,13 @@ export const ALL_ARTICLES: Article[] = [
           "100g of tofu: about 8g",
           "200ml of milk: about 7g",
           "1 egg: about 7g",
-          "Beans, lentils and chickpeas are good, cheaper alternatives to meat, and add fibre too"
+          "Beans, lentils and chickpeas: the NHS lists pulses as good alternatives to meat"
         ]
       },
       {
         "heading": "What Does a High-Protein Day Look Like?",
         "paragraphs": [
-          "You don't need special foods or a meal plan. Using the BHF figures above, here's an ordinary day for a man who wants around 100g of protein:",
-          "That's about 96g from these foods alone, and bread, potatoes, nuts and vegetables add a little more. For a 75kg man that's well over 1.2g per kg, a good level for someone who lifts weights. If you don't train, you can comfortably eat less than this.",
-          "If you eat little or no meat, build meals around eggs, dairy, tofu, beans, lentils and chickpeas. Plant proteins work fine; you may just need slightly larger portions, and a mix of sources across the day."
+          "You don't need special foods or a meal plan. Using the BHF figures above, here's an ordinary day that adds up to about 96g of protein, before you count the smaller amounts in bread, potatoes, nuts and vegetables. For a 75kg man that's well over 1.2g per kg, a good level for someone who lifts weights. If you don't train, you can comfortably eat less than this."
         ],
         "bullets": [
           "Breakfast: 2 eggs on toast with a glass of milk (about 21g)",
@@ -2294,10 +2292,16 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
+        "heading": "What If You Don't Eat Much Meat?",
+        "paragraphs": [
+          "You can still hit your target. Build meals around eggs, dairy, tofu, beans, lentils and chickpeas, and mix different sources across the day. The NHS describes beans, peas and lentils as good alternatives to meat."
+        ]
+      },
+      {
         "heading": "Do You Need Protein Shakes?",
         "paragraphs": [
-          "No. Most men can get all the protein they need from normal food. Shakes are simply a convenient option if you're busy, train hard or struggle to eat enough. They don't build muscle any better than the same amount of protein from food.",
-          "If you do use one, choose a plain product with a short ingredient list, and count it towards your daily total rather than adding it on top of a diet that already has plenty."
+          "No. Most men can get all the protein they need from normal food. Shakes are simply a convenient option if you're busy, train hard or struggle to eat enough. Protein from a shake counts towards your daily total in the same way as protein from food.",
+          "If you do use one, choose a plain product with a short ingredient list, and use it to fill a gap rather than adding it on top of a diet that already has plenty."
         ]
       },
       {
