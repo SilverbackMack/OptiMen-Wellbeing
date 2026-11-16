@@ -102,6 +102,22 @@ export default function App() {
     go(review ? reviewPath(review.id) : PAGE_PATHS[currentPage]);
   };
 
+  // Follow a link from inside an article or review to another one
+  const openContent = (target: { articleId?: string; reviewId?: string }) => {
+    const article = target.articleId ? ARTICLES.find((a) => a.id === target.articleId) : undefined;
+    const review = target.reviewId ? PRODUCT_REVIEWS.find((r) => r.id === target.reviewId) : undefined;
+    if (article) {
+      setSelectedReviewState(null);
+      setCurrentPage(article.pillar as PageType);
+      setSelectedArticleState(article);
+      go(articlePath(article.id));
+    } else if (review) {
+      setSelectedArticleState(null);
+      setSelectedReviewState(review);
+      go(reviewPath(review.id));
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-[#0F172A] selection:bg-emerald-100 selection:text-[#166534]">
       
@@ -119,6 +135,7 @@ export default function App() {
             asPage
             review={selectedReview}
             onClose={() => setSelectedReview(null)}
+            onOpen={openContent}
           />
         )}
 
@@ -174,6 +191,7 @@ export default function App() {
       <ArticleModal
         article={selectedArticle}
         onClose={() => setSelectedArticle(null)}
+        onOpen={openContent}
       />
 
       <AssessmentQuizModal

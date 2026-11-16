@@ -211,7 +211,7 @@ export const PillarView: React.FC<PillarViewProps> = ({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-10">
               <p className="text-xs uppercase tracking-widest text-[#166534] font-bold mb-1">
-                Gear & Laboratory Tests
+                Reviews & Buying Guides
               </p>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0F172A]">
                 Recommended Tools for {pillar.name}
@@ -229,7 +229,7 @@ export const PillarView: React.FC<PillarViewProps> = ({
                     <div className="flex items-center justify-between text-xs">
                       <span className="font-bold text-slate-500 uppercase">{rev.brand}</span>
                       <span className="font-bold text-[#166534] bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-                        {rev.overallScore != null ? `Score: ${rev.overallScore}/10` : 'Comparison'}
+                        {rev.overallScore != null ? `Score: ${rev.overallScore}/10` : 'Desk review'}
                       </span>
                     </div>
 
@@ -243,7 +243,7 @@ export const PillarView: React.FC<PillarViewProps> = ({
                   </div>
 
                   <div className="pt-4 mt-4 border-t border-slate-200 flex items-center justify-between text-xs font-semibold text-[#166534]">
-                    <span>View Specifications & Clinical Grade</span>
+                    <span>Read the Review</span>
                     <span>&rarr;</span>
                   </div>
                 </div>

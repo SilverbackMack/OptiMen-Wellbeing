@@ -3,6 +3,7 @@ import { ProductReview, PageType } from '../types';
 import { PRODUCT_REVIEWS } from '../data/content';
 import { ShieldCheck, Check, AlertCircle, ChevronRight, Award, SlidersHorizontal, ExternalLink } from 'lucide-react';
 import { TrustIndicators } from '../components/TrustIndicators';
+import { NewsletterSection } from '../components/NewsletterSection';
 
 interface ReviewsViewProps {
   onSelectReview: (review: ProductReview) => void;
@@ -26,7 +27,7 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-5">
             <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold">
-              Independent Hardware & Compound Testing
+              Independent Product Reviews
             </p>
 
             <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
@@ -34,16 +35,16 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
             </h1>
 
             <p className="text-lg text-slate-300 font-normal leading-relaxed">
-              We separate clinical utility from silicon valley marketing hype. Tested in high-performance routines for 6 to 14 months before rating.
+              We separate what the evidence supports from marketing hype. These are desk reviews: we assess each product against published research, the maker's specifications and independent testing by others. We haven't tested them hands-on, and we say so on every review.
             </p>
 
             <div className="pt-2 flex items-center gap-6 text-xs text-slate-400">
               <span className="flex items-center gap-1.5 text-emerald-400 font-medium">
                 <ShieldCheck className="w-4 h-4" />
-                100% Conflict-of-Interest Disclosed
+                Affiliate Links Disclosed
               </span>
               <span>&middot;</span>
-              <span>Third-Party Lab Tested</span>
+              <span>UK Prices Where Available</span>
             </div>
           </div>
         </div>
@@ -57,10 +58,10 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-8 border-b border-slate-200 mb-10">
             <div>
               <h2 className="text-xl font-bold text-[#0F172A]">
-                Vetted Longevity Equipment ({filteredReviews.length})
+                Reviews & Buying Guides ({filteredReviews.length})
               </h2>
               <p className="text-xs text-slate-500 mt-0.5">
-                Evaluated on sensor precision, clinical evidence, durability, and daily compliance.
+                Assessed on the strength of the evidence, value for money and who each product actually suits.
               </p>
             </div>
 
@@ -135,7 +136,7 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
                       <span className="text-[10px] text-slate-400 font-bold uppercase">/ 10</span>
                     </div>
                   ) : (
-                    <span className="text-[10px] text-slate-500 font-bold uppercase">Comparison</span>
+                    <span className="text-[10px] text-slate-500 font-bold uppercase">Desk review</span>
                   )}
 
                   <div className="flex items-center gap-2">
@@ -170,38 +171,38 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
           
           <div className="max-w-3xl space-y-4 mb-10">
             <span className="text-xs uppercase tracking-widest text-[#166534] font-bold">
-              The Testing Protocol
+              How We Review
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0F172A]">
-              How OptiMen Tests Gear & Supplements
+              How OptiMen Reviews Gear & Supplements
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              We never publish unboxing reviews. Before any product receives an OptiMen rating, it goes through our 3-stage validation process.
+              We don't claim testing we haven't done. Every review is a desk review built on three checks, and each one says plainly what we looked at.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl border border-slate-200 space-y-2">
-              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">01. Minimum Duration</span>
-              <h3 className="text-base font-bold text-[#0F172A]">6+ Months Field Wear</h3>
+              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">01. The Evidence</span>
+              <h3 className="text-base font-bold text-[#0F172A]">What the Research Says</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Biometric wearables and sleep monitors must be worn across varying training intensities, travel, and recovery states to test algorithm drift.
+                We start with published studies and UK guidance from the NHS and NICE, and we say where the evidence is strong, weak or missing.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-slate-200 space-y-2">
-              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">02. Laboratory Purity</span>
-              <h3 className="text-base font-bold text-[#0F172A]">Certificate of Analysis</h3>
+              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">02. Independent Checks</span>
+              <h3 className="text-base font-bold text-[#0F172A]">Third-Party Testing</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Supplements must possess NSF for Sport, Informed-Choice, or IFOS certifications verifying zero heavy metals, micro-toxins, or unlisted compounds.
+                For supplements we look for batch testing by schemes such as Informed Sport. For gadgets we read hands-on reviews from established UK test labs and name them as sources.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-xl border border-slate-200 space-y-2">
-              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">03. Clinical Utility</span>
-              <h3 className="text-base font-bold text-[#0F172A]">Actionable Data Only</h3>
+              <span className="text-xs font-bold text-[#166534] uppercase tracking-wider">03. Real-World Value</span>
+              <h3 className="text-base font-bold text-[#0F172A]">Is It Worth the Money?</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                If a device generates vanity numbers without changing user behavior or autonomic recovery, its score reflects that limitation.
+                We give UK prices, including subscriptions, say who should skip the product, and point to cheaper or free alternatives when they do the same job.
               </p>
             </div>
           </div>
@@ -211,6 +212,9 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview, onNavi
 
       {/* 4. TRUST STATS */}
       <TrustIndicators />
+
+      {/* NEWSLETTER SIGNUP */}
+      <NewsletterSection />
 
     </div>
   );

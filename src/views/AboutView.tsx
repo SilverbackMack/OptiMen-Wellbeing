@@ -3,6 +3,7 @@ import { ADVISORY_BOARD, HEALTH_IMAGE } from '../data/content';
 import { PageType } from '../types';
 import { Shield, Award, Stethoscope, HeartHandshake, CheckCircle2, ArrowRight } from 'lucide-react';
 import { TrustIndicators } from '../components/TrustIndicators';
+import { NewsletterSection } from '../components/NewsletterSection';
 
 interface AboutViewProps {
   onNavigate: (page: PageType) => void;
@@ -189,6 +190,9 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
 
       {/* 5. TRUST INDICATORS */}
       <TrustIndicators />
+
+      {/* NEWSLETTER SIGNUP */}
+      <NewsletterSection />
 
     </div>
   );
