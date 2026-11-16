@@ -24,3 +24,51 @@
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+/* Faint grid used on the dark banners */
+.glow-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+
+/* Green-to-mint lettering for the headline accent */
+.text-glow {
+  background-image: linear-gradient(90deg, #34D399, #A7F3D0 50%, #34D399);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Scrolling strip of topics */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.float-slow { animation: float 7s ease-in-out infinite; }
+.float-slower { animation: float 9s ease-in-out -3s infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee, .text-glow, .float-slow, .float-slower { animation: none; }
+  html { scroll-behavior: auto; }
+}

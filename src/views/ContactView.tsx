@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { NewsletterSection } from '../components/NewsletterSection';
-import { Mail, Clock, MessageSquare, ShieldCheck, CheckCircle2, Send, HelpCircle } from 'lucide-react';
+import { Mail, Handshake, CheckCircle2, Send, Siren } from 'lucide-react';
+import { PageHero, Reveal } from '../components/Motion';
 
 export const ContactView: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    ageRange: '35-44',
     subject: 'general',
     message: '',
   });
@@ -16,12 +16,12 @@ export const ContactView: React.FC = () => {
 
   const validate = () => {
     const errs: Record<string, string> = {};
-    if (!formData.name.trim()) errs.name = 'Please provide your full name.';
+    if (!formData.name.trim()) errs.name = 'Please add your name.';
     if (!formData.email.trim() || !formData.email.includes('@')) {
-      errs.email = 'Please provide a valid email address.';
+      errs.email = 'Please add a valid email address.';
     }
     if (!formData.message.trim() || formData.message.length < 15) {
-      errs.message = 'Please provide a brief message of at least 15 characters.';
+      errs.message = 'Please write at least 15 characters.';
     }
     setErrors(errs);
     return Object.keys(errs).length === 0;
@@ -30,12 +30,11 @@ export const ContactView: React.FC = () => {
   const HELLO_EMAIL = 'hello@optimenwellbeing.com';
   const PARTNERS_EMAIL = 'partners@optimenwellbeing.com';
   const SUBJECT_LABELS: Record<string, string> = {
-    general: 'Protocol Clarification',
-    biomarkers: 'Blood Biomarker Screening Questions',
-    reviews: 'Product Review Feedback',
-    partnerships: 'Brand Partnerships & Affiliates',
-    corporate: 'Executive / Corporate Longevity Briefings',
-    press: 'Press & Media Advisory',
+    general: 'General question',
+    guides: 'Feedback on a guide',
+    reviews: 'Feedback on a review',
+    partnerships: 'Partnerships and affiliates',
+    press: 'Press',
   };
   const recipientFor = (subject: string) =>
     ['partnerships', 'corporate', 'press'].includes(subject) ? PARTNERS_EMAIL : HELLO_EMAIL;
@@ -44,234 +43,148 @@ export const ContactView: React.FC = () => {
     e.preventDefault();
     if (!validate()) return;
     const label = SUBJECT_LABELS[formData.subject] ?? 'Website enquiry';
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nAge range: ${formData.ageRange}\n\n${formData.message}`;
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
     window.location.href = `mailto:${recipientFor(formData.subject)}?subject=${encodeURIComponent(`OptiMen enquiry: ${label}`)}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
   };
 
+  const field =
+    'w-full px-4 py-3 bg-white border border-slate-300 rounded-xl text-sm text-slate-900 focus:outline-none focus:border-[#166534] focus:ring-2 focus:ring-emerald-600/15 transition';
+
   return (
-    <div className="space-y-0 text-left">
-      
-      {/* 1. HERO */}
-      <section className="bg-[#0F172A] text-white py-16 lg:py-20 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl space-y-5">
-            <p className="text-xs uppercase tracking-widest text-emerald-400 font-bold">
-              Direct Inquiries
-            </p>
+    <div className="text-left">
+      {/* 1. BANNER */}
+      <PageHero eyebrow="Contact" title="Say hello." line="Questions, corrections or partnerships. We read every message." />
 
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-              Get in Touch with OptiMen
-            </h1>
+      {/* 2. FORM AND EMAIL ADDRESSES */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
+          <Reveal className="lg:col-span-7">
+            {!submitted ? (
+              <form onSubmit={handleSubmit} className="bg-slate-50 p-6 sm:p-10 rounded-3xl border border-slate-200 space-y-5">
+                <h2 className="text-2xl font-extrabold text-[#0F172A]">Send a message</h2>
 
-            <p className="text-lg text-slate-300 font-normal leading-relaxed">
-              Have a question about a clinical protocol, research paper, hardware evaluation, or corporate longevity briefing? Our editorial and scientific panel is here to assist.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 2. FORM & INFO SPLIT */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-            
-            {/* Left: Contact Form */}
-            <div className="lg:col-span-7">
-              {!submitted ? (
-                <form onSubmit={handleSubmit} className="bg-slate-50 p-8 sm:p-10 rounded-2xl border border-slate-200 space-y-6">
-                  
-                  <div>
-                    <h2 className="text-2xl font-bold text-[#0F172A]">
-                      Send an Inquiry
-                    </h2>
-                    <p className="text-xs text-slate-500 mt-1">
-                      All inquiries are reviewed directly by our editorial and medical team.
-                    </p>
-                  </div>
-
-                  {/* Name & Email Row */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-slate-700 block">
-                        Full Name <span className="text-rose-500">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        value={formData.name}
-                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="Marcus Sterling"
-                        className="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-[#166534]"
-                      />
-                      {errors.name && <p className="text-xs text-rose-500">{errors.name}</p>}
-                    </div>
-
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-slate-700 block">
-                        Email Address <span className="text-rose-500">*</span>
-                      </label>
-                      <input
-                        type="email"
-                        value={formData.email}
-                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="marcus@example.com"
-                        className="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-[#166534]"
-                      />
-                      {errors.email && <p className="text-xs text-rose-500">{errors.email}</p>}
-                    </div>
-                  </div>
-
-                  {/* Age Range & Topic Row */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-slate-700 block">
-                        Your Age Bracket
-                      </label>
-                      <select
-                        value={formData.ageRange}
-                        onChange={(e) => setFormData({ ...formData, ageRange: e.target.value })}
-                        className="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-[#166534]"
-                      >
-                        <option value="25-34">25–34 Years</option>
-                        <option value="35-44">35–44 Years</option>
-                        <option value="45-55">45–55 Years</option>
-                        <option value="55+">55+ Years</option>
-                      </select>
-                    </div>
-
-                    <div className="space-y-1.5">
-                      <label className="text-xs font-semibold text-slate-700 block">
-                        Subject / Topic
-                      </label>
-                      <select
-                        value={formData.subject}
-                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                        className="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-[#166534]"
-                      >
-                        <option value="general">Protocol Clarification</option>
-                        <option value="biomarkers">Blood Biomarker Screening Questions</option>
-                        <option value="reviews">Product Review Feedback</option>
-                        <option value="partnerships">Brand Partnerships & Affiliates</option>
-                        <option value="corporate">Executive / Corporate Longevity Briefings</option>
-                        <option value="press">Press & Media Advisory</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  {/* Message */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1.5">
-                    <label className="text-xs font-semibold text-slate-700 block">
-                      Message <span className="text-rose-500">*</span>
-                    </label>
-                    <textarea
-                      rows={4}
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Please share your question, feedback, or specific research inquiry..."
-                      className="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:border-[#166534]"
+                    <label htmlFor="contact-name" className="text-xs font-semibold text-slate-700 block">Name</label>
+                    <input
+                      id="contact-name"
+                      type="text"
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      className={field}
                     />
-                    {errors.message && <p className="text-xs text-rose-500">{errors.message}</p>}
+                    {errors.name && <p className="text-xs text-rose-600">{errors.name}</p>}
                   </div>
-
-                  <button
-                    type="submit"
-                    className="w-full py-3.5 px-6 bg-[#0F172A] hover:bg-[#166534] text-white text-xs font-semibold uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2 shadow-sm"
-                  >
-                    <Send className="w-4 h-4 text-emerald-400" />
-                    <span>Submit Inquiry</span>
-                  </button>
-
-                  <div className="flex items-center justify-center gap-2 text-xs text-slate-400">
-                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>Strict confidentiality. Zero marketing disclosure.</span>
+                  <div className="space-y-1.5">
+                    <label htmlFor="contact-email" className="text-xs font-semibold text-slate-700 block">Email</label>
+                    <input
+                      id="contact-email"
+                      type="email"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className={field}
+                    />
+                    {errors.email && <p className="text-xs text-rose-600">{errors.email}</p>}
                   </div>
-
-                </form>
-              ) : (
-                <div className="bg-slate-50 p-10 rounded-2xl border border-emerald-200 text-center space-y-4 animate-in fade-in duration-200">
-                  <div className="w-14 h-14 rounded-full bg-emerald-100 text-[#166534] mx-auto flex items-center justify-center">
-                    <CheckCircle2 className="w-8 h-8" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-[#0F172A]">
-                    Almost Done
-                  </h3>
-                  <p className="text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
-                    Thank you, <strong className="text-slate-900">{formData.name}</strong>. Your email app should have opened with your message ready to send. Just press send. If nothing opened, email us directly at{' '}
-                    <a href={`mailto:${recipientFor(formData.subject)}`} className="text-[#166534] font-semibold underline">{recipientFor(formData.subject)}</a>.
-                  </p>
-                  <button
-                    onClick={() => {
-                      setSubmitted(false);
-                      setFormData({ name: '', email: '', ageRange: '35-44', subject: 'general', message: '' });
-                    }}
-                    className="mt-4 px-5 py-2.5 bg-slate-900 text-white rounded-lg text-xs font-semibold uppercase tracking-wider hover:bg-slate-800 transition-colors"
-                  >
-                    Send Another Note
-                  </button>
                 </div>
-              )}
-            </div>
 
-            {/* Right: Direct Information & Commitments */}
-            <div className="lg:col-span-5 space-y-6">
-              
-              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
-                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#166534]">
-                  <Clock className="w-4 h-4" />
-                  Editorial Standards & Response Times
+                <div className="space-y-1.5">
+                  <label htmlFor="contact-topic" className="text-xs font-semibold text-slate-700 block">Topic</label>
+                  <select
+                    id="contact-topic"
+                    value={formData.subject}
+                    onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                    className={field}
+                  >
+                    {Object.entries(SUBJECT_LABELS).map(([value, label]) => (
+                      <option key={value} value={value}>{label}</option>
+                    ))}
+                  </select>
                 </div>
-                <h3 className="text-base font-bold text-[#0F172A]">
-                  Direct Human Support
-                </h3>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  We reply to every constructive inquiry within 24–48 hours. Questions and protocol feedback are reviewed directly by our editorial research team for educational clarification.
+
+                <div className="space-y-1.5">
+                  <label htmlFor="contact-message" className="text-xs font-semibold text-slate-700 block">Message</label>
+                  <textarea
+                    id="contact-message"
+                    rows={5}
+                    value={formData.message}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    className={field}
+                  />
+                  {errors.message && <p className="text-xs text-rose-600">{errors.message}</p>}
+                </div>
+
+                <button
+                  type="submit"
+                  className="group w-full py-4 px-6 bg-[#0F172A] hover:bg-[#166534] text-white text-sm font-bold rounded-full transition-colors cursor-pointer flex items-center justify-center gap-2"
+                >
+                  <Send className="w-4 h-4 text-emerald-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  <span>Send message</span>
+                </button>
+                <p className="text-xs text-slate-500 text-center">Opens your email app with the message ready to send.</p>
+              </form>
+            ) : (
+              <div className="bg-slate-50 p-10 rounded-3xl border border-emerald-200 text-center space-y-4">
+                <div className="w-14 h-14 rounded-full bg-emerald-100 text-[#166534] mx-auto flex items-center justify-center">
+                  <CheckCircle2 className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-extrabold text-[#0F172A]">Almost done</h3>
+                <p className="text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
+                  Thank you, <strong className="text-slate-900">{formData.name}</strong>. Your email app should have opened with your message ready to send. Just press send. If nothing opened, email{' '}
+                  <a href={`mailto:${recipientFor(formData.subject)}`} className="text-[#166534] font-semibold underline">{recipientFor(formData.subject)}</a>.
                 </p>
+                <button
+                  onClick={() => {
+                    setSubmitted(false);
+                    setFormData({ name: '', email: '', subject: 'general', message: '' });
+                  }}
+                  className="mt-4 px-5 py-2.5 bg-[#0F172A] text-white rounded-full text-sm font-semibold hover:bg-[#166534] transition-colors cursor-pointer"
+                >
+                  Send another
+                </button>
               </div>
+            )}
+          </Reveal>
 
-              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
-                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-600">
-                  <Mail className="w-4 h-4 text-[#166534]" />
-                  Direct Channels
+          <div className="lg:col-span-5 space-y-4">
+            {[
+              { icon: Mail, label: 'Readers', email: HELLO_EMAIL },
+              { icon: Handshake, label: 'Partners and press', email: PARTNERS_EMAIL },
+            ].map(({ icon: Icon, label, email }, i) => (
+              <Reveal key={email} delay={0.1 + i * 0.1}>
+                <a
+                  href={`mailto:${email}`}
+                  className="group flex items-center gap-4 rounded-2xl border border-slate-200 p-5 transition-[box-shadow,border-color,translate] duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-emerald-600/40"
+                >
+                  <span className="w-12 h-12 rounded-xl bg-[#0F172A] text-emerald-400 flex items-center justify-center shrink-0 transition-colors group-hover:bg-[#166534] group-hover:text-white">
+                    <Icon className="w-5 h-5" />
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block text-xs uppercase tracking-wider font-bold text-slate-500">{label}</span>
+                    <span className="block text-sm sm:text-base font-bold text-[#0F172A] truncate">{email}</span>
+                  </span>
+                </a>
+              </Reveal>
+            ))}
+
+            <Reveal delay={0.3}>
+              <div className="flex items-start gap-4 rounded-2xl bg-rose-50 border border-rose-200 p-5">
+                <span className="w-12 h-12 rounded-xl bg-rose-600 text-white flex items-center justify-center shrink-0">
+                  <Siren className="w-5 h-5" />
+                </span>
+                <div>
+                  <p className="text-base font-bold text-rose-900">Emergency? Call 999.</p>
+                  <p className="text-sm text-rose-900/80 mt-0.5">We can't give personal medical advice. For that, see your GP or call NHS 111.</p>
                 </div>
-                <div className="space-y-3 text-xs">
-                  <div>
-                    <span className="font-bold text-slate-700 block">Reader Questions &amp; General Enquiries:</span>
-                    <a
-                      href="mailto:hello@optimenwellbeing.com"
-                      className="text-slate-600 hover:text-[#166534] font-mono transition-colors"
-                    >
-                      hello@optimenwellbeing.com
-                    </a>
-                  </div>
-                  <div>
-                    <span className="font-bold text-slate-700 block">Brand Partnerships, Affiliates &amp; Press:</span>
-                    <a
-                      href="mailto:partners@optimenwellbeing.com"
-                      className="text-slate-600 hover:text-[#166534] font-mono transition-colors"
-                    >
-                      partners@optimenwellbeing.com
-                    </a>
-                  </div>
-                </div>
               </div>
-
-              {/* Notice */}
-              <div className="p-4 bg-emerald-50/60 rounded-xl border border-emerald-200 text-xs text-slate-700 leading-relaxed">
-                <strong className="text-[#166534] block mb-1">Clinical Note:</strong>
-                If you are experiencing acute chest pain, shortness of breath, or an urgent medical crisis, immediately contact local emergency services. OptiMen provides healthspan education and cannot triage acute emergencies.
-              </div>
-
-            </div>
-
+            </Reveal>
           </div>
-
         </div>
       </section>
 
-      {/* NEWSLETTER SIGNUP */}
+      {/* 3. FREE CHECKLIST */}
       <NewsletterSection />
-
     </div>
   );
 };
