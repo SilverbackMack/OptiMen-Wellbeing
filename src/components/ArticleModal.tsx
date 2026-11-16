@@ -1,18 +1,34 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Article } from '../types';
 import { X, Clock, Calendar, CheckCircle2, Bookmark, ShieldCheck, ExternalLink } from 'lucide-react';
+import { createLinker } from '../links';
+import { LinkedText, OpenContent } from './LinkedText';
+import { ReadNext } from './ReadNext';
+import { ChecklistSignup } from './NewsletterSection';
 
 interface ArticleModalProps {
   article: Article | null;
   onClose: () => void;
+  onOpen: OpenContent; // open another article or review from a link
 }
 
-export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) => {
+export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, onOpen }) => {
+  const scroller = useRef<HTMLDivElement>(null);
+
+  // Start at the top when a link swaps one article for another
+  useEffect(() => {
+    scroller.current?.scrollTo({ top: 0 });
+  }, [article?.id]);
+
   if (!article) return null;
+
+  // Turns mentions of our other guides into links (each guide linked once)
+  const link = createLinker(article.id);
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150">
       <div 
+        ref={scroller}
         className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 relative text-left"
         onClick={(e) => e.stopPropagation()}
       >
@@ -81,7 +97,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) 
                   </h3>
                   {section.paragraphs.map((p, pIdx) => (
                     <p key={pIdx} className="text-sm text-slate-700 leading-relaxed font-normal">
-                      {p}
+                      <LinkedText pieces={link(p)} onOpen={onOpen} />
                     </p>
                   ))}
                   {section.bullets && section.bullets.length > 0 && (
@@ -89,7 +105,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) 
                       {section.bullets.map((bullet, bIdx) => (
                         <li key={bIdx} className="flex items-start gap-2.5 text-sm text-slate-700 leading-relaxed">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#166534] mt-2 shrink-0" />
-                          <span>{bullet}</span>
+                          <span><LinkedText pieces={link(bullet)} onOpen={onOpen} /></span>
                         </li>
                       ))}
                     </ul>
@@ -162,6 +178,10 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose }) 
               ))}
             </div>
           </div>
+
+          {/* Free checklist signup and where to go next */}
+          <ChecklistSignup />
+          <ReadNext currentId={article.id} pillar={article.pillar} onOpen={onOpen} />
 
           {/* Evidence Citations & References */}
           <div className="space-y-3 pt-4 border-t border-slate-100">

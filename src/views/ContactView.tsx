@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NewsletterSection } from '../components/NewsletterSection';
 import { Mail, Clock, MessageSquare, ShieldCheck, CheckCircle2, Send, HelpCircle } from 'lucide-react';
 
 export const ContactView: React.FC = () => {
@@ -267,6 +268,9 @@ export const ContactView: React.FC = () => {
 
         </div>
       </section>
+
+      {/* NEWSLETTER SIGNUP */}
+      <NewsletterSection />
 
     </div>
   );

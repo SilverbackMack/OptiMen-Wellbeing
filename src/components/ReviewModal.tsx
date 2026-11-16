@@ -1,15 +1,23 @@
 import React from 'react';
 import { ProductReview } from '../types';
-import { X, Check, AlertCircle, Award, CheckCircle2, ShieldCheck, ExternalLink } from 'lucide-react';
+import { X, Check, AlertCircle, ShieldCheck, ExternalLink } from 'lucide-react';
+import { createLinker } from '../links';
+import { LinkedText, OpenContent } from './LinkedText';
+import { ReadNext } from './ReadNext';
+import { ChecklistSignup } from './NewsletterSection';
 
 interface ReviewModalProps {
   review: ProductReview | null;
   onClose: () => void;
+  onOpen: OpenContent; // open another article or review from a link
   asPage?: boolean; // render as a full page instead of a pop-up window
 }
 
-export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPage = false }) => {
+export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpen, asPage = false }) => {
   if (!review) return null;
+
+  // Turns mentions of our guides into links (each guide linked once)
+  const link = createLinker(review.id);
 
   return (
     <div
@@ -30,9 +38,9 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPag
         {/* Header bar */}
         <div className={`${asPage ? 'rounded-t-2xl' : 'sticky top-0'} bg-white/95 backdrop-blur-md px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10`}>
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
-            <span>Independent Lab & Field Assessment</span>
+            <span>Independent Review</span>
             <span aria-hidden="true">&middot;</span>
-            <span className="text-[#166534] font-bold">Grade {review.evidenceGrade}</span>
+            <span className="text-[#166534] font-bold">Evidence Grade {review.evidenceGrade}</span>
           </div>
           {asPage ? (
             <button
@@ -65,7 +73,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPag
                 {review.name}
               </h2>
               <div className="text-xs text-slate-500 mt-1">
-                Tested for {review.testedDuration} &middot; Retail: {review.priceRange}
+                {review.testedDuration} &middot; Price: {review.priceRange}
               </div>
             </div>
 
@@ -142,7 +150,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPag
           {/* Specifications Table */}
           <div className="space-y-3 pt-2">
             <h4 className="text-xs uppercase font-bold tracking-wider text-slate-500">
-              Specifications & Testing Parameters
+              Key Facts
             </h4>
             <div className="border border-slate-200 rounded-lg overflow-hidden text-xs">
               {review.specs.map((item, idx) => (
@@ -165,14 +173,14 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPag
                 <div key={sIdx} className="space-y-3">
                   <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">{section.heading}</h3>
                   {section.paragraphs.map((p, pIdx) => (
-                    <p key={pIdx} className="text-sm text-slate-700 leading-relaxed">{p}</p>
+                    <p key={pIdx} className="text-sm text-slate-700 leading-relaxed"><LinkedText pieces={link(p)} onOpen={onOpen} /></p>
                   ))}
                   {section.bullets && section.bullets.length > 0 && (
                     <ul className="space-y-2 pl-2 pt-1">
                       {section.bullets.map((bullet, bIdx) => (
                         <li key={bIdx} className="flex items-start gap-2.5 text-sm text-slate-700 leading-relaxed">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#166534] mt-2 shrink-0" />
-                          <span>{bullet}</span>
+                          <span><LinkedText pieces={link(bullet)} onOpen={onOpen} /></span>
                         </li>
                       ))}
                     </ul>
@@ -197,12 +205,16 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, asPag
             <p className="text-xs text-slate-500 leading-relaxed">{review.affiliateNote}</p>
           )}
 
+          {/* Free checklist signup and where to go next */}
+          <ChecklistSignup />
+          <ReadNext currentId={review.id} onOpen={onOpen} />
+
         </div>
 
         {/* Footer */}
         <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 rounded-b-2xl flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-xs text-slate-500">
-            Reader Supported &middot; Field Tested
+            Reader Supported &middot; Affiliate Links Disclosed
           </span>
           <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
             {review.affiliateUrl && (

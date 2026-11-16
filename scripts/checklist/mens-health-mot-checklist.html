@@ -1,0 +1,138 @@
+<!doctype html>
+<!-- Source for public/downloads/mens-health-mot-checklist.pdf.
+     To rebuild the PDF after editing: node scripts/checklist/build.cjs (needs Playwright), or open this file in Chrome and Print > Save as PDF -->
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>The Men's Health MOT Checklist | OptiMen Wellbeing</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "DM Sans", "Helvetica Neue", Arial, sans-serif; color: #0F172A; font-size: 9.6pt; line-height: 1.4; }
+  .page { width: 210mm; height: 297mm; padding: 0 0 12mm; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  header { background: #0F172A; color: #fff; padding: 11mm 15mm 9mm; }
+  header .brand { color: #34D399; font-size: 8pt; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+  header h1 { margin: 2mm 0 1.5mm; font-size: 22pt; line-height: 1.1; letter-spacing: -.01em; }
+  header p { margin: 0; color: #CBD5E1; font-size: 10pt; max-width: 150mm; }
+  main { padding: 6mm 15mm 0; }
+  h2 { font-size: 11.5pt; margin: 4.2mm 0 1.6mm; color: #166534; display: flex; align-items: baseline; gap: 3mm; }
+  h2 .age { background: #166534; color: #fff; border-radius: 3px; padding: .6mm 2.4mm; font-size: 8.5pt; letter-spacing: .04em; white-space: nowrap; }
+  h2:first-child { margin-top: 0; }
+  ul.checks { list-style: none; margin: 0; padding: 0; }
+  ul.checks li { display: grid; grid-template-columns: 5mm 1fr; gap: 2.5mm; padding: 1.5mm 0; border-bottom: .3mm solid #E2E8F0; break-inside: avoid; }
+  ul.checks li:last-child { border-bottom: 0; }
+  .box { width: 4mm; height: 4mm; border: .45mm solid #166534; border-radius: .8mm; margin-top: .5mm; }
+  .what { font-weight: 700; }
+  .how { color: #334155; }
+  .tag { display: inline-block; font-size: 7.4pt; font-weight: 700; color: #166534; background: #ECFDF5; border: .25mm solid #A7F3D0; border-radius: 2px; padding: 0 1.4mm; margin-left: 1.5mm; vertical-align: 1px; white-space: nowrap; }
+  .note { background: #F8FAFC; border: .3mm solid #E2E8F0; border-radius: 2mm; padding: 2.5mm 4mm; margin-top: 3mm; color: #334155; font-size: 8.2pt; }
+  .urgent { background: #FEF2F2; border: .3mm solid #FECACA; border-radius: 2mm; padding: 3mm 4mm; margin-top: 3.5mm; }
+  .urgent h3 { margin: 0 0 1.5mm; font-size: 10.5pt; color: #991B1B; }
+  .urgent ul { margin: 0; padding-left: 4.5mm; }
+  .urgent li { margin: .8mm 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 6mm; margin-top: 2mm; }
+  .field { border-bottom: .3mm solid #94A3B8; padding: 3mm 0 .8mm; font-size: 8.6pt; color: #475569; }
+  footer { position: absolute; left: 15mm; right: 15mm; bottom: 7mm; font-size: 7.2pt; color: #64748B; border-top: .3mm solid #E2E8F0; padding-top: 2mm; display: flex; justify-content: space-between; gap: 6mm; }
+  footer .small { max-width: 140mm; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <header>
+    <div class="brand">OptiMen Wellbeing</div>
+    <h1>The Men's Health MOT Checklist</h1>
+    <p>The checks worth having at every age, what's free on the NHS, and how to get each one. Tick them off as you go.</p>
+  </header>
+  <main>
+    <h2><span class="age">ANY AGE</span> Start here</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Check your testicles once a month.</span> <span class="how">In or after a warm shower, roll each one between thumb and fingers. See a GP about any lump, swelling, change in shape or ache.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Know your blood pressure.</span> <span class="how">High blood pressure usually has no symptoms. A reading of 140/90 or more at a clinic, or 135/85 or more at home, counts as high.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Ask about your family history.</span> <span class="how">Find out whether close relatives have had heart disease, stroke, diabetes, or prostate, breast, ovarian or bowel cancer, and at what age.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Be honest about how you're coping.</span> <span class="how">If you've had "nothing left to give" for weeks, talk to someone. In England, adults can refer themselves to NHS Talking Therapies without seeing a GP.</span><span class="tag">FREE</span></div></li>
+      <li><span class="box"></span><div><span class="what">Don't sit on erection problems.</span> <span class="how">Ongoing problems can be an early sign of heart or blood vessel disease. GPs deal with this every day.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 40</span> Heart and circulation</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">NHS Health Check, every 5 years.</span><span class="tag">FREE · ENGLAND · AGES 40 TO 74</span> <span class="how">Blood pressure, cholesterol, weight and your 10-year risk of heart and circulation problems. Not been invited? Contact your GP practice.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Pharmacy blood pressure check.</span><span class="tag">FREE · ENGLAND</span> <span class="how">Offered at many pharmacies if you're 40 or over and haven't had it checked in the last 5 years. No appointment with a GP needed.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Sleep check-in.</span> <span class="how">See a GP if poor sleep has lasted for months, or if you snore loudly and someone has noticed pauses in your breathing.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 45 TO 50</span> Prostate</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">From 45, if you're at higher risk: talk to your GP about a PSA test.</span> <span class="how">Higher risk means you're Black, or your father or brother has had prostate cancer.</span></div></li>
+      <li><span class="box"></span><div><span class="what">From 50: you can ask your GP about a PSA test.</span><span class="tag">FREE IF AGREED WITH YOUR GP</span> <span class="how">There's no routine screening, so you have to ask. Your GP will go through the pros and cons with you first.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Getting up at night to pee, or a weak flow?</span> <span class="how">It's usually a non-cancerous enlarged prostate, but only a check-up can tell. Book a GP appointment.</span></div></li>
+    </ul>
+
+    <h2><span class="age">FROM 50</span> Screening that comes to you</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Bowel cancer screening kit, every 2 years.</span><span class="tag">FREE · AGES 50 TO 74</span> <span class="how">A home test kit arrives by post. Do it when it arrives. From 75 you can ask for one on 0800 707 6060 (England).</span></div></li>
+      <li><span class="box"></span><div><span class="what">AAA screening in the year you turn 65.</span><span class="tag">FREE · MEN · ENGLAND</span> <span class="how">A 10 to 15 minute ultrasound scan of the main artery in your tummy. You'll get a letter with an appointment.</span></div></li>
+    </ul>
+  </main>
+  <footer>
+    <div class="small">Health Checks are run differently in Scotland, Wales and Northern Ireland. Ask your GP practice or pharmacist what's offered where you live.</div>
+    <div>optimenwellbeing.com · Page 1 of 2</div>
+  </footer>
+</section>
+
+<section class="page">
+  <header>
+    <div class="brand">OptiMen Wellbeing</div>
+    <h1>Your numbers and next steps</h1>
+    <p>Write your results down. Numbers you can see are easier to act on, and easier to compare next time.</p>
+  </header>
+  <main>
+    <h2>My numbers</h2>
+    <div class="grid">
+      <div class="field">Blood pressure</div><div class="field">Date checked</div>
+      <div class="field">Total cholesterol</div><div class="field">Non-HDL or LDL cholesterol</div>
+      <div class="field">10-year heart risk score (%)</div><div class="field">Blood sugar (HbA1c), if tested</div>
+      <div class="field">Weight</div><div class="field">Waist</div>
+      <div class="field">PSA, if tested</div><div class="field">Next check due</div>
+    </div>
+
+    <h2>Before any appointment</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Write down your main concern in one sentence.</span> <span class="how">Say it first. Appointments are short.</span></div></li>
+      <li><span class="box"></span><div><span class="what">List your medicines and supplements.</span> <span class="how">Include creatine, which changes a kidney blood test, and finasteride, which lowers PSA.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Before a PSA blood test:</span> <span class="how">no ejaculation or vigorous exercise, including cycling, for 48 hours.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Ask three questions:</span> <span class="how">What are my numbers? What do they mean for me? What happens next, and when?</span></div></li>
+    </ul>
+
+    <h2>Five habits that move the numbers</h2>
+    <ul class="checks">
+      <li><span class="box"></span><div><span class="what">Move most days.</span> <span class="how">Aim for 150 minutes a week of activity that raises your breathing, plus strength work on 2 days.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Keep a regular bedtime.</span> <span class="how">Most adults need 7 to 9 hours.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Drink less.</span> <span class="how">No more than 14 units a week, spread over 3 or more days.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Don't smoke.</span> <span class="how">Free local stop smoking services roughly triple your chances of quitting.</span></div></li>
+      <li><span class="box"></span><div><span class="what">Eat fish twice a week, one of them oily,</span> <span class="how">and at least 5 portions of fruit and vegetables a day.</span></div></li>
+    </ul>
+
+    <div class="urgent">
+      <h3>Don't wait for a check-up</h3>
+      <ul>
+        <li><strong>Call 999</strong> for sudden chest pain or pressure that doesn't go away, or signs of a stroke: a drooping face, arm weakness or slurred speech.</li>
+        <li><strong>Go to A&amp;E or call 999</strong> for sudden, severe pain in a testicle.</li>
+        <li><strong>See a GP promptly</strong> about blood in your pee, poo or semen, a lump anywhere, or weight loss you can't explain.</li>
+        <li><strong>Struggling right now?</strong> Call Samaritans free on 116 123, any time, or NHS 111.</li>
+      </ul>
+    </div>
+
+    <div class="note">
+      This checklist is general health information for men in the UK, based on NHS, Prostate Cancer UK and Cancer Research UK guidance as of November 2026. It is not medical advice and doesn't replace a conversation with your GP or pharmacist. Guidance changes, so check nhs.uk for the latest.
+    </div>
+  </main>
+  <footer>
+    <div class="small">© OptiMen Wellbeing. Read the full guides at optimenwellbeing.com.</div>
+    <div>optimenwellbeing.com · Page 2 of 2</div>
+  </footer>
+</section>
+
+</body>
+</html>

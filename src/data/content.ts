@@ -91,6 +91,399 @@ export const PILLARS: Record<string, PillarInfo> = {
 
 export const ALL_ARTICLES: Article[] = [
   {
+    id: 'nhs-health-check-at-40',
+    publishOn: '2026-11-30',
+    title: 'NHS Health Check at 40: What You Get, What It Misses and How to Book',
+    metaTitle: 'NHS Health Check at 40: What You Get and How to Book | OptiMen Wellbeing',
+    metaDescription: "The free NHS Health Check for ages 40 to 74 in England: who qualifies, what's tested, what it doesn't cover and how to book if you haven't been invited.",
+    summary: "If you're 40 to 74 and live in England, you're entitled to a free check of your heart, stroke, diabetes and kidney risk every 5 years. Many men never take it up. Here's what happens, what it leaves out, and how to get yours.",
+    pillar: 'health',
+    pillarLabel: "Men's Health",
+    readTime: '7 min read',
+    publishedDate: 'November 2026',
+    author: {
+      name: 'OptiMen Health Research Desk',
+      credentials: "Men's Health Screening Synthesis",
+      role: 'Evidence Review Team'
+    },
+    keyTakeaways: [
+      "The NHS Health Check is free for people aged 40 to 74 in England who don't already have certain conditions, and it's offered every 5 years.",
+      'It takes 20 to 30 minutes and covers blood pressure, cholesterol, weight, waist and lifestyle. You may also have a blood sugar test.',
+      'You get a score for your risk of heart and circulation problems over the next 10 years.',
+      "It doesn't cover prostate, testicles, testosterone, mental health or sleep. Those need a separate conversation.",
+      "If you haven't been invited, contact your GP practice. If they don't offer it, your local council can tell you where to go."
+    ],
+    protocolSteps: [
+      "If you're 40 to 74 in England and haven't had a check in the last 5 years, contact your GP practice and ask to book one.",
+      'Before you go, find out whether close relatives have had heart disease, stroke or diabetes, and at what age.',
+      'Be honest about drinking, smoking and exercise. The score is only as good as the answers.',
+      'Ask for your numbers: blood pressure, cholesterol and your 10-year risk score. Write them down.',
+      'Agree one change to make and when you should be checked again.',
+      'Book separate appointments for anything the check leaves out, such as prostate concerns, low mood or poor sleep.'
+    ],
+    references: [
+      'NHS: NHS Health Check, nhs.uk/tests-and-treatments/nhs-health-check.',
+      'NHS: High blood pressure, nhs.uk.',
+      'NHS: Bowel cancer screening, nhs.uk.',
+      'NHS: Abdominal aortic aneurysm (AAA) screening, nhs.uk.',
+      'NHS: PSA test, nhs.uk.',
+      'NHS: Find a pharmacy that offers free blood pressure checks, nhs.uk.'
+    ],
+    sections: [
+      {
+        heading: 'What Is the NHS Health Check? The Short Answer',
+        paragraphs: [
+          "The NHS Health Check is a free check-up for adults in England aged 40 to 74. It looks for early signs that you're at higher risk of heart disease, stroke, type 2 diabetes and kidney disease, so you can do something about it before symptoms appear.",
+          "You should be invited every 5 years by your GP practice or local council. Plenty of men miss the letter, ignore it or never get one. If that's you, you can ask for it."
+        ]
+      },
+      {
+        heading: 'Who Can Get One?',
+        paragraphs: [
+          "You qualify if you're aged 40 to 74, live in England and don't already have one of the conditions the check is designed to find. You won't be invited if you already have:"
+        ],
+        bullets: [
+          'Heart disease, heart failure or atrial fibrillation',
+          'High blood pressure or inherited high cholesterol',
+          'Diabetes or chronic kidney disease',
+          'A previous stroke or mini-stroke (TIA), or peripheral arterial disease',
+          'A prescription for statins, or a previous check showing a 10-year risk of 20% or more'
+        ]
+      },
+      {
+        heading: "What If You Have One of Those Conditions?",
+        paragraphs: [
+          "You haven't been left out. If you have one of these conditions, your GP practice or specialist team should already be offering you regular reviews. If you can't remember your last one, ring the practice and ask."
+        ]
+      },
+      {
+        heading: 'What Happens at the Check?',
+        paragraphs: [
+          "It's usually done by a nurse, healthcare assistant or pharmacist and takes about 20 to 30 minutes. You may be asked to have a blood test at the appointment or beforehand. They will:"
+        ],
+        bullets: [
+          'Measure your height, weight and waist',
+          'Take your blood pressure',
+          'Test your cholesterol, and possibly your blood sugar',
+          'Ask whether close relatives have had certain conditions',
+          'Ask about smoking, alcohol and how active you are'
+        ]
+      },
+      {
+        heading: 'What Do the Results Mean?',
+        paragraphs: [
+          "You usually get your results at the appointment or soon after. The headline is a cardiovascular risk score: your estimated chance of a heart or circulation problem in the next 10 years, described as low, moderate or high.",
+          "Your score tends to rise with age even if nothing else changes, so don't be alarmed if it's higher next time. You'll also get results for body mass index, blood pressure, cholesterol, alcohol use, physical activity and diabetes risk.",
+          "Depending on your results, you might be offered advice, a referral to a stop smoking or exercise service, or medicines such as statins or blood pressure tablets."
+        ]
+      },
+      {
+        heading: 'What the NHS Health Check Misses',
+        paragraphs: [
+          "It's a heart and circulation check, not a full MOT. It doesn't include:"
+        ],
+        bullets: [
+          "Prostate checks. There's no routine PSA testing, but men over 50 can ask their GP about it",
+          'Testicular checks. These are down to you, once a month',
+          'Testosterone or other hormone tests',
+          'Mental health, stress or burnout',
+          'Sleep problems, including sleep apnoea',
+          'Cancer screening. Bowel screening kits are posted separately every 2 years from age 50 to 74'
+        ]
+      },
+      {
+        heading: 'Other Free Checks Worth Knowing About',
+        paragraphs: [
+          "Our guide to the health checks for men covers the seven that men put off most. Three free NHS services are worth adding to your list:"
+        ],
+        bullets: [
+          "Pharmacy blood pressure check: free at many pharmacies in England if you're 40 or over and haven't had it checked in the last 5 years",
+          "Bowel cancer screening: a home test kit arrives by post every 2 years between 50 and 74. Do it when it arrives",
+          'AAA screening: men in England are invited for a 10 to 15 minute ultrasound scan of the main artery in the tummy in the year they turn 65'
+        ]
+      },
+      {
+        heading: 'How to Book if You Haven\'t Been Invited',
+        paragraphs: [
+          "Contact your GP practice and say you'd like an NHS Health Check. If the practice doesn't offer them, your local council's public health team can tell you where to go. In some areas you can book online or do part of the check online.",
+          "The NHS Health Check programme only runs in England. If you live in Scotland, Wales or Northern Ireland, ask your GP practice or pharmacist what's available locally."
+        ]
+      },
+      {
+        heading: 'Keeping an Eye on Blood Pressure at Home',
+        paragraphs: [
+          "Five years is a long gap. High blood pressure has no symptoms, so a home monitor is a simple way to keep track between checks. Choose an upper-arm monitor that has been validated for accuracy. The British and Irish Hypertension Society publishes a list.",
+          "At home, a reading that's regularly 135/85 or higher counts as high. Take readings at the same time each day for a week and show your GP."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=upper+arm+blood+pressure+monitor+clinically+validated&tag=insightdigita-21',
+          label: 'Compare upper-arm blood pressure monitors on Amazon UK'
+        }
+      },
+      {
+        heading: 'When to See a GP Sooner',
+        paragraphs: [
+          "Don't wait for a health check if you have symptoms. See a GP about chest pain or tightness when you exert yourself, breathlessness, palpitations, ongoing erection problems, or feeling very thirsty and peeing more than usual.",
+          "Call 999 for sudden chest pain that doesn't go away, or signs of a stroke: a drooping face, arm weakness or slurred speech."
+        ]
+      }
+    ],
+    affiliateCta: {
+      url: 'https://www.amazon.co.uk/s?k=upper+arm+blood+pressure+monitor+clinically+validated&tag=insightdigita-21',
+      label: 'Compare home blood pressure monitors on Amazon UK',
+      note: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.'
+    }
+  },
+  {
+    id: 'psa-test-uk',
+    publishOn: '2026-12-03',
+    title: 'PSA Test in the UK: Can You Ask for One, and Should You?',
+    metaTitle: 'PSA Test UK: Can You Ask Your GP for One? | OptiMen Wellbeing',
+    metaDescription: "Who can get a PSA blood test on the NHS, what to avoid beforehand, what the result means and the pros and cons, including the 2026 change to prostate screening.",
+    summary: "There's no routine prostate screening for most men in the UK, but you can ask your GP about a PSA blood test. Here's who can have one, how to prepare, what the result can and can't tell you, and how to decide.",
+    pillar: 'health',
+    pillarLabel: "Men's Health",
+    readTime: '8 min read',
+    publishedDate: 'December 2026',
+    author: {
+      name: 'OptiMen Health Research Desk',
+      credentials: "Men's Health Screening Synthesis",
+      role: 'Evidence Review Team'
+    },
+    keyTakeaways: [
+      'Any man can ask a GP about a PSA test. Prostate Cancer UK suggests having that conversation from 50, or from 45 if you are Black or have a family history.',
+      'A raised PSA does not mean cancer. Most men with a raised result turn out not to have prostate cancer.',
+      'A normal PSA does not rule cancer out. About 1 in 7 men with a normal result may still have it.',
+      'For 48 hours before the test, avoid ejaculation and vigorous exercise, including cycling.',
+      'In 2026 the Government accepted a targeted screening programme in England for men aged 45 to 61 with a BRCA2 gene change and a family history. There is still no screening for all men.'
+    ],
+    protocolSteps: [
+      "Work out your risk: your age, whether you're Black, and whether your father or brother has had prostate cancer.",
+      "If you're over 50, or over 45 and at higher risk, book a GP appointment to talk through the PSA test.",
+      'Tell the GP about urinary symptoms, medicines such as finasteride, and any recent urine infection.',
+      'For 48 hours before the blood test, avoid ejaculation and vigorous exercise, and avoid anal sex or prostate stimulation for a week.',
+      "Ask what your result is in numbers and what happens next. If it's raised, expect a repeat test or a referral, usually with an MRI scan first.",
+      'Whatever the result, see your GP about new urinary symptoms, blood in your pee or semen, or unexplained back or bone pain.'
+    ],
+    references: [
+      'NHS: PSA test, nhs.uk/tests-and-treatments/psa-test.',
+      'Prostate Cancer UK: The PSA blood test, prostatecanceruk.org, updated January 2025.',
+      'Prostate Cancer UK: Are you at risk?, prostatecanceruk.org.',
+      'Cancer Research UK: UK NSC recommends prostate cancer screening for men with a BRCA2 gene change and family history of cancer, May 2026, updated June 2026.',
+      'UK National Screening Committee: Prostate cancer screening recommendation, 2026, gov.uk.'
+    ],
+    sections: [
+      {
+        heading: 'Can You Ask for a PSA Test? The Short Answer',
+        paragraphs: [
+          "Yes. The NHS says men, and anyone with a prostate, can ask a GP about PSA testing. There's no routine screening programme for most men, so you won't be invited. You have to raise it yourself.",
+          "Your GP should talk you through the pros and cons first. Prostate Cancer UK says that if you still want the test after that conversation, your GP should give you one. A GP may advise against it if your general health means treatment wouldn't help you."
+        ]
+      },
+      {
+        heading: 'Who Should Think About It?',
+        paragraphs: [
+          "Prostate cancer is mainly a disease of men over 50, and the risk rises with age. About 1 in 8 men in the UK will be diagnosed in their lifetime. Two groups have a higher risk and are advised to speak to a GP from 45:"
+        ],
+        bullets: [
+          'Black men, whose lifetime risk is about 1 in 4',
+          'Men whose father or brother has had prostate cancer',
+          "Men under 40: there's no evidence that PSA testing helps at this age"
+        ]
+      },
+      {
+        heading: 'What Is the PSA Test?',
+        paragraphs: [
+          "PSA stands for prostate specific antigen, a protein made by the prostate. A little in the blood is normal, and the level creeps up with age and as the prostate grows. The test is a simple blood sample, usually taken at your GP surgery, with results in 1 to 2 weeks.",
+          "Your GP may also offer a urine test, to rule out infection, and a physical examination of the prostate."
+        ]
+      },
+      {
+        heading: 'What to Avoid Before a PSA Test',
+        paragraphs: [
+          "Several everyday things can push PSA up and give a misleading result. Before your blood test, avoid:"
+        ],
+        bullets: [
+          'Ejaculation: for 48 hours',
+          'Vigorous exercise, including cycling: for 48 hours',
+          'Anal sex or prostate stimulation: Prostate Cancer UK advises a week',
+          'Testing soon after a urine infection: wait about 6 weeks after it has cleared'
+        ]
+      },
+      {
+        heading: 'Medicines That Affect the Result',
+        paragraphs: [
+          "Tell your GP about any medicines you take. Finasteride and dutasteride, used for an enlarged prostate and hair loss, can lower your PSA and hide a rise. You can eat and drink as normal before the test."
+        ]
+      },
+      {
+        heading: 'What Does the Result Mean?',
+        paragraphs: [
+          "There isn't one cut-off for everyone. For many men a normal PSA is under 3 nanograms per millilitre, but your GP will take your age, symptoms, medicines and general health into account.",
+          "A raised PSA is not a diagnosis. An enlarged prostate, an infection or inflammation can all raise it, and most men with a raised result turn out not to have prostate cancer. If yours is raised, you may be offered a repeat test. If it's still high, you'll usually be referred to a specialist. Most men now have an MRI scan first, and a biopsy only if the scan shows something that needs a closer look."
+        ]
+      },
+      {
+        heading: 'The Pros and Cons',
+        paragraphs: [
+          "This is why the decision is personal, and why there's no screening for all men."
+        ],
+        bullets: [
+          "For: it can find prostate cancer before you have symptoms",
+          'For: it can pick up a fast-growing cancer early, when treatment is more likely to work',
+          'For: regular tests can help men at higher risk spot an unusual rise',
+          "Against: it often comes back raised when there's no cancer, which means worry and more tests",
+          'Against: it can miss cancer. About 1 in 7 men with a normal PSA may have prostate cancer, and about 1 in 50 may have a fast-growing one',
+          'Against: it can find slow-growing cancers that would never have caused harm, leading to treatment with side effects you did not need'
+        ]
+      },
+      {
+        heading: 'What Changed in 2026?',
+        paragraphs: [
+          "In May 2026 the UK National Screening Committee recommended the first targeted prostate screening programme. It covers men aged 45 to 61 who have a confirmed BRCA2 gene change and a family history of breast, ovarian, pancreatic or prostate cancer, with a PSA test every 2 years. In June 2026 the Government accepted this for England, with the rollout expected to begin in 2027.",
+          "The committee decided against screening all men, because the PSA test would lead to too many men being diagnosed and treated for cancers that would never have harmed them. It also said there isn't yet enough evidence to recommend screening for Black men or for men with a family history but no BRCA2 change. None of this changes your right to talk to your GP about a test."
+        ]
+      },
+      {
+        heading: 'What About Private PSA Tests and Home Kits?',
+        paragraphs: [
+          "You can pay for a PSA test privately, including finger-prick kits you post to a lab. The number is only part of the picture. Without someone to interpret it alongside your age, symptoms and medicines, and to arrange follow-up, a result can cause needless alarm or false reassurance.",
+          "If you do test privately, take any raised result to your GP. And remember the test is free on the NHS once you and your GP have agreed it's right for you."
+        ]
+      },
+      {
+        heading: 'When to See a GP',
+        paragraphs: [
+          "Early prostate cancer usually has no symptoms, so don't wait for them if you're at higher risk. Do see a GP if you notice a weak flow, needing to pee more often, especially at night, difficulty starting, or a feeling that your bladder hasn't emptied. These are usually caused by a non-cancerous enlarged prostate, but they need checking.",
+          "See a GP promptly about blood in your pee or semen, or back or bone pain that doesn't go away. Our Prostate Health guide explains what else to look out for."
+        ]
+      }
+    ]
+  },
+  {
+    id: 'whoop-vs-oura-men-over-40',
+    publishOn: '2026-12-07',
+    title: 'WHOOP vs Oura: Which Is Worth It for Men Over 40?',
+    metaTitle: 'WHOOP vs Oura for Men Over 40: Which Is Worth It? | OptiMen Wellbeing',
+    metaDescription: 'WHOOP 5.0 or Oura Ring 5? We compare UK prices over three years, battery life, sleep and training tracking, and whether men over 40 need either.',
+    summary: "Both track sleep and recovery without a screen, and both charge a subscription. The real differences are how you pay, where you wear it and what you do in the gym. Here's how they compare in the UK, and who should buy neither.",
+    pillar: 'sleep',
+    pillarLabel: 'Sleep',
+    readTime: '7 min read',
+    publishedDate: 'December 2026',
+    author: {
+      name: 'OptiMen Health Research Desk',
+      credentials: 'Sleep & Recovery Synthesis',
+      role: 'Evidence Review Team'
+    },
+    keyTakeaways: [
+      'WHOOP 5.0 is a band you rent: from £169 a year, with nothing to pay up front. Stop paying and it stops working.',
+      'Oura Ring 5 is a ring you buy: £399 or more, plus £5.99 a month or £70 a year for the full features.',
+      'Over three years, Oura costs about £609 and WHOOP costs £507 to £687, depending on the tier.',
+      'Choose Oura if sleep is your focus and you dislike wrist bands. Choose WHOOP if training load and recovery matter more.',
+      "Neither will improve your health unless you change what you do. A regular bedtime and regular exercise cost nothing."
+    ],
+    protocolSteps: [
+      "Decide what you'd change if you had the data. If the answer is nothing, don't buy either.",
+      'Try the free route for a month first: a fixed bedtime, a morning note of how you feel, and the talk test in training.',
+      'If sleep is your main interest and you want nothing on your wrist, look at the Oura Ring 5.',
+      'If training and recovery are your main interest, and you do a lot of barbell work, look at WHOOP 5.0.',
+      'Work out the three-year cost, including the subscription, before you order.',
+      'Give it 30 days, then ask whether it has changed one habit. If not, return it or cancel.'
+    ],
+    references: [
+      'Expert Reviews: Whoop 5.0 review, October 2026, expertreviews.co.uk.',
+      'Expert Reviews: Oura Ring 5 review, September 2026, expertreviews.co.uk.',
+      'Baron KG, et al. Orthosomnia: are some patients taking the quantified self too far? Journal of Clinical Sleep Medicine. 2017;13(2):351-354.',
+      'NHS: Insomnia, nhs.uk.',
+      'NHS: Sleep apnoea, nhs.uk.'
+    ],
+    sections: [
+      {
+        heading: 'WHOOP or Oura? The Short Answer',
+        paragraphs: [
+          "Pick the Oura Ring 5 if you mainly care about sleep and want something you'll forget you're wearing. Pick WHOOP 5.0 if you train hard several times a week and want daily guidance on how much to push. If you're not sure you'd act on the data, save your money.",
+          "This is a desk comparison. We haven't tested either device ourselves. It's based on each maker's specifications and on independent hands-on testing by Expert Reviews. Prices were reported in autumn 2026 and may have changed. This article contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What They Have in Common',
+        paragraphs: [
+          "Neither has a screen. Both measure heart rate, heart rate variability (HRV), breathing rate, blood oxygen and skin temperature, mostly overnight, and turn them into daily scores for sleep and recovery. Both are water resistant, both count steps, and both need a phone app and a paid membership to be useful."
+        ]
+      },
+      {
+        heading: 'What They Cost in the UK',
+        paragraphs: [
+          "The two companies charge in opposite ways. WHOOP gives you the band and charges a yearly membership. Oura sells you the ring and charges a smaller membership on top."
+        ],
+        bullets: [
+          'WHOOP One: £169 a year. Three years: £507',
+          'WHOOP Peak (adds stress monitoring and WHOOP Age): £229 a year. Three years: £687',
+          'WHOOP Life (WHOOP MG band with ECG): £349 a year. Three years: £1,047',
+          'Oura Ring 5: £399 for the ring in silver or black, plus £70 a year. Three years: about £609',
+          'If you stop paying, WHOOP stops working. Oura drops to basic scores only'
+        ]
+      },
+      {
+        heading: 'Sleep Tracking',
+        paragraphs: [
+          "Both are built around sleep. Expert Reviews rated the Oura Ring 5 highly for comfort and for the usefulness of its sleep and health insights, and it weighs under 3g. If a band on your wrist bothers you in bed, the ring is the obvious choice.",
+          "A word of caution on both. Consumer trackers are better at measuring how long you slept than which stage of sleep you were in, so treat deep sleep and REM figures as rough guides. Watch the trend over weeks, not last night's score."
+        ]
+      },
+      {
+        heading: 'Training and the Gym',
+        paragraphs: [
+          "WHOOP is the more training-focused of the two, with a daily strain score and a recovery score that suggests how hard to go. It sits on your wrist, or on your upper arm with a separate band, so nothing gets in the way of a barbell.",
+          "It isn't perfect. Expert Reviews found WHOOP's heart rate readings unreliable during exercise, and found the Oura sometimes logged workouts that never happened. If accurate workout heart rate matters to you, use a chest strap. And a ring is awkward for heavy lifting and pull-ups, so expect to take the Oura off."
+        ]
+      },
+      {
+        heading: 'Battery and Everyday Wear',
+        paragraphs: [
+          "WHOOP lasted more than 12 days on a charge in testing. Oura lasts six to nine days depending on ring size and takes about 80 minutes to charge. Either way, you'll charge far less often than a smartwatch.",
+          "Oura needs careful sizing, so use the sizing kit before you order. WHOOP's fabric strap adjusts to fit any wrist."
+        ]
+      },
+      {
+        heading: 'Does Any of This Matter More After 40?',
+        paragraphs: [
+          "Recovery does slow with age, and sleep often gets lighter, so it's tempting to think a tracker matters more. What changes after 40 is the payoff from the basics: regular sleep, strength training, steady cardio and less alcohol. A tracker can show you the effect of those. It can't do them for you.",
+          "Some features on both devices, such as estimates of your body's 'age', are marketing as much as medicine. They're not a substitute for knowing your blood pressure and cholesterol."
+        ]
+      },
+      {
+        heading: 'Who Should Buy Neither',
+        paragraphs: [
+          "Skip both if you already know what you need to change and just haven't done it yet. Skip both if checking a score first thing in the morning is likely to make you anxious. Sleep specialists have a name for this, orthosomnia, where chasing a perfect sleep score makes sleep worse.",
+          "If you want a tracker without a subscription, look at a basic fitness band or a smart ring from a brand that doesn't charge a monthly fee."
+        ]
+      },
+      {
+        heading: 'When to See a GP',
+        paragraphs: [
+          "Neither device diagnoses anything. See a GP if poor sleep has lasted for months, if you snore loudly and someone has noticed pauses in your breathing, or if you're tired all the time whatever your scores say. Get palpitations, chest pain or breathlessness checked, and call 999 for chest pain that doesn't settle."
+        ]
+      },
+      {
+        heading: 'Check Current Prices',
+        paragraphs: [
+          "Prices and bundles change often, so check both before you decide."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Oura+Ring+5&tag=insightdigita-21',
+          label: 'See the Oura Ring 5 on Amazon UK'
+        }
+      }
+    ],
+    affiliateCta: {
+      url: 'https://www.amazon.co.uk/s?k=WHOOP+5.0&tag=insightdigita-21',
+      label: 'See WHOOP 5.0 on Amazon UK',
+      note: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.'
+    }
+  },
+  {
     "id": "health-checks-for-men",
     "publishOn": "2026-11-06",
     "title": "Health Checks for Men: The 7 Checks Men Skip (and How to Get Each One)",
@@ -2520,7 +2913,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       "Infrared and blanket saunas have much less research behind them"
     ],
     "evidenceGrade": "B+",
-    "testedDuration": "N/A (desk review of research and sauna types, not hands-on tested)",
+    "testedDuration": "Desk review of research and sauna types, not hands-on tested",
     "specs": [
       {
         "label": "Types compared",
@@ -2699,7 +3092,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       "US pricing and shipping; official site only"
     ],
     "evidenceGrade": "B+",
-    "testedDuration": "N/A (desk review of ingredients, not hands-on tested)",
+    "testedDuration": "Desk review of ingredients, not hands-on tested",
     "specs": [
       {
         "label": "Format",
@@ -2810,148 +3203,485 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
   },
   {
     id: 'whoop-5-review',
-    name: 'WHOOP 5.0 Biometric Band',
-    brand: 'WHOOP Inc.',
+    name: 'WHOOP 5.0',
+    brand: 'WHOOP',
     category: 'Wearables',
-    overallScore: 9.6,
-    priceRange: '$239 / yr (Membership)',
-    verdict: 'The gold standard for continuous autonomic monitoring, advanced strain guidance, and sleep architecture recovery without distracting screen notifications.',
-    whoItIsFor: 'High-performing executives, athletes, and busy fathers who want zero-distraction continuous cardiovascular and recovery data.',
+    priceRange: 'From £169 a year, band included',
+    verdict: "A screen-free band that tracks sleep, recovery and training load, with about two weeks of battery. It's easy to live with, but it only works with a yearly subscription, and independent testers found its heart rate tracking during exercise unreliable. Worth it if recovery data will change what you do. Poor value if you just want step counts.",
+    whoItIsFor: "Men who train several times a week, want sleep and recovery data without another screen, and are happy to pay every year. Skip it if you want GPS, a watch face, or a tracker you pay for once.",
     pros: [
-      'Screen-free minimalist design worn on wrist, bicep, or athletic apparel',
-      'Unmatched sleep staging and HRV recovery algorithm fidelity',
-      'Enhanced multi-spectrum sensor array for dynamic muscular and cardio strain',
-      'Continuous skin temperature, vascular tone, and blood oxygen tracking'
+      'No screen, so no notifications or distractions',
+      'About two weeks of battery life in independent testing',
+      'Light (26g), comfortable and water resistant (IP68)',
+      'Spots workouts automatically, with no buttons to press'
     ],
     cons: [
-      'Requires continuous annual or monthly membership subscription',
-      'No screen display (all metrics viewed on smartphone app)'
+      'Stops working if you stop paying the subscription',
+      'Independent testers found heart rate less accurate during exercise',
+      'No built-in GPS and no display',
+      'ECG is only on the top tier, at £349 a year'
     ],
-    evidenceGrade: 'A+',
-    testedDuration: '14 Months Continuous Testing',
+    evidenceGrade: 'B',
+    testedDuration: 'Desk review, not hands-on tested',
     specs: [
-      { label: 'Sensors', value: 'Upgraded 5-wavelength LED array + high-frequency photodetectors' },
-      { label: 'Battery Life', value: '4–5 Days (wireless slip-on charging pack)' },
-      { label: 'Water Resistance', value: 'IP68 (up to 10 meters / 33 feet)' },
-      { label: 'Form Factor', value: 'Fabric strap, zero screen distraction' }
+      { label: 'WHOOP One', value: '£169 a year' },
+      { label: 'WHOOP Peak', value: '£229 a year, adds stress monitoring and WHOOP Age' },
+      { label: 'WHOOP Life', value: '£349 a year, with the WHOOP MG band and ECG' },
+      { label: 'Battery life', value: 'About 2 weeks' },
+      { label: 'Weight and water resistance', value: '26g, IP68' },
+      { label: 'Tracks', value: 'Heart rate, HRV, breathing rate, blood oxygen, skin temperature, sleep, steps' }
     ],
-    affiliateUrl: 'https://www.amazon.co.uk/s?k=WHOOP+5.0&tag=insightdigita-21'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=WHOOP+5.0&tag=insightdigita-21',
+    affiliateNote: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.',
+    sections: [
+      {
+        heading: 'Is WHOOP 5.0 Worth It? The Short Answer',
+        paragraphs: [
+          "WHOOP 5.0 is worth it for a narrow group of men: those who train regularly, will actually act on sleep and recovery scores, and don't mind paying every year. For everyone else, a cheaper tracker with no subscription does most of the same job.",
+          "This is a desk review. We haven't tested the WHOOP 5.0 ourselves. It's based on WHOOP's published specifications and independent hands-on testing by Expert Reviews in October 2026. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What WHOOP 5.0 Does',
+        paragraphs: [
+          "WHOOP is a fabric band with a sensor and no screen. You wear it around the clock and read everything in the phone app. It measures heart rate, heart rate variability (HRV), breathing rate, blood oxygen and skin temperature, and turns them into three daily scores: sleep, recovery and strain.",
+          "The idea is simple. A low recovery score suggests an easier day. A high one suggests you can push. It also counts steps and detects workouts automatically."
+        ]
+      },
+      {
+        heading: 'What It Costs in the UK',
+        paragraphs: [
+          "You don't buy the band. You buy a yearly membership and the band comes with it. Prices below were reported in October 2026 and may change, so check before you buy."
+        ],
+        bullets: [
+          'WHOOP One: £169 a year (about £14 a month). Sleep, recovery and strain tracking.',
+          'WHOOP Peak: £229 a year (about £19 a month). Adds stress monitoring and the WHOOP Age estimate.',
+          'WHOOP Life: £349 a year (about £29 a month). Comes with the upgraded WHOOP MG band, which can take ECG readings.',
+          'Over three years, the cheapest tier costs £507. Stop paying and the band stops working.'
+        ]
+      },
+      {
+        heading: 'What Independent Testing Found',
+        paragraphs: [
+          "Expert Reviews tested the WHOOP 5.0 and summed it up as 'easy to live with, but not great value'. Their tester praised the comfort, the calm and focused app, and the battery, which ran for more than 12 days on one charge.",
+          "The main weakness was heart rate accuracy during exercise, where readings sometimes locked on to running rhythm instead of pulse. Resting and overnight measurements matter most for the recovery score, but if accurate workout heart rate is your priority, a chest strap or a sports watch is a better tool."
+        ]
+      },
+      {
+        heading: 'Do You Actually Need One?',
+        paragraphs: [
+          "No tracker makes you healthier on its own. There's no good evidence that wearing a recovery band improves health outcomes. What helps is changing behaviour: going to bed earlier, drinking less, or easing off when you're run down.",
+          "You can get most of the way for free. Notice how you feel on waking, keep a regular bedtime and follow the talk test in our guide to Zone 2 training. If you want the numbers anyway, our comparison of WHOOP and Oura looks at which suits men over 40."
+        ]
+      },
+      {
+        heading: 'When to See a GP',
+        paragraphs: [
+          "A wearable is not a medical device for diagnosis, and a good score doesn't rule out a problem. See a GP if you have ongoing tiredness, loud snoring with pauses in breathing, palpitations or breathlessness, whatever your tracker says. Call 999 for chest pain."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review. We haven't tested this product hands-on."],
+        bullets: [
+          'Expert Reviews: Whoop 5.0 review, October 2026, expertreviews.co.uk.',
+          'WHOOP: WHOOP 5.0 and WHOOP MG launch announcement, May 2025, whoop.com.',
+          'NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk.'
+        ]
+      }
+    ]
   },
   {
     id: 'oura-ring-5-review',
     name: 'Oura Ring 5',
-    brand: 'Oura Health',
+    brand: 'Oura',
     category: 'Sleep Tech',
-    overallScore: 9.3,
-    priceRange: '$349 + $5.99/mo',
-    verdict: 'The most comfortable form factor for overnight biometric tracking, offering elite nocturnal HRV, body temperature trend analysis, and daytime stress detection.',
-    whoItIsFor: 'Men who dislike wristbands in bed or require an unobtrusive, elegant titanium ring that tracks sleep cycles effortlessly.',
+    priceRange: '£399 to £499, plus £5.99 a month',
+    verdict: "The least intrusive way to track sleep: a titanium ring weighing under 3g, with six to nine days of battery. Independent testers rate the comfort and sleep insights highly. The catches are the price, a subscription you need for the useful features, and patchy workout detection.",
+    whoItIsFor: "Men who mainly want sleep and recovery tracking and hate wearing anything on their wrist in bed. Skip it if you lift heavy weights daily without wanting to take it off, or if you want a tracker with no monthly fee.",
     pros: [
-      'Incredibly lightweight titanium casing (weighs just 4 to 6 grams)',
-      'Finger capillary measurement provides pristine resting pulse & HRV',
-      'Predicts immune stress 24–48 hours before noticeable symptoms',
-      'Exceptional battery life lasting 7–8 days'
+      'Tiny and light (2g to 2.69g), so easy to sleep in',
+      'Six to nine days of battery, depending on ring size',
+      'Water resistant (IP68), fine for showers and swimming',
+      'Over three years it can cost less than a mid-tier WHOOP'
     ],
     cons: [
-      'Not suitable for heavy knurled barbell lifting without silicone sleeve',
-      'Monthly software membership fee required',
-      'Sizing requires initial sizing kit test'
+      '£399 to £499 up front',
+      'Membership (£5.99 a month or £70 a year) needed for most insights',
+      'Independent testers found workout detection hit and miss',
+      'No ECG and no built-in GPS'
     ],
-    evidenceGrade: 'A',
-    testedDuration: '10 Months Continuous Testing',
+    evidenceGrade: 'B',
+    testedDuration: 'Desk review, not hands-on tested',
     specs: [
-      { label: 'Material', value: 'Titanium with PVD coating' },
-      { label: 'Weight', value: '4 to 6 grams' },
-      { label: 'Battery Life', value: 'Up to 7–8 days per charge' },
-      { label: 'Sensors', value: 'Next-gen infrared photoplethysmography + negative temperature coefficient sensors' }
+      { label: 'Ring price', value: '£399 (silver, black) or £499 (other finishes)' },
+      { label: 'Membership', value: '£5.99 a month or £70 a year' },
+      { label: 'Battery life', value: '6 to 9 days, about 80 minutes to charge' },
+      { label: 'Weight', value: '2g to 2.69g' },
+      { label: 'Sizes', value: '6 to 13' },
+      { label: 'Tracks', value: 'Sleep, heart rate, HRV, blood oxygen, temperature, breathing rate, steps' }
     ],
-    affiliateUrl: 'https://www.amazon.co.uk/s?k=Oura+Ring+5&tag=insightdigita-21'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=Oura+Ring+5&tag=insightdigita-21',
+    affiliateNote: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.',
+    sections: [
+      {
+        heading: 'Is the Oura Ring 5 Worth It? The Short Answer',
+        paragraphs: [
+          "The Oura Ring 5 is a good choice if sleep is what you want to track and you'd rather not wear a band or watch overnight. It's expensive to buy, and you need the membership to get real value from it.",
+          "This is a desk review. We haven't tested the Oura Ring 5 ourselves. It's based on Oura's published specifications and independent hands-on testing by Expert Reviews in September 2026. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What the Oura Ring 5 Does',
+        paragraphs: [
+          "It's a titanium ring with sensors on the inside. It measures heart rate, heart rate variability (HRV), blood oxygen, skin temperature and breathing rate, mostly while you sleep, and gives you daily sleep, readiness and activity scores in the app.",
+          "The Ring 5 launched in May 2026 and is about 40% smaller than the Ring 4. There's no screen and no built-in GPS. For outdoor workouts it borrows your phone's location."
+        ]
+      },
+      {
+        heading: 'What It Costs in the UK',
+        paragraphs: [
+          "Prices below were reported in September 2026 and may change, so check before you buy."
+        ],
+        bullets: [
+          'Ring: £399 in silver or black, £499 in the other finishes',
+          'Membership: £5.99 a month, or £70 a year',
+          'First year with a £399 ring: £469. Each year after: £70',
+          'Three-year total: about £609',
+          'Without membership you only see basic sleep, readiness and activity scores'
+        ]
+      },
+      {
+        heading: 'What Independent Testing Found',
+        paragraphs: [
+          "Expert Reviews called it 'the most unobtrusive wearable'. Their tester liked the comfort, battery life and health insights, and found only minor scratches after gym use.",
+          "The weak spots were workout tracking, which sometimes logged sessions that didn't happen, and cost. They also noted there's no ECG. If you object to subscriptions, they suggested looking at rings from Ultrahuman, RingConn or Samsung, which don't charge a monthly fee."
+        ]
+      },
+      {
+        heading: 'Getting the Right Size',
+        paragraphs: [
+          "Ring sizes don't match standard jewellery sizes, so use Oura's sizing kit before you order and wear the test ring for a day, including overnight. Fingers swell in the heat and after exercise. Most people wear it on the index finger.",
+          "Take it off, or wear a silicone cover, for barbell and pull-up work. Metal bars scratch the coating and can pinch."
+        ]
+      },
+      {
+        heading: 'Do You Actually Need One?',
+        paragraphs: [
+          "A ring can show you patterns, such as how alcohol or a late meal affects your night. It can't fix your sleep, and consumer trackers are better at measuring how long you slept than which sleep stage you were in.",
+          "If a low score makes you anxious, tracking can make sleep worse. The free basics still do most of the work: a regular bedtime, a cool dark room, and less caffeine and alcohol late in the day. Our comparison of WHOOP and Oura looks at which suits men over 40."
+        ]
+      },
+      {
+        heading: 'When to See a GP',
+        paragraphs: [
+          "See a GP if poor sleep has lasted for months, or if you snore loudly and someone has noticed pauses in your breathing. A ring is not a test for sleep apnoea or any other condition."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review. We haven't tested this product hands-on."],
+        bullets: [
+          'Expert Reviews: Oura Ring 5 review, September 2026, expertreviews.co.uk.',
+          'Oura: Oura Ring 5 launch announcement, May 2026, ouraring.com.',
+          'NHS: Insomnia, nhs.uk.',
+          'NHS: Sleep apnoea, nhs.uk.'
+        ]
+      }
+    ]
   },
   {
     id: 'creatine-monohydrate-creapure',
-    name: 'Creapure Micronized Creatine Monohydrate',
-    brand: 'OptiMen Vetted Standards',
+    name: 'Creatine Monohydrate: What to Buy and What to Skip',
+    brand: 'Buying guide',
     category: 'Supplements',
-    overallScore: 9.8,
-    priceRange: '$28 / 500g (100 servings)',
-    verdict: 'The most rigorously researched supplement in existence. Crucial not only for muscular strength and ATP resynthesis, but also cellular brain energy and cognitive resilience under sleep deprivation.',
-    whoItIsFor: 'Every man over 25 looking to maintain cellular energy, brain phosphocreatine reserves, and lean muscle mass.',
+    priceRange: 'Varies. Compare the price per 100g',
+    verdict: "Creatine monohydrate is one of the best-studied sports supplements, with good evidence that it helps strength and muscle when combined with resistance training. Buy plain monohydrate powder with third-party batch testing. Skip gummies, blends and 'advanced' forms that cost more without working better.",
+    whoItIsFor: "Healthy men who lift weights or do other hard training and want a small, well-evidenced edge. Speak to your GP first if you have kidney disease, take regular medicines or have been told your kidney function is reduced.",
     pros: [
-      'Over 500 peer-reviewed randomized controlled trials validating safety',
-      'German Creapure standard guarantees 99.99% chemical purity',
-      'Enhances working memory, processing speed, and mental stamina',
-      'Unflavored, dissolvable, zero artificial sweeteners'
+      'Decades of research behind it',
+      'Helps strength and muscle alongside resistance training',
+      'Cheap per serving compared with most supplements',
+      'A simple 3 to 5g a day, with no need to cycle'
     ],
     cons: [
-      'Requires consistent daily intake of 5g for sustained tissue saturation',
-      'Transient 1–2 lb intramuscular water retention upon initial loading'
+      'Does little without training',
+      'Often adds 1 to 2kg of water weight in the first weeks',
+      'Can cause stomach upset if you take large doses',
+      'Raises creatinine on blood tests, so tell your doctor you take it'
     ],
-    evidenceGrade: 'A+',
-    testedDuration: 'Continuous Multi-Year Protocol',
+    evidenceGrade: 'A',
+    testedDuration: 'Desk review of the research, not hands-on tested',
     specs: [
-      { label: 'Dose', value: '5 grams daily (no cycling required)' },
-      { label: 'Form', value: 'Micronized mesh 200 unflavored powder' },
-      { label: 'Third-Party Testing', value: 'Informed Sport & NSF Certified for Sport' },
-      { label: 'Origin', value: 'Trostberg, Germany' }
+      { label: 'Form to buy', value: 'Creatine monohydrate powder' },
+      { label: 'Typical dose', value: '3 to 5g a day' },
+      { label: 'Loading phase', value: 'Optional, not needed' },
+      { label: 'Look for', value: 'Informed Sport batch testing' },
+      { label: 'Creapure', value: 'A brand of creatine monohydrate made in Germany' }
     ],
-    affiliateUrl: 'https://www.amazon.co.uk/s?k=Creapure+creatine+monohydrate+powder&tag=insightdigita-21'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=Creapure+creatine+monohydrate+powder&tag=insightdigita-21',
+    affiliateNote: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.',
+    sections: [
+      {
+        heading: 'Which Creatine Should You Buy? The Short Answer',
+        paragraphs: [
+          "Buy plain creatine monohydrate powder, unflavoured, from a brand that has its batches independently tested. That's the form used in almost all the research, and it's usually the cheapest.",
+          "This is a buying guide based on published research. We haven't lab-tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What the Evidence Says',
+        paragraphs: [
+          "Creatine helps your muscles recycle energy during short, hard efforts such as lifting and sprinting. The International Society of Sports Nutrition reviewed the research in 2017 and concluded that creatine monohydrate is the most effective supplement available for increasing high-intensity exercise capacity and lean body mass during training.",
+          "The gains are real but modest, and they depend on you doing the training. Research on memory and thinking is at an earlier stage, so treat brain claims on the label with caution."
+        ]
+      },
+      {
+        heading: 'What to Look For on the Label',
+        paragraphs: ["Three things matter:"],
+        bullets: [
+          "Creatine monohydrate as the only ingredient. 'Micronised' just means a finer powder that mixes more easily",
+          'Third-party batch testing, such as the Informed Sport logo. This checks for banned substances and contamination',
+          'Price per 100g, not price per tub. Tub sizes vary a lot'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=creatine+monohydrate+informed+sport&tag=insightdigita-21',
+          label: 'Compare third-party tested creatine on Amazon UK'
+        }
+      },
+      {
+        heading: 'Is Creapure Worth Paying More For?',
+        paragraphs: [
+          "Creapure is a brand name for creatine monohydrate made in Germany by one manufacturer. Many supplement companies buy it and put it in their own tubs. It has a good reputation for purity.",
+          "It's a reasonable choice, but it's still creatine monohydrate. A cheaper monohydrate with independent batch testing is also a sound buy. Don't pay double for the name alone."
+        ]
+      },
+      {
+        heading: 'What to Skip',
+        paragraphs: ["These usually cost more without good evidence that they work better:"],
+        bullets: [
+          'Creatine HCl, ethyl ester, buffered or liquid creatine',
+          "Gummies and capsules, which cost far more per gram and often contain small doses",
+          "Pre-workout blends that hide the creatine dose in a 'proprietary blend'"
+        ]
+      },
+      {
+        heading: 'How to Take It',
+        paragraphs: [
+          "Take 3 to 5g once a day, at any time, mixed into water or a shake. Consistency matters more than timing. A loading phase of 20g a day for a week fills your muscles faster but isn't necessary, and it's more likely to upset your stomach.",
+          "Expect the scales to go up by 1 to 2kg in the first few weeks. That's water held in the muscle, not fat."
+        ]
+      },
+      {
+        heading: 'Safety and When to See a GP',
+        paragraphs: [
+          "Studies in healthy adults have found creatine safe at recommended doses. It does raise creatinine, a marker doctors use to estimate kidney function, so a blood test can look worse than it is. Tell your GP or nurse you take it before any blood test.",
+          "Check with your GP before starting if you have kidney disease, high blood pressure, diabetes or take regular medicines. Stop and get advice if you notice swelling, a big change in how much you pee, or ongoing stomach problems."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review of the published research. We haven't tested individual products."],
+        bullets: [
+          'Kreider RB, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition. 2017;14:18.',
+          'Informed Sport: supplement certification programme, wetestyoutrust.com.'
+        ]
+      }
+    ]
   },
   {
     id: 'cold-plunge-tub-review',
-    name: 'Plunge All-Weather Cold Therapy Tub',
-    brand: 'Plunge Labs',
+    name: 'Cold Plunge Tubs: Are They Worth It?',
+    brand: 'Buying guide',
     category: 'Recovery',
-    overallScore: 8.9,
-    priceRange: '$4,490',
-    verdict: 'An investment-grade commercial-at-home cooling tub with continuous filtration and 37°F chilled water ready at any second for deliberate cold exposure.',
-    whoItIsFor: 'Entrepreneurs and athletes wanting frictionless daily dopamine resets, inflammatory down-regulation, and norepinephrine stimulation.',
+    priceRange: 'From under £100 to several thousand pounds',
+    verdict: "Cold water can ease muscle soreness and many men find it lifts their mood, but the health claims run well ahead of the evidence. A cold shower or a basic tub gives you the same cold water as a chiller unit costing thousands. Start cheap, and talk to your GP first if you have a heart condition.",
+    whoItIsFor: "Men who already enjoy cold showers or sea swimming and want something more regular at home. Not for anyone with a heart condition, uncontrolled high blood pressure or Raynaud's without medical advice.",
     pros: [
-      'Maintains clean water at 37°F (3°C) without handling bags of ice',
-      'Circular ozone and 5-micron particulate filtration system',
-      'Delivers sustained 250% dopamine spike lasting 2–3 hours post-dip',
-      'Weather-resistant for outdoor patio or garage installations'
+      'Can reduce muscle soreness after hard exercise',
+      'Many people report feeling more alert afterwards',
+      'Cheap options exist, and a cold shower is free',
+      'Takes only a few minutes'
     ],
     cons: [
-      'High initial capital expenditure',
-      'Requires dedicated 110V circuit and monthly filter rinse'
+      'Many of the big health claims rest on small studies',
+      'Cold shock is a real risk, especially with heart problems',
+      'Straight after weights, it may blunt muscle gains',
+      'Chiller tubs are expensive to buy and run'
     ],
-    evidenceGrade: 'A-',
-    testedDuration: '6 Months Field Testing',
+    evidenceGrade: 'B',
+    testedDuration: 'Desk review of research and tub types, not hands-on tested',
     specs: [
-      { label: 'Temperature Range', value: 'Down to 37°F (2.8°C)' },
-      { label: 'Filtration', value: 'Continuous ozone + 20-micron sediment filter' },
-      { label: 'Dimensions', value: '67" L × 31.5" W × 24" H' },
-      { label: 'Power', value: 'Standard 110V household outlet' }
+      { label: 'Types compared', value: 'Cold shower, portable tub, barrel or stock tank, chiller tub' },
+      { label: 'Typical water temperature', value: 'About 10 to 15°C' },
+      { label: 'Session length', value: 'Start with 30 to 60 seconds. A few minutes is plenty' },
+      { label: 'UK electrics', value: 'Chiller units must be made for 230V UK mains' }
+    ],
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=cold+plunge+tub&tag=insightdigita-21',
+    affiliateNote: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.',
+    sections: [
+      {
+        heading: 'Are Cold Plunge Tubs Worth It? The Short Answer',
+        paragraphs: [
+          "For most men, an expensive cold plunge tub isn't worth it. The benefits that have decent evidence, mainly less muscle soreness, come from the cold water, not the tub. Try cold showers for a month first. If you love it, a basic portable tub does the job.",
+          "This is a desk review of the research and the main types of tub. We haven't tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What the Evidence Says',
+        paragraphs: [
+          "A Cochrane review of 17 small trials found that cold water immersion after exercise reduced muscle soreness over the following days compared with resting. The quality of the evidence was low, and nobody has agreed on the best temperature or time.",
+          "There's a trade-off for lifters. A 2015 study found that men who used cold water after every strength session gained less muscle and strength over 12 weeks than men who did an active cool-down. If building muscle is your goal, keep cold plunges away from your weights sessions.",
+          "Claims about dopamine, immunity, fat loss and longevity mostly come from small or short studies. They may turn out to be true, but they aren't proven."
+        ]
+      },
+      {
+        heading: 'The Four Ways to Do It',
+        paragraphs: ["From free to very expensive:"],
+        bullets: [
+          'Cold shower: free, and the easiest way to find out whether you like cold exposure',
+          'Portable or inflatable tub: the cheapest tub option. You fill it from the tap and add ice in warmer months. Needs draining and cleaning',
+          'Barrel or stock tank: sturdier and good for gardens, with the same need to change the water',
+          'Chiller tub: holds a set temperature and filters the water. Convenient, but costs thousands and uses electricity all year'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=portable+ice+bath+tub&tag=insightdigita-21',
+          label: 'Compare portable ice bath tubs on Amazon UK'
+        }
+      },
+      {
+        heading: 'What to Check Before You Buy',
+        paragraphs: ["A few practical points save a lot of trouble:"],
+        bullets: [
+          'Space and weight: a filled tub is very heavy. Put it on solid, level ground, not a balcony or upstairs floor, unless you know it can take the load',
+          'Electrics: buy chiller units made for UK 230V mains with a UK plug and UKCA or CE marking. Many popular American models are built for 110V',
+          'Water care: without a filter, change the water every few uses and scrub the tub',
+          'Lid and safety: a lockable lid matters if you have children or pets',
+          'Winter: in a UK winter, tap water is often cold enough with no ice or chiller'
+        ]
+      },
+      {
+        heading: 'How to Use Cold Water Safely',
+        paragraphs: [
+          "Sudden cold makes you gasp and sends your heart rate and blood pressure up. This is called cold water shock, and it's the main danger."
+        ],
+        bullets: [
+          'Get in slowly and keep your breathing steady. Never jump in',
+          'Start with 30 to 60 seconds and build up gradually. A few minutes is plenty',
+          'Never go in alone, after alcohol, or when you are ill',
+          'Get out if you feel dizzy, numb or confused, then warm up gradually with dry clothes and a warm drink',
+          "Don't hold your breath or put your head under"
+        ]
+      },
+      {
+        heading: 'When to See a GP',
+        paragraphs: [
+          "Speak to your GP before trying cold water immersion if you have a heart condition, high blood pressure, asthma, Raynaud's, or take regular medicines. Call 999 if someone has chest pain, can't catch their breath or becomes confused or very drowsy after cold exposure.",
+          "If it's heat you're after instead, our article on sauna benefits for men covers what the research supports."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review of the published research and the main types of tub. We haven't tested individual products hands-on."],
+        bullets: [
+          'Bleakley C, et al. Cold-water immersion (cryotherapy) for preventing and treating muscle soreness after exercise. Cochrane Database of Systematic Reviews. 2012;(2):CD008262.',
+          'Roberts LA, et al. Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. Journal of Physiology. 2015;593(18):4285-4301.',
+          'RNLI: Cold water shock, rnli.org.',
+          'British Heart Foundation: cold water swimming, bhf.org.uk.'
+        ]
+      }
     ]
   },
   {
     id: 'omega-3-high-epa-dha',
-    name: 'Clinical Molecularly Distilled Omega-3 TG',
-    brand: 'OptiMen Vetted Standards',
+    name: 'Omega-3 Fish Oil: Who Needs It and How to Choose',
+    brand: 'Buying guide',
     category: 'Supplements',
-    overallScore: 9.5,
-    priceRange: '$38 / 60 servings',
-    verdict: 'True triglyceride form with 1,200mg EPA and 800mg DHA per dose. Essential for suppressing systemic vascular inflammation, lowering triglycerides, and maintaining neuronal membrane fluidity.',
-    whoItIsFor: 'Men aiming to lower resting triglycerides, support vascular elasticity, and maintain cognitive health.',
+    priceRange: 'Varies. Compare the EPA and DHA per capsule',
+    verdict: "If you eat oily fish once a week, you probably don't need a fish oil supplement, and UK guidance doesn't recommend them for preventing heart disease. If you never eat fish, a modest daily supplement is a reasonable way to get some omega-3. Judge products by the EPA and DHA on the back label, not the headline number on the front.",
+    whoItIsFor: "Men who rarely or never eat oily fish. Speak to your GP or pharmacist first if you take blood thinners, have a heart rhythm problem or are thinking about high doses.",
     pros: [
-      'Re-esterified triglyceride (rTG) form for 70% higher bioavailability than ethyl esters',
-      'Third-party IFOS 5-Star tested for zero heavy metals, PCBs, or oxidation rancidity',
-      'Optimal 3:2 EPA to DHA ratio tailored for cardio-metabolic markers',
-      'Zero fishy aftertaste with natural rosemary extract stabilizer'
+      'A simple way to get EPA and DHA if you eat no fish',
+      'Widely available and usually inexpensive',
+      'Algae oil gives a fish-free option',
+      'Safe for most people at modest doses'
     ],
     cons: [
-      'Softgels are relatively large in size',
-      'Store in refrigerator during hot summer climates'
+      "Trials don't show supplements prevent heart disease in most people",
+      'High doses are linked to a higher risk of an irregular heartbeat',
+      "Front labels can hide a low EPA and DHA content",
+      'Cod liver oil adds vitamin A, which is easy to overdo'
     ],
-    evidenceGrade: 'A+',
-    testedDuration: '12 Months Continuous Testing',
+    evidenceGrade: 'B',
+    testedDuration: 'Desk review of the research, not hands-on tested',
     specs: [
-      { label: 'EPA / DHA', value: '1,200 mg EPA / 800 mg DHA per 2 softgels' },
-      { label: 'Form', value: 'Re-esterified Triglyceride (rTG)' },
-      { label: 'Testing', value: 'IFOS 5-Star Certified / Non-GMO' },
-      { label: 'Fish Source', value: 'Wild Alaskan pollock & Peruvian anchovies' }
+      { label: 'Food first', value: '2 portions of fish a week, 1 of them oily' },
+      { label: 'What to compare', value: 'EPA + DHA per capsule, on the back label' },
+      { label: 'A modest daily amount', value: 'About 250mg EPA + DHA combined' },
+      { label: 'Fish-free option', value: 'Algae oil' }
     ],
-    affiliateUrl: 'https://www.amazon.co.uk/s?k=omega+3+high+EPA+DHA+triglyceride+fish+oil&tag=insightdigita-21'
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=omega+3+high+EPA+DHA+triglyceride+fish+oil&tag=insightdigita-21',
+    affiliateNote: 'Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you.',
+    sections: [
+      {
+        heading: 'Do You Need an Omega-3 Supplement? The Short Answer',
+        paragraphs: [
+          "Probably not, if you eat oily fish such as salmon, mackerel or sardines about once a week. If you never eat fish, a modest daily supplement is a sensible back-up, but it isn't a substitute for a healthy diet or prescribed heart medicines.",
+          "This is a buying guide based on published research and UK guidance. We haven't lab-tested individual products. This page contains affiliate links to Amazon UK. If you buy through them, OptiMen Wellbeing may earn a small commission at no extra cost to you."
+        ]
+      },
+      {
+        heading: 'What the Evidence Says',
+        paragraphs: [
+          "People who eat fish regularly tend to have healthier hearts, and the NHS advises at least two portions of fish a week, including one of oily fish. Supplements are a different story. Large trials of standard fish oil capsules have mostly failed to show fewer heart attacks or strokes.",
+          "That's why NICE, which writes guidance for the NHS in England, tells doctors not to offer omega-3 supplements to prevent heart disease. The one exception is a prescription-only medicine, icosapent ethyl, for some people with raised triglycerides who are already on a statin. That's a decision for your doctor, not something to copy with shop-bought capsules."
+        ]
+      },
+      {
+        heading: 'How to Read the Label',
+        paragraphs: [
+          "The big number on the front, such as '1000mg fish oil', is the weight of the oil, not the omega-3 in it. Turn the tub round and look for two lines: EPA and DHA. Add them together. A '1000mg' capsule often contains only around 300mg of EPA and DHA combined."
+        ],
+        bullets: [
+          'Compare products by EPA + DHA per capsule and by cost per day',
+          'Around 250mg of EPA and DHA a day is the amount linked to normal heart function in EU and UK health claims',
+          'Check the best-before date. Fish oil goes rancid, so store it somewhere cool and dark',
+          "Don't eat fish? Algae oil provides DHA and EPA without it"
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=omega+3+fish+oil+EPA+DHA&tag=insightdigita-21',
+          label: 'Compare omega-3 supplements on Amazon UK'
+        }
+      },
+      {
+        heading: 'What to Skip',
+        paragraphs: ["Save your money on these:"],
+        bullets: [
+          "Very high-dose products, unless a doctor has recommended them",
+          'Omega 3-6-9 blends. Most diets already contain plenty of omega-6 and omega-9',
+          'Cod liver oil on top of a multivitamin, because the vitamin A adds up',
+          "Anything promising to 'reverse' heart disease or replace a statin"
+        ]
+      },
+      {
+        heading: 'Safety and When to See a GP',
+        paragraphs: [
+          "Modest doses are safe for most people. Fishy burps and mild stomach upset are the usual complaints. At higher doses the picture changes: European regulators have warned that omega-3 medicines can raise the risk of atrial fibrillation, an irregular heartbeat, and that the risk is highest at 4g a day.",
+          "Speak to your GP or pharmacist before taking omega-3 if you take warfarin or other blood thinners, have a heart rhythm problem, or have a fish or shellfish allergy. See a GP if you notice palpitations, a racing or irregular pulse, or unusual bruising or bleeding. If you're worried about cholesterol, our guide to ApoB explains the tests worth asking about."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review of the published research and UK guidance. We haven't tested individual products."],
+        bullets: [
+          'NHS: Fish and shellfish, nhs.uk.',
+          'NICE: Cardiovascular disease: risk assessment and reduction, including lipid modification (NG238), 2023, nice.org.uk.',
+          'European Medicines Agency: PRAC recommendation on omega-3-acid ethyl esters and atrial fibrillation, 2023, ema.europa.eu.',
+          'Abdelhamid AS, et al. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease. Cochrane Database of Systematic Reviews. 2020;(3):CD003177.',
+          'British Heart Foundation: omega-3 and heart health, bhf.org.uk.'
+        ]
+      }
+    ]
   }
 ];
 

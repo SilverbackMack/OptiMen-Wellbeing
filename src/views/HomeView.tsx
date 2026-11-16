@@ -363,10 +363,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 Trusted Recommendations
               </p>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-                Vetted Hardware & Bio-Tech
+                Honest Reviews & Buying Guides
               </h2>
               <p className="text-sm text-slate-600 mt-2">
-                Real laboratory and field testing on wearables, sleep trackers, cold plunges, and third-party certified supplements.
+                Desk reviews of wearables, recovery gear and supplements, checked against the published evidence, with UK prices and a clear view on who should skip them.
               </p>
             </div>
 
@@ -395,7 +395,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                       {rev.category}
                     </span>
                     <span className="text-xs font-bold text-[#166534] bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-                      Grade {rev.evidenceGrade}
+                      Evidence Grade {rev.evidenceGrade}
                     </span>
                   </div>
 
@@ -423,7 +423,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                       <span className="text-[10px] text-slate-400 font-bold uppercase">/ 10</span>
                     </div>
                   ) : (
-                    <span className="text-[10px] text-slate-500 font-bold uppercase">Comparison</span>
+                    <span className="text-[10px] text-slate-500 font-bold uppercase">Desk review</span>
                   )}
 
                   <div className="flex items-center gap-2">

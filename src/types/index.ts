@@ -66,8 +66,8 @@ export interface ProductReview {
   whoItIsFor: string;
   pros: string[];
   cons: string[];
-  evidenceGrade: 'A+' | 'A' | 'A-' | 'B+';
-  testedDuration: string;
+  evidenceGrade: 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'C'; // strength of the evidence that this kind of product helps
+  testedDuration: string; // shown as-is under the name, e.g. "Desk review, not hands-on tested"
   specs: { label: string; value: string }[];
   affiliateUrl?: string;
   affiliateStore?: string; // button label, defaults to Amazon
