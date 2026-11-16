@@ -1962,33 +1962,126 @@ export const ALL_ARTICLES: Article[] = [
     ]
   },
   {
-    id: 'zone-2-aerobic-engine-guide',
-    title: 'The Zone 2 Blueprint: Building an Indestructible Aerobic Engine',
-    summary: 'Why elite endurance coaches and longevity physicians prioritize slow, conversational cardio to multiply mitochondrial efficiency and burn visceral fat.',
-    pillar: 'fitness',
-    pillarLabel: 'Fitness',
-    readTime: '8 min read',
-    publishedDate: 'October 2026',
-    author: {
-      name: 'OptiMen Performance Team',
-      credentials: 'Aerobic & Endurance Physiology Review',
-      role: 'Evidence Review Team'
+    "id": "zone-2-aerobic-engine-guide",
+    "title": "What Is Zone 2 Training? A Beginner's Guide for Men",
+    "metaTitle": "What Is Zone 2 Training? A Beginner's Guide | OptiMen Wellbeing",
+    "metaDescription": "What is zone 2 training, how do you find your zone 2, and is it overhyped? A plain-English guide for men, with NHS exercise targets.",
+    "summary": "Zone 2 is steady, easy cardio where you can still hold a conversation. It's a great base for fitness and heart health, but it isn't magic. Here's how to find your zone 2, how much to do, and why a few harder sessions still matter.",
+    "pillar": "fitness",
+    "pillarLabel": "Fitness",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Exercise & Fitness Synthesis",
+      "role": "Evidence Review Team"
     },
-    keyTakeaways: [
-      'Zone 2 trains Type I slow-twitch muscle fibers, stimulating mitochondrial biogenesis.',
-      'It maximizes the body’s ability to oxidize fatty acids rather than relying purely on glycogen.',
-      'Optimal weekly dosage for men in their 30s, 40s, and 50s is 150 to 180 total minutes.'
+    "keyTakeaways": [
+      "Zone 2 is steady, easy cardio. You can talk in full sentences but you're breathing a bit harder than normal.",
+      "The simplest way to find it is the talk test: you can talk, but you couldn't sing.",
+      "It counts towards the NHS target of at least 150 minutes of moderate activity a week.",
+      "A 2025 review found no evidence that zone 2 beats harder exercise for fitness. It works best as a base, with some harder sessions on top.",
+      "If you have a heart condition, or get chest pain or dizziness when you exercise, speak to a GP before you start."
     ],
-    protocolSteps: [
-      'Determine Zone 2: You should be able to maintain a full sentence without gasping (nasal breathing preferred).',
-      'Split into 3 × 45-minute or 4 × 40-minute sessions using low-impact rucking, cycling, rowing, or easy trail running.',
-      'Keep heart rate within 65–75% of maximum, avoiding accidental surges into Zone 3 glycolytic burn.'
+    "protocolSteps": [
+      "Pick an activity you can keep going for 30 minutes or more, such as brisk walking, cycling, rowing or swimming.",
+      "Use the talk test: slow down if you can only manage a few words, and speed up if you could sing.",
+      "Build up to 150 minutes a week, for example 5 sessions of 30 minutes.",
+      "Once that feels easy, swap one session for something harder, such as hill walking or short faster intervals.",
+      "Add strength exercises on at least 2 days a week, as the NHS recommends.",
+      "Stop and get help if you feel chest pain, severe breathlessness or dizziness."
     ],
-    references: [
-      'San-Millán I, Brooks GA. Assessment of Metabolic Flexibility and Mitochondrial Health in Athletes and Patients. Sports Med. 2018;48(8):1793–1803.',
-      'Hawley JA, et al. Adaptations to exercise training in human skeletal muscle. Science. 2014;346(6209):578–584.'
+    "references": [
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk.",
+      "NHS: Benefits of exercise, nhs.uk.",
+      "NHS: Heart attack symptoms, nhs.uk.",
+      "British Heart Foundation: What should my heart rate be when I exercise?, bhf.org.uk.",
+      "Storoschuk KL, Moran-MacDonald A, Gibala MJ, Gurd BJ. Much Ado About Zone 2: A Narrative Review Assessing the Efficacy of Zone 2 Training for Improving Mitochondrial Capacity and Cardiorespiratory Fitness in the General Population. Sports Med. 2025;55(7):1611-1624."
     ],
-    featured: true
+    "featured": true,
+    "sections": [
+      {
+        "heading": "What Is Zone 2 Training?",
+        "paragraphs": [
+          "What is zone 2 training? It's steady cardio at an easy, comfortable pace. You're breathing harder than when you're sitting still, and your heart is working, but you could keep going for a long time and still hold a conversation.",
+          "The name comes from training 'zones'. Coaches split exercise into zones by how hard it is, often from 1 (very easy) to 5 (flat out). Zone 2 is the second one up. In lab terms, it's the hardest effort you can do before lactic acid starts to build up in your blood.",
+          "Endurance coaches have used it for decades. Elite runners, cyclists and rowers do most of their training at this easy pace. In the last few years it has become popular with everyday gym-goers and podcast hosts too, often with big claims attached. Some of those claims stand up. Others don't."
+        ]
+      },
+      {
+        "heading": "How Do I Find My Zone 2?",
+        "paragraphs": [
+          "You don't need a lab test or a fancy watch. The easiest way is the talk test. The NHS says moderate activity is when you can still talk, but not sing. If you can only say a few words before stopping for breath, you've gone into vigorous effort, and out of zone 2.",
+          "A good rule is that you should be able to talk in full sentences, a little out of breath. If you're breathing as easily as when you're walking round the house, you can push a bit harder.",
+          "If you like numbers, you can use your heart rate. The British Heart Foundation suggests a rough way to estimate your maximum heart rate: take your age away from 220. So a 45-year-old man has an estimated maximum of 175 beats per minute. The BHF describes moderate exercise as 50 to 70% of that maximum. Zone 2 sits within this moderate range.",
+          "Bear in mind these formulas are estimates. Your true maximum can be quite a bit higher or lower. Fitness watches use their own formulas, and their zones vary between brands. If the number and the talk test disagree, trust the talk test.",
+          "If you have a heart condition, or take medicine that affects your heart rate, ask your doctor or nurse what heart rate is safe for you."
+        ]
+      },
+      {
+        "heading": "What Are the Benefits of Zone 2 Training?",
+        "paragraphs": [
+          "The biggest benefit is simple: it gets you moving, regularly, without wrecking you. Because it's gentle, most men can do it often, recover quickly and stick with it. That matters more than any perfect plan.",
+          "Zone 2 counts towards the NHS target of 150 minutes of moderate activity a week. The NHS says regular exercise can lower your risk of early death by up to 30%, and reduces the risk of heart disease, stroke, type 2 diabetes and some cancers.",
+          "Other good reasons to do it:"
+        ],
+        "bullets": [
+          "It builds your base fitness, so everyday life, and harder workouts, feel easier",
+          "It's kind on your joints if you choose low-impact options like cycling, rowing or swimming",
+          "Studies show it improves how well your body burns fat for fuel, especially in men who were inactive or carrying extra weight",
+          "It's a good way back into exercise after time off or an injury",
+          "It can clear your head. A steady walk or bike ride is a good way to manage stress"
+        ]
+      },
+      {
+        "heading": "Is Zone 2 Training Overhyped?",
+        "paragraphs": [
+          "Partly, yes. You'll often hear that zone 2 is the 'best' way to build fitness or boost the energy-making parts of your cells, called mitochondria. The research doesn't back that up.",
+          "In 2025, Canadian exercise scientists reviewed the evidence in the journal Sports Medicine. They concluded that current evidence does not support zone 2 as the best intensity for improving mitochondria or fat burning. When people did the same amount of exercise, harder sessions generally improved fitness more. They argued that harder exercise matters most when you don't have much time to train.",
+          "That doesn't make zone 2 useless. It's a great place to start, and you can do a lot of it without burning out. But if you only have three hours a week, it makes sense to spend some of that time working harder.",
+          "The honest message is this: easy cardio is good, harder cardio is good, and a mix of both is better than either alone."
+        ]
+      },
+      {
+        "heading": "How Much Zone 2 Should I Do a Week?",
+        "paragraphs": [
+          "The NHS recommends adults do at least 150 minutes of moderate activity a week, or 75 minutes of vigorous activity, spread across the week. It also recommends strength exercises that work all the major muscles on at least 2 days a week.",
+          "A simple week for a busy man in his 40s might look like this:"
+        ],
+        "bullets": [
+          "Three 40-minute zone 2 sessions, such as a brisk walk, an easy bike ride or a steady row",
+          "One harder session of 20 to 30 minutes, such as hill walking, a faster run, or short bursts of hard effort with easy recovery in between",
+          "Two strength sessions, at the gym or at home with your body weight or resistance bands",
+          "Moving more in between: taking the stairs, walking calls, getting off the bus a stop early"
+        ]
+      },
+      {
+        "heading": "Best Types of Zone 2 Exercise",
+        "paragraphs": [
+          "Pick something you can keep at a steady pace for at least 30 minutes, and that you enjoy enough to repeat. Good options include brisk walking or hiking, cycling outdoors or on an indoor bike, a rowing machine, swimming, and slow jogging if your knees and fitness allow.",
+          "Running can push you out of zone 2 quickly, especially uphill. If you're new to it, walk the hills, or try a walk-run mix. Many men find an indoor bike or rowing machine the easiest place to hold a steady effort."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "Exercise is safe for most men, and the risks of staying inactive are far greater. But speak to a GP before starting if you have a heart condition, have been told you have high blood pressure that isn't under control, or haven't exercised for a long time and have other health problems.",
+          "The BHF advises seeing a doctor if you're worried about how fast or slow your heart beats, or if you get dizziness, palpitations or chest pain when you exercise.",
+          "Stop exercising and call 999 straight away if you have signs of a heart attack, such as:"
+        ],
+        "bullets": [
+          "Chest pain that feels tight, heavy or like squeezing",
+          "Chest pain that spreads to your arms, neck or jaw",
+          "Severe difficulty breathing",
+          "Feeling sick, sweaty or lightheaded with chest discomfort"
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=chest+strap+heart+rate+monitor&tag=insightdigita-21",
+      "label": "Compare chest strap heart rate monitors on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
   },
   {
     "id": "deep-sleep-testosterone-link",
@@ -2107,32 +2200,127 @@ export const ALL_ARTICLES: Article[] = [
     }
   },
   {
-    id: 'protein-distribution-muscle-longevity',
-    title: 'Protein Pacing for Men 35+: Preserving Lean Mass as You Age',
-    summary: 'Anabolic resistance increases with age. Learn how distributing 35–45g of quality protein per meal preserves sarcopenia defense and metabolic rate.',
-    pillar: 'nutrition',
-    pillarLabel: 'Nutrition',
-    readTime: '7 min read',
-    publishedDate: 'September 2026',
-    author: {
-      name: 'OptiMen Nutrition Desk',
-      credentials: 'Metabolic & Dietary Science Review',
-      role: 'Evidence Review Team'
+    "id": "protein-distribution-muscle-longevity",
+    "title": "How Much Protein Do Men Over 40 Need? A Plain-English Guide",
+    "metaTitle": "How Much Protein Do Men Over 40 Need? | OptiMen Wellbeing",
+    "metaDescription": "How much protein do men over 40 need? UK guidance, how much more helps if you lift weights or are over 65, and how to spread it across your meals.",
+    "summary": "UK guidance says most adults need about 0.75g of protein per kg of body weight a day. Men who lift weights, and men over 65, may benefit from more. Here's how to work out your number and hit it with normal food.",
+    "pillar": "nutrition",
+    "pillarLabel": "Nutrition",
+    "readTime": "7 min read",
+    "publishedDate": "November 2026",
+    "author": {
+      "name": "OptiMen Health Research Desk",
+      "credentials": "Nutrition & Diet Synthesis",
+      "role": "Evidence Review Team"
     },
-    keyTakeaways: [
-      'The "leucine trigger" threshold increases after age 35, requiring 2.5–3g of leucine per feeding.',
-      'Total daily target of 1.6 to 2.2g per kg of target body mass protects bone and muscular skeletal framework.',
-      'Evenly spaced protein spikes stimulate muscle protein synthesis far more than back-loading at dinner.'
+    "keyTakeaways": [
+      "UK guidance for adults is 0.75g of protein per kg of body weight a day. That's around 55g for a 75kg man.",
+      "Experts advise people over 65 to aim higher, at about 1g to 1.2g per kg a day.",
+      "If you lift weights, research suggests extra protein helps build muscle up to about 1.6g per kg a day, with little benefit beyond that.",
+      "Spreading protein across your meals, with a portion at each one, is an easy way to hit your target.",
+      "Most men can get enough from food. Shakes are optional. If you have kidney disease, check with your doctor before eating more protein."
     ],
-    protocolSteps: [
-      'Aim for 35–45g of protein upon waking (eggs, Greek yogurt, or whey/plant isolate).',
-      'Incorporate wild fish or grass-fed ruminants twice weekly for endogenous zinc, iron, and EPA/DHA.',
-      'Pair resistance training with 30g of protein within 2 hours of completion.'
+    "protocolSteps": [
+      "Work out your baseline: your weight in kg x 0.75. If you lift weights regularly, you can aim higher, up to around 1.6g per kg.",
+      "Have a portion of protein at every meal, such as eggs, Greek yoghurt, fish, chicken, beans or lentils.",
+      "Eat at least 2 portions of fish a week, 1 of them oily, and keep red and processed meat down.",
+      "Do strength exercises on at least 2 days a week. Protein works best alongside training.",
+      "See a GP if you're losing weight or muscle without trying, or if you have kidney problems and want to change your diet."
     ],
-    references: [
-      'Phillips SM. Nutritional supplements in support of resistance exercise to counter age-related sarcopenia. Adv Nutr. 2015;6(4):452–460.',
-      'Morton RW, et al. A systematic review of protein supplementation on resistance training adaptations. Br J Sports Med. 2018;52(6):376–384.'
-    ]
+    "references": [
+      "British Heart Foundation: Protein: how much do you need?, bhf.org.uk.",
+      "NHS: The Eatwell Guide, nhs.uk.",
+      "NHS: Unintentional weight loss, nhs.uk.",
+      "NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk.",
+      "County Durham and Darlington NHS Foundation Trust: Muscle loss (sarcopenia), cddft.nhs.uk.",
+      "University Hospitals Sussex NHS Foundation Trust: Dietary protein intake for chronic kidney disease, 2024.",
+      "Bauer J, et al. Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group. J Am Med Dir Assoc. 2013;14(8):542-559.",
+      "Morton RW, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376-384.",
+      "BBC Science Focus: You're (probably) eating the wrong amount of protein for your age, sciencefocus.com."
+    ],
+    "sections": [
+      {
+        "heading": "How Much Protein Do Men Over 40 Need?",
+        "paragraphs": [
+          "How much protein do men over 40 need? For most healthy men, UK guidance is 0.75g of protein for every kilogram you weigh, each day. The British Heart Foundation gives the example of about 55g a day for a 75kg man.",
+          "To work out your own number, multiply your weight in kilograms by 0.75. A 90kg man needs about 68g a day. If you know your weight in stone, multiply it by 6.35 to get kilograms.",
+          "That's the minimum most men need to stay healthy, not a target for building muscle. The questions worth asking are whether you'd benefit from more, and whether you're spreading it well."
+        ]
+      },
+      {
+        "heading": "Do You Need More Protein as You Get Older?",
+        "paragraphs": [
+          "Probably a bit more, especially later on. As men age, they gradually lose muscle. When this loss becomes significant, it's called sarcopenia, and it's linked to weakness, falls and losing independence.",
+          "An international group of experts, the PROT-AGE Study Group, recommends that people over 65 aim for at least 1g to 1.2g of protein per kg a day. For older adults who exercise, they suggest 1.2g per kg or more. The BHF gives the same 1g to 1.2g range for over-65s.",
+          "There's no separate UK figure for men in their 40s and 50s. But this is when it pays to build habits: eating enough protein and, just as important, doing strength training. The NHS says exercise, especially strength and balance work, helps maintain muscle. Protein on its own won't do the job."
+        ]
+      },
+      {
+        "heading": "How Much Protein If You Lift Weights?",
+        "paragraphs": [
+          "If you do regular strength training, more protein can help a little. A large 2018 review pooled the results of many trials of people doing resistance training. Adding protein led to slightly bigger gains in muscle, but the benefit levelled off at a total intake of about 1.6g per kg a day. Eating more than that didn't add more muscle.",
+          "The same review found the boost from extra protein got smaller with age. That's not a reason to give up. It's a reason to make sure the training itself is consistent, because that's what drives most of the results.",
+          "For an 85kg man who lifts weights, 1.6g per kg is about 136g a day. That's a lot of food, so treat it as an upper limit worth aiming towards, not a must."
+        ]
+      },
+      {
+        "heading": "How to Spread Protein Across the Day",
+        "paragraphs": [
+          "Many men eat a light breakfast, a sandwich at lunch, then most of their protein at dinner. Spreading it more evenly is an easy win. NHS dietitians suggest having a portion of protein with each meal. Some dietitians suggest around 25g per meal as a rough guide.",
+          "Here's roughly how much protein you get from common foods, according to the BHF:"
+        ],
+        "bullets": [
+          "100g of meat, fish or chicken: about 30g",
+          "150g of 0% fat Greek yoghurt: about 15g",
+          "100g of tofu: about 8g",
+          "200ml of milk: about 7g",
+          "1 egg: about 7g",
+          "Beans, lentils and chickpeas are good, cheaper alternatives to meat, and add fibre too"
+        ]
+      },
+      {
+        "heading": "What Does a High-Protein Day Look Like?",
+        "paragraphs": [
+          "You don't need special foods or a meal plan. Using the BHF figures above, here's an ordinary day for a man who wants around 100g of protein:",
+          "That's about 96g from these foods alone, and bread, potatoes, nuts and vegetables add a little more. For a 75kg man that's well over 1.2g per kg, a good level for someone who lifts weights. If you don't train, you can comfortably eat less than this.",
+          "If you eat little or no meat, build meals around eggs, dairy, tofu, beans, lentils and chickpeas. Plant proteins work fine; you may just need slightly larger portions, and a mix of sources across the day."
+        ],
+        "bullets": [
+          "Breakfast: 2 eggs on toast with a glass of milk (about 21g)",
+          "Lunch: a chicken salad or wrap with 100g of chicken (about 30g)",
+          "Snack: 150g of 0% fat Greek yoghurt with fruit (about 15g)",
+          "Dinner: 100g of salmon or lean meat with vegetables and rice (about 30g)"
+        ]
+      },
+      {
+        "heading": "Do You Need Protein Shakes?",
+        "paragraphs": [
+          "No. Most men can get all the protein they need from normal food. Shakes are simply a convenient option if you're busy, train hard or struggle to eat enough. They don't build muscle any better than the same amount of protein from food.",
+          "If you do use one, choose a plain product with a short ingredient list, and count it towards your daily total rather than adding it on top of a diet that already has plenty."
+        ]
+      },
+      {
+        "heading": "Can You Eat Too Much Protein?",
+        "paragraphs": [
+          "For healthy men, a higher protein diet is generally fine. But more isn't always better. The BHF says regularly eating more than 2g per kg a day can put a strain on the kidneys, especially in people with kidney problems.",
+          "If you have chronic kidney disease, don't start a high protein diet or take protein supplements without speaking to your doctor or dietitian. NHS kidney dietitians usually recommend a set, moderate amount.",
+          "Where your protein comes from matters too. The NHS Eatwell Guide suggests eating at least 2 portions of fish a week, 1 of them oily, eating more beans and pulses, and cutting down on red and processed meat like bacon, ham and sausages."
+        ]
+      },
+      {
+        "heading": "When to See a GP",
+        "paragraphs": [
+          "See a GP if you keep losing weight without changing your diet or exercise routine. The NHS says it's important to get this checked, and to go as soon as possible if you also have other symptoms.",
+          "Also speak to a GP if you notice your muscles getting noticeably weaker or smaller without a clear reason, if you have kidney disease and want to change your diet, or if you have a long-term condition that affects your appetite. A GP can refer you to a dietitian for advice tailored to you."
+        ]
+      }
+    ],
+    "affiliateCta": {
+      "url": "https://www.amazon.co.uk/s?k=unflavoured+whey+protein+powder&tag=insightdigita-21",
+      "label": "Compare unflavoured whey protein on Amazon UK",
+      "note": "Affiliate link: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you."
+    }
   },
   {
     "id": "allostatic-load-cortisol-management",
