@@ -152,11 +152,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenAssessment }) 
               Our Standard
             </h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Every protocol and recommendation is evaluated against peer-reviewed clinical literature. We do not accept payment to alter review scores or health recommendations.
+              Our guides are based on published research and UK health guidance, with sources listed. We are not doctors and our content is not medically reviewed. We do not accept payment to change a review or recommendation.
             </p>
             <div className="pt-1 flex items-center gap-1.5 text-xs text-emerald-400 font-medium">
               <CheckCircle2 className="w-3.5 h-3.5" />
-              100% Conflict-of-Interest Disclosed
+              Affiliate Links Always Disclosed
             </div>
           </div>
 

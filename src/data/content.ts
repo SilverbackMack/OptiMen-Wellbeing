@@ -3717,10 +3717,10 @@ export const ADVISORY_BOARD: AdvisoryBoardMember[] = [
 ];
 
 export const TRUST_STATS = [
-  { value: '1,200+', label: 'Clinical Studies Reviewed', sub: 'Peer-reviewed research literature' },
-  { value: '100%', label: 'Independent & Unbiased', sub: 'No sponsored brand bias' },
-  { value: '5 Pillars', label: 'Evidence-Based Framework', sub: 'Comprehensive wellness scope' },
-  { value: '45,000+', label: 'Active Readers & Members', sub: 'Men taking charge of longevity' }
+  { value: String(ARTICLES.length), label: 'Guides Published', sub: 'Each with its sources listed' },
+  { value: 'UK', label: 'Guidance First', sub: 'NHS and NICE advice where it exists' },
+  { value: '5 Pillars', label: 'Health Topics Covered', sub: 'Health, fitness, nutrition, sleep, mindset' },
+  { value: 'Free', label: 'To Read, No Paywall', sub: 'Funded by clearly labelled affiliate links' }
 ];
 
 export const ASSESSMENT_QUESTIONS: AssessmentQuestion[] = [

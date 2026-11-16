@@ -162,7 +162,7 @@ export const PillarView: React.FC<PillarViewProps> = ({
               Educational Guides
             </p>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0F172A]">
-              In-Depth Clinical Breakdowns
+              In-Depth Guides
             </h2>
           </div>
 

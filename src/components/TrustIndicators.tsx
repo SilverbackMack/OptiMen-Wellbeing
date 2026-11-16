@@ -13,10 +13,10 @@ export const TrustIndicators: React.FC = () => {
             The OptiMen Standard
           </p>
           <h2 className="text-2xl sm:text-3xl font-bold text-[#0F172A] tracking-tight text-balance">
-            Clinical Rigor, Zero Gimmicks
+            Evidence First, Zero Gimmicks
           </h2>
           <p className="text-sm text-slate-600 mt-2 leading-relaxed">
-            Men’s health is inundated with quick fixes, predatory supplements, and aggressive gym cliches. We anchor every recommendation in peer-reviewed science and preventative medicine.
+            Men’s health is inundated with quick fixes, predatory supplements, and aggressive gym cliches. We base our guides on published research and UK health guidance, list our sources, and say where the evidence is thin.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export const TrustIndicators: React.FC = () => {
             <div>
               <h3 className="text-sm font-bold text-[#0F172A]">Primary Literature First</h3>
               <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                Directly citing human randomized clinical trials and observational cohorts rather than extrapolating rodent studies or marketing claims.
+                We lean on human trials, systematic reviews and NHS guidance, not animal studies or marketing claims.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export const TrustIndicators: React.FC = () => {
             <div>
               <h3 className="text-sm font-bold text-[#0F172A]">Evidence-Based Synthesis</h3>
               <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                Guides and protocols are grounded in established clinical guidelines, published trials, and preventative health literature.
+                Guides are built from established guidelines and published trials, with references at the end of each one.
               </p>
             </div>
           </div>
@@ -71,9 +71,9 @@ export const TrustIndicators: React.FC = () => {
               <Award className="w-5 h-5 text-[#166534]" />
             </div>
             <div>
-              <h3 className="text-sm font-bold text-[#0F172A]">Independent Testing Standards</h3>
+              <h3 className="text-sm font-bold text-[#0F172A]">Honest About Our Limits</h3>
               <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                We independently test wearables, sleep tech, and third-party certified supplements with verified chain-of-custody purity.
+                We are writers and researchers, not doctors, and our guides are not medically reviewed. Product reviews are desk reviews, not hands-on tests. Always check with your GP.
               </p>
             </div>
           </div>
