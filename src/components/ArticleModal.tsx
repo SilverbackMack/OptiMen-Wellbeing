@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Article } from '../types';
 import { X, Clock, Calendar, CheckCircle2, Bookmark, ShieldCheck, ExternalLink } from 'lucide-react';
 import { createLinker } from '../links';
+import { photoFor } from '../data/photos';
 import { LinkedText, OpenContent } from './LinkedText';
 import { ReadNext } from './ReadNext';
 import { ChecklistSignup } from './NewsletterSection';
@@ -45,6 +46,17 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
           >
             <X className="w-5 h-5" />
           </button>
+        </div>
+
+        {/* Photo */}
+        <div className="relative h-48 sm:h-64 overflow-hidden bg-[#0F172A]">
+          <img
+            src={photoFor(article.id, article.pillar)}
+            alt=""
+            referrerPolicy="no-referrer"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-white via-white/0 to-transparent" />
         </div>
 
         {/* Content Body */}
