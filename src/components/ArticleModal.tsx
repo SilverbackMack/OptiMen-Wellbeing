@@ -36,7 +36,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
         <div className="sticky top-0 bg-white/95 backdrop-blur-md px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10">
           <div className="flex items-center gap-2 text-xs font-semibold text-[#166534]">
             <ShieldCheck className="w-4 h-4" />
-            <span>Evidence-Based Protocol</span>
+            <span>Evidence-Based Guide</span>
           </div>
           <button
             onClick={onClose}
@@ -147,7 +147,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
           <div className="space-y-3">
             <h2 className="text-sm uppercase tracking-wider font-bold text-[#0F172A] flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#166534]" />
-              Core Clinical Takeaways
+              Key Takeaways
             </h2>
             <ul className="space-y-2.5">
               {article.keyTakeaways.map((takeaway, idx) => (
@@ -186,7 +186,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
           {/* Evidence Citations & References */}
           <div className="space-y-3 pt-4 border-t border-slate-100">
             <h3 className="text-xs uppercase tracking-wider font-bold text-slate-500">
-              Peer-Reviewed References & Clinical Trials
+              References & Sources
             </h3>
             <ol className="space-y-2 text-xs text-slate-600 list-decimal list-inside font-mono">
               {article.references.map((ref, idx) => (
@@ -202,7 +202,7 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
         {/* Footer */}
         <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 rounded-b-2xl flex items-center justify-between">
           <span className="text-xs text-slate-500">
-            OptiMen Medical Library &middot; Educational Use Only
+            OptiMen Wellbeing &middot; Educational Use Only
           </span>
           <button
             onClick={onClose}

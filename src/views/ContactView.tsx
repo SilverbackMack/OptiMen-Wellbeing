@@ -32,7 +32,7 @@ export const ContactView: React.FC = () => {
   const SUBJECT_LABELS: Record<string, string> = {
     general: 'Protocol Clarification',
     biomarkers: 'Blood Biomarker Screening Questions',
-    reviews: 'Product / Hardware Testing Feedback',
+    reviews: 'Product Review Feedback',
     partnerships: 'Brand Partnerships & Affiliates',
     corporate: 'Executive / Corporate Longevity Briefings',
     press: 'Press & Media Advisory',
@@ -151,7 +151,7 @@ export const ContactView: React.FC = () => {
                       >
                         <option value="general">Protocol Clarification</option>
                         <option value="biomarkers">Blood Biomarker Screening Questions</option>
-                        <option value="reviews">Product / Hardware Testing Feedback</option>
+                        <option value="reviews">Product Review Feedback</option>
                         <option value="partnerships">Brand Partnerships & Affiliates</option>
                         <option value="corporate">Executive / Corporate Longevity Briefings</option>
                         <option value="press">Press & Media Advisory</option>

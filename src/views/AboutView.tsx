@@ -67,7 +67,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-md relative h-[400px]">
                 <img
                   src={HEALTH_IMAGE}
-                  alt="OptiMen wellbeing clinical philosophy"
+                  alt="OptiMen Wellbeing"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -149,7 +149,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
               Editorial Policy & Disclosure
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              We uphold strict separations between commercial partnerships and clinical analysis.
+              We keep what we earn separate from what we recommend, and we are open about what we are not. We are an independent team of writers and researchers, not doctors. Our guides are not medically reviewed, and our product reviews are desk reviews, not hands-on tests.
             </p>
           </div>
 
@@ -160,7 +160,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenAssessme
               </div>
               <h3 className="text-base font-bold text-[#0F172A]">Zero Pay-For-Play</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Brands cannot buy review scores or pay to be placed on our recommended protocols. If a wearable or supplement underperforms in lab testing, we state it plainly.
+                Brands cannot buy review scores or pay to be placed on our recommended protocols. If the evidence for a wearable or supplement is weak, we state it plainly.
               </p>
             </div>
 
