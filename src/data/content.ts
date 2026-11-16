@@ -2005,7 +2005,7 @@ export const ALL_ARTICLES: Article[] = [
         "paragraphs": [
           "What is zone 2 training? It's steady cardio at an easy, comfortable pace. You're breathing harder than when you're sitting still, and your heart is working, but you could keep going for a long time and still hold a conversation.",
           "The name comes from training 'zones'. Coaches split exercise into zones by how hard it is, often from 1 (very easy) to 5 (flat out). Zone 2 is the second one up. In lab terms, it's the hardest effort you can do before lactic acid starts to build up in your blood.",
-          "Endurance coaches have used it for decades. Elite runners, cyclists and rowers do most of their training at this easy pace. In the last few years it has become popular with everyday gym-goers and podcast hosts too, often with big claims attached. Some of those claims stand up. Others don't."
+          "Endurance coaches have used it for decades. Many endurance athletes do much of their training at this easy pace. In the last few years it has become popular with everyday gym-goers and podcast hosts too, often with big claims attached. Some of those claims stand up. Others don't."
         ]
       },
       {
@@ -2022,7 +2022,7 @@ export const ALL_ARTICLES: Article[] = [
         "heading": "What Are the Benefits of Zone 2 Training?",
         "paragraphs": [
           "The biggest benefit is simple: it gets you moving, regularly, without wrecking you. Because it's gentle, most men can do it often, recover quickly and stick with it. That matters more than any perfect plan.",
-          "Zone 2 counts towards the NHS target of 150 minutes of moderate activity a week. The NHS says regular exercise can lower your risk of early death by up to 30%, and reduces the risk of heart disease, stroke, type 2 diabetes and some cancers.",
+          "Zone 2 counts towards the NHS target of 150 minutes of moderate activity a week. The NHS says regular exercise can lower your risk of early death by up to 30%, and that active people have a lower risk of conditions including heart disease and type 2 diabetes.",
           "Other good reasons to do it:"
         ],
         "bullets": [
@@ -2065,7 +2065,7 @@ export const ALL_ARTICLES: Article[] = [
       {
         "heading": "When to See a GP",
         "paragraphs": [
-          "Exercise is safe for most men, and the risks of staying inactive are far greater. But speak to a GP before starting if you have a heart condition, have been told you have high blood pressure that isn't under control, or haven't exercised for a long time and have other health problems.",
+          "Exercise is safe for most men, and the risks of staying inactive are far greater. But speak to a GP before starting if you have a heart condition, or haven't exercised for a long time and have other long-term health problems.",
           "The BHF advises seeing a doctor if you're worried about how fast or slow your heart beats, or if you get dizziness, palpitations or chest pain when you exercise.",
           "Stop exercising and call 999 straight away if you have signs of a heart attack, such as:"
         ],
@@ -2073,7 +2073,7 @@ export const ALL_ARTICLES: Article[] = [
           "Chest pain that feels tight, heavy or like squeezing",
           "Chest pain that spreads to your arms, neck or jaw",
           "Severe difficulty breathing",
-          "Feeling sick, sweaty or lightheaded with chest discomfort"
+          "Feeling sick or sweaty along with chest pain"
         ]
       }
     ],
