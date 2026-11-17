@@ -6,7 +6,7 @@ import { CountUp, EASE, Eyebrow, Reveal } from './Motion';
 
 const STATS = [
   { icon: BookOpen, count: ARTICLES.length, label: 'Guides', sub: 'Sources listed' },
-  { icon: Landmark, value: 'UK', label: 'Guidance first', sub: 'NHS and NICE' },
+  { icon: Landmark, value: 'US + UK', label: 'Local advice', sub: 'Side by side' },
   { icon: Layers, count: 5, label: 'Pillars', sub: 'One whole picture' },
   { icon: Unlock, value: 'Free', label: 'To read', sub: 'No paywall' },
 ];
@@ -52,7 +52,7 @@ export const TrustIndicators: React.FC = () => {
             <Info className="w-4 h-4 text-[#166534] shrink-0 mt-0.5" />
             <span>
               We're writers and researchers, not doctors. Our guides aren't medically reviewed and our reviews are desk
-              reviews, not hands-on tests. Always check with your GP.
+              reviews, not hands-on tests. Always check with your doctor.
             </span>
           </p>
         </Reveal>

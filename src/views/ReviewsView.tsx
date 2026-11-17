@@ -34,7 +34,7 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview }) => {
         <div className="flex flex-wrap gap-2 pt-2">
           {[
             { icon: ShieldCheck, text: 'Affiliate links disclosed' },
-            { icon: PoundSterling, text: 'UK prices' },
+            { icon: PoundSterling, text: 'US and UK prices' },
             { icon: Eye, text: 'Who should skip it' },
           ].map(({ icon: Icon, text }) => (
             <span
@@ -105,9 +105,9 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview }) => {
           <FlowDiagram
             dark
             steps={[
-              { icon: BookOpen, title: 'The evidence', text: 'Studies, NHS and NICE.' },
+              { icon: BookOpen, title: 'The evidence', text: 'Studies and official US and UK advice.' },
               { icon: FlaskConical, title: 'Independent tests', text: 'By others. Always named.' },
-              { icon: PoundSterling, title: 'Real-world value', text: 'UK prices and cheaper options.' },
+              { icon: PoundSterling, title: 'Real-world value', text: 'Prices and cheaper options.' },
             ]}
           />
         </div>

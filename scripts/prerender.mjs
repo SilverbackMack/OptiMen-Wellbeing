@@ -18,6 +18,11 @@ try {
   const { PAGE_PATHS, PAGE_META, SITE_URL, SITE_NAME, articlePath, reviewPath } =
     await server.ssrLoadModule('/src/seo.ts');
   const { createLinker, relatedContent } = await server.ssrLoadModule('/src/links.ts');
+  const { REGIONAL, REVIEW_PRICES } = await server.ssrLoadModule('/src/data/regional.ts');
+  const regional = (id) => {
+    const n = REGIONAL[id];
+    return n ? `<h2>Where you live matters</h2><h3>In the US</h3>${list(n.us)}<h3>In the UK</h3>${list(n.uk)}` : '';
+  };
 
   const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
   const today = new Date().toISOString().slice(0, 10);
@@ -45,7 +50,7 @@ try {
     ];
     return items.length ? `<h2>Read next</h2><ul>${items.join('')}</ul>` : '';
   };
-  const checklist = `<p><a href="/downloads/mens-health-mot-checklist.pdf">Free download: The Men's Health MOT Checklist (PDF)</a></p>`;
+  const checklist = `<p>Free download: The Men's Health Checklist (PDF), <a href="/downloads/mens-health-checklist-us.pdf">US edition</a> or <a href="/downloads/mens-health-mot-checklist.pdf">UK edition</a></p>`;
 
   const pages = [];
   const add = (urlPath, title, description, body, jsonLd) => pages.push({ urlPath, title, description, body, jsonLd });
@@ -69,6 +74,7 @@ try {
     const description = a.metaDescription ?? a.summary;
     let body = `<article><p><a href="/${a.pillar}">${esc(a.pillarLabel)}</a> · ${esc(a.readTime)} · ${esc(a.publishedDate)}</p>`;
     body += `<h1>${esc(a.title)}</h1><p>${esc(a.summary)}</p><p>By ${esc(a.author.name)}, ${esc(a.author.role)}</p>`;
+    body += regional(a.id);
     body += sections(a.sections, createLinker(a.id));
     body += `<h2>Key takeaways</h2>${list(a.keyTakeaways)}<h2>What to do next</h2>${list(a.protocolSteps)}`;
     if (a.affiliateCta) body += sponsoredLink(a.affiliateCta.url, a.affiliateCta.label);
@@ -89,7 +95,7 @@ try {
   for (const r of PRODUCT_REVIEWS) {
     const title = `${r.name} Review | ${SITE_NAME}`;
     let body = `<article><p><a href="/reviews">Reviews</a> · ${esc(r.category)}</p><h1>${esc(r.name)} Review</h1>`;
-    body += `<p>${r.overallScore != null ? `Score: ${esc(r.overallScore)} out of 10 · ` : ''}${esc(r.testedDuration)} · Price: ${esc(r.priceRange)}</p><p>${esc(r.verdict)}</p>`;
+    body += `<p>${r.overallScore != null ? `Score: ${esc(r.overallScore)} out of 10 · ` : ''}${esc(r.testedDuration)} · Price: ${esc(REVIEW_PRICES[r.id] ? `US ${REVIEW_PRICES[r.id].us} · UK ${REVIEW_PRICES[r.id].uk}` : r.priceRange)}</p><p>${esc(r.verdict)}</p>`;
     body += `<h2>Who it's for</h2><p>${esc(r.whoItIsFor)}</p><h2>Pros</h2>${list(r.pros)}<h2>Cons</h2>${list(r.cons)}`;
     body += `<h2>Key facts</h2>${list(r.specs.map((s) => `${s.label}: ${s.value}`))}`;
     body += sections(r.sections, createLinker(r.id));

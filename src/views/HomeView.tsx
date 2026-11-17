@@ -18,7 +18,7 @@ interface HomeViewProps {
 
 const TOPICS = [
   'Heart health', 'Prostate', 'Testosterone', 'Sleep', 'Zone 2 cardio', 'Strength',
-  'Protein', 'Stress', 'Burnout', 'NHS checks', 'Supplements', 'Wearables',
+  'Protein', 'Stress', 'Burnout', 'Health checks', 'Supplements', 'Wearables',
 ];
 
 const HEADLINE = ['Stronger.', 'Longer.', 'Better.'];
@@ -81,7 +81,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.7, ease: EASE }}
             >
-              Plain-English health guides for UK men, 25 to 55.
+              Plain-English health guides for men, 25 to 55. US and UK.
             </motion.p>
 
             <motion.div
@@ -177,7 +177,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <FlowDiagram
             steps={[
               { icon: BookOpen, title: 'We read the research', text: 'Published studies, sources listed.' },
-              { icon: Landmark, title: 'We check UK guidance', text: 'NHS and NICE first.' },
+              { icon: Landmark, title: 'We check official advice', text: 'US and UK, side by side.' },
               { icon: FileText, title: 'You get the short version', text: 'Clear steps. No jargon.' },
             ]}
           />
@@ -224,7 +224,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="space-y-3">
               <Eyebrow>Worth your money?</Eyebrow>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">Honest reviews</h2>
-              <p className="text-sm text-slate-500">Desk reviews. UK prices. Who should skip it.</p>
+              <p className="text-sm text-slate-500">Desk reviews. US and UK prices. Who should skip it.</p>
             </div>
             <button
               onClick={() => onNavigate('reviews')}

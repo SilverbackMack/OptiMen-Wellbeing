@@ -87,7 +87,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenAssessment }) 
         <div className="pt-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-500 leading-relaxed">
           <p>
             <strong className="text-slate-400 font-semibold">Not medical advice.</strong> OptiMen Wellbeing is for general
-            information only. We are not doctors and our content is not medically reviewed. Speak to your GP before
+            information only. We are not doctors and our content is not medically reviewed. Speak to your doctor before
             changing your exercise, diet, medicines or supplements.
           </p>
           <p>

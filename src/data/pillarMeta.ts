@@ -32,7 +32,7 @@ export const PILLAR_META: Record<PillarId, PillarMeta> = {
       { label: 'Waist size', icon: Ruler },
       { label: 'Prostate (PSA)', icon: ScanSearch },
     ],
-    steps: ['Book your free NHS Health Check', 'Write your numbers down', 'Check your testicles monthly', 'See your GP early'],
+    steps: ['Book a health check', 'Write your numbers down', 'Check your testicles monthly', 'See a doctor early'],
   },
   fitness: {
     short: 'Fitness',
@@ -56,9 +56,9 @@ export const PILLAR_META: Record<PillarId, PillarMeta> = {
       { label: 'Protein', icon: Beef },
       { label: 'Fibre', icon: Wheat },
       { label: 'Waist size', icon: Ruler },
-      { label: 'Alcohol units', icon: Wine },
+      { label: 'Alcohol', icon: Wine },
     ],
-    steps: ['Protein with every meal', 'Five a day, minimum', 'Oily fish once a week', 'Under 14 units a week'],
+    steps: ['Protein with every meal', 'Five a day, minimum', 'Oily fish once a week', 'Drink less alcohol'],
   },
   sleep: {
     short: 'Sleep',

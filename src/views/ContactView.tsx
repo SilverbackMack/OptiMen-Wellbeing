@@ -174,8 +174,8 @@ export const ContactView: React.FC = () => {
                   <Siren className="w-5 h-5" />
                 </span>
                 <div>
-                  <p className="text-base font-bold text-rose-900">Emergency? Call 999.</p>
-                  <p className="text-sm text-rose-900/80 mt-0.5">We can't give personal medical advice. For that, see your GP or call NHS 111.</p>
+                  <p className="text-base font-bold text-rose-900">Emergency? Call 911 (US) or 999 (UK).</p>
+                  <p className="text-sm text-rose-900/80 mt-0.5">We can't give personal medical advice. For that, see your doctor. In the UK you can also call NHS 111.</p>
                 </div>
               </div>
             </Reveal>
