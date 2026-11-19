@@ -225,6 +225,21 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
               {review.sections.map((section, sIdx) => (
                 <div key={sIdx} className="space-y-3">
                   <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">{section.heading}</h3>
+                  {section.image && (
+                    <a
+                      href={section.image.href ?? section.cta?.url}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="flex justify-center bg-white border border-slate-200 rounded-xl p-4 hover:border-emerald-300 transition-colors"
+                    >
+                      <img
+                        src={section.image.src}
+                        alt={section.image.alt}
+                        loading="lazy"
+                        className="h-48 sm:h-56 w-auto object-contain"
+                      />
+                    </a>
+                  )}
                   {section.paragraphs.map((p, pIdx) => (
                     <p key={pIdx} className="text-sm text-slate-700 leading-relaxed"><LinkedText pieces={link(p)} onOpen={onOpen} /></p>
                   ))}

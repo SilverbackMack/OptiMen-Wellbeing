@@ -83,6 +83,9 @@ export interface ProductReview {
     paragraphs: string[];
     bullets?: string[];
     cta?: { url: string; label: string }; // optional affiliate button under this section
+    // Optional product photo under the heading. Use only images Amazon provides for
+    // affiliate use (SiteStripe "Image" links or PA-API), served from Amazon, not copied.
+    image?: { src: string; alt: string; href?: string };
   }[];
 }
 
