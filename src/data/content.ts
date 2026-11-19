@@ -2883,6 +2883,159 @@ export const ALL_ARTICLES: Article[] = [
       'Mandsager K, et al. Association of Cardiorespiratory Fitness With Long-term Mortality. JAMA Netw Open. 2018;1(6):e183605.',
       'Ross R, et al. Importance of Cardiorespiratory Fitness in Clinical Practice: A Scientific Statement. Circulation. 2016;134(24):e653–e699.'
     ]
+  },
+  {
+    id: 'black-friday-mens-health-deals-2026',
+    publishOn: '2026-11-23',
+    title: "Black Friday 2026: The Men's Health Kit Actually Worth Buying",
+    metaTitle: "Black Friday 2026: Men's Health Deals Worth Buying | OptiMen Wellbeing",
+    metaDescription: "A short, honest Black Friday shortlist for men: the health, fitness and sleep kit with real evidence behind it, what to skip, and how to spot a fake discount.",
+    summary: "Black Friday is full of 'biohacking' gadgets and supplement bundles you don't need. Here's our short list of the kit with real evidence behind it, the things to think twice about, and how to check a deal is genuine before you buy.",
+    pillar: 'health',
+    pillarLabel: "Men's Health",
+    readTime: '7 min read',
+    publishedDate: 'November 2026',
+    author: {
+      name: 'OptiMen Health Research Desk',
+      credentials: "Men's Health Product Synthesis",
+      role: 'Evidence Review Team'
+    },
+    keyTakeaways: [
+      "A good deal is something you'd have bought anyway, at a lower price. Make your list before the sales start.",
+      'Our shortlist: a validated blood pressure monitor, vitamin D, creatine for strength training, adjustable weights, a sleep mask and, if you like data, a WHOOP or Oura.',
+      'Saunas and cold plunge tubs are big purchases with modest evidence. Only buy one if you know you will use it.',
+      "Many 'deals' are the same price, or cheaper, at other times of year. Check the price history before you buy.",
+      'For supplements, compare the price per daily dose, not the price per tub, and check the best-before date on bulk buys.'
+    ],
+    protocolSteps: [
+      'Write a list of what you actually need before Friday, and stick to it.',
+      'Check the price history of anything over £50 using a free price tracker.',
+      'For supplements, work out the cost per daily dose and look for an Informed Sport or similar testing mark.',
+      'Check the seller and the returns window. Buying online in the UK usually gives you 14 days to cancel.',
+      "If you're on regular medicines, ask a pharmacist before starting any new supplement."
+    ],
+    references: [
+      'NHS: Vitamin D, nhs.uk.',
+      'NHS: Do I need vitamin supplements? nhs.uk.',
+      'NHS: High blood pressure (hypertension), nhs.uk.',
+      'NHS: Physical activity guidelines for adults aged 19 to 64, nhs.uk.',
+      'British and Irish Hypertension Society: Validated BP monitors for home use, bihsoc.org.',
+      'Which?: Black Friday deals research, which.co.uk.',
+      'GOV.UK: Consumer Contracts Regulations, buying online, gov.uk.'
+    ],
+    sections: [
+      {
+        heading: 'How We Picked',
+        paragraphs: [
+          "Everything here is something we've already researched for a full guide or review, or a basic piece of kit backed by NHS advice. We haven't included anything just because it's discounted.",
+          "We don't list sale prices because they change by the hour, and we can't check them. Each link goes to Amazon UK, where you'll see today's price. Use the tips at the bottom to check whether it's a genuine deal."
+        ]
+      },
+      {
+        heading: '1. A Home Blood Pressure Monitor',
+        paragraphs: [
+          "Our top pick, and it's not glamorous. High blood pressure usually has no symptoms, and it's one of the biggest risks for heart attack and stroke. A home monitor lets you see your numbers between GP checks.",
+          "Choose an upper-arm monitor (not wrist) that's on the British and Irish Hypertension Society's validated list. At home, readings that are regularly 135/85 or higher count as high, so take them to your GP."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=upper+arm+blood+pressure+monitor+clinically+validated&tag=insightdigita-21',
+          label: 'Compare upper-arm blood pressure monitors on Amazon UK'
+        }
+      },
+      {
+        heading: '2. Vitamin D',
+        paragraphs: [
+          "The NHS advises everyone in the UK to consider 10 micrograms (400 IU) of vitamin D a day from October to early March. It's cheap all year round, so Black Friday is a chance to buy a year's supply, not a reason to buy a fancy one.",
+          "A plain 10 microgram tablet is all most men need. Our article 'Best Supplements for Men Over 40' covers what else is, and isn't, worth taking."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=vitamin+d3+10+micrograms&tag=insightdigita-21',
+          label: 'Compare vitamin D 10 microgram supplements on Amazon UK'
+        }
+      },
+      {
+        heading: '3. Creatine Monohydrate (If You Lift)',
+        paragraphs: [
+          "Creatine is one of the best-studied supplements for strength, but it only helps alongside regular strength training. Plain creatine monohydrate powder is all you need. Skip the 'advanced' blends and pre-workouts with creatine added.",
+          "Bulk tubs are usually the best value. Check the best-before date, and look for an Informed Sport mark. Our review 'Creatine Monohydrate: What to Buy and What to Skip' has the details."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=creatine+monohydrate+informed+sport&tag=insightdigita-21',
+          label: 'Compare creatine monohydrate on Amazon UK'
+        }
+      },
+      {
+        heading: '4. Adjustable Dumbbells or Resistance Bands',
+        paragraphs: [
+          "The NHS recommends strength exercises on at least 2 days a week, and most men don't do them. A set of adjustable dumbbells or resistance bands removes the excuse, especially in winter.",
+          "Bands are the cheapest way to start. Adjustable dumbbells cost more but replace a full rack and fit under a bed."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=adjustable+dumbbells&tag=insightdigita-21',
+          label: 'Compare adjustable dumbbells on Amazon UK'
+        }
+      },
+      {
+        heading: '5. A Blackout Sleep Mask',
+        paragraphs: [
+          "Light in the bedroom is one of the easiest sleep problems to fix. A contoured blackout mask costs little and works anywhere, including hotel rooms and early summer mornings.",
+          "If you're waking in the early hours, our article 'Why Do I Wake Up at 3am?' covers the other common causes."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=blackout+sleep+mask&tag=insightdigita-21',
+          label: 'Compare blackout sleep masks on Amazon UK'
+        }
+      },
+      {
+        heading: '6. A Wearable, If You Like Data: WHOOP 5.0 or Oura Ring 5',
+        paragraphs: [
+          "A wearable won't make you healthier on its own, but it can help if you'll act on what it tells you about sleep, resting heart rate and training load. Both need an ongoing subscription, so add that to the price.",
+          "WHOOP suits men who train hard and want a strap with no screen. Oura suits men who care most about sleep and want something discreet. Our reviews of each cover the trade-offs."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Oura+Ring+5&tag=insightdigita-21',
+          label: 'Check Oura Ring 5 on Amazon UK'
+        }
+      },
+      {
+        heading: 'Think Twice: Saunas and Cold Plunge Tubs',
+        paragraphs: [
+          "These are the big-ticket items you'll see heavily promoted. Regular sauna use is linked to better heart health in observational studies, and cold water can feel good, but the evidence is weaker than the marketing suggests.",
+          "They only pay off if you use them several times a week, so be honest about that. Check the size, power needs and returns policy before buying, and speak to your GP first if you have a heart condition or high blood pressure. Our reviews 'Home Sauna Options: Tents, Blankets, Cabins and Barrels' and 'Cold Plunge Tubs: Are They Worth It?' compare the options."
+        ]
+      },
+      {
+        heading: 'What to Skip',
+        paragraphs: [
+          "Some things are best left in the basket, whatever the discount:"
+        ],
+        bullets: [
+          "'Testosterone boosters' and multi-ingredient 'male vitality' blends. There's little good evidence for them",
+          'Supplement bundles where you only need one item',
+          'Massage guns and gadgets bought on impulse that end up in a drawer',
+          'Anything promising to replace sleep, exercise or a GP appointment'
+        ]
+      },
+      {
+        heading: 'How to Spot a Fake Black Friday Deal',
+        paragraphs: [
+          "Which? has found year after year that many Black Friday 'deals' were the same price, or cheaper, at other times of the year. A few quick checks will save you money:"
+        ],
+        bullets: [
+          "Check the price history. Free price trackers show what an item has cost over the past few months, so you can see if the 'was' price is real",
+          'For supplements, compare the cost per daily dose, not the cost per tub',
+          "Check who's selling it. On Amazon, look at the seller name and reviews, not just the product page",
+          'Check the returns window. Buying online in the UK usually gives you 14 days to cancel, and many retailers extend returns over Christmas',
+          "Don't let a countdown timer rush you. If it's on your list and the price is right, buy it. If not, leave it"
+        ]
+      }
+    ],
+    affiliateCta: {
+      url: 'https://www.amazon.co.uk/s?k=upper+arm+blood+pressure+monitor+clinically+validated&tag=insightdigita-21',
+      label: 'Compare home blood pressure monitors on Amazon UK',
+      note: 'Affiliate links: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you. Prices change often, so check the price on Amazon before you buy.'
+    }
+
   }
 ];
 
