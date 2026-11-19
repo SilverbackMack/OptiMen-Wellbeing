@@ -13,6 +13,7 @@ import cold from '../assets/images/photos/cold.jpg';
 import sauna from '../assets/images/photos/sauna.jpg';
 import family from '../assets/images/photos/family.jpg';
 import couple from '../assets/images/photos/couple.jpg';
+import grooming from '../assets/images/photos/grooming.jpg';
 
 // Photos for guides and reviews.
 // The photos in assets/images/photos come from Unsplash (unsplash.com) and are
@@ -31,6 +32,7 @@ import couple from '../assets/images/photos/couple.jpg';
 //   sauna          unsplash.com/photos/EXR5hlu6Sag
 //   family         unsplash.com/photos/VQqFflok0gE
 //   couple         unsplash.com/photos/L33y1h7Cwvg
+//   grooming       unsplash.com/photos/YBKXbGwNDqc (César Badilla Miranda, cropped)
 
 export const MINDSET_IMAGE = mindset;
 
@@ -69,7 +71,7 @@ const BY_ID: Record<string, string> = {
   'creatine-monohydrate-creapure': strength,
   'cold-plunge-tub-review': cold,
   'omega-3-high-epa-dha': salmon,
-  'best-beard-trimmers-hair-clippers-uk': HERO_IMAGE,
+  'best-beard-trimmers-hair-clippers-uk': grooming,
 };
 
 const BY_SECTION: Record<string, string> = {
@@ -83,6 +85,7 @@ const BY_SECTION: Record<string, string> = {
   Supplements: capsules,
   Recovery: cold,
   Diagnostics: bloodtest,
+  Grooming: grooming,
 };
 
 /** The photo for a guide or review, by its id, falling back to its section or category. */
