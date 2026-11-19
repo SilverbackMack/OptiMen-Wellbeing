@@ -36,6 +36,9 @@ export const HomeView: React.FC<HomeViewProps> = ({
   const featuredArticles = ARTICLES.slice(0, 4);
   const featuredReviews = PRODUCT_REVIEWS.slice(0, 3);
   const reduce = useReducedMotion();
+  // Black Friday banner: shows once the guide is live (23 Nov) until Cyber Monday (30 Nov), UK time.
+  const todayUK = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London' }).format(new Date());
+  const blackFriday = todayUK <= '2026-11-30' ? ARTICLES.find((a) => a.id === 'black-friday-mens-health-deals-2026') : undefined;
 
   return (
     <div>
@@ -139,6 +142,19 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <ChevronDown className="w-5 h-5" />
         </motion.div>
       </section>
+
+      {blackFriday && (
+        <button
+          onClick={() => onSelectArticle(blackFriday)}
+          className="group w-full bg-amber-400 text-[#0F172A] py-3 px-4 cursor-pointer hover:bg-amber-300 transition-colors"
+        >
+          <span className="max-w-7xl mx-auto flex items-center justify-center gap-2 text-sm font-bold">
+            <span className="uppercase tracking-[0.15em]">Black Friday</span>
+            <span className="font-semibold">The men's health kit actually worth buying, and what to skip</span>
+            <ArrowRight className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-1" />
+          </span>
+        </button>
+      )}
 
       {/* 2. TOPIC STRIP */}
       <div className="bg-[#166534] text-white overflow-hidden py-3.5" aria-hidden="true">
