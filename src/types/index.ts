@@ -83,9 +83,9 @@ export interface ProductReview {
     paragraphs: string[];
     bullets?: string[];
     cta?: { url: string; label: string }; // optional affiliate button under this section
-    // Optional product photo under the heading. Use only images Amazon provides for
-    // affiliate use (SiteStripe "Image" links or PA-API), served from Amazon, not copied.
-    image?: { src: string; alt: string; href?: string };
+    // Optional product photo under the heading. Never copy Amazon's images; use the maker's
+    // own product photo (self-hosted in public/images/products, with credit) or SiteStripe/PA-API.
+    image?: { src: string; alt: string; href?: string; credit?: string };
     // Photo-free product summary card (brand, model and key specs), used until
     // we have approved product images
     product?: { brand: string; model: string; badge?: string; stats: { label: string; value: string }[] };

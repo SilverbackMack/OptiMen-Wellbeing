@@ -225,7 +225,25 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
               {review.sections.map((section, sIdx) => (
                 <div key={sIdx} className="space-y-3">
                   <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">{section.heading}</h3>
-                  {section.product && !section.image && (
+                  {section.image && (
+                    <a
+                      href={section.image.href ?? section.cta?.url}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="flex justify-center bg-white border border-slate-200 rounded-xl p-4 hover:border-emerald-300 transition-colors"
+                    >
+                      <img
+                        src={section.image.src}
+                        alt={section.image.alt}
+                        loading="lazy"
+                        className="h-48 sm:h-56 w-auto object-contain"
+                      />
+                    </a>
+                  )}
+                  {section.image?.credit && (
+                    <p className="text-[11px] text-slate-400 -mt-2">{section.image.credit}</p>
+                  )}
+                  {section.product && (
                     <a
                       href={section.cta?.url}
                       target="_blank"
@@ -256,21 +274,6 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
                           </div>
                         ))}
                       </dl>
-                    </a>
-                  )}
-                  {section.image && (
-                    <a
-                      href={section.image.href ?? section.cta?.url}
-                      target="_blank"
-                      rel="sponsored noopener noreferrer"
-                      className="flex justify-center bg-white border border-slate-200 rounded-xl p-4 hover:border-emerald-300 transition-colors"
-                    >
-                      <img
-                        src={section.image.src}
-                        alt={section.image.alt}
-                        loading="lazy"
-                        className="h-48 sm:h-56 w-auto object-contain"
-                      />
                     </a>
                   )}
                   {section.paragraphs.map((p, pIdx) => (
