@@ -39,6 +39,7 @@ const RELATED: Record<string, string[]> = {
   'creatine-monohydrate-creapure': ['is-creatine-safe-men-over-40', 'protein-distribution-muscle-longevity', 'best-supplements-for-men-over-40'],
   'cold-plunge-tub-review': ['sauna-benefits-for-men', 'home-sauna-options-review', 'allostatic-load-cortisol-management'],
   'omega-3-high-epa-dha': ['apob-vs-ldl-heart-health', 'best-supplements-for-men-over-40', 'creatine-monohydrate-creapure'],
+  'best-beard-trimmers-hair-clippers-uk': ['black-friday-mens-health-deals-2026', 'health-checks-for-men', 'how-to-check-your-testicles', '10-daily-habits-improve-mens-health'],
 };
 
 export interface RelatedContent {

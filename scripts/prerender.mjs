@@ -92,17 +92,60 @@ try {
   }
 
   // Reviews
+  const table = (c) =>
+    c ? `<h2>Comparison table</h2><table><thead><tr>${c.columns.map((h) => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${c.rows
+      .map((row) => `<tr>${row.map((cell, i) => (i === 0 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`)).join('')}</tr>`)
+      .join('')}</tbody></table>` : '';
+  const faqHtml = (faqs = []) =>
+    faqs.length ? `<h2>Frequently asked questions</h2>${faqs.map((f) => `<h3>${esc(f.question)}</h3><p>${esc(f.answer)}</p>`).join('')}` : '';
   for (const r of PRODUCT_REVIEWS) {
-    const title = `${r.name} Review | ${SITE_NAME}`;
-    let body = `<article><p><a href="/reviews">Reviews</a> · ${esc(r.category)}</p><h1>${esc(r.name)} Review</h1>`;
+    const heading = r.headline ?? `${r.name} Review`;
+    const title = r.metaTitle ?? `${r.name} Review | ${SITE_NAME}`;
+    const description = r.metaDescription ?? r.verdict;
+    let body = `<article><p><a href="/reviews">Reviews</a> · ${esc(r.category)}${r.updatedDate ? ` · Updated ${esc(r.updatedDate)}` : ''}</p><h1>${esc(heading)}</h1>`;
     body += `<p>${r.overallScore != null ? `Score: ${esc(r.overallScore)} out of 10 · ` : ''}${esc(r.testedDuration)} · Price: ${esc(REVIEW_PRICES[r.id] ? `US ${REVIEW_PRICES[r.id].us} · UK ${REVIEW_PRICES[r.id].uk}` : r.priceRange)}</p><p>${esc(r.verdict)}</p>`;
     body += `<h2>Who it's for</h2><p>${esc(r.whoItIsFor)}</p><h2>Pros</h2>${list(r.pros)}<h2>Cons</h2>${list(r.cons)}`;
     body += `<h2>Key facts</h2>${list(r.specs.map((s) => `${s.label}: ${s.value}`))}`;
+    body += table(r.comparison);
     body += sections(r.sections, createLinker(r.id));
+    body += faqHtml(r.faqs);
     if (r.affiliateUrl) body += sponsoredLink(r.affiliateUrl, `View on ${r.affiliateStore ?? 'Amazon'}`);
     if (r.affiliateNote) body += `<p>${esc(r.affiliateNote)}</p>`;
     body += `${readNext(r.id)}${checklist}</article>`;
-    add(reviewPath(r.id), title, r.verdict, body);
+    const url = SITE_URL + reviewPath(r.id);
+    const graph = [
+      {
+        '@type': 'Article',
+        headline: heading,
+        description,
+        author: { '@type': 'Organization', name: 'OptiMen Health Research Desk' },
+        publisher: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+        mainEntityOfPage: url,
+        ...(r.updatedDate ? { dateModified: r.updatedDate } : {}),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+          { '@type': 'ListItem', position: 2, name: 'Reviews', item: SITE_URL + '/reviews' },
+          { '@type': 'ListItem', position: 3, name: heading, item: url },
+        ],
+      },
+    ];
+    if (r.comparison) {
+      graph.push({
+        '@type': 'ItemList',
+        name: heading,
+        itemListElement: r.comparison.rows.map((row, i) => ({ '@type': 'ListItem', position: i + 1, name: row[0] })),
+      });
+    }
+    if (r.faqs?.length) {
+      graph.push({
+        '@type': 'FAQPage',
+        mainEntity: r.faqs.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+      });
+    }
+    add(reviewPath(r.id), title, description, body, { '@context': 'https://schema.org', '@graph': graph });
   }
 
   for (const pg of pages) {

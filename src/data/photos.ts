@@ -69,6 +69,7 @@ const BY_ID: Record<string, string> = {
   'creatine-monohydrate-creapure': strength,
   'cold-plunge-tub-review': cold,
   'omega-3-high-epa-dha': salmon,
+  'best-beard-trimmers-hair-clippers-uk': HERO_IMAGE,
 };
 
 const BY_SECTION: Record<string, string> = {
