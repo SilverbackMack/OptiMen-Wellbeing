@@ -2928,7 +2928,7 @@ export const ALL_ARTICLES: Article[] = [
         heading: 'How We Picked',
         paragraphs: [
           "Everything here is something we've already researched for a full guide or review, or a basic piece of kit backed by NHS advice. We haven't included anything just because it's discounted.",
-          "We don't list sale prices because they change by the hour, and we can't check them. Each link goes to Amazon UK, where you'll see today's price. Use the tips at the bottom to check whether it's a genuine deal."
+          "We don't list sale prices because they change by the hour, and we can't check them. Each link goes to Amazon, where you'll see today's price. Use the tips at the bottom to check whether it's a genuine deal."
         ]
       },
       {
@@ -3856,7 +3856,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
     updatedDate: '2026-11-19',
     brand: 'Braun, Philips, Wahl, Remington',
     category: 'Grooming',
-    priceRange: 'Budget to premium. Check today\'s price on Amazon UK',
+    priceRange: 'Budget to premium. Check today\'s price on Amazon',
     verdict: "For most men, the Braun Beard Trimmer Series 9 (BT9560) is the best beard trimmer, with 52 lengths and the longest claimed battery life here. If you want one tool for beard, head and body, pick an all-in-one such as the Philips Multigroom Series 7000 or Braun All-in-One Series 7. For home haircuts, a proper clipper like the Wahl Lithium Power does the job better. Open this review for the full comparison.",
     whoItIsFor: "Men who trim a beard or stubble at home, cut their own hair, or want one kit that does both. Also a solid gift for a partner, dad or brother this Christmas. If you get razor bumps, a trimmer that leaves a little stubble can be kinder to your skin than a blade.",
     pros: [
@@ -3898,7 +3898,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
         heading: 'The Best Beard Trimmers and Hair Clippers: Our Picks',
         paragraphs: [
           "The best beard trimmer is the one that matches the hair you're cutting. A beard trimmer is built for faces, with a small, precise blade. A hair clipper has a wider, more powerful blade for your head. An all-in-one kit swaps heads to do both, plus nose, ear and body hair.",
-          "We compared the makers' specs and independent UK reviews, including Which? and Expert Reviews, to pick six that cover every need. We haven't tested them ourselves, and we don't list prices because they change by the hour. This review contains affiliate links to Amazon UK. If you buy through them we may earn a small commission at no extra cost to you. It doesn't change what we recommend."
+          "We compared the makers' specs and independent UK reviews, including Which? and Expert Reviews, to pick six that cover every need. We haven't tested them ourselves, and we don't list prices because they change by the hour. This review contains affiliate links to Amazon. If you buy through them we may earn a small commission at no extra cost to you. It doesn't change what we recommend."
         ],
         bullets: [
           'Best beard trimmer overall: Braun Beard Trimmer Series 9 (BT9560)',

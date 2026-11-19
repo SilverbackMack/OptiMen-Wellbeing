@@ -7,6 +7,7 @@ import { reviewPrice } from './RegionalNote';
 import { LinkedText, OpenContent } from './LinkedText';
 import { ReadNext } from './ReadNext';
 import { ChecklistSignup } from './NewsletterSection';
+import { useAffiliateLink } from '../amazonRegion';
 
 interface ReviewModalProps {
   review: ProductReview | null;
@@ -16,6 +17,7 @@ interface ReviewModalProps {
 }
 
 export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpen, asPage = false }) => {
+  const affiliate = useAffiliateLink();
   if (!review) return null;
 
   // Turns mentions of our guides into links (each guide linked once)
@@ -238,12 +240,12 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
                   )}
                   {section.cta && (
                     <a
-                      href={section.cta.url}
+                      href={affiliate(section.cta.url).href}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
                       className="px-4 py-2.5 text-sm font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
                     >
-                      <span>{section.cta.label}</span>
+                      <span>{affiliate(section.cta.url, section.cta.label).label}</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   )}
@@ -285,7 +287,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
           <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
             {review.affiliateUrl && (
               <a
-                href={review.affiliateUrl}
+                href={affiliate(review.affiliateUrl).href}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 className="px-4 py-2 text-xs font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
