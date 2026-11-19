@@ -40,8 +40,8 @@ try {
     link(text).map((piece) => (typeof piece === 'string' ? esc(piece) : `<a href="${piece.href}">${esc(piece.text)}</a>`)).join('');
   const sections = (secs = [], link) =>
     secs.map((s) => `<h2>${esc(s.heading)}</h2>${
-      s.image ? `<p><a href="${esc(s.image.href ?? s.cta?.url ?? '')}" rel="sponsored noopener noreferrer" target="_blank"><img src="${esc(s.image.src)}" alt="${esc(s.image.alt)}" loading="lazy" height="224"></a></p>` : ''
-    }${s.product && !s.image ? `<p><strong>${esc(s.product.brand)} ${esc(s.product.model)}</strong>${s.product.badge ? ` (${esc(s.product.badge)})` : ''}: ${s.product.stats.map((x) => `${esc(x.label)} ${esc(x.value)}`).join(' · ')}</p>` : ''}${s.paragraphs.map((p) => `<p>${linked(link, p)}</p>`).join('')}${
+      s.image ? `<p><a href="${esc(s.image.href ?? s.cta?.url ?? '')}" rel="sponsored noopener noreferrer" target="_blank"><img src="${esc(s.image.src)}" alt="${esc(s.image.alt)}" loading="lazy" height="224"></a>${s.image.credit ? `<br><small>${esc(s.image.credit)}</small>` : ''}</p>` : ''
+    }${s.product ? `<p><strong>${esc(s.product.brand)} ${esc(s.product.model)}</strong>${s.product.badge ? ` (${esc(s.product.badge)})` : ''}: ${s.product.stats.map((x) => `${esc(x.label)} ${esc(x.value)}`).join(' · ')}</p>` : ''}${s.paragraphs.map((p) => `<p>${linked(link, p)}</p>`).join('')}${
       s.bullets?.length ? `<ul>${s.bullets.map((b) => `<li>${linked(link, b)}</li>`).join('')}</ul>` : ''
     }${s.cta ? sponsoredLink(s.cta.url, s.cta.label) : ''}`).join('');
   const readNext = (id, pillar) => {

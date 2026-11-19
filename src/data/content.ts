@@ -3911,6 +3911,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '1. Braun Beard Trimmer Series 9 (BT9560): Best Beard Trimmer Overall',
+        image: { src: '/images/products/braun-series-9-bt9560.jpg', alt: "Braun Beard Trimmer Series 9 BT9560 with charging stand and barbering tools", credit: 'Image: Braun' },
         product: { brand: "Braun", model: "Beard Trimmer Series 9 (BT9560)", badge: "Best overall", stats: [{ label: "Run time", value: "Up to 180 min" }, { label: "Lengths", value: "52, in 0.25 mm steps" }, { label: "Shower", value: "Waterproof" }] },
         paragraphs: [
           "If you keep a beard of any length and want one trimmer that does it properly, this is the pick. Braun says it runs for up to 180 minutes on a charge, the longest of any trimmer here, so you'll rarely be caught short mid-trim.",
@@ -3925,6 +3926,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '2. Philips Multigroom Series 7000 (MG7940/15): Best All-in-One',
+        image: { src: '/images/products/philips-multigroom-7000-mg7940.jpg', alt: "Philips Multigroom Series 7000 MG7940/15 with its 15 attachments", credit: 'Image: Philips' },
         product: { brand: "Philips", model: "Multigroom Series 7000 (MG7940/15)", badge: "Best all-in-one", stats: [{ label: "Run time", value: "Up to 120 min" }, { label: "Lengths", value: "0.5 to 16 mm" }, { label: "Tools", value: "15 attachments" }] },
         paragraphs: [
           "If you want one kit for your beard, head, nose, ears and body, the Multigroom Series 7000 is the easiest recommendation. It comes with 15 attachments and 22 length settings from 0.5 to 16 mm.",
@@ -3939,6 +3941,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '3. Braun All-in-One Series 7 (AIO7560): Best Waterproof All-in-One',
+        image: { src: '/images/products/braun-all-in-one-series-7-aio7560.jpg', alt: "Braun All-in-One Series 7 AIO7560 13-in-1 kit with charging stand", credit: 'Image: Braun' },
         product: { brand: "Braun", model: "All-in-One Series 7 (AIO7560)", badge: "Best waterproof", stats: [{ label: "Run time", value: "Up to 120 min" }, { label: "Lengths", value: "0.5 to 21 mm" }, { label: "Tools", value: "13-in-1" }] },
         paragraphs: [
           "Braun's all-in-one is the main rival to the Philips. It's a 13-in-1 kit for beard, head, nose, ears and body, with 14 lengths from 0.5 to 21 mm and up to 120 minutes of run time.",
@@ -3953,6 +3956,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '4. Philips OneBlade 360 Face (QP2734): Best for Stubble and Shaving',
+        image: { src: '/images/products/philips-oneblade-360-face-qp2734.jpg', alt: "Philips OneBlade 360 Face QP2734 with 5-in-1 comb and USB cable", credit: 'Image: Philips' },
         product: { brand: "Philips", model: "OneBlade 360 Face (QP2734)", badge: "Best for stubble", stats: [{ label: "Run time", value: "About 60 min" }, { label: "Comb", value: "5-in-1" }, { label: "Shower", value: "Waterproof" }] },
         paragraphs: [
           "The OneBlade is a hybrid: it trims, edges and shaves with one blade that flexes to follow your face. It doesn't shave as closely as a wet razor, but that's the point for many men. It's gentler, which helps if you get redness or razor bumps.",
@@ -3967,6 +3971,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '5. Wahl Lithium Power Clipper (79600-807X): Best for Home Haircuts',
+        image: { src: '/images/products/wahl-lithium-power-79600-807x.jpg', alt: "Wahl Lithium Power clipper 79600-807X with 12 guide combs and accessories", credit: 'Image: Wahl' },
         product: { brand: "Wahl", model: "Lithium Power Clipper (79600-807X)", badge: "Home haircuts", stats: [{ label: "Run time", value: "Up to 120 min" }, { label: "Combs", value: "12, 0.8 to 25 mm" }, { label: "Power", value: "Corded or cordless" }] },
         paragraphs: [
           "A beard trimmer will struggle to cut a full head of hair. If you clip your own hair, or a partner does it for you, get a proper clipper. Wahl is the brand many UK barbers grew up with, and this one comes with 12 guide combs, from a grade 0.5 to a grade 8 (0.8 to 25 mm), plus two ear taper combs.",
@@ -3981,6 +3986,7 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
       },
       {
         heading: '6. Remington Barba (MB320C): Best Budget Beard Trimmer',
+        image: { src: '/images/products/remington-barba-mb320c.jpg', alt: "Remington Barba MB320C beard trimmer", credit: 'Image: Remington' },
         product: { brand: "Remington", model: "Barba (MB320C)", badge: "Best budget", stats: [{ label: "Run time", value: "Up to 40 min" }, { label: "Lengths", value: "9, 1.5 to 18 mm" }, { label: "Shower", value: "Dry use only" }] },
         paragraphs: [
           "If you just want to keep stubble or a short beard tidy without spending much, the Barba does the basics well. It has 9 lock-in lengths from 1.5 to 18 mm, ceramic-coated self-sharpening blades that never need oiling, and you can use it corded or cordless.",
