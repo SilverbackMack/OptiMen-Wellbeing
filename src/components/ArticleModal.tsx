@@ -7,6 +7,7 @@ import { RegionalNote } from './RegionalNote';
 import { LinkedText, OpenContent } from './LinkedText';
 import { ReadNext } from './ReadNext';
 import { ChecklistSignup } from './NewsletterSection';
+import { useAffiliateLink } from '../amazonRegion';
 
 interface ArticleModalProps {
   article: Article | null;
@@ -15,6 +16,7 @@ interface ArticleModalProps {
 }
 
 export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, onOpen }) => {
+  const affiliate = useAffiliateLink();
   const scroller = useRef<HTMLDivElement>(null);
 
   // Start at the top when a link swaps one article for another
@@ -128,12 +130,12 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
                   )}
                   {section.cta && (
                     <a
-                      href={section.cta.url}
+                      href={affiliate(section.cta.url).href}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
                       className="px-4 py-2.5 text-sm font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
                     >
-                      <span>{section.cta.label}</span>
+                      <span>{affiliate(section.cta.url, section.cta.label).label}</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   )}
@@ -145,12 +147,12 @@ export const ArticleModal: React.FC<ArticleModalProps> = ({ article, onClose, on
           {article.affiliateCta && (
             <div className="bg-emerald-50/60 p-5 rounded-xl border border-emerald-100 space-y-3 text-left">
               <a
-                href={article.affiliateCta.url}
+                href={affiliate(article.affiliateCta.url).href}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
                 className="px-4 py-2.5 text-sm font-semibold text-white bg-[#166534] hover:bg-emerald-800 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-xs"
               >
-                <span>{article.affiliateCta.label}</span>
+                <span>{affiliate(article.affiliateCta.url, article.affiliateCta.label).label}</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
               {article.affiliateCta.note && (

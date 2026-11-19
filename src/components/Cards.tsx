@@ -8,6 +8,7 @@ import { Article, ProductReview } from '../types';
 import { EASE } from './Motion';
 import { photoFor } from '../data/photos';
 import { reviewPrice } from './RegionalNote';
+import { useAffiliateLink } from '../amazonRegion';
 
 // Cards for lists of guides and reviews, each with a photo cover.
 
@@ -113,7 +114,9 @@ interface ReviewCardProps {
   onSelect: (review: ProductReview) => void;
 }
 
-export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect }) => (
+export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect }) => {
+  const affiliate = useAffiliateLink();
+  return (
   <motion.div {...cardMotion(index)} onClick={() => onSelect(review)} className={CARD}>
     <Cover
       icon={REVIEW_ICONS[review.category]}
@@ -136,7 +139,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect 
         <div className="flex items-center gap-3">
           {review.affiliateUrl && (
             <a
-              href={review.affiliateUrl}
+              href={affiliate(review.affiliateUrl).href}
               target="_blank"
               rel="sponsored noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
@@ -154,4 +157,5 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect 
       </div>
     </div>
   </motion.div>
-);
+  );
+};
