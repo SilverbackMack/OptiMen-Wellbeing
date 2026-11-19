@@ -1,6 +1,6 @@
 import React from 'react';
 import { ProductReview } from '../types';
-import { X, Check, AlertCircle, ShieldCheck, ExternalLink } from 'lucide-react';
+import { X, Check, AlertCircle, ShieldCheck, ExternalLink, Scissors } from 'lucide-react';
 import { createLinker } from '../links';
 import { photoFor } from '../data/photos';
 import { reviewPrice } from './RegionalNote';
@@ -225,6 +225,54 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
               {review.sections.map((section, sIdx) => (
                 <div key={sIdx} className="space-y-3">
                   <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">{section.heading}</h3>
+                  {section.product && !section.image && (
+                    <a
+                      href={section.cta?.url}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="block rounded-xl bg-[#0F172A] text-white p-5 hover:ring-2 hover:ring-emerald-400 transition"
+                    >
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="flex items-center gap-3">
+                          <span className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center shrink-0">
+                            <Scissors className="w-5 h-5 text-emerald-300" />
+                          </span>
+                          <div>
+                            <div className="text-[11px] font-bold uppercase tracking-wider text-emerald-300">{section.product.brand}</div>
+                            <div className="text-base font-bold leading-snug">{section.product.model}</div>
+                          </div>
+                        </div>
+                        {section.product.badge && (
+                          <span className="text-[10px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-200 border border-emerald-400/30 rounded-full px-2.5 py-1 whitespace-nowrap">
+                            {section.product.badge}
+                          </span>
+                        )}
+                      </div>
+                      <dl className="grid grid-cols-3 gap-2 mt-4">
+                        {section.product.stats.map((s) => (
+                          <div key={s.label} className="bg-white/5 border border-white/10 rounded-lg px-2.5 py-2">
+                            <dt className="text-[10px] uppercase tracking-wider text-slate-400">{s.label}</dt>
+                            <dd className="text-xs font-semibold mt-0.5">{s.value}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                    </a>
+                  )}
+                  {section.image && (
+                    <a
+                      href={section.image.href ?? section.cta?.url}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      className="flex justify-center bg-white border border-slate-200 rounded-xl p-4 hover:border-emerald-300 transition-colors"
+                    >
+                      <img
+                        src={section.image.src}
+                        alt={section.image.alt}
+                        loading="lazy"
+                        className="h-48 sm:h-56 w-auto object-contain"
+                      />
+                    </a>
+                  )}
                   {section.paragraphs.map((p, pIdx) => (
                     <p key={pIdx} className="text-sm text-slate-700 leading-relaxed"><LinkedText pieces={link(p)} onOpen={onOpen} /></p>
                   ))}
