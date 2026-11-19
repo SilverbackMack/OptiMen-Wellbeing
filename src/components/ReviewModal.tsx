@@ -41,8 +41,12 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
         <div className={`${asPage ? 'rounded-t-2xl' : 'sticky top-0'} bg-white/95 backdrop-blur-md px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10`}>
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
             <span>Independent Review</span>
-            <span aria-hidden="true">&middot;</span>
-            <span className="text-[#166534] font-bold">Evidence Grade {review.evidenceGrade}</span>
+            {review.evidenceGrade && (
+              <>
+                <span aria-hidden="true">&middot;</span>
+                <span className="text-[#166534] font-bold">Evidence Grade {review.evidenceGrade}</span>
+              </>
+            )}
           </div>
           {asPage ? (
             <button
@@ -83,10 +87,13 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
                 {review.category} &middot; {review.brand}
               </span>
               <h2 className="text-2xl font-extrabold text-[#0F172A] mt-1 tracking-tight">
-                {review.name}
+                {review.headline ?? review.name}
               </h2>
               <div className="text-xs text-slate-500 mt-1">
                 {review.testedDuration} &middot; Price: {reviewPrice(review)}
+                {review.updatedDate && (
+                  <> &middot; Updated {new Date(review.updatedDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</>
+                )}
               </div>
             </div>
 
@@ -180,6 +187,37 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
             </div>
           </div>
 
+          {/* Side-by-side comparison */}
+          {review.comparison && (
+            <div className="space-y-3 pt-2">
+              <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">Comparison Table</h3>
+              <div className="overflow-x-auto border border-slate-200 rounded-lg">
+                <table className="w-full text-xs text-left">
+                  <thead className="bg-slate-50 text-slate-600">
+                    <tr>
+                      {review.comparison.columns.map((c) => (
+                        <th key={c} scope="col" className="px-3 py-2.5 font-semibold align-bottom">{c}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {review.comparison.rows.map((row, rIdx) => (
+                      <tr key={rIdx} className="border-t border-slate-100">
+                        {row.map((cell, cIdx) =>
+                          cIdx === 0 ? (
+                            <th key={cIdx} scope="row" className="px-3 py-2.5 font-semibold text-slate-900 min-w-[9rem]">{cell}</th>
+                          ) : (
+                            <td key={cIdx} className="px-3 py-2.5 text-slate-700 min-w-[6rem]">{cell}</td>
+                          ),
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
           {review.sections && review.sections.length > 0 && (
             <div className="space-y-6 pt-4 border-t border-slate-100">
               {review.sections.map((section, sIdx) => (
@@ -210,6 +248,21 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({ review, onClose, onOpe
                     </a>
                   )}
                 </div>
+              ))}
+            </div>
+          )}
+
+          {review.faqs && review.faqs.length > 0 && (
+            <div className="space-y-3 pt-4 border-t border-slate-100">
+              <h3 className="text-lg font-bold text-[#0F172A] tracking-tight">Frequently Asked Questions</h3>
+              {review.faqs.map((f, fIdx) => (
+                <details key={fIdx} className="group border border-slate-200 rounded-lg px-4 py-3" open={fIdx === 0}>
+                  <summary className="cursor-pointer text-sm font-semibold text-[#0F172A] list-none flex justify-between gap-3">
+                    <span>{f.question}</span>
+                    <span className="text-[#166534] group-open:rotate-45 transition-transform" aria-hidden="true">+</span>
+                  </summary>
+                  <p className="text-sm text-slate-700 leading-relaxed mt-2">{f.answer}</p>
+                </details>
               ))}
             </div>
           )}

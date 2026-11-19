@@ -3005,6 +3005,17 @@ export const ALL_ARTICLES: Article[] = [
         ]
       },
       {
+        heading: 'Buying a Gift? A Good Trimmer',
+        paragraphs: [
+          "Not strictly health kit, but a decent beard trimmer or set of hair clippers is one of the most useful gifts for a man, and grooming kit is often reduced on Black Friday. Self-sharpening blades and a long battery life matter more than the number of attachments.",
+          "Our review 'Best Beard Trimmers and Hair Clippers' compares six options, from a budget trimmer to all-in-one kits and a proper clipper for home haircuts."
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=beard+trimmer&tag=insightdigita-21',
+          label: 'Compare beard trimmers on Amazon UK'
+        }
+      },
+      {
         heading: 'What to Skip',
         paragraphs: [
           "Some things are best left in the basket, whatever the discount:"
@@ -3833,6 +3844,227 @@ export const PRODUCT_REVIEWS: ProductReview[] = [
           'Abdelhamid AS, et al. Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease. Cochrane Database of Systematic Reviews. 2020;(3):CD003177.',
           'British Heart Foundation: omega-3 and heart health, bhf.org.uk.'
         ]
+      }
+    ]
+  },
+  {
+    id: 'best-beard-trimmers-hair-clippers-uk',
+    name: 'Best Beard Trimmers and Hair Clippers',
+    headline: 'Best Beard Trimmers and Hair Clippers in the UK (2026)',
+    metaTitle: 'Best Beard Trimmer UK 2026: 6 Trimmers & Clippers Compared',
+    metaDescription: "The best beard trimmers, hair clippers and all-in-one groomers in the UK, compared on run time, lengths and waterproofing, with a plain-English buying guide and FAQ.",
+    updatedDate: '2026-11-19',
+    brand: 'Braun, Philips, Wahl, Remington',
+    category: 'Grooming',
+    priceRange: 'Budget to premium. Check today\'s price on Amazon UK',
+    verdict: "For most men, the Braun Beard Trimmer Series 9 (BT9560) is the best beard trimmer, with 52 lengths and the longest claimed battery life here. If you want one tool for beard, head and body, pick an all-in-one such as the Philips Multigroom Series 7000 or Braun All-in-One Series 7. For home haircuts, a proper clipper like the Wahl Lithium Power does the job better. Open this review for the full comparison.",
+    whoItIsFor: "Men who trim a beard or stubble at home, cut their own hair, or want one kit that does both. Also a solid gift for a partner, dad or brother this Christmas. If you get razor bumps, a trimmer that leaves a little stubble can be kinder to your skin than a blade.",
+    pros: [
+      'Picks for every need: beard only, head only, or one kit for everything',
+      'Compared on the features that matter: run time, lengths, wet use and blade upkeep',
+      'Covers a budget option, so you don\'t need to spend a lot',
+      'Plain-English skin tips from the British Association of Dermatologists'
+    ],
+    cons: [
+      'Desk review: we compare makers\' specs and independent reviews, we haven\'t tested these ourselves',
+      'Battery and run times are the makers\' figures, and real-world use is often shorter',
+      'Prices change often, so we don\'t list them. Check the price on Amazon before you buy',
+      'Model numbers change between retailers, so check you\'re buying the exact version'
+    ],
+    testedDuration: 'Desk review of maker specs and independent reviews, not hands-on tested',
+    specs: [
+      { label: 'Products compared', value: '6, across beard trimmers, all-in-ones and hair clippers' },
+      { label: 'Best beard trimmer', value: 'Braun Beard Trimmer Series 9 (BT9560)' },
+      { label: 'Best all-in-one', value: 'Philips Multigroom Series 7000 (MG7940/15)' },
+      { label: 'Best for home haircuts', value: 'Wahl Lithium Power clipper (79600-807X)' },
+      { label: 'Best budget pick', value: 'Remington Barba (MB320C)' },
+      { label: 'Last checked', value: 'November 2026' }
+    ],
+    comparison: {
+      columns: ['Model', 'Best for', 'Run time (maker\'s claim)', 'Lengths', 'Use in the shower?', 'Price band'],
+      rows: [
+        ['Braun Beard Trimmer Series 9 (BT9560)', 'Best beard trimmer overall', 'Up to 180 min', '52 settings, 0.25 mm steps', 'Yes, waterproof', 'Mid-range to premium'],
+        ['Philips Multigroom Series 7000 (MG7940/15)', 'Best all-in-one for beard, head and body', 'Up to 120 min', '22 settings, 0.5 to 16 mm', 'Yes, showerproof', 'Mid-range'],
+        ['Braun All-in-One Series 7 (AIO7560)', 'Best waterproof all-in-one', 'Up to 120 min', '14 lengths, 0.5 to 21 mm', 'Yes, waterproof', 'Mid-range'],
+        ['Philips OneBlade 360 Face (QP2734)', 'Best for stubble, edging and shaving', 'About 60 min', 'One 5-in-1 adjustable comb', 'Yes, waterproof', 'Mid-range, plus replacement blades'],
+        ['Wahl Lithium Power clipper (79600-807X)', 'Best for home haircuts', 'Up to 120 min', '12 combs, 0.8 to 25 mm', 'No', 'Mid-range'],
+        ['Remington Barba (MB320C)', 'Best budget beard trimmer', 'Up to 40 min', '9 settings, 1.5 to 18 mm', 'No', 'Budget']
+      ]
+    },
+    affiliateUrl: 'https://www.amazon.co.uk/s?k=beard+trimmer&tag=insightdigita-21',
+    affiliateNote: 'Affiliate links: as an Amazon Associate OptiMen Wellbeing earns from qualifying purchases, at no extra cost to you. Prices change often, so check the price on Amazon before you buy.',
+    sections: [
+      {
+        heading: 'The Best Beard Trimmers and Hair Clippers: Our Picks',
+        paragraphs: [
+          "The best beard trimmer is the one that matches the hair you're cutting. A beard trimmer is built for faces, with a small, precise blade. A hair clipper has a wider, more powerful blade for your head. An all-in-one kit swaps heads to do both, plus nose, ear and body hair.",
+          "We compared the makers' specs and independent UK reviews, including Which? and Expert Reviews, to pick six that cover every need. We haven't tested them ourselves, and we don't list prices because they change by the hour. This review contains affiliate links to Amazon UK. If you buy through them we may earn a small commission at no extra cost to you. It doesn't change what we recommend."
+        ],
+        bullets: [
+          'Best beard trimmer overall: Braun Beard Trimmer Series 9 (BT9560)',
+          'Best all-in-one: Philips Multigroom Series 7000 (MG7940/15)',
+          'Best waterproof all-in-one: Braun All-in-One Series 7 (AIO7560)',
+          'Best for stubble and shaving: Philips OneBlade 360 Face (QP2734)',
+          'Best for home haircuts: Wahl Lithium Power clipper (79600-807X)',
+          'Best budget beard trimmer: Remington Barba (MB320C)'
+        ]
+      },
+      {
+        heading: '1. Braun Beard Trimmer Series 9 (BT9560): Best Beard Trimmer Overall',
+        paragraphs: [
+          "If you keep a beard of any length and want one trimmer that does it properly, this is the pick. Braun says it runs for up to 180 minutes on a charge, the longest of any trimmer here, so you'll rarely be caught short mid-trim.",
+          "Its dial gives 52 length settings in 0.25 mm steps, which makes it easy to fade a beard or get the same length every time. It's fully waterproof, has a lock so the length can't slip, and Braun includes a set of extra barbering tools for detail work.",
+          "Pros: very fine length control, long battery life, waterproof. Cons: more than you need for simple stubble, and it costs more than basic trimmers.",
+          'Best for: men with a medium or full beard who trim every week.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Braun+Beard+Trimmer+Series+9+BT9560&tag=insightdigita-21',
+          label: 'Check the Braun Series 9 BT9560 on Amazon UK'
+        }
+      },
+      {
+        heading: '2. Philips Multigroom Series 7000 (MG7940/15): Best All-in-One',
+        paragraphs: [
+          "If you want one kit for your beard, head, nose, ears and body, the Multigroom Series 7000 is the easiest recommendation. It comes with 15 attachments and 22 length settings from 0.5 to 16 mm.",
+          'Philips says it runs for up to 120 minutes, charges fully in about an hour, and a 5-minute quick charge gets you through a trim. The steel blades sharpen themselves, it\'s showerproof, and Philips gives a 2-year guarantee.',
+          "Pros: covers everything, quick to charge, good value for what's in the box. Cons: 16 mm is the longest setting, so it's not ideal for a long beard or longer hair on top, and lots of attachments means more to store.",
+          'Best for: men who want one tool for the whole job, and an easy gift.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Philips+Multigroom+Series+7000+MG7940&tag=insightdigita-21',
+          label: 'Check the Philips Multigroom 7000 on Amazon UK'
+        }
+      },
+      {
+        heading: '3. Braun All-in-One Series 7 (AIO7560): Best Waterproof All-in-One',
+        paragraphs: [
+          "Braun's all-in-one is the main rival to the Philips. It's a 13-in-1 kit for beard, head, nose, ears and body, with 14 lengths from 0.5 to 21 mm and up to 120 minutes of run time.",
+          "It's fully waterproof with a rubber grip, so you can trim in the shower and rinse it clean. Braun also includes a guard for sensitive body areas.",
+          "Pros: longer top length than the Philips (21 mm), fully waterproof, comes with a charging stand. Cons: fewer length settings than the Philips, and model numbers vary between retailers, so check exactly what's in the box.",
+          'Best for: men who like to trim in the shower, or want a little more length than the Philips allows.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Braun+All-in-One+Series+7+AIO7560&tag=insightdigita-21',
+          label: 'Check the Braun All-in-One Series 7 on Amazon UK'
+        }
+      },
+      {
+        heading: '4. Philips OneBlade 360 Face (QP2734): Best for Stubble and Shaving',
+        paragraphs: [
+          "The OneBlade is a hybrid: it trims, edges and shaves with one blade that flexes to follow your face. It doesn't shave as closely as a wet razor, but that's the point for many men. It's gentler, which helps if you get redness or razor bumps.",
+          "It's fully waterproof, charges by USB, and Philips says it runs for about 60 minutes. The 5-in-1 comb covers short stubble lengths.",
+          "Pros: one tool for stubble, clean edges and a quick shave, great for travel. Cons: the blade needs replacing about every 4 months, which adds an ongoing cost, a full charge takes about 4 hours, and it isn't made for longer beards.",
+          'Best for: stubble, short beards and men who want a quick, gentle shave.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Philips+OneBlade+360+Face+QP2734&tag=insightdigita-21',
+          label: 'Check the Philips OneBlade 360 on Amazon UK'
+        }
+      },
+      {
+        heading: '5. Wahl Lithium Power Clipper (79600-807X): Best for Home Haircuts',
+        paragraphs: [
+          "A beard trimmer will struggle to cut a full head of hair. If you clip your own hair, or a partner does it for you, get a proper clipper. Wahl is the brand many UK barbers grew up with, and this one comes with 12 guide combs, from a grade 0.5 to a grade 8 (0.8 to 25 mm), plus two ear taper combs.",
+          'Wahl says it runs for up to 120 minutes cordless, or you can use it plugged in. A full charge takes about 3 hours, and 15 minutes on charge gives you around 12 minutes of use. The blades are stainless steel and self-sharpening.',
+          "Pros: the right tool for a buzz cut or fade, lots of grades, works corded or cordless. Cons: not waterproof, and too big for detailed beard work, so pair it with a beard trimmer.",
+          'Best for: men who cut their own hair and want to save on barber visits.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Wahl+Lithium+Power+Clipper+79600&tag=insightdigita-21',
+          label: 'Check the Wahl Lithium Power clipper on Amazon UK'
+        }
+      },
+      {
+        heading: '6. Remington Barba (MB320C): Best Budget Beard Trimmer',
+        paragraphs: [
+          "If you just want to keep stubble or a short beard tidy without spending much, the Barba does the basics well. It has 9 lock-in lengths from 1.5 to 18 mm, ceramic-coated self-sharpening blades that never need oiling, and you can use it corded or cordless.",
+          "Pros: low price, simple to use, Expert Reviews rated it an excellent budget option. Cons: only about 40 minutes of run time, a full charge takes up to 16 hours, it isn't washable, and there's nothing below 1.5 mm.",
+          'Best for: a first trimmer, a spare for the gym bag, or a budget gift.'
+        ],
+        cta: {
+          url: 'https://www.amazon.co.uk/s?k=Remington+Barba+MB320C&tag=insightdigita-21',
+          label: 'Check the Remington Barba on Amazon UK'
+        }
+      },
+      {
+        heading: 'How to Choose a Beard Trimmer or Hair Clipper',
+        paragraphs: [
+          'Which? and other UK testers agree that price doesn\'t guarantee a better trim. These are the things that make the most difference:'
+        ],
+        bullets: [
+          'Beard trimmer, clipper or all-in-one: trimmers have smaller blades for faces, clippers have wider blades for heads, and all-in-ones swap heads to do both',
+          'Length range: check the shortest and longest settings match how you wear your beard or hair. Some trimmers only go up to stubble length',
+          'Length steps: smaller steps (such as 0.2 mm or 0.25 mm) make fades and an even beard easier',
+          'Battery: look at the run time and quick charge. Which? found the best models give 20 minutes or more from a 5-minute charge, while some give only seconds',
+          'Waterproofing: a waterproof trimmer can be used in the shower and rinsed clean. Many cheaper models are dry use only',
+          'Blade upkeep: self-sharpening or lifetime blades cost nothing extra. Replaceable blades, such as the OneBlade\'s, are an ongoing cost',
+          'Charging: USB is handy for travel. Some trimmers don\'t include a plug, so check the box contents'
+        ]
+      },
+      {
+        heading: 'Price Bands Explained',
+        paragraphs: [
+          "We use price bands instead of prices, because prices change often and many sale 'discounts' aren't what they seem. As a rough guide: budget trimmers are usually under £40, mid-range models are usually £40 to £100, and premium models are usually over £100. Before buying, check the price history with a free price tracker, as we explain in our Black Friday 2026 guide."
+        ]
+      },
+      {
+        heading: 'Skin Tips: Razor Bumps and Irritation',
+        paragraphs: [
+          "Razor bumps (doctors call them pseudofolliculitis barbae) happen when cut hairs curl back and grow into the skin. They're more common in men with tight, curly hair. The British Association of Dermatologists suggests shaving with the direction of growth, not pulling the skin tight, shaving less often, and leaving about 1 mm of stubble if bumps are a problem. A trimmer or a OneBlade-style shaver makes that easy.",
+          'A few more habits help keep your skin and your trimmer in good shape:'
+        ],
+        bullets: [
+          'Avoid plucking hairs, including stray beard hairs. Trim them instead',
+          'Clean the blade after every use, with the brush or under the tap if it\'s washable',
+          "Don't share trimmers or razors, as skin infections can spread this way",
+          'Replace blades or heads when they start to pull rather than cut',
+          'See a pharmacist or GP if bumps become painful, hot, filled with pus or keep coming back'
+        ]
+      },
+      {
+        heading: 'Movember: Shaving Off Your Mo?',
+        paragraphs: [
+          "If you've grown a moustache for Movember, a trimmer with a detail head will tidy it up or take it off cleanly at the end of the month. Movember is also about men's health, so while you're thinking about it, our guides 'How to Check Your Testicles' and 'Health Checks for Men' cover the two-minute check and the tests worth booking."
+        ]
+      },
+      {
+        heading: 'Sources',
+        paragraphs: ["This is a desk review of makers' published specifications and independent UK reviews. We haven't tested these products ourselves."],
+        bullets: [
+          'Braun UK: Beard Trimmer Series 9 BT9560 and All-in-One Series 7 AIO7560 product pages, uk.braun.com.',
+          'Philips UK: Multigroom Series 7000 MG7940/15 and OneBlade 360 Face QP2734 product pages, philips.co.uk.',
+          'Remington UK: Barba Beard Trimmer MB320C product page, uk.remington-europe.com.',
+          'Argos: Wahl Lithium Power Hair Clipper 79600-807X product specification, argos.co.uk.',
+          'Which?: How to buy the best beard trimmers and hair clippers, which.co.uk.',
+          'Expert Reviews: Best beard trimmers, and Remington Barba review, expertreviews.co.uk.',
+          'British Association of Dermatologists: Pseudofolliculitis barbae patient information leaflet, skinhealthinfo.org.uk.'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the best beard trimmer in the UK?',
+        answer: "For most men, the Braun Beard Trimmer Series 9 (BT9560) is the best beard trimmer, with 52 length settings, waterproofing and up to 180 minutes of run time. On a budget, the Remington Barba (MB320C) covers the basics. If you want one tool for beard and head, an all-in-one like the Philips Multigroom Series 7000 is better value."
+      },
+      {
+        question: "What's the difference between a beard trimmer and hair clippers?",
+        answer: 'A beard trimmer has a smaller, finer blade for precise work on your face. Hair clippers have a wider, more powerful blade and longer guard combs for cutting the hair on your head. All-in-one kits come with heads for both.'
+      },
+      {
+        question: 'Can I use a beard trimmer on my head?',
+        answer: "You can for a very short buzz cut, but it will be slow and may struggle with thicker hair. For regular home haircuts, use a proper hair clipper such as the Wahl Lithium Power, or an all-in-one kit that includes a full-width hair head."
+      },
+      {
+        question: 'Is a waterproof beard trimmer worth it?',
+        answer: "If you like to trim in the shower, or want to rinse the blade clean under the tap, yes. Waterproof models such as the Braun Series 9 and OneBlade 360 are easier to keep clean. If you only trim dry over the sink, a dry-only trimmer is fine and often cheaper."
+      },
+      {
+        question: 'How often should I replace beard trimmer blades?',
+        answer: 'It depends on the model. Self-sharpening and lifetime blades, like those on the Braun, Philips Multigroom, Wahl and Remington picks here, usually last for years. Philips recommends replacing the OneBlade 360 blade about every 4 months. Replace any blade sooner if it starts pulling hair.'
+      },
+      {
+        question: 'Can a beard trimmer help with razor bumps?',
+        answer: 'It can. The British Association of Dermatologists suggests leaving about 1 mm of stubble and shaving less often if you get razor bumps. A trimmer set to a short length avoids cutting hair below the skin, which is what causes most bumps. See a pharmacist or GP if bumps become painful or infected.'
       }
     ]
   }

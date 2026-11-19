@@ -14,7 +14,7 @@ interface ReviewsViewProps {
   onNavigate: (page: PageType) => void;
 }
 
-const CATEGORIES = ['All', 'Wearables', 'Sleep Tech', 'Supplements', 'Recovery'];
+const CATEGORIES = ['All', 'Wearables', 'Sleep Tech', 'Supplements', 'Recovery', 'Grooming'];
 
 export const ReviewsView: React.FC<ReviewsViewProps> = ({ onSelectReview }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');

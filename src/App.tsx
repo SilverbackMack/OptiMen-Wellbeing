@@ -70,7 +70,8 @@ export default function App() {
       setMeta(selectedArticle.metaTitle ?? `${selectedArticle.title} | OptiMen Wellbeing`,
         selectedArticle.metaDescription ?? selectedArticle.summary, articlePath(selectedArticle.id));
     } else if (selectedReview) {
-      setMeta(`${selectedReview.name} Review | OptiMen Wellbeing`, selectedReview.verdict, reviewPath(selectedReview.id));
+      setMeta(selectedReview.metaTitle ?? `${selectedReview.name} Review | OptiMen Wellbeing`,
+        selectedReview.metaDescription ?? selectedReview.verdict, reviewPath(selectedReview.id));
     } else {
       setMeta(PAGE_META[currentPage].title, PAGE_META[currentPage].description, PAGE_PATHS[currentPage]);
     }

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import {
   ArrowUpRight, Clock, ExternalLink, HeartPulse, ScanSearch, Moon, Dumbbell, Brain, Pill, Flame,
-  Watch, Snowflake, Stethoscope, Zap, Salad, Activity, type LucideIcon,
+  Watch, Snowflake, Stethoscope, Zap, Salad, Activity, Scissors, type LucideIcon,
 } from 'lucide-react';
 import { Article, ProductReview } from '../types';
 import { EASE } from './Motion';
@@ -35,6 +35,7 @@ const REVIEW_ICONS: Record<ProductReview['category'], LucideIcon> = {
   Supplements: Pill,
   Recovery: Snowflake,
   Diagnostics: Stethoscope,
+  Grooming: Scissors,
 };
 
 const Cover: React.FC<{ icon: LucideIcon; label: string; image: string; badge?: string }> = ({
@@ -130,7 +131,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({ review, index, onSelect 
       </div>
       <div className="flex items-center justify-between gap-2">
         <span className="text-[11px] font-bold text-[#166534] bg-emerald-50 px-2 py-1 rounded-md border border-emerald-200">
-          Evidence {review.evidenceGrade}
+          {review.evidenceGrade ? `Evidence ${review.evidenceGrade}` : 'Buying guide'}
         </span>
         <div className="flex items-center gap-3">
           {review.affiliateUrl && (

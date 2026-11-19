@@ -59,14 +59,20 @@ export interface ProductReview {
   id: string;
   name: string;
   brand: string;
-  category: 'Wearables' | 'Sleep Tech' | 'Supplements' | 'Recovery' | 'Diagnostics';
+  category: 'Wearables' | 'Sleep Tech' | 'Supplements' | 'Recovery' | 'Diagnostics' | 'Grooming';
+  headline?: string; // page heading, if it shouldn't be "<name> Review"
+  metaTitle?: string; // search result title, defaults to "<name> Review | OptiMen Wellbeing"
+  metaDescription?: string; // search result description, defaults to the verdict
+  updatedDate?: string; // YYYY-MM-DD, shown as "Updated" and used in structured data
   overallScore?: number; // out of 10; omitted for multi-product comparisons
   priceRange: string;
   verdict: string;
   whoItIsFor: string;
   pros: string[];
   cons: string[];
-  evidenceGrade: 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'C'; // strength of the evidence that this kind of product helps
+  evidenceGrade?: 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'C'; // strength of the evidence that this kind of product helps; omit for non-health products
+  comparison?: { columns: string[]; rows: string[][] }; // side-by-side table, first column is the product
+  faqs?: { question: string; answer: string }[]; // shown as an FAQ and marked up for Google
   testedDuration: string; // shown as-is under the name, e.g. "Desk review, not hands-on tested"
   specs: { label: string; value: string }[];
   affiliateUrl?: string;
