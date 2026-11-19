@@ -86,6 +86,9 @@ export interface ProductReview {
     // Optional product photo under the heading. Use only images Amazon provides for
     // affiliate use (SiteStripe "Image" links or PA-API), served from Amazon, not copied.
     image?: { src: string; alt: string; href?: string };
+    // Photo-free product summary card (brand, model and key specs), used until
+    // we have approved product images
+    product?: { brand: string; model: string; badge?: string; stats: { label: string; value: string }[] };
   }[];
 }
 
